@@ -1,0 +1,32 @@
+{
+  "name": "globalhealth",
+  "version": "1.0.0",
+  "description": "An interactive web application that combines real-time disease outbreak alerts with health system capacity data for affected countries. When an outbreak is reported, users can immediately see whether the affected country's health system has the resources to respond — hospital beds, physicians, immunization coverage, and more.",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "leaflet": "^1.9.4",
+    "next": "^16.1.6",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-leaflet": "^5.0.0",
+    "recharts": "^3.7.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.2.1",
+    "@types/leaflet": "^1.9.21",
+    "@types/node": "^25.3.2",
+    "@types/react": "^19.2.14",
+    "eslint": "^9.39.3",
+    "eslint-config-next": "^16.1.6",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.2.1",
+    "typescript": "^5.9.3"
+  }
+}
