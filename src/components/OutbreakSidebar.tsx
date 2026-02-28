@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { slugify } from "@/lib/utils";
 import {
   DISEASE_CATEGORY_COLORS,
   DISEASE_CATEGORY_LABELS,
@@ -21,6 +22,7 @@ interface OutbreakSidebarProps {
   readinessScore: number | null;
   indices: IndexScore[];
   riskScore: RiskScore | null;
+  incomeGroup?: string;
   onClose: () => void;
 }
 
@@ -30,6 +32,7 @@ export function OutbreakSidebar({
   readinessScore,
   indices,
   riskScore,
+  incomeGroup,
   onClose,
 }: OutbreakSidebarProps) {
   const [expanded, setExpanded] = useState(false);
@@ -77,7 +80,6 @@ export function OutbreakSidebar({
             </h2>
           </div>
           <div className="flex items-center gap-2 flex-shrink-0">
-            {/* Mobile expand/collapse chevron */}
             <button
               onClick={() => setExpanded(!expanded)}
               className="text-gray-400 hover:text-gray-600 md:hidden"
@@ -97,7 +99,7 @@ export function OutbreakSidebar({
           </div>
         </div>
 
-        {/* Content — always visible on md+, toggle on mobile */}
+        {/* Content */}
         <div className={`${expanded ? "block" : "hidden"} md:block`}>
           {/* Outbreak Info */}
           <div className="px-4 py-4 border-b border-gray-200">
@@ -114,11 +116,24 @@ export function OutbreakSidebar({
                   Resolved
                 </span>
               )}
+              {incomeGroup && (
+                <span className="text-[10px] font-medium text-gray-400 bg-gray-100 px-1.5 py-0.5 rounded ml-auto">
+                  {incomeGroup}
+                </span>
+              )}
             </div>
-            <h3 className="text-xl font-semibold text-gray-900 mb-1">
+            <Link
+              href={`/diseases/${slugify(outbreak.disease)}`}
+              className="text-xl font-semibold text-gray-900 hover:text-blue-600 mb-1 block"
+            >
               {outbreak.disease}
-            </h3>
-            <p className="text-sm text-gray-600 mb-3">{outbreak.country}</p>
+            </Link>
+            <Link
+              href={`/country/${outbreak.countryIso3}`}
+              className="text-sm text-gray-600 hover:text-blue-600 mb-3 block"
+            >
+              {outbreak.country}
+            </Link>
             <p className="text-xs text-gray-500 mb-3">
               Reported:{" "}
               {new Date(outbreak.date).toLocaleDateString("en-US", {

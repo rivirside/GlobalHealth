@@ -18,20 +18,56 @@ import {
   type DiseaseCategory,
 } from "@/types";
 
+interface Country {
+  iso3: string;
+  name: string;
+  whoRegion: string;
+}
+
 interface OutbreakTimelineProps {
   outbreaks: Outbreak[];
+  countries?: Country[];
 }
 
 type GroupBy = "total" | "category";
 
-export function OutbreakTimeline({ outbreaks }: OutbreakTimelineProps) {
+const WHO_REGIONS = [
+  { value: "AFRO", label: "Africa (AFRO)" },
+  { value: "AMRO", label: "Americas (AMRO)" },
+  { value: "EMRO", label: "Eastern Mediterranean (EMRO)" },
+  { value: "EURO", label: "Europe (EURO)" },
+  { value: "SEARO", label: "South-East Asia (SEARO)" },
+  { value: "WPRO", label: "Western Pacific (WPRO)" },
+];
+
+export function OutbreakTimeline({ outbreaks, countries = [] }: OutbreakTimelineProps) {
   const [groupBy, setGroupBy] = useState<GroupBy>("total");
-  const [selectedRegion, setSelectedRegion] = useState("all");
+  const [selectedCountry, setSelectedCountry] = useState("all");
+  const [selectedWhoRegion, setSelectedWhoRegion] = useState("all");
+  const [selectedCategory, setSelectedCategory] = useState<DiseaseCategory | "all">("all");
+
+  // Build a country→region lookup
+  const countryRegionMap = useMemo(() => {
+    const map = new Map<string, string>();
+    for (const c of countries) {
+      map.set(c.iso3, c.whoRegion);
+    }
+    return map;
+  }, [countries]);
 
   const filtered = useMemo(() => {
-    if (selectedRegion === "all") return outbreaks;
-    return outbreaks.filter((o) => o.countryIso3 === selectedRegion);
-  }, [outbreaks, selectedRegion]);
+    let result = outbreaks;
+    if (selectedCountry !== "all") {
+      result = result.filter((o) => o.countryIso3 === selectedCountry);
+    }
+    if (selectedWhoRegion !== "all") {
+      result = result.filter((o) => countryRegionMap.get(o.countryIso3) === selectedWhoRegion);
+    }
+    if (selectedCategory !== "all") {
+      result = result.filter((o) => o.diseaseCategory === selectedCategory);
+    }
+    return result;
+  }, [outbreaks, selectedCountry, selectedWhoRegion, selectedCategory, countryRegionMap]);
 
   const categories = Object.keys(DISEASE_CATEGORY_COLORS) as DiseaseCategory[];
 
@@ -61,7 +97,7 @@ export function OutbreakTimeline({ outbreaks }: OutbreakTimelineProps) {
       }));
   }, [filtered, categories]);
 
-  const countries = useMemo(() => {
+  const countryOptions = useMemo(() => {
     const set = new Map<string, string>();
     for (const o of outbreaks) {
       set.set(o.countryIso3, o.country);
@@ -72,7 +108,7 @@ export function OutbreakTimeline({ outbreaks }: OutbreakTimelineProps) {
   return (
     <div>
       {/* Controls */}
-      <div className="flex flex-col sm:flex-row gap-3 mb-6">
+      <div className="flex flex-col sm:flex-row gap-3 mb-6 flex-wrap">
         <div className="flex gap-2">
           <button
             onClick={() => setGroupBy("total")}
@@ -96,12 +132,38 @@ export function OutbreakTimeline({ outbreaks }: OutbreakTimelineProps) {
           </button>
         </div>
         <select
-          value={selectedRegion}
-          onChange={(e) => setSelectedRegion(e.target.value)}
+          value={selectedCategory}
+          onChange={(e) => setSelectedCategory(e.target.value as DiseaseCategory | "all")}
+          className="px-3 py-1.5 rounded border border-gray-300 text-sm bg-white"
+        >
+          <option value="all">All Categories</option>
+          {categories.map((cat) => (
+            <option key={cat} value={cat}>
+              {DISEASE_CATEGORY_LABELS[cat]}
+            </option>
+          ))}
+        </select>
+        {countries.length > 0 && (
+          <select
+            value={selectedWhoRegion}
+            onChange={(e) => setSelectedWhoRegion(e.target.value)}
+            className="px-3 py-1.5 rounded border border-gray-300 text-sm bg-white"
+          >
+            <option value="all">All Regions</option>
+            {WHO_REGIONS.map((r) => (
+              <option key={r.value} value={r.value}>
+                {r.label}
+              </option>
+            ))}
+          </select>
+        )}
+        <select
+          value={selectedCountry}
+          onChange={(e) => setSelectedCountry(e.target.value)}
           className="px-3 py-1.5 rounded border border-gray-300 text-sm bg-white"
         >
           <option value="all">All Countries</option>
-          {countries.map(([iso3, name]) => (
+          {countryOptions.map(([iso3, name]) => (
             <option key={iso3} value={iso3}>
               {name}
             </option>

@@ -1,11 +1,13 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { getOutbreaks, getCountryCapacity, getReadinessScore, getIndices, getBorders, getAllReadinessScores, getRiskScore } from "@/lib/data";
+import { getOutbreaks, getCountryCapacity, getReadinessScore, getIndices, getBorders, getAllReadinessScores, getRiskScore, getCountries } from "@/lib/data";
+import { slugify } from "@/lib/utils";
 import { CapacitySection } from "./CapacitySection";
 import { ReadinessScoreBadge } from "@/components/ReadinessScoreBadge";
 import { RiskBadge } from "@/components/RiskBadge";
 import { PreparednessRadar } from "@/components/PreparednessRadar";
 import { PrintButton } from "@/components/PrintButton";
+import { CountryExportButton } from "@/components/CountryExportButton";
 import { DISEASE_CATEGORY_COLORS, DISEASE_CATEGORY_LABELS, INDICATOR_GROUPS } from "@/types";
 import type { DiseaseCategory, CapacityIndicator } from "@/types";
 
@@ -44,6 +46,15 @@ export default async function CountryProfilePage({ params }: Props) {
   const countryOutbreaks = allOutbreaks
     .filter((o) => o.countryIso3 === upper)
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
+  // Get population for per-100k rate
+  const countries = getCountries();
+  const countryMeta = countries.find((c) => c.iso3 === upper);
+  const population = countryMeta?.population ?? null;
+  const outbreaksPer100k =
+    population && population > 0 && countryOutbreaks.length > 0
+      ? ((countryOutbreaks.length / population) * 100_000).toFixed(2)
+      : null;
 
   // Neighboring countries
   const borders = getBorders();
@@ -86,6 +97,15 @@ export default async function CountryProfilePage({ params }: Props) {
     indicatorsByCode.set(ind.code, ind);
   }
 
+  // Build export rows for CSV
+  const exportRows = capacity.indicators.map((ind) => ({
+    name: ind.name,
+    value: ind.value,
+    unit: ind.unit,
+    benchmark: ind.benchmark,
+    year: ind.year,
+  }));
+
   return (
     <div className="max-w-5xl mx-auto px-4 py-8">
       {/* Breadcrumb */}
@@ -104,13 +124,25 @@ export default async function CountryProfilePage({ params }: Props) {
           <div className="flex-1">
             <div className="flex items-center justify-between">
               <h1 className="text-3xl font-bold text-gray-900">{capacity.name || upper}</h1>
-              <PrintButton />
+              <div className="flex items-center gap-2">
+                <CountryExportButton
+                  countryName={capacity.name || upper}
+                  iso3={upper}
+                  indicators={exportRows}
+                />
+                <PrintButton />
+              </div>
             </div>
             <p className="text-sm text-gray-500 mt-1">
               ISO 3166-1: {upper}
               {countryOutbreaks.length > 0 && (
                 <span className="ml-4">
                   {countryOutbreaks.length} outbreak{countryOutbreaks.length !== 1 ? "s" : ""} reported
+                  {outbreaksPer100k && (
+                    <span className="text-gray-400">
+                      {" "}({outbreaksPer100k} per 100k pop.)
+                    </span>
+                  )}
                 </span>
               )}
             </p>
@@ -214,9 +246,12 @@ export default async function CountryProfilePage({ params }: Props) {
                         {catLabel}
                       </span>
                     </div>
-                    <p className="text-sm font-semibold text-gray-900">
+                    <Link
+                      href={`/diseases/${slugify(outbreak.disease)}`}
+                      className="text-sm font-semibold text-gray-900 hover:text-blue-600"
+                    >
                       {outbreak.disease}
-                    </p>
+                    </Link>
                     <p className="text-xs text-gray-500 mt-1">
                       {new Date(outbreak.date).toLocaleDateString("en-US", {
                         year: "numeric",

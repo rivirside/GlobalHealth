@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { MobileNav } from "@/components/MobileNav";
+import { HeaderSearch } from "@/components/HeaderSearch";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -97,6 +98,9 @@ export default function RootLayout({
                 About
               </Link>
             </nav>
+            <div className="hidden md:block">
+              <HeaderSearch />
+            </div>
             <MobileNav />
           </div>
         </header>

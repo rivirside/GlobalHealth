@@ -1,14 +1,25 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import dynamic from "next/dynamic";
 import { FilterBar } from "@/components/FilterBar";
 import { StatsBar } from "@/components/StatsBar";
 import { OutbreakSidebar } from "@/components/OutbreakSidebar";
+import { OutbreakTable } from "@/components/OutbreakTable";
 import { MapLegend } from "@/components/MapLegend";
 import { LatestReportsFeed } from "@/components/LatestReportsFeed";
+import { ExportButton } from "@/components/ExportButton";
 import { Skeleton } from "@/components/Skeleton";
-import type { Outbreak, OutbreakFilters, CountryCapacity, IndexScore, ReadinessScore, RiskScore, Country } from "@/types";
+import { downloadCsv } from "@/lib/utils";
+import type {
+  Outbreak,
+  OutbreakFilters,
+  CountryCapacity,
+  IndexScore,
+  ReadinessScore,
+  RiskScore,
+  Country,
+} from "@/types";
 
 const OutbreakMap = dynamic(() => import("@/components/OutbreakMap"), {
   ssr: false,
@@ -22,27 +33,78 @@ const OutbreakMap = dynamic(() => import("@/components/OutbreakMap"), {
   ),
 });
 
+// --- URL param helpers ---
+function readFiltersFromUrl(): {
+  filters: OutbreakFilters;
+  viewMode: "map" | "table";
+} {
+  if (typeof window === "undefined") {
+    return {
+      filters: { diseaseCategory: "all", dateRange: "all", region: "all", activeOnly: false },
+      viewMode: "map",
+    };
+  }
+  const params = new URLSearchParams(window.location.search);
+  return {
+    filters: {
+      diseaseCategory:
+        (params.get("disease") as OutbreakFilters["diseaseCategory"]) || "all",
+      dateRange:
+        (params.get("period") as OutbreakFilters["dateRange"]) || "all",
+      region: params.get("region") || "all",
+      activeOnly: params.get("active") === "1",
+    },
+    viewMode: params.get("view") === "table" ? "table" : "map",
+  };
+}
+
+function writeFiltersToUrl(
+  filters: OutbreakFilters,
+  viewMode: "map" | "table"
+) {
+  if (typeof window === "undefined") return;
+  const params = new URLSearchParams();
+  if (filters.diseaseCategory !== "all")
+    params.set("disease", filters.diseaseCategory);
+  if (filters.dateRange !== "all") params.set("period", filters.dateRange);
+  if (filters.region !== "all") params.set("region", filters.region);
+  if (filters.activeOnly) params.set("active", "1");
+  if (viewMode === "table") params.set("view", "table");
+  const qs = params.toString();
+  window.history.replaceState({}, "", qs ? `/?${qs}` : "/");
+}
+
 export default function HomePage() {
   const [outbreaks, setOutbreaks] = useState<Outbreak[]>([]);
   const [loading, setLoading] = useState(true);
-  const [selectedOutbreak, setSelectedOutbreak] = useState<Outbreak | null>(null);
-  const [countryCapacity, setCountryCapacity] = useState<CountryCapacity | null>(null);
+  const [selectedOutbreak, setSelectedOutbreak] = useState<Outbreak | null>(
+    null
+  );
+  const [countryCapacity, setCountryCapacity] =
+    useState<CountryCapacity | null>(null);
   const [readinessScore, setReadinessScore] = useState<number | null>(null);
   const [countryIndices, setCountryIndices] = useState<IndexScore[]>([]);
   const [countryRisk, setCountryRisk] = useState<RiskScore | null>(null);
-  const [allReadiness, setAllReadiness] = useState<Record<string, ReadinessScore>>({});
+  const [allReadiness, setAllReadiness] = useState<
+    Record<string, ReadinessScore>
+  >({});
   const [countries, setCountries] = useState<Country[]>([]);
-  const [filters, setFilters] = useState<OutbreakFilters>({
-    diseaseCategory: "all",
-    dateRange: "all",
-    region: "all",
-    activeOnly: false,
-  });
+
+  // Read initial state from URL
+  const [filters, setFilters] = useState<OutbreakFilters>(() => readFiltersFromUrl().filters);
+  const [viewMode, setViewMode] = useState<"map" | "table">(() => readFiltersFromUrl().viewMode);
+
+  // Sync filters/viewMode to URL
+  useEffect(() => {
+    writeFiltersToUrl(filters, viewMode);
+  }, [filters, viewMode]);
 
   useEffect(() => {
     Promise.all([
       fetch("/api/outbreaks").then((res) => res.json()),
-      fetch("/api/readiness/all").then((res) => res.ok ? res.json() : {}),
+      fetch("/api/readiness/all").then((res) =>
+        res.ok ? res.json() : {}
+      ),
       fetch("/api/countries").then((res) => res.json()),
     ])
       .then(([outbreakData, readinessData, countryData]) => {
@@ -68,15 +130,15 @@ export default function HomePage() {
       .then((data) => setCountryCapacity(data))
       .catch((err) => console.error("Failed to fetch capacity:", err));
     fetch(`/api/readiness/${iso3}`)
-      .then((res) => res.ok ? res.json() : null)
+      .then((res) => (res.ok ? res.json() : null))
       .then((data) => setReadinessScore(data?.score ?? null))
       .catch(() => setReadinessScore(null));
     fetch(`/api/indices/${iso3}`)
-      .then((res) => res.ok ? res.json() : [])
+      .then((res) => (res.ok ? res.json() : []))
       .then((data) => setCountryIndices(data))
       .catch(() => setCountryIndices([]));
     fetch(`/api/risk/${iso3}`)
-      .then((res) => res.ok ? res.json() : null)
+      .then((res) => (res.ok ? res.json() : null))
       .then((data) => setCountryRisk(data))
       .catch(() => setCountryRisk(null));
   }, [selectedOutbreak]);
@@ -88,7 +150,10 @@ export default function HomePage() {
     )
       return false;
     if (filters.activeOnly && o.status !== "active") return false;
-    if (filters.region !== "all" && !matchesRegion(o.countryIso3, filters.region, countries))
+    if (
+      filters.region !== "all" &&
+      !matchesRegion(o.countryIso3, filters.region, countries)
+    )
       return false;
     if (filters.dateRange !== "all") {
       const daysAgo = getDaysAgo(filters.dateRange);
@@ -100,31 +165,94 @@ export default function HomePage() {
     return true;
   });
 
-  const uniqueCountries = new Set(filteredOutbreaks.map((o) => o.countryIso3));
+  const uniqueCountries = new Set(
+    filteredOutbreaks.map((o) => o.countryIso3)
+  );
+
+  const handleExportCsv = useCallback(() => {
+    const rows = filteredOutbreaks.map((o) => ({
+      disease: o.disease,
+      category: o.diseaseCategory,
+      country: o.country,
+      countryIso3: o.countryIso3,
+      date: o.date,
+      cases: o.cases,
+      deaths: o.deaths,
+      status: o.status,
+      source: o.source,
+      sourceUrl: o.sourceUrl,
+    }));
+    downloadCsv(
+      rows,
+      `outbreaks-${new Date().toISOString().slice(0, 10)}.csv`
+    );
+  }, [filteredOutbreaks]);
+
+  // Find income group for selected outbreak's country
+  const selectedCountry = selectedOutbreak
+    ? countries.find((c) => c.iso3 === selectedOutbreak.countryIso3)
+    : null;
 
   return (
     <div className="flex flex-col h-[calc(100dvh-53px)]">
       <FilterBar filters={filters} onFiltersChange={setFilters} />
-      {loading ? (
-        <div className="bg-gray-50 px-4 py-1.5 border-b border-gray-200 flex items-center gap-4">
-          <Skeleton className="h-4 w-32" />
-          <Skeleton className="h-4 w-24" />
+      <div className="bg-gray-50 px-4 py-1.5 border-b border-gray-200 flex items-center justify-between">
+        {loading ? (
+          <div className="flex items-center gap-4">
+            <Skeleton className="h-4 w-32" />
+            <Skeleton className="h-4 w-24" />
+          </div>
+        ) : (
+          <StatsBar
+            outbreakCount={filteredOutbreaks.length}
+            countryCount={uniqueCountries.size}
+          />
+        )}
+        <div className="flex items-center gap-2">
+          <ExportButton onClick={handleExportCsv} />
+          <div className="flex rounded-md overflow-hidden border border-gray-200">
+            <button
+              onClick={() => setViewMode("map")}
+              className={`px-3 py-1 text-xs font-medium transition-colors ${
+                viewMode === "map"
+                  ? "bg-gray-900 text-white"
+                  : "bg-white text-gray-600 hover:bg-gray-50"
+              }`}
+            >
+              Map
+            </button>
+            <button
+              onClick={() => setViewMode("table")}
+              className={`px-3 py-1 text-xs font-medium transition-colors border-l border-gray-200 ${
+                viewMode === "table"
+                  ? "bg-gray-900 text-white"
+                  : "bg-white text-gray-600 hover:bg-gray-50"
+              }`}
+            >
+              Table
+            </button>
+          </div>
         </div>
-      ) : (
-        <StatsBar
-          outbreakCount={filteredOutbreaks.length}
-          countryCount={uniqueCountries.size}
-        />
-      )}
+      </div>
       <div className="flex-1 flex relative overflow-hidden">
         <div className="flex-1 relative">
-          <OutbreakMap
-            outbreaks={filteredOutbreaks}
-            selectedOutbreak={selectedOutbreak}
-            onSelectOutbreak={setSelectedOutbreak}
-            readinessScores={allReadiness}
-          />
-          <MapLegend />
+          {viewMode === "map" ? (
+            <>
+              <OutbreakMap
+                outbreaks={filteredOutbreaks}
+                selectedOutbreak={selectedOutbreak}
+                onSelectOutbreak={setSelectedOutbreak}
+                readinessScores={allReadiness}
+              />
+              <MapLegend />
+            </>
+          ) : (
+            <OutbreakTable
+              outbreaks={filteredOutbreaks}
+              selectedOutbreak={selectedOutbreak}
+              onSelectOutbreak={setSelectedOutbreak}
+            />
+          )}
         </div>
         {selectedOutbreak ? (
           <OutbreakSidebar
@@ -133,6 +261,7 @@ export default function HomePage() {
             readinessScore={readinessScore}
             indices={countryIndices}
             riskScore={countryRisk}
+            incomeGroup={selectedCountry?.incomeGroup}
             onClose={() => setSelectedOutbreak(null)}
           />
         ) : (
@@ -148,7 +277,10 @@ export default function HomePage() {
                 ))}
               </div>
             ) : (
-              <LatestReportsFeed outbreaks={filteredOutbreaks} />
+              <LatestReportsFeed
+                outbreaks={filteredOutbreaks}
+                onSelectOutbreak={setSelectedOutbreak}
+              />
             )}
           </div>
         )}
@@ -170,7 +302,11 @@ function getDaysAgo(range: string): number {
   }
 }
 
-function matchesRegion(iso3: string, region: string, countries: Country[]): boolean {
+function matchesRegion(
+  iso3: string,
+  region: string,
+  countries: Country[]
+): boolean {
   const country = countries.find((c) => c.iso3 === iso3);
   if (!country) return true;
   return country.whoRegion === region;

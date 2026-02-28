@@ -132,6 +132,13 @@ export default async function DiseaseProfilePage({ params }: Props) {
                 label="Reported Deaths"
                 value={disease.totalDeaths ? disease.totalDeaths.toLocaleString() : "Not reported"}
               />
+              {disease.totalCases && disease.totalDeaths && disease.totalCases > 0 && (
+                <StatCard
+                  label="Case Fatality Rate"
+                  value={`${((disease.totalDeaths / disease.totalCases) * 100).toFixed(1)}%`}
+                  subtitle="From aggregate reported figures"
+                />
+              )}
             </div>
           </section>
 
@@ -249,11 +256,12 @@ export default async function DiseaseProfilePage({ params }: Props) {
   );
 }
 
-function StatCard({ label, value }: { label: string; value: string }) {
+function StatCard({ label, value, subtitle }: { label: string; value: string; subtitle?: string }) {
   return (
     <div className="bg-white border border-gray-200 rounded-lg p-4">
       <p className="text-xs text-gray-500 mb-1">{label}</p>
       <p className="text-lg font-semibold font-mono text-gray-900">{value}</p>
+      {subtitle && <p className="text-[10px] text-gray-400 mt-1">{subtitle}</p>}
     </div>
   );
 }
