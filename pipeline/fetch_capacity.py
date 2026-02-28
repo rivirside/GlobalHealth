@@ -52,6 +52,71 @@ WHO_INDICATORS = {
         "benchmark": 90,
         "benchmarkLabel": "WHO target: 90%",
     },
+    # Vaccination Coverage
+    "mcv1_coverage": {
+        "code": "WHS8_110",  # Measles (MCV1) among 1-year-olds
+        "name": "Measles (MCV1)",
+        "unit": "%",
+        "benchmark": 95,
+        "benchmarkLabel": "WHO target: 95%",
+    },
+    "mcv2_coverage": {
+        "code": "WHS4_544",  # Measles 2nd dose
+        "name": "Measles 2nd Dose (MCV2)",
+        "unit": "%",
+        "benchmark": 95,
+        "benchmarkLabel": "WHO target: 95%",
+    },
+    "pol3_coverage": {
+        "code": "WHS4_117",  # Polio (Pol3) among 1-year-olds
+        "name": "Polio (Pol3)",
+        "unit": "%",
+        "benchmark": 90,
+        "benchmarkLabel": "WHO target: 90%",
+    },
+    "hepb3_coverage": {
+        "code": "WHS4_129",  # Hepatitis B (HepB3) among 1-year-olds
+        "name": "Hepatitis B (HepB3)",
+        "unit": "%",
+        "benchmark": 90,
+        "benchmarkLabel": "WHO target: 90%",
+    },
+    "pcv3_coverage": {
+        "code": "PCV3",  # Pneumococcal (PCV3)
+        "name": "Pneumococcal (PCV3)",
+        "unit": "%",
+        "benchmark": 90,
+        "benchmarkLabel": "WHO target: 90%",
+    },
+    "bcg_coverage": {
+        "code": "WHS4_543",  # BCG coverage
+        "name": "BCG",
+        "unit": "%",
+        "benchmark": 90,
+        "benchmarkLabel": "WHO target: 90%",
+    },
+    # Health Outcomes
+    "life_expectancy": {
+        "code": "WHOSIS_000001",  # Life expectancy at birth
+        "name": "Life Expectancy",
+        "unit": "years",
+        "benchmark": None,
+        "benchmarkLabel": None,
+    },
+    "under5_mortality": {
+        "code": "MDG_0000000001",  # Under-5 mortality per 1,000 live births
+        "name": "Under-5 Mortality",
+        "unit": "per 1,000 live births",
+        "benchmark": 25,
+        "benchmarkLabel": "SDG target: <25 per 1,000",
+    },
+    "maternal_mortality": {
+        "code": "MORT_MATERNALNUM",  # Maternal mortality ratio
+        "name": "Maternal Mortality Ratio",
+        "unit": "per 100,000 live births",
+        "benchmark": 70,
+        "benchmarkLabel": "SDG target: <70 per 100,000",
+    },
 }
 
 # World Bank indicators
@@ -83,6 +148,57 @@ WB_INDICATORS = {
         "unit": "people",
         "benchmark": None,
         "benchmarkLabel": None,
+    },
+    # Demographics
+    "population_density": {
+        "code": "EN.POP.DNST",
+        "name": "Population Density",
+        "unit": "per km²",
+        "benchmark": None,
+        "benchmarkLabel": None,
+    },
+    "population_65plus": {
+        "code": "SP.POP.65UP.TO.ZS",
+        "name": "Population 65+",
+        "unit": "%",
+        "benchmark": None,
+        "benchmarkLabel": None,
+    },
+    "urban_population": {
+        "code": "SP.URB.TOTL.IN.ZS",
+        "name": "Urban Population",
+        "unit": "%",
+        "benchmark": None,
+        "benchmarkLabel": None,
+    },
+    # WASH Infrastructure
+    "basic_water": {
+        "code": "SH.H2O.BASW.ZS",
+        "name": "Basic Drinking Water",
+        "unit": "%",
+        "benchmark": 100,
+        "benchmarkLabel": "SDG target: universal access",
+    },
+    "basic_sanitation": {
+        "code": "SH.STA.BASS.ZS",
+        "name": "Basic Sanitation",
+        "unit": "%",
+        "benchmark": 100,
+        "benchmarkLabel": "SDG target: universal access",
+    },
+    "safe_water": {
+        "code": "SH.H2O.SMDW.ZS",
+        "name": "Safely Managed Water",
+        "unit": "%",
+        "benchmark": 100,
+        "benchmarkLabel": "SDG target: universal access",
+    },
+    "safe_sanitation": {
+        "code": "SH.STA.SMSS.ZS",
+        "name": "Safely Managed Sanitation",
+        "unit": "%",
+        "benchmark": 100,
+        "benchmarkLabel": "SDG target: universal access",
     },
 }
 
@@ -145,7 +261,6 @@ def fetch_wb_indicator(indicator_code: str) -> dict[str, tuple[float, int]]:
             "per_page": 500,
             "page": page,
             "date": "2015:2025",
-            "source": 2,
         }
 
         try:

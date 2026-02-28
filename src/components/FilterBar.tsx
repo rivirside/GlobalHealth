@@ -54,6 +54,25 @@ export function FilterBar({ filters, onFiltersChange }: FilterBarProps) {
         </select>
       </label>
 
+      <label className="flex items-center gap-2 text-sm">
+        <span className="text-gray-500">Region:</span>
+        <select
+          value={filters.region}
+          onChange={(e) =>
+            onFiltersChange({ ...filters, region: e.target.value })
+          }
+          className="border border-gray-300 rounded px-2 py-1 text-sm bg-white"
+        >
+          <option value="all">All regions</option>
+          <option value="AFRO">Africa</option>
+          <option value="AMRO">Americas</option>
+          <option value="EMRO">Eastern Mediterranean</option>
+          <option value="EURO">Europe</option>
+          <option value="SEARO">South-East Asia</option>
+          <option value="WPRO">Western Pacific</option>
+        </select>
+      </label>
+
       <label className="flex items-center gap-2 text-sm cursor-pointer">
         <input
           type="checkbox"

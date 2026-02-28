@@ -1,0 +1,540 @@
+[
+  {
+    "slug": "avian-influenza",
+    "name": "Avian Influenza A(H5N5)",
+    "category": "zoonotic",
+    "outbreakCount": 13,
+    "affectedCountries": [
+      "AUS",
+      "MEX",
+      "USA",
+      "KHM",
+      "VNM",
+      "IND"
+    ],
+    "countryCount": 6,
+    "totalCases": null,
+    "totalDeaths": null,
+    "firstReport": "2023-11-29",
+    "lastReport": "2025-12-05",
+    "transmission": "Contact with infected poultry or contaminated environments",
+    "incubation": "1 to 5 days",
+    "symptoms": "Fever, cough, sore throat, pneumonia",
+    "factSheet": "https://www.who.int/news-room/fact-sheets/detail/influenza-(avian-and-other-zoonotic)"
+  },
+  {
+    "slug": "marburg",
+    "name": "Marburg virus disease",
+    "category": "hemorrhagic",
+    "outbreakCount": 12,
+    "affectedCountries": [
+      "TZA",
+      "RWA",
+      "ETH"
+    ],
+    "countryCount": 3,
+    "totalCases": null,
+    "totalDeaths": null,
+    "firstReport": "2024-09-30",
+    "lastReport": "2026-01-26",
+    "transmission": "Direct contact with infected body fluids",
+    "incubation": "2 to 21 days",
+    "symptoms": "High fever, severe hemorrhaging, organ failure",
+    "factSheet": "https://www.who.int/news-room/fact-sheets/detail/marburg-virus-disease"
+  },
+  {
+    "slug": "nipah",
+    "name": "Nipah virus infection",
+    "category": "zoonotic",
+    "outbreakCount": 6,
+    "affectedCountries": [
+      "IND",
+      "BGD"
+    ],
+    "countryCount": 2,
+    "totalCases": null,
+    "totalDeaths": null,
+    "firstReport": "2023-10-03",
+    "lastReport": "2026-02-06",
+    "transmission": "Contact with infected bats, pigs, or contaminated food",
+    "incubation": "4 to 14 days",
+    "symptoms": "Fever, headache, drowsiness, encephalitis",
+    "factSheet": "https://www.who.int/news-room/fact-sheets/detail/nipah-virus"
+  },
+  {
+    "slug": "middle-east-respiratory-syndrome-coronavirus",
+    "name": "Middle East respiratory syndrome coronavirus",
+    "category": "respiratory",
+    "outbreakCount": 5,
+    "affectedCountries": [
+      "SAU"
+    ],
+    "countryCount": 1,
+    "totalCases": null,
+    "totalDeaths": null,
+    "firstReport": "2024-02-16",
+    "lastReport": "2025-05-12",
+    "transmission": null,
+    "incubation": null,
+    "symptoms": null,
+    "factSheet": null
+  },
+  {
+    "slug": "mpox",
+    "name": "Mpox",
+    "category": "zoonotic",
+    "outbreakCount": 4,
+    "affectedCountries": [
+      "ZAF",
+      "SWE",
+      "COD"
+    ],
+    "countryCount": 3,
+    "totalCases": null,
+    "totalDeaths": null,
+    "firstReport": "2023-11-23",
+    "lastReport": "2024-08-30",
+    "transmission": "Close physical contact, contaminated materials",
+    "incubation": "6 to 13 days",
+    "symptoms": "Skin rash, fever, swollen lymph nodes",
+    "factSheet": "https://www.who.int/news-room/fact-sheets/detail/monkeypox"
+  },
+  {
+    "slug": "sudan-virus-disease",
+    "name": "Sudan virus disease",
+    "category": "other",
+    "outbreakCount": 4,
+    "affectedCountries": [
+      "UGA"
+    ],
+    "countryCount": 1,
+    "totalCases": null,
+    "totalDeaths": null,
+    "firstReport": "2025-02-01",
+    "lastReport": "2025-04-26",
+    "transmission": null,
+    "incubation": null,
+    "symptoms": null,
+    "factSheet": null
+  },
+  {
+    "slug": "anthrax",
+    "name": "Anthrax",
+    "category": "zoonotic",
+    "outbreakCount": 2,
+    "affectedCountries": [
+      "THA",
+      "ZMB"
+    ],
+    "countryCount": 2,
+    "totalCases": null,
+    "totalDeaths": null,
+    "firstReport": "2023-12-08",
+    "lastReport": "2025-05-29",
+    "transmission": null,
+    "incubation": null,
+    "symptoms": null,
+    "factSheet": null
+  },
+  {
+    "slug": "dengue",
+    "name": "Dengue",
+    "category": "vector-borne",
+    "outbreakCount": 2,
+    "affectedCountries": [
+      "IRN",
+      "TCD"
+    ],
+    "countryCount": 2,
+    "totalCases": null,
+    "totalDeaths": null,
+    "firstReport": "2023-10-16",
+    "lastReport": "2024-07-22",
+    "transmission": "Aedes mosquito bites",
+    "incubation": "4 to 10 days",
+    "symptoms": "High fever, severe headache, joint pain",
+    "factSheet": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue"
+  },
+  {
+    "slug": "ebola",
+    "name": "Ebola virus disease",
+    "category": "hemorrhagic",
+    "outbreakCount": 2,
+    "affectedCountries": [
+      "COD"
+    ],
+    "countryCount": 1,
+    "totalCases": null,
+    "totalDeaths": null,
+    "firstReport": "2025-09-05",
+    "lastReport": "2025-12-01",
+    "transmission": "Direct contact with infected body fluids",
+    "incubation": "2 to 21 days",
+    "symptoms": "Fever, hemorrhaging, organ failure",
+    "factSheet": "https://www.who.int/news-room/fact-sheets/detail/ebola-virus-disease"
+  },
+  {
+    "slug": "influenza-ah1n1-variant-virus",
+    "name": "Influenza A(H1N1) variant virus",
+    "category": "respiratory",
+    "outbreakCount": 2,
+    "affectedCountries": [
+      "ESP",
+      "VNM"
+    ],
+    "countryCount": 2,
+    "totalCases": null,
+    "totalDeaths": null,
+    "firstReport": "2024-02-09",
+    "lastReport": "2024-09-04",
+    "transmission": null,
+    "incubation": null,
+    "symptoms": null,
+    "factSheet": null
+  },
+  {
+    "slug": "malaria",
+    "name": "Acute respiratory infections complicated by malaria (previously undiagnosed disease)",
+    "category": "vector-borne",
+    "outbreakCount": 2,
+    "affectedCountries": [
+      "COD",
+      "ETH"
+    ],
+    "countryCount": 2,
+    "totalCases": null,
+    "totalDeaths": null,
+    "firstReport": "2024-10-31",
+    "lastReport": "2024-12-27",
+    "transmission": "Anopheles mosquito bites",
+    "incubation": "10 to 15 days",
+    "symptoms": "Fever, chills, headache, sweating",
+    "factSheet": "https://www.who.int/news-room/fact-sheets/detail/malaria"
+  },
+  {
+    "slug": "measles",
+    "name": "Measles",
+    "category": "vaccine-preventable",
+    "outbreakCount": 2,
+    "affectedCountries": [
+      "MAR",
+      "USA"
+    ],
+    "countryCount": 2,
+    "totalCases": null,
+    "totalDeaths": null,
+    "firstReport": "2025-03-27",
+    "lastReport": "2025-05-13",
+    "transmission": "Airborne droplets",
+    "incubation": "10 to 14 days",
+    "symptoms": "Fever, cough, rash, conjunctivitis",
+    "factSheet": "https://www.who.int/news-room/fact-sheets/detail/measles"
+  },
+  {
+    "slug": "western-equine-encephalitis",
+    "name": "Western Equine Encephalitis",
+    "category": "other",
+    "outbreakCount": 2,
+    "affectedCountries": [
+      "ARG",
+      "URY"
+    ],
+    "countryCount": 2,
+    "totalCases": null,
+    "totalDeaths": null,
+    "firstReport": "2023-12-28",
+    "lastReport": "2024-02-08",
+    "transmission": null,
+    "incubation": null,
+    "symptoms": null,
+    "factSheet": null
+  },
+  {
+    "slug": "acute-encephalitis-syndrome-due-to-chandipura-virus",
+    "name": "Acute encephalitis syndrome due to Chandipura virus",
+    "category": "other",
+    "outbreakCount": 1,
+    "affectedCountries": [
+      "IND"
+    ],
+    "countryCount": 1,
+    "totalCases": null,
+    "totalDeaths": null,
+    "firstReport": "2024-08-23",
+    "lastReport": "2024-08-23",
+    "transmission": null,
+    "incubation": null,
+    "symptoms": null,
+    "factSheet": null
+  },
+  {
+    "slug": "chapare-haemorrhagic-fever",
+    "name": "Chapare haemorrhagic fever",
+    "category": "hemorrhagic",
+    "outbreakCount": 1,
+    "affectedCountries": [
+      "BOL"
+    ],
+    "countryCount": 1,
+    "totalCases": null,
+    "totalDeaths": null,
+    "firstReport": "2025-01-20",
+    "lastReport": "2025-01-20",
+    "transmission": null,
+    "incubation": null,
+    "symptoms": null,
+    "factSheet": null
+  },
+  {
+    "slug": "chikungunya",
+    "name": "Chikungunya",
+    "category": "vector-borne",
+    "outbreakCount": 1,
+    "affectedCountries": [
+      "REU"
+    ],
+    "countryCount": 1,
+    "totalCases": null,
+    "totalDeaths": null,
+    "firstReport": "2025-05-12",
+    "lastReport": "2025-05-12",
+    "transmission": null,
+    "incubation": null,
+    "symptoms": null,
+    "factSheet": null
+  },
+  {
+    "slug": "cholera",
+    "name": "Cholera",
+    "category": "diarrheal",
+    "outbreakCount": 1,
+    "affectedCountries": [
+      "AGO"
+    ],
+    "countryCount": 1,
+    "totalCases": null,
+    "totalDeaths": null,
+    "firstReport": "2025-03-28",
+    "lastReport": "2025-03-28",
+    "transmission": "Contaminated water and food",
+    "incubation": "12 hours to 5 days",
+    "symptoms": "Watery diarrhea, vomiting, dehydration",
+    "factSheet": "https://www.who.int/news-room/fact-sheets/detail/cholera"
+  },
+  {
+    "slug": "cluster-of-community-deaths-in-basankusu,-equateur",
+    "name": "Cluster of community deaths in Basankusu, Equateur",
+    "category": "other",
+    "outbreakCount": 1,
+    "affectedCountries": [
+      "COD"
+    ],
+    "countryCount": 1,
+    "totalCases": null,
+    "totalDeaths": null,
+    "firstReport": "2025-03-03",
+    "lastReport": "2025-03-03",
+    "transmission": null,
+    "incubation": null,
+    "symptoms": null,
+    "factSheet": null
+  },
+  {
+    "slug": "diphtheria",
+    "name": "Diphtheria",
+    "category": "vaccine-preventable",
+    "outbreakCount": 1,
+    "affectedCountries": [
+      "GIN"
+    ],
+    "countryCount": 1,
+    "totalCases": null,
+    "totalDeaths": null,
+    "firstReport": "2023-10-18",
+    "lastReport": "2023-10-18",
+    "transmission": "Respiratory droplets",
+    "incubation": "2 to 5 days",
+    "symptoms": "Sore throat, fever, gray membrane in throat",
+    "factSheet": "https://www.who.int/news-room/fact-sheets/detail/diphtheria"
+  },
+  {
+    "slug": "hepatitis-e",
+    "name": "Hepatitis E",
+    "category": "other",
+    "outbreakCount": 1,
+    "affectedCountries": [
+      "TCD"
+    ],
+    "countryCount": 1,
+    "totalCases": null,
+    "totalDeaths": null,
+    "firstReport": "2024-05-08",
+    "lastReport": "2024-05-08",
+    "transmission": null,
+    "incubation": null,
+    "symptoms": null,
+    "factSheet": null
+  },
+  {
+    "slug": "influenza-ah1n2-variant-virus-infection",
+    "name": "Influenza A(H1N2) variant virus infection",
+    "category": "respiratory",
+    "outbreakCount": 1,
+    "affectedCountries": [
+      "GBR"
+    ],
+    "countryCount": 1,
+    "totalCases": null,
+    "totalDeaths": null,
+    "firstReport": "2023-12-01",
+    "lastReport": "2023-12-01",
+    "transmission": null,
+    "incubation": null,
+    "symptoms": null,
+    "factSheet": null
+  },
+  {
+    "slug": "meningococcal",
+    "name": "Invasive meningococcal disease",
+    "category": "vaccine-preventable",
+    "outbreakCount": 1,
+    "affectedCountries": [
+      "SAU"
+    ],
+    "countryCount": 1,
+    "totalCases": null,
+    "totalDeaths": null,
+    "firstReport": "2025-04-11",
+    "lastReport": "2025-04-11",
+    "transmission": "Respiratory droplets",
+    "incubation": "2 to 10 days",
+    "symptoms": "Sudden fever, stiff neck, headache, petechial rash",
+    "factSheet": "https://www.who.int/news-room/fact-sheets/detail/meningococcal-meningitis"
+  },
+  {
+    "slug": "oropouche",
+    "name": "Oropouche virus disease",
+    "category": "vector-borne",
+    "outbreakCount": 1,
+    "affectedCountries": [
+      "CUB"
+    ],
+    "countryCount": 1,
+    "totalCases": null,
+    "totalDeaths": null,
+    "firstReport": "2024-06-11",
+    "lastReport": "2024-06-11",
+    "transmission": "Culicoides paraensis midge bites",
+    "incubation": "4 to 8 days",
+    "symptoms": "Sudden fever, headache, joint and muscle pain",
+    "factSheet": "https://www.who.int/news-room/fact-sheets/detail/oropouche-virus-disease"
+  },
+  {
+    "slug": "rabies",
+    "name": "Rabies",
+    "category": "zoonotic",
+    "outbreakCount": 1,
+    "affectedCountries": [
+      "TLS"
+    ],
+    "countryCount": 1,
+    "totalCases": null,
+    "totalDeaths": null,
+    "firstReport": "2025-07-24",
+    "lastReport": "2025-07-24",
+    "transmission": null,
+    "incubation": null,
+    "symptoms": null,
+    "factSheet": null
+  },
+  {
+    "slug": "rift-valley-fever",
+    "name": "Rift Valley fever",
+    "category": "vector-borne",
+    "outbreakCount": 1,
+    "affectedCountries": [
+      "MRT"
+    ],
+    "countryCount": 1,
+    "totalCases": null,
+    "totalDeaths": null,
+    "firstReport": "2025-11-05",
+    "lastReport": "2025-11-05",
+    "transmission": "Mosquito bites, contact with infected animal blood/tissues",
+    "incubation": "2 to 6 days",
+    "symptoms": "Fever, weakness, back pain, dizziness",
+    "factSheet": "https://www.who.int/news-room/fact-sheets/detail/rift-valley-fever"
+  },
+  {
+    "slug": "undiagnosed-disease",
+    "name": "Undiagnosed disease",
+    "category": "other",
+    "outbreakCount": 1,
+    "affectedCountries": [
+      "COD"
+    ],
+    "countryCount": 1,
+    "totalCases": null,
+    "totalDeaths": null,
+    "firstReport": "2024-12-08",
+    "lastReport": "2024-12-08",
+    "transmission": null,
+    "incubation": null,
+    "symptoms": null,
+    "factSheet": null
+  },
+  {
+    "slug": "upsurge-of-respiratory-illnesses-among-children",
+    "name": "Upsurge of respiratory illnesses among children",
+    "category": "other",
+    "outbreakCount": 1,
+    "affectedCountries": [
+      "CHN"
+    ],
+    "countryCount": 1,
+    "totalCases": null,
+    "totalDeaths": null,
+    "firstReport": "2023-11-23",
+    "lastReport": "2023-11-23",
+    "transmission": null,
+    "incubation": null,
+    "symptoms": null,
+    "factSheet": null
+  },
+  {
+    "slug": "west-nile-virus",
+    "name": "West Nile virus",
+    "category": "vector-borne",
+    "outbreakCount": 1,
+    "affectedCountries": [
+      "BRB"
+    ],
+    "countryCount": 1,
+    "totalCases": null,
+    "totalDeaths": null,
+    "firstReport": "2024-10-03",
+    "lastReport": "2024-10-03",
+    "transmission": null,
+    "incubation": null,
+    "symptoms": null,
+    "factSheet": null
+  },
+  {
+    "slug": "zika",
+    "name": "Zika virus disease",
+    "category": "vector-borne",
+    "outbreakCount": 1,
+    "affectedCountries": [
+      "IND"
+    ],
+    "countryCount": 1,
+    "totalCases": null,
+    "totalDeaths": null,
+    "firstReport": "2025-01-29",
+    "lastReport": "2025-01-29",
+    "transmission": null,
+    "incubation": null,
+    "symptoms": null,
+    "factSheet": null
+  }
+]

@@ -46,6 +46,20 @@ export function MobileNav() {
             Dashboard
           </Link>
           <Link
+            href="/diseases"
+            onClick={() => setOpen(false)}
+            className="text-sm text-gray-600 hover:text-gray-900"
+          >
+            Diseases
+          </Link>
+          <Link
+            href="/regions"
+            onClick={() => setOpen(false)}
+            className="text-sm text-gray-600 hover:text-gray-900"
+          >
+            Regions
+          </Link>
+          <Link
             href="/timeline"
             onClick={() => setOpen(false)}
             className="text-sm text-gray-600 hover:text-gray-900"

@@ -6,7 +6,8 @@ import { FilterBar } from "@/components/FilterBar";
 import { StatsBar } from "@/components/StatsBar";
 import { OutbreakSidebar } from "@/components/OutbreakSidebar";
 import { MapLegend } from "@/components/MapLegend";
-import type { Outbreak, OutbreakFilters, CountryCapacity, IndexScore } from "@/types";
+import { LatestReportsFeed } from "@/components/LatestReportsFeed";
+import type { Outbreak, OutbreakFilters, CountryCapacity, IndexScore, ReadinessScore, Country } from "@/types";
 
 const OutbreakMap = dynamic(() => import("@/components/OutbreakMap"), {
   ssr: false,
@@ -26,6 +27,8 @@ export default function HomePage() {
     useState<CountryCapacity | null>(null);
   const [readinessScore, setReadinessScore] = useState<number | null>(null);
   const [countryIndices, setCountryIndices] = useState<IndexScore[]>([]);
+  const [allReadiness, setAllReadiness] = useState<Record<string, ReadinessScore>>({});
+  const [countries, setCountries] = useState<Country[]>([]);
   const [filters, setFilters] = useState<OutbreakFilters>({
     diseaseCategory: "all",
     dateRange: "all",
@@ -38,6 +41,16 @@ export default function HomePage() {
       .then((res) => res.json())
       .then((data) => setOutbreaks(data))
       .catch((err) => console.error("Failed to fetch outbreaks:", err));
+
+    fetch("/api/readiness/all")
+      .then((res) => res.ok ? res.json() : {})
+      .then((data) => setAllReadiness(data))
+      .catch(() => {});
+
+    fetch("/api/countries")
+      .then((res) => res.json())
+      .then((data) => setCountries(data))
+      .catch(() => {});
   }, []);
 
   useEffect(() => {
@@ -69,7 +82,7 @@ export default function HomePage() {
     )
       return false;
     if (filters.activeOnly && o.status !== "active") return false;
-    if (filters.region !== "all" && !matchesRegion(o.countryIso3, filters.region))
+    if (filters.region !== "all" && !matchesRegion(o.countryIso3, filters.region, countries))
       return false;
     if (filters.dateRange !== "all") {
       const daysAgo = getDaysAgo(filters.dateRange);
@@ -96,10 +109,11 @@ export default function HomePage() {
             outbreaks={filteredOutbreaks}
             selectedOutbreak={selectedOutbreak}
             onSelectOutbreak={setSelectedOutbreak}
+            readinessScores={allReadiness}
           />
           <MapLegend />
         </div>
-        {selectedOutbreak && (
+        {selectedOutbreak ? (
           <OutbreakSidebar
             outbreak={selectedOutbreak}
             capacity={countryCapacity}
@@ -107,6 +121,10 @@ export default function HomePage() {
             indices={countryIndices}
             onClose={() => setSelectedOutbreak(null)}
           />
+        ) : (
+          <div className="hidden lg:block w-80 border-l border-gray-200 bg-white p-4 overflow-y-auto">
+            <LatestReportsFeed outbreaks={filteredOutbreaks} />
+          </div>
         )}
       </div>
     </div>
@@ -126,7 +144,8 @@ function getDaysAgo(range: string): number {
   }
 }
 
-function matchesRegion(_iso3: string, _region: string): boolean {
-  // TODO: implement region matching using country metadata
-  return true;
+function matchesRegion(iso3: string, region: string, countries: Country[]): boolean {
+  const country = countries.find((c) => c.iso3 === iso3);
+  if (!country) return true;
+  return country.whoRegion === region;
 }

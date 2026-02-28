@@ -1,0 +1,1163 @@
+[
+  {
+    "code": "AFRO",
+    "name": "African Region",
+    "shortName": "Africa",
+    "description": "WHO Regional Office for Africa covers 47 Member States in sub-Saharan Africa.",
+    "countryCount": 50,
+    "countries": [
+      {
+        "iso3": "AGO",
+        "name": "Angola"
+      },
+      {
+        "iso3": "BDI",
+        "name": "Burundi"
+      },
+      {
+        "iso3": "BEN",
+        "name": "Benin"
+      },
+      {
+        "iso3": "BFA",
+        "name": "Burkina Faso"
+      },
+      {
+        "iso3": "BWA",
+        "name": "Botswana"
+      },
+      {
+        "iso3": "CAF",
+        "name": "Central African Republic"
+      },
+      {
+        "iso3": "CIV",
+        "name": "Ivory Coast"
+      },
+      {
+        "iso3": "CMR",
+        "name": "Cameroon"
+      },
+      {
+        "iso3": "COD",
+        "name": "Democratic Republic of the Congo"
+      },
+      {
+        "iso3": "COG",
+        "name": "Congo"
+      },
+      {
+        "iso3": "COM",
+        "name": "Comoros"
+      },
+      {
+        "iso3": "CPV",
+        "name": "Cabo Verde"
+      },
+      {
+        "iso3": "DZA",
+        "name": "Algeria"
+      },
+      {
+        "iso3": "ERI",
+        "name": "Eritrea"
+      },
+      {
+        "iso3": "ETH",
+        "name": "Ethiopia"
+      },
+      {
+        "iso3": "GAB",
+        "name": "Gabon"
+      },
+      {
+        "iso3": "GHA",
+        "name": "Ghana"
+      },
+      {
+        "iso3": "GIN",
+        "name": "Guinea"
+      },
+      {
+        "iso3": "GMB",
+        "name": "Gambia"
+      },
+      {
+        "iso3": "GNB",
+        "name": "Guinea-Bissau"
+      },
+      {
+        "iso3": "GNQ",
+        "name": "Equatorial Guinea"
+      },
+      {
+        "iso3": "KEN",
+        "name": "Kenya"
+      },
+      {
+        "iso3": "LBR",
+        "name": "Liberia"
+      },
+      {
+        "iso3": "LSO",
+        "name": "Lesotho"
+      },
+      {
+        "iso3": "MDG",
+        "name": "Madagascar"
+      },
+      {
+        "iso3": "MLI",
+        "name": "Mali"
+      },
+      {
+        "iso3": "MOZ",
+        "name": "Mozambique"
+      },
+      {
+        "iso3": "MRT",
+        "name": "Mauritania"
+      },
+      {
+        "iso3": "MUS",
+        "name": "Mauritius"
+      },
+      {
+        "iso3": "MWI",
+        "name": "Malawi"
+      },
+      {
+        "iso3": "MYT",
+        "name": "Mayotte"
+      },
+      {
+        "iso3": "NAM",
+        "name": "Namibia"
+      },
+      {
+        "iso3": "NER",
+        "name": "Niger"
+      },
+      {
+        "iso3": "NGA",
+        "name": "Nigeria"
+      },
+      {
+        "iso3": "REU",
+        "name": "La R\u00e9union"
+      },
+      {
+        "iso3": "RWA",
+        "name": "Rwanda"
+      },
+      {
+        "iso3": "SEN",
+        "name": "Senegal"
+      },
+      {
+        "iso3": "SHN",
+        "name": "SHN"
+      },
+      {
+        "iso3": "SLE",
+        "name": "Sierra Leone"
+      },
+      {
+        "iso3": "SSD",
+        "name": "South Sudan"
+      },
+      {
+        "iso3": "STP",
+        "name": "STP"
+      },
+      {
+        "iso3": "SWZ",
+        "name": "Eswatini"
+      },
+      {
+        "iso3": "SYC",
+        "name": "SYC"
+      },
+      {
+        "iso3": "TCD",
+        "name": "Chad"
+      },
+      {
+        "iso3": "TGO",
+        "name": "Togo"
+      },
+      {
+        "iso3": "TZA",
+        "name": "Tanzania"
+      },
+      {
+        "iso3": "UGA",
+        "name": "Uganda"
+      },
+      {
+        "iso3": "ZAF",
+        "name": "South Africa"
+      },
+      {
+        "iso3": "ZMB",
+        "name": "Zambia"
+      },
+      {
+        "iso3": "ZWE",
+        "name": "Zimbabwe"
+      }
+    ],
+    "outbreakCount": 32,
+    "activeOutbreaks": 32,
+    "affectedCountries": [
+      "REU",
+      "TZA",
+      "ETH",
+      "UGA",
+      "GIN",
+      "TCD",
+      "COD",
+      "AGO",
+      "ZAF",
+      "ZMB",
+      "RWA",
+      "MRT"
+    ],
+    "affectedCountryCount": 12,
+    "avgReadiness": 59.8,
+    "readinessScoreCount": 47,
+    "topDiseases": [
+      {
+        "name": "Marburg virus disease",
+        "count": 10
+      },
+      {
+        "name": "Sudan virus disease",
+        "count": 4
+      },
+      {
+        "name": "Ebola virus disease",
+        "count": 2
+      },
+      {
+        "name": "Mpox",
+        "count": 2
+      },
+      {
+        "name": "Rift Valley fever",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "code": "AMRO",
+    "name": "Region of the Americas",
+    "shortName": "Americas",
+    "description": "WHO Regional Office for the Americas / Pan American Health Organization covers 35 Member States.",
+    "countryCount": 52,
+    "countries": [
+      {
+        "iso3": "ABW",
+        "name": "ABW"
+      },
+      {
+        "iso3": "AIA",
+        "name": "AIA"
+      },
+      {
+        "iso3": "ARG",
+        "name": "Argentina"
+      },
+      {
+        "iso3": "ATG",
+        "name": "ATG"
+      },
+      {
+        "iso3": "BES",
+        "name": "BES"
+      },
+      {
+        "iso3": "BHS",
+        "name": "BHS"
+      },
+      {
+        "iso3": "BLZ",
+        "name": "BLZ"
+      },
+      {
+        "iso3": "BMU",
+        "name": "BMU"
+      },
+      {
+        "iso3": "BOL",
+        "name": "Bolivia"
+      },
+      {
+        "iso3": "BRA",
+        "name": "Brazil"
+      },
+      {
+        "iso3": "BRB",
+        "name": "Barbados"
+      },
+      {
+        "iso3": "CAN",
+        "name": "Canada"
+      },
+      {
+        "iso3": "CHL",
+        "name": "Chile"
+      },
+      {
+        "iso3": "COL",
+        "name": "Colombia"
+      },
+      {
+        "iso3": "CRI",
+        "name": "Costa Rica"
+      },
+      {
+        "iso3": "CUB",
+        "name": "Cuba"
+      },
+      {
+        "iso3": "CUW",
+        "name": "CUW"
+      },
+      {
+        "iso3": "CYM",
+        "name": "CYM"
+      },
+      {
+        "iso3": "DMA",
+        "name": "DMA"
+      },
+      {
+        "iso3": "DOM",
+        "name": "Dominican Republic"
+      },
+      {
+        "iso3": "ECU",
+        "name": "Ecuador"
+      },
+      {
+        "iso3": "FLK",
+        "name": "FLK"
+      },
+      {
+        "iso3": "GLP",
+        "name": "GLP"
+      },
+      {
+        "iso3": "GRD",
+        "name": "GRD"
+      },
+      {
+        "iso3": "GTM",
+        "name": "Guatemala"
+      },
+      {
+        "iso3": "GUF",
+        "name": "GUF"
+      },
+      {
+        "iso3": "GUY",
+        "name": "Guyana"
+      },
+      {
+        "iso3": "HND",
+        "name": "Honduras"
+      },
+      {
+        "iso3": "HTI",
+        "name": "Haiti"
+      },
+      {
+        "iso3": "JAM",
+        "name": "Jamaica"
+      },
+      {
+        "iso3": "KNA",
+        "name": "KNA"
+      },
+      {
+        "iso3": "LCA",
+        "name": "LCA"
+      },
+      {
+        "iso3": "MEX",
+        "name": "Mexico"
+      },
+      {
+        "iso3": "MSR",
+        "name": "MSR"
+      },
+      {
+        "iso3": "MTQ",
+        "name": "MTQ"
+      },
+      {
+        "iso3": "NIC",
+        "name": "Nicaragua"
+      },
+      {
+        "iso3": "PAN",
+        "name": "Panama"
+      },
+      {
+        "iso3": "PER",
+        "name": "Peru"
+      },
+      {
+        "iso3": "PRI",
+        "name": "PRI"
+      },
+      {
+        "iso3": "PRY",
+        "name": "Paraguay"
+      },
+      {
+        "iso3": "SLV",
+        "name": "El Salvador"
+      },
+      {
+        "iso3": "SPM",
+        "name": "SPM"
+      },
+      {
+        "iso3": "SUR",
+        "name": "Suriname"
+      },
+      {
+        "iso3": "SXM",
+        "name": "SXM"
+      },
+      {
+        "iso3": "TCA",
+        "name": "TCA"
+      },
+      {
+        "iso3": "TTO",
+        "name": "Trinidad and Tobago"
+      },
+      {
+        "iso3": "URY",
+        "name": "Uruguay"
+      },
+      {
+        "iso3": "USA",
+        "name": "United States"
+      },
+      {
+        "iso3": "VCT",
+        "name": "VCT"
+      },
+      {
+        "iso3": "VEN",
+        "name": "Venezuela"
+      },
+      {
+        "iso3": "VGB",
+        "name": "VGB"
+      },
+      {
+        "iso3": "VIR",
+        "name": "VIR"
+      }
+    ],
+    "outbreakCount": 11,
+    "activeOutbreaks": 11,
+    "affectedCountries": [
+      "MEX",
+      "ARG",
+      "BOL",
+      "BRB",
+      "URY",
+      "CUB",
+      "USA"
+    ],
+    "affectedCountryCount": 7,
+    "avgReadiness": 90.6,
+    "readinessScoreCount": 35,
+    "topDiseases": [
+      {
+        "name": "Avian Influenza A(H5N1)",
+        "count": 2
+      },
+      {
+        "name": "Human infection caused by avian Influenza A(H5N2)",
+        "count": 2
+      },
+      {
+        "name": "Avian Influenza A(H5N5)",
+        "count": 1
+      },
+      {
+        "name": "Measles",
+        "count": 1
+      },
+      {
+        "name": "Chapare haemorrhagic fever",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "code": "EMRO",
+    "name": "Eastern Mediterranean Region",
+    "shortName": "Eastern Mediterranean",
+    "description": "WHO Regional Office for the Eastern Mediterranean covers 22 Member States across the Middle East and North Africa.",
+    "countryCount": 22,
+    "countries": [
+      {
+        "iso3": "AFG",
+        "name": "Afghanistan"
+      },
+      {
+        "iso3": "ARE",
+        "name": "United Arab Emirates"
+      },
+      {
+        "iso3": "BHR",
+        "name": "Bahrain"
+      },
+      {
+        "iso3": "DJI",
+        "name": "Djibouti"
+      },
+      {
+        "iso3": "EGY",
+        "name": "Egypt"
+      },
+      {
+        "iso3": "IRN",
+        "name": "Iran"
+      },
+      {
+        "iso3": "IRQ",
+        "name": "Iraq"
+      },
+      {
+        "iso3": "JOR",
+        "name": "Jordan"
+      },
+      {
+        "iso3": "KWT",
+        "name": "Kuwait"
+      },
+      {
+        "iso3": "LBN",
+        "name": "Lebanon"
+      },
+      {
+        "iso3": "LBY",
+        "name": "Libya"
+      },
+      {
+        "iso3": "MAR",
+        "name": "Morocco"
+      },
+      {
+        "iso3": "OMN",
+        "name": "Oman"
+      },
+      {
+        "iso3": "PAK",
+        "name": "Pakistan"
+      },
+      {
+        "iso3": "PSE",
+        "name": "Palestine"
+      },
+      {
+        "iso3": "QAT",
+        "name": "Qatar"
+      },
+      {
+        "iso3": "SAU",
+        "name": "Saudi Arabia"
+      },
+      {
+        "iso3": "SDN",
+        "name": "Sudan"
+      },
+      {
+        "iso3": "SOM",
+        "name": "Somalia"
+      },
+      {
+        "iso3": "SYR",
+        "name": "Syria"
+      },
+      {
+        "iso3": "TUN",
+        "name": "Tunisia"
+      },
+      {
+        "iso3": "YEM",
+        "name": "Yemen"
+      }
+    ],
+    "outbreakCount": 8,
+    "activeOutbreaks": 8,
+    "affectedCountries": [
+      "IRN",
+      "SAU",
+      "MAR"
+    ],
+    "affectedCountryCount": 3,
+    "avgReadiness": 76.1,
+    "readinessScoreCount": 22,
+    "topDiseases": [
+      {
+        "name": "Middle East respiratory syndrome coronavirus",
+        "count": 4
+      },
+      {
+        "name": "Measles",
+        "count": 1
+      },
+      {
+        "name": "Invasive meningococcal disease",
+        "count": 1
+      },
+      {
+        "name": "Dengue",
+        "count": 1
+      },
+      {
+        "name": "Middle East Respiratory Syndrome Coronavirus",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "code": "EURO",
+    "name": "European Region",
+    "shortName": "Europe",
+    "description": "WHO Regional Office for Europe covers 53 Member States across Europe and Central Asia.",
+    "countryCount": 58,
+    "countries": [
+      {
+        "iso3": "ALB",
+        "name": "Albania"
+      },
+      {
+        "iso3": "AND",
+        "name": "AND"
+      },
+      {
+        "iso3": "ARM",
+        "name": "Armenia"
+      },
+      {
+        "iso3": "AUT",
+        "name": "Austria"
+      },
+      {
+        "iso3": "AZE",
+        "name": "Azerbaijan"
+      },
+      {
+        "iso3": "BEL",
+        "name": "Belgium"
+      },
+      {
+        "iso3": "BGR",
+        "name": "Bulgaria"
+      },
+      {
+        "iso3": "BIH",
+        "name": "Bosnia and Herzegovina"
+      },
+      {
+        "iso3": "BLR",
+        "name": "Belarus"
+      },
+      {
+        "iso3": "CHE",
+        "name": "Switzerland"
+      },
+      {
+        "iso3": "CYP",
+        "name": "Cyprus"
+      },
+      {
+        "iso3": "CZE",
+        "name": "Czechia"
+      },
+      {
+        "iso3": "DEU",
+        "name": "Germany"
+      },
+      {
+        "iso3": "DNK",
+        "name": "Denmark"
+      },
+      {
+        "iso3": "ESP",
+        "name": "Spain"
+      },
+      {
+        "iso3": "EST",
+        "name": "Estonia"
+      },
+      {
+        "iso3": "FIN",
+        "name": "Finland"
+      },
+      {
+        "iso3": "FRA",
+        "name": "France"
+      },
+      {
+        "iso3": "FRO",
+        "name": "FRO"
+      },
+      {
+        "iso3": "GBR",
+        "name": "United Kingdom"
+      },
+      {
+        "iso3": "GEO",
+        "name": "Georgia"
+      },
+      {
+        "iso3": "GIB",
+        "name": "GIB"
+      },
+      {
+        "iso3": "GRC",
+        "name": "Greece"
+      },
+      {
+        "iso3": "GRL",
+        "name": "GRL"
+      },
+      {
+        "iso3": "HRV",
+        "name": "Croatia"
+      },
+      {
+        "iso3": "HUN",
+        "name": "Hungary"
+      },
+      {
+        "iso3": "IMN",
+        "name": "IMN"
+      },
+      {
+        "iso3": "IRL",
+        "name": "Ireland"
+      },
+      {
+        "iso3": "ISL",
+        "name": "Iceland"
+      },
+      {
+        "iso3": "ISR",
+        "name": "Israel"
+      },
+      {
+        "iso3": "ITA",
+        "name": "Italy"
+      },
+      {
+        "iso3": "KAZ",
+        "name": "Kazakhstan"
+      },
+      {
+        "iso3": "KGZ",
+        "name": "Kyrgyzstan"
+      },
+      {
+        "iso3": "LIE",
+        "name": "LIE"
+      },
+      {
+        "iso3": "LTU",
+        "name": "Lithuania"
+      },
+      {
+        "iso3": "LUX",
+        "name": "Luxembourg"
+      },
+      {
+        "iso3": "LVA",
+        "name": "Latvia"
+      },
+      {
+        "iso3": "MCO",
+        "name": "MCO"
+      },
+      {
+        "iso3": "MDA",
+        "name": "Moldova"
+      },
+      {
+        "iso3": "MKD",
+        "name": "North Macedonia"
+      },
+      {
+        "iso3": "MLT",
+        "name": "Malta"
+      },
+      {
+        "iso3": "MNE",
+        "name": "Montenegro"
+      },
+      {
+        "iso3": "NLD",
+        "name": "Netherlands"
+      },
+      {
+        "iso3": "NOR",
+        "name": "Norway"
+      },
+      {
+        "iso3": "POL",
+        "name": "Poland"
+      },
+      {
+        "iso3": "PRT",
+        "name": "Portugal"
+      },
+      {
+        "iso3": "ROU",
+        "name": "Romania"
+      },
+      {
+        "iso3": "RUS",
+        "name": "Russia"
+      },
+      {
+        "iso3": "SMR",
+        "name": "SMR"
+      },
+      {
+        "iso3": "SRB",
+        "name": "Serbia"
+      },
+      {
+        "iso3": "SVK",
+        "name": "Slovakia"
+      },
+      {
+        "iso3": "SVN",
+        "name": "Slovenia"
+      },
+      {
+        "iso3": "SWE",
+        "name": "Sweden"
+      },
+      {
+        "iso3": "TJK",
+        "name": "Tajikistan"
+      },
+      {
+        "iso3": "TKM",
+        "name": "Turkmenistan"
+      },
+      {
+        "iso3": "TUR",
+        "name": "Turkey"
+      },
+      {
+        "iso3": "UKR",
+        "name": "Ukraine"
+      },
+      {
+        "iso3": "UZB",
+        "name": "Uzbekistan"
+      }
+    ],
+    "outbreakCount": 3,
+    "activeOutbreaks": 3,
+    "affectedCountries": [
+      "SWE",
+      "GBR",
+      "ESP"
+    ],
+    "affectedCountryCount": 3,
+    "avgReadiness": 98.4,
+    "readinessScoreCount": 53,
+    "topDiseases": [
+      {
+        "name": "Mpox",
+        "count": 1
+      },
+      {
+        "name": "Influenza A(H1N1) variant virus",
+        "count": 1
+      },
+      {
+        "name": "Influenza A(H1N2) variant virus infection",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "code": "SEARO",
+    "name": "South-East Asia Region",
+    "shortName": "South-East Asia",
+    "description": "WHO Regional Office for South-East Asia covers 11 Member States.",
+    "countryCount": 10,
+    "countries": [
+      {
+        "iso3": "BGD",
+        "name": "Bangladesh"
+      },
+      {
+        "iso3": "BTN",
+        "name": "Bhutan"
+      },
+      {
+        "iso3": "IND",
+        "name": "India"
+      },
+      {
+        "iso3": "LKA",
+        "name": "Sri Lanka"
+      },
+      {
+        "iso3": "MDV",
+        "name": "Maldives"
+      },
+      {
+        "iso3": "MMR",
+        "name": "Myanmar"
+      },
+      {
+        "iso3": "NPL",
+        "name": "Nepal"
+      },
+      {
+        "iso3": "PRK",
+        "name": "PRK"
+      },
+      {
+        "iso3": "THA",
+        "name": "Thailand"
+      },
+      {
+        "iso3": "TLS",
+        "name": "Timor-Leste"
+      }
+    ],
+    "outbreakCount": 11,
+    "activeOutbreaks": 11,
+    "affectedCountries": [
+      "TLS",
+      "BGD",
+      "THA",
+      "IND"
+    ],
+    "affectedCountryCount": 4,
+    "avgReadiness": 82.6,
+    "readinessScoreCount": 10,
+    "topDiseases": [
+      {
+        "name": "Nipah virus infection",
+        "count": 4
+      },
+      {
+        "name": "Nipah virus disease",
+        "count": 1
+      },
+      {
+        "name": "Nipah Virus Infection",
+        "count": 1
+      },
+      {
+        "name": "Rabies",
+        "count": 1
+      },
+      {
+        "name": "Anthrax",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "code": "WPRO",
+    "name": "Western Pacific Region",
+    "shortName": "Western Pacific",
+    "description": "WHO Regional Office for the Western Pacific covers 37 Member States and areas.",
+    "countryCount": 35,
+    "countries": [
+      {
+        "iso3": "ASM",
+        "name": "ASM"
+      },
+      {
+        "iso3": "AUS",
+        "name": "Australia"
+      },
+      {
+        "iso3": "BRN",
+        "name": "Brunei Darussalam"
+      },
+      {
+        "iso3": "CHN",
+        "name": "China"
+      },
+      {
+        "iso3": "COK",
+        "name": "COK"
+      },
+      {
+        "iso3": "FJI",
+        "name": "Fiji"
+      },
+      {
+        "iso3": "FSM",
+        "name": "FSM"
+      },
+      {
+        "iso3": "GUM",
+        "name": "GUM"
+      },
+      {
+        "iso3": "IDN",
+        "name": "Indonesia"
+      },
+      {
+        "iso3": "JPN",
+        "name": "Japan"
+      },
+      {
+        "iso3": "KHM",
+        "name": "Cambodia"
+      },
+      {
+        "iso3": "KIR",
+        "name": "KIR"
+      },
+      {
+        "iso3": "KOR",
+        "name": "South Korea"
+      },
+      {
+        "iso3": "LAO",
+        "name": "Laos"
+      },
+      {
+        "iso3": "MHL",
+        "name": "MHL"
+      },
+      {
+        "iso3": "MNG",
+        "name": "Mongolia"
+      },
+      {
+        "iso3": "MNP",
+        "name": "MNP"
+      },
+      {
+        "iso3": "MYS",
+        "name": "Malaysia"
+      },
+      {
+        "iso3": "NCL",
+        "name": "NCL"
+      },
+      {
+        "iso3": "NIU",
+        "name": "NIU"
+      },
+      {
+        "iso3": "NRU",
+        "name": "NRU"
+      },
+      {
+        "iso3": "NZL",
+        "name": "New Zealand"
+      },
+      {
+        "iso3": "PHL",
+        "name": "Philippines"
+      },
+      {
+        "iso3": "PLW",
+        "name": "PLW"
+      },
+      {
+        "iso3": "PNG",
+        "name": "Papua New Guinea"
+      },
+      {
+        "iso3": "PYF",
+        "name": "PYF"
+      },
+      {
+        "iso3": "SGP",
+        "name": "Singapore"
+      },
+      {
+        "iso3": "SLB",
+        "name": "SLB"
+      },
+      {
+        "iso3": "TKL",
+        "name": "TKL"
+      },
+      {
+        "iso3": "TON",
+        "name": "TON"
+      },
+      {
+        "iso3": "TUV",
+        "name": "TUV"
+      },
+      {
+        "iso3": "VNM",
+        "name": "Vietnam"
+      },
+      {
+        "iso3": "VUT",
+        "name": "VUT"
+      },
+      {
+        "iso3": "WLF",
+        "name": "WLF"
+      },
+      {
+        "iso3": "WSM",
+        "name": "WSM"
+      }
+    ],
+    "outbreakCount": 9,
+    "activeOutbreaks": 9,
+    "affectedCountries": [
+      "AUS",
+      "VNM",
+      "CHN",
+      "KHM"
+    ],
+    "affectedCountryCount": 4,
+    "avgReadiness": 87.6,
+    "readinessScoreCount": 28,
+    "topDiseases": [
+      {
+        "name": "Avian Influenza A(H5N1)",
+        "count": 3
+      },
+      {
+        "name": "Avian Influenza A (H5N1)",
+        "count": 3
+      },
+      {
+        "name": "Influenza A(H1N1) variant virus",
+        "count": 1
+      },
+      {
+        "name": "Avian Influenza A(H9N2)",
+        "count": 1
+      },
+      {
+        "name": "Upsurge of respiratory illnesses among children",
+        "count": 1
+      }
+    ]
+  }
+]

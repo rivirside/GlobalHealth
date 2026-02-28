@@ -1,0 +1,3112 @@
+[
+  {
+    "iso3": "ABW",
+    "name": "ABW",
+    "region": "Latin America & Caribbean ",
+    "incomeGroup": "High income",
+    "whoRegion": "AMRO",
+    "lat": 0,
+    "lon": 0,
+    "population": 107995
+  },
+  {
+    "iso3": "AFE",
+    "name": "AFE",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 769280888
+  },
+  {
+    "iso3": "AFG",
+    "name": "Afghanistan",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "incomeGroup": "Low income",
+    "whoRegion": "EMRO",
+    "lat": 33.9,
+    "lon": 67.7,
+    "population": 42647492
+  },
+  {
+    "iso3": "AFR",
+    "name": "AFR",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "AFW",
+    "name": "AFW",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 521764076
+  },
+  {
+    "iso3": "AGO",
+    "name": "Angola",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "AFRO",
+    "lat": -11.2,
+    "lon": 17.9,
+    "population": 37885849
+  },
+  {
+    "iso3": "AIA",
+    "name": "AIA",
+    "region": "",
+    "incomeGroup": "",
+    "whoRegion": "AMRO",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "ALB",
+    "name": "Albania",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "EURO",
+    "lat": 41.2,
+    "lon": 20.2,
+    "population": 2377128
+  },
+  {
+    "iso3": "AND",
+    "name": "AND",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "High income",
+    "whoRegion": "EURO",
+    "lat": 0,
+    "lon": 0,
+    "population": 81938
+  },
+  {
+    "iso3": "ARB",
+    "name": "ARB",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 492612632
+  },
+  {
+    "iso3": "ARE",
+    "name": "United Arab Emirates",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "incomeGroup": "High income",
+    "whoRegion": "EMRO",
+    "lat": 23.4,
+    "lon": 53.8,
+    "population": 10986400
+  },
+  {
+    "iso3": "ARG",
+    "name": "Argentina",
+    "region": "Latin America & Caribbean ",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "AMRO",
+    "lat": -38.4,
+    "lon": -63.6,
+    "population": 45696159
+  },
+  {
+    "iso3": "ARM",
+    "name": "Armenia",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "EURO",
+    "lat": 40.1,
+    "lon": 45.0,
+    "population": 3033500
+  },
+  {
+    "iso3": "ASM",
+    "name": "ASM",
+    "region": "East Asia & Pacific",
+    "incomeGroup": "High income",
+    "whoRegion": "WPRO",
+    "lat": 0,
+    "lon": 0,
+    "population": 46765
+  },
+  {
+    "iso3": "ATG",
+    "name": "ATG",
+    "region": "Latin America & Caribbean ",
+    "incomeGroup": "High income",
+    "whoRegion": "AMRO",
+    "lat": 0,
+    "lon": 0,
+    "population": 93772
+  },
+  {
+    "iso3": "AUS",
+    "name": "Australia",
+    "region": "East Asia & Pacific",
+    "incomeGroup": "High income",
+    "whoRegion": "WPRO",
+    "lat": -25.3,
+    "lon": 133.8,
+    "population": 27196812
+  },
+  {
+    "iso3": "AUT",
+    "name": "Austria",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "High income",
+    "whoRegion": "EURO",
+    "lat": 47.5,
+    "lon": 14.6,
+    "population": 9177982
+  },
+  {
+    "iso3": "AZE",
+    "name": "Azerbaijan",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "EURO",
+    "lat": 40.1,
+    "lon": 47.6,
+    "population": 10202830
+  },
+  {
+    "iso3": "BDI",
+    "name": "Burundi",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Low income",
+    "whoRegion": "AFRO",
+    "lat": -3.4,
+    "lon": 29.9,
+    "population": 14047786
+  },
+  {
+    "iso3": "BEA",
+    "name": "BEA",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "BEC",
+    "name": "BEC",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "BEL",
+    "name": "Belgium",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "High income",
+    "whoRegion": "EURO",
+    "lat": 50.8,
+    "lon": 4.5,
+    "population": 11858610
+  },
+  {
+    "iso3": "BEN",
+    "name": "Benin",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "AFRO",
+    "lat": 9.3,
+    "lon": 2.3,
+    "population": 14462724
+  },
+  {
+    "iso3": "BES",
+    "name": "BES",
+    "region": "",
+    "incomeGroup": "",
+    "whoRegion": "AMRO",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "BFA",
+    "name": "Burkina Faso",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Low income",
+    "whoRegion": "AFRO",
+    "lat": 12.4,
+    "lon": -1.6,
+    "population": 23548781
+  },
+  {
+    "iso3": "BGD",
+    "name": "Bangladesh",
+    "region": "South Asia",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "SEARO",
+    "lat": 23.7,
+    "lon": 90.4,
+    "population": 173562364
+  },
+  {
+    "iso3": "BGR",
+    "name": "Bulgaria",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "High income",
+    "whoRegion": "EURO",
+    "lat": 42.7,
+    "lon": 25.5,
+    "population": 6441421
+  },
+  {
+    "iso3": "BHI",
+    "name": "BHI",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "BHR",
+    "name": "Bahrain",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "incomeGroup": "High income",
+    "whoRegion": "EMRO",
+    "lat": 26.0,
+    "lon": 50.6,
+    "population": 1588670
+  },
+  {
+    "iso3": "BHS",
+    "name": "BHS",
+    "region": "Latin America & Caribbean ",
+    "incomeGroup": "High income",
+    "whoRegion": "AMRO",
+    "lat": 0,
+    "lon": 0,
+    "population": 401283
+  },
+  {
+    "iso3": "BIH",
+    "name": "Bosnia and Herzegovina",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "EURO",
+    "lat": 43.9,
+    "lon": 17.7,
+    "population": 3164253
+  },
+  {
+    "iso3": "BLA",
+    "name": "BLA",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "BLR",
+    "name": "Belarus",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "EURO",
+    "lat": 53.7,
+    "lon": 27.6,
+    "population": 9132629
+  },
+  {
+    "iso3": "BLZ",
+    "name": "BLZ",
+    "region": "Latin America & Caribbean ",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "AMRO",
+    "lat": 0,
+    "lon": 0,
+    "population": 417072
+  },
+  {
+    "iso3": "BMN",
+    "name": "BMN",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "BMU",
+    "name": "BMU",
+    "region": "North America",
+    "incomeGroup": "High income",
+    "whoRegion": "AMRO",
+    "lat": 0,
+    "lon": 0,
+    "population": 64636
+  },
+  {
+    "iso3": "BOL",
+    "name": "Bolivia",
+    "region": "Latin America & Caribbean ",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "AMRO",
+    "lat": -16.3,
+    "lon": -63.6,
+    "population": 12413315
+  },
+  {
+    "iso3": "BRA",
+    "name": "Brazil",
+    "region": "Latin America & Caribbean ",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "AMRO",
+    "lat": -14.2,
+    "lon": -51.9,
+    "population": 211998573
+  },
+  {
+    "iso3": "BRB",
+    "name": "Barbados",
+    "region": "Latin America & Caribbean ",
+    "incomeGroup": "High income",
+    "whoRegion": "AMRO",
+    "lat": 13.2,
+    "lon": -59.5,
+    "population": 282467
+  },
+  {
+    "iso3": "BRN",
+    "name": "Brunei Darussalam",
+    "region": "East Asia & Pacific",
+    "incomeGroup": "High income",
+    "whoRegion": "WPRO",
+    "lat": 4.5,
+    "lon": 114.7,
+    "population": 462721
+  },
+  {
+    "iso3": "BSS",
+    "name": "BSS",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "BTN",
+    "name": "Bhutan",
+    "region": "South Asia",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "SEARO",
+    "lat": 27.5,
+    "lon": 90.4,
+    "population": 791524
+  },
+  {
+    "iso3": "BWA",
+    "name": "Botswana",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "AFRO",
+    "lat": -22.3,
+    "lon": 24.7,
+    "population": 2521139
+  },
+  {
+    "iso3": "CAA",
+    "name": "CAA",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "CAF",
+    "name": "Central African Republic",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Low income",
+    "whoRegion": "AFRO",
+    "lat": 6.6,
+    "lon": 20.9,
+    "population": 5330690
+  },
+  {
+    "iso3": "CAN",
+    "name": "Canada",
+    "region": "North America",
+    "incomeGroup": "High income",
+    "whoRegion": "AMRO",
+    "lat": 56.1,
+    "lon": -106.3,
+    "population": 41288599
+  },
+  {
+    "iso3": "CEA",
+    "name": "CEA",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "CEB",
+    "name": "CEB",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 100061963
+  },
+  {
+    "iso3": "CEU",
+    "name": "CEU",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "CHE",
+    "name": "Switzerland",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "High income",
+    "whoRegion": "EURO",
+    "lat": 46.8,
+    "lon": 8.2,
+    "population": 9005582
+  },
+  {
+    "iso3": "CHI",
+    "name": "CHI",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "High income",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 168126
+  },
+  {
+    "iso3": "CHL",
+    "name": "Chile",
+    "region": "Latin America & Caribbean ",
+    "incomeGroup": "High income",
+    "whoRegion": "AMRO",
+    "lat": -35.7,
+    "lon": -71.5,
+    "population": 19764771
+  },
+  {
+    "iso3": "CHN",
+    "name": "China",
+    "region": "East Asia & Pacific",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "WPRO",
+    "lat": 35.9,
+    "lon": 104.2,
+    "population": 1408975000
+  },
+  {
+    "iso3": "CIV",
+    "name": "Ivory Coast",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "AFRO",
+    "lat": 7.5,
+    "lon": -5.5,
+    "population": 31934230
+  },
+  {
+    "iso3": "CLA",
+    "name": "CLA",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "CME",
+    "name": "CME",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "CMR",
+    "name": "Cameroon",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "AFRO",
+    "lat": 7.4,
+    "lon": 12.4,
+    "population": 29123744
+  },
+  {
+    "iso3": "COD",
+    "name": "Democratic Republic of the Congo",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Low income",
+    "whoRegion": "AFRO",
+    "lat": -4.0,
+    "lon": 21.8,
+    "population": 109276265
+  },
+  {
+    "iso3": "COG",
+    "name": "Congo",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "AFRO",
+    "lat": -0.2,
+    "lon": 15.8,
+    "population": 6332961
+  },
+  {
+    "iso3": "COK",
+    "name": "COK",
+    "region": "",
+    "incomeGroup": "",
+    "whoRegion": "WPRO",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "COL",
+    "name": "Colombia",
+    "region": "Latin America & Caribbean ",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "AMRO",
+    "lat": 4.6,
+    "lon": -74.3,
+    "population": 52886363
+  },
+  {
+    "iso3": "COM",
+    "name": "Comoros",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "AFRO",
+    "lat": -11.9,
+    "lon": 43.9,
+    "population": 866628
+  },
+  {
+    "iso3": "CPV",
+    "name": "Cabo Verde",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "AFRO",
+    "lat": 16.0,
+    "lon": -24.0,
+    "population": 524877
+  },
+  {
+    "iso3": "CRI",
+    "name": "Costa Rica",
+    "region": "Latin America & Caribbean ",
+    "incomeGroup": "High income",
+    "whoRegion": "AMRO",
+    "lat": 9.7,
+    "lon": -83.8,
+    "population": 5129910
+  },
+  {
+    "iso3": "CSA",
+    "name": "CSA",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "CSS",
+    "name": "CSS",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 4539060
+  },
+  {
+    "iso3": "CUB",
+    "name": "Cuba",
+    "region": "Latin America & Caribbean ",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "AMRO",
+    "lat": 21.5,
+    "lon": -77.8,
+    "population": 10979783
+  },
+  {
+    "iso3": "CUW",
+    "name": "CUW",
+    "region": "Latin America & Caribbean ",
+    "incomeGroup": "High income",
+    "whoRegion": "AMRO",
+    "lat": 0,
+    "lon": 0,
+    "population": 155967
+  },
+  {
+    "iso3": "CYM",
+    "name": "CYM",
+    "region": "Latin America & Caribbean ",
+    "incomeGroup": "High income",
+    "whoRegion": "AMRO",
+    "lat": 0,
+    "lon": 0,
+    "population": 74457
+  },
+  {
+    "iso3": "CYP",
+    "name": "Cyprus",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "High income",
+    "whoRegion": "EURO",
+    "lat": 35.1,
+    "lon": 33.4,
+    "population": 1358282
+  },
+  {
+    "iso3": "CZE",
+    "name": "Czechia",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "High income",
+    "whoRegion": "EURO",
+    "lat": 49.8,
+    "lon": 15.5,
+    "population": 10905028
+  },
+  {
+    "iso3": "DEA",
+    "name": "DEA",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "DEC",
+    "name": "DEC",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "DEU",
+    "name": "Germany",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "High income",
+    "whoRegion": "EURO",
+    "lat": 51.2,
+    "lon": 10.5,
+    "population": 83516593
+  },
+  {
+    "iso3": "DJI",
+    "name": "Djibouti",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "EMRO",
+    "lat": 11.8,
+    "lon": 42.6,
+    "population": 1168722
+  },
+  {
+    "iso3": "DLA",
+    "name": "DLA",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "DMA",
+    "name": "DMA",
+    "region": "Latin America & Caribbean ",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "AMRO",
+    "lat": 0,
+    "lon": 0,
+    "population": 66205
+  },
+  {
+    "iso3": "DMN",
+    "name": "DMN",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "DNK",
+    "name": "Denmark",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "High income",
+    "whoRegion": "EURO",
+    "lat": 56.3,
+    "lon": 9.5,
+    "population": 5976992
+  },
+  {
+    "iso3": "DNS",
+    "name": "DNS",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "DOM",
+    "name": "Dominican Republic",
+    "region": "Latin America & Caribbean ",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "AMRO",
+    "lat": 18.7,
+    "lon": -70.2,
+    "population": 11427557
+  },
+  {
+    "iso3": "DSA",
+    "name": "DSA",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "DSF",
+    "name": "DSF",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "DSS",
+    "name": "DSS",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "DZA",
+    "name": "Algeria",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "AFRO",
+    "lat": 28.0,
+    "lon": 1.7,
+    "population": 46814308
+  },
+  {
+    "iso3": "EAP",
+    "name": "EAP",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 2141122258
+  },
+  {
+    "iso3": "EAR",
+    "name": "EAR",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 3552278604
+  },
+  {
+    "iso3": "EAS",
+    "name": "EAS",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 2388319494
+  },
+  {
+    "iso3": "ECA",
+    "name": "ECA",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 250281521
+  },
+  {
+    "iso3": "ECS",
+    "name": "ECS",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 928263208
+  },
+  {
+    "iso3": "ECU",
+    "name": "Ecuador",
+    "region": "Latin America & Caribbean ",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "AMRO",
+    "lat": -1.8,
+    "lon": -78.2,
+    "population": 18135478
+  },
+  {
+    "iso3": "EGY",
+    "name": "Egypt",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "EMRO",
+    "lat": 26.8,
+    "lon": 30.8,
+    "population": 116538258
+  },
+  {
+    "iso3": "EMU",
+    "name": "EMU",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 351161936
+  },
+  {
+    "iso3": "ERI",
+    "name": "Eritrea",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Low income",
+    "whoRegion": "AFRO",
+    "lat": 15.2,
+    "lon": 39.8,
+    "population": 3535603
+  },
+  {
+    "iso3": "ESP",
+    "name": "Spain",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "High income",
+    "whoRegion": "EURO",
+    "lat": 40.5,
+    "lon": -3.7,
+    "population": 48848840
+  },
+  {
+    "iso3": "EST",
+    "name": "Estonia",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "High income",
+    "whoRegion": "EURO",
+    "lat": 58.6,
+    "lon": 25.0,
+    "population": 1372341
+  },
+  {
+    "iso3": "ETH",
+    "name": "Ethiopia",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Not classified",
+    "whoRegion": "AFRO",
+    "lat": 9.1,
+    "lon": 40.5,
+    "population": 132059767
+  },
+  {
+    "iso3": "EUU",
+    "name": "EUU",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 450228188
+  },
+  {
+    "iso3": "FCS",
+    "name": "FCS",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 1081767572
+  },
+  {
+    "iso3": "FIN",
+    "name": "Finland",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "High income",
+    "whoRegion": "EURO",
+    "lat": 61.9,
+    "lon": 25.7,
+    "population": 5619911
+  },
+  {
+    "iso3": "FJI",
+    "name": "Fiji",
+    "region": "East Asia & Pacific",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "WPRO",
+    "lat": -17.7,
+    "lon": 178.1,
+    "population": 928784
+  },
+  {
+    "iso3": "FLK",
+    "name": "FLK",
+    "region": "",
+    "incomeGroup": "",
+    "whoRegion": "AMRO",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "FRA",
+    "name": "France",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "High income",
+    "whoRegion": "EURO",
+    "lat": 46.2,
+    "lon": 2.2,
+    "population": 68551653
+  },
+  {
+    "iso3": "FRO",
+    "name": "FRO",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "High income",
+    "whoRegion": "EURO",
+    "lat": 0,
+    "lon": 0,
+    "population": 54681
+  },
+  {
+    "iso3": "FSM",
+    "name": "FSM",
+    "region": "East Asia & Pacific",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "WPRO",
+    "lat": 0,
+    "lon": 0,
+    "population": 113160
+  },
+  {
+    "iso3": "FXS",
+    "name": "FXS",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "GAB",
+    "name": "Gabon",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "AFRO",
+    "lat": -0.8,
+    "lon": 11.6,
+    "population": 2538952
+  },
+  {
+    "iso3": "GBR",
+    "name": "United Kingdom",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "High income",
+    "whoRegion": "EURO",
+    "lat": 55.4,
+    "lon": -3.4,
+    "population": 69226000
+  },
+  {
+    "iso3": "GEO",
+    "name": "Georgia",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "EURO",
+    "lat": 42.3,
+    "lon": 43.4,
+    "population": 3699557
+  },
+  {
+    "iso3": "GHA",
+    "name": "Ghana",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "AFRO",
+    "lat": 7.9,
+    "lon": -1.0,
+    "population": 34427414
+  },
+  {
+    "iso3": "GIB",
+    "name": "GIB",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "High income",
+    "whoRegion": "EURO",
+    "lat": 0,
+    "lon": 0,
+    "population": 39329
+  },
+  {
+    "iso3": "GIN",
+    "name": "Guinea",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "AFRO",
+    "lat": 9.9,
+    "lon": -11.6,
+    "population": 14754785
+  },
+  {
+    "iso3": "GLP",
+    "name": "GLP",
+    "region": "",
+    "incomeGroup": "",
+    "whoRegion": "AMRO",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "GMB",
+    "name": "Gambia",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Low income",
+    "whoRegion": "AFRO",
+    "lat": 13.4,
+    "lon": -15.3,
+    "population": 2759988
+  },
+  {
+    "iso3": "GNB",
+    "name": "Guinea-Bissau",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Low income",
+    "whoRegion": "AFRO",
+    "lat": 11.8,
+    "lon": -15.2,
+    "population": 2201352
+  },
+  {
+    "iso3": "GNQ",
+    "name": "Equatorial Guinea",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "AFRO",
+    "lat": 1.7,
+    "lon": 10.3,
+    "population": 1892516
+  },
+  {
+    "iso3": "GRC",
+    "name": "Greece",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "High income",
+    "whoRegion": "EURO",
+    "lat": 39.1,
+    "lon": 21.8,
+    "population": 10405134
+  },
+  {
+    "iso3": "GRD",
+    "name": "GRD",
+    "region": "Latin America & Caribbean ",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "AMRO",
+    "lat": 0,
+    "lon": 0,
+    "population": 117207
+  },
+  {
+    "iso3": "GRL",
+    "name": "GRL",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "High income",
+    "whoRegion": "EURO",
+    "lat": 0,
+    "lon": 0,
+    "population": 56836
+  },
+  {
+    "iso3": "GTM",
+    "name": "Guatemala",
+    "region": "Latin America & Caribbean ",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "AMRO",
+    "lat": 15.8,
+    "lon": -90.2,
+    "population": 18406359
+  },
+  {
+    "iso3": "GUF",
+    "name": "GUF",
+    "region": "",
+    "incomeGroup": "",
+    "whoRegion": "AMRO",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "GUM",
+    "name": "GUM",
+    "region": "East Asia & Pacific",
+    "incomeGroup": "High income",
+    "whoRegion": "WPRO",
+    "lat": 0,
+    "lon": 0,
+    "population": 167777
+  },
+  {
+    "iso3": "GUY",
+    "name": "Guyana",
+    "region": "Latin America & Caribbean ",
+    "incomeGroup": "High income",
+    "whoRegion": "AMRO",
+    "lat": 5.0,
+    "lon": -58.9,
+    "population": 831087
+  },
+  {
+    "iso3": "HIC",
+    "name": "HIC",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "HKG",
+    "name": "HKG",
+    "region": "East Asia & Pacific",
+    "incomeGroup": "High income",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 7524100
+  },
+  {
+    "iso3": "HND",
+    "name": "Honduras",
+    "region": "Latin America & Caribbean ",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "AMRO",
+    "lat": 15.2,
+    "lon": -86.2,
+    "population": 10825703
+  },
+  {
+    "iso3": "HPC",
+    "name": "HPC",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 941413026
+  },
+  {
+    "iso3": "HRV",
+    "name": "Croatia",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "High income",
+    "whoRegion": "EURO",
+    "lat": 45.1,
+    "lon": 15.2,
+    "population": 3866200
+  },
+  {
+    "iso3": "HTI",
+    "name": "Haiti",
+    "region": "Latin America & Caribbean ",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "AMRO",
+    "lat": 19.1,
+    "lon": -72.3,
+    "population": 11772557
+  },
+  {
+    "iso3": "HUN",
+    "name": "Hungary",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "High income",
+    "whoRegion": "EURO",
+    "lat": 47.2,
+    "lon": 19.5,
+    "population": 9562065
+  },
+  {
+    "iso3": "IBB",
+    "name": "IBB",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "IBD",
+    "name": "IBD",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 4979421568
+  },
+  {
+    "iso3": "IBT",
+    "name": "IBT",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 6926222113
+  },
+  {
+    "iso3": "IDA",
+    "name": "IDA",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 1946800545
+  },
+  {
+    "iso3": "IDB",
+    "name": "IDB",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 676957651
+  },
+  {
+    "iso3": "IDN",
+    "name": "Indonesia",
+    "region": "East Asia & Pacific",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "WPRO",
+    "lat": -0.8,
+    "lon": 113.9,
+    "population": 283487931
+  },
+  {
+    "iso3": "IDX",
+    "name": "IDX",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 1269842894
+  },
+  {
+    "iso3": "IMN",
+    "name": "IMN",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "High income",
+    "whoRegion": "EURO",
+    "lat": 0,
+    "lon": 0,
+    "population": 84160
+  },
+  {
+    "iso3": "IND",
+    "name": "India",
+    "region": "South Asia",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "SEARO",
+    "lat": 20.6,
+    "lon": 79.0,
+    "population": 1450935791
+  },
+  {
+    "iso3": "INX",
+    "name": "INX",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "IRL",
+    "name": "Ireland",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "High income",
+    "whoRegion": "EURO",
+    "lat": 53.1,
+    "lon": -7.7,
+    "population": 5395790
+  },
+  {
+    "iso3": "IRN",
+    "name": "Iran",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "EMRO",
+    "lat": 32.4,
+    "lon": 53.7,
+    "population": 91567738
+  },
+  {
+    "iso3": "IRQ",
+    "name": "Iraq",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "EMRO",
+    "lat": 33.2,
+    "lon": 43.7,
+    "population": 46042015
+  },
+  {
+    "iso3": "ISL",
+    "name": "Iceland",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "High income",
+    "whoRegion": "EURO",
+    "lat": 65.0,
+    "lon": -19.0,
+    "population": 386506
+  },
+  {
+    "iso3": "ISR",
+    "name": "Israel",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "incomeGroup": "High income",
+    "whoRegion": "EURO",
+    "lat": 31.0,
+    "lon": 34.9,
+    "population": 9974400
+  },
+  {
+    "iso3": "ITA",
+    "name": "Italy",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "High income",
+    "whoRegion": "EURO",
+    "lat": 41.9,
+    "lon": 12.6,
+    "population": 58952704
+  },
+  {
+    "iso3": "JAM",
+    "name": "Jamaica",
+    "region": "Latin America & Caribbean ",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "AMRO",
+    "lat": 18.1,
+    "lon": -77.3,
+    "population": 2839175
+  },
+  {
+    "iso3": "JOR",
+    "name": "Jordan",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "EMRO",
+    "lat": 30.6,
+    "lon": 36.2,
+    "population": 11552876
+  },
+  {
+    "iso3": "JPN",
+    "name": "Japan",
+    "region": "East Asia & Pacific",
+    "incomeGroup": "High income",
+    "whoRegion": "WPRO",
+    "lat": 36.2,
+    "lon": 138.3,
+    "population": 123975371
+  },
+  {
+    "iso3": "KAZ",
+    "name": "Kazakhstan",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "EURO",
+    "lat": 48.0,
+    "lon": 68.0,
+    "population": 20592571
+  },
+  {
+    "iso3": "KEN",
+    "name": "Kenya",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "AFRO",
+    "lat": -0.0,
+    "lon": 37.9,
+    "population": 56432944
+  },
+  {
+    "iso3": "KGZ",
+    "name": "Kyrgyzstan",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "EURO",
+    "lat": 41.2,
+    "lon": 74.8,
+    "population": 7221868
+  },
+  {
+    "iso3": "KHM",
+    "name": "Cambodia",
+    "region": "East Asia & Pacific",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "WPRO",
+    "lat": 12.6,
+    "lon": 105.0,
+    "population": 17638801
+  },
+  {
+    "iso3": "KIR",
+    "name": "KIR",
+    "region": "East Asia & Pacific",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "WPRO",
+    "lat": 0,
+    "lon": 0,
+    "population": 134518
+  },
+  {
+    "iso3": "KNA",
+    "name": "KNA",
+    "region": "Latin America & Caribbean ",
+    "incomeGroup": "High income",
+    "whoRegion": "AMRO",
+    "lat": 0,
+    "lon": 0,
+    "population": 46843
+  },
+  {
+    "iso3": "KOR",
+    "name": "South Korea",
+    "region": "East Asia & Pacific",
+    "incomeGroup": "High income",
+    "whoRegion": "WPRO",
+    "lat": 35.9,
+    "lon": 127.8,
+    "population": 51751065
+  },
+  {
+    "iso3": "KWT",
+    "name": "Kuwait",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "incomeGroup": "High income",
+    "whoRegion": "EMRO",
+    "lat": 29.3,
+    "lon": 47.5,
+    "population": 4897263
+  },
+  {
+    "iso3": "LAC",
+    "name": "LAC",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 594158638
+  },
+  {
+    "iso3": "LAO",
+    "name": "Laos",
+    "region": "East Asia & Pacific",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "WPRO",
+    "lat": 19.9,
+    "lon": 102.5,
+    "population": 7769819
+  },
+  {
+    "iso3": "LBN",
+    "name": "Lebanon",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "EMRO",
+    "lat": 33.9,
+    "lon": 35.9,
+    "population": 5805962
+  },
+  {
+    "iso3": "LBR",
+    "name": "Liberia",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Low income",
+    "whoRegion": "AFRO",
+    "lat": 6.4,
+    "lon": -9.4,
+    "population": 5612817
+  },
+  {
+    "iso3": "LBY",
+    "name": "Libya",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "EMRO",
+    "lat": 26.3,
+    "lon": 17.2,
+    "population": 7381023
+  },
+  {
+    "iso3": "LCA",
+    "name": "LCA",
+    "region": "Latin America & Caribbean ",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "AMRO",
+    "lat": 0,
+    "lon": 0,
+    "population": 179744
+  },
+  {
+    "iso3": "LCN",
+    "name": "LCN",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 662186388
+  },
+  {
+    "iso3": "LDC",
+    "name": "LDC",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 1187777591
+  },
+  {
+    "iso3": "LIC",
+    "name": "LIC",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "LIE",
+    "name": "LIE",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "High income",
+    "whoRegion": "EURO",
+    "lat": 0,
+    "lon": 0,
+    "population": 40450
+  },
+  {
+    "iso3": "LKA",
+    "name": "Sri Lanka",
+    "region": "South Asia",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "SEARO",
+    "lat": 7.9,
+    "lon": 80.8,
+    "population": 21916000
+  },
+  {
+    "iso3": "LMC",
+    "name": "LMC",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "LMY",
+    "name": "LMY",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 6563501708
+  },
+  {
+    "iso3": "LSO",
+    "name": "Lesotho",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "AFRO",
+    "lat": -29.6,
+    "lon": 28.2,
+    "population": 2337423
+  },
+  {
+    "iso3": "LTE",
+    "name": "LTE",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 2328628339
+  },
+  {
+    "iso3": "LTU",
+    "name": "Lithuania",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "High income",
+    "whoRegion": "EURO",
+    "lat": 55.2,
+    "lon": 23.9,
+    "population": 2888278
+  },
+  {
+    "iso3": "LUX",
+    "name": "Luxembourg",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "High income",
+    "whoRegion": "EURO",
+    "lat": 49.8,
+    "lon": 6.1,
+    "population": 677012
+  },
+  {
+    "iso3": "LVA",
+    "name": "Latvia",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "High income",
+    "whoRegion": "EURO",
+    "lat": 56.9,
+    "lon": 24.1,
+    "population": 1866124
+  },
+  {
+    "iso3": "MAC",
+    "name": "MAC",
+    "region": "East Asia & Pacific",
+    "incomeGroup": "High income",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 687000
+  },
+  {
+    "iso3": "MAF",
+    "name": "MAF",
+    "region": "Latin America & Caribbean ",
+    "incomeGroup": "High income",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 26129
+  },
+  {
+    "iso3": "MAR",
+    "name": "Morocco",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "EMRO",
+    "lat": 31.8,
+    "lon": -7.1,
+    "population": 38081173
+  },
+  {
+    "iso3": "MCO",
+    "name": "MCO",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "High income",
+    "whoRegion": "EURO",
+    "lat": 0,
+    "lon": 0,
+    "population": 38631
+  },
+  {
+    "iso3": "MDA",
+    "name": "Moldova",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "EURO",
+    "lat": 47.4,
+    "lon": 28.4,
+    "population": 2402306
+  },
+  {
+    "iso3": "MDE",
+    "name": "MDE",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "MDG",
+    "name": "Madagascar",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Low income",
+    "whoRegion": "AFRO",
+    "lat": -18.8,
+    "lon": 46.9,
+    "population": 31964956
+  },
+  {
+    "iso3": "MDV",
+    "name": "Maldives",
+    "region": "South Asia",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "SEARO",
+    "lat": 3.2,
+    "lon": 73.2,
+    "population": 527799
+  },
+  {
+    "iso3": "MEA",
+    "name": "MEA",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 813146136
+  },
+  {
+    "iso3": "MEX",
+    "name": "Mexico",
+    "region": "Latin America & Caribbean ",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "AMRO",
+    "lat": 23.6,
+    "lon": -102.6,
+    "population": 130861007
+  },
+  {
+    "iso3": "MHL",
+    "name": "MHL",
+    "region": "East Asia & Pacific",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "WPRO",
+    "lat": 0,
+    "lon": 0,
+    "population": 37548
+  },
+  {
+    "iso3": "MIC",
+    "name": "MIC",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 5938893610
+  },
+  {
+    "iso3": "MKD",
+    "name": "North Macedonia",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "EURO",
+    "lat": 41.5,
+    "lon": 21.7,
+    "population": 1824359
+  },
+  {
+    "iso3": "MLI",
+    "name": "Mali",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Low income",
+    "whoRegion": "AFRO",
+    "lat": 17.6,
+    "lon": -4.0,
+    "population": 24478595
+  },
+  {
+    "iso3": "MLT",
+    "name": "Malta",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "incomeGroup": "High income",
+    "whoRegion": "EURO",
+    "lat": 35.9,
+    "lon": 14.4,
+    "population": 568847
+  },
+  {
+    "iso3": "MMR",
+    "name": "Myanmar",
+    "region": "East Asia & Pacific",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "SEARO",
+    "lat": 21.9,
+    "lon": 96.0,
+    "population": 54500091
+  },
+  {
+    "iso3": "MNA",
+    "name": "MNA",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 741690916
+  },
+  {
+    "iso3": "MNE",
+    "name": "Montenegro",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "EURO",
+    "lat": 42.7,
+    "lon": 19.4,
+    "population": 623525
+  },
+  {
+    "iso3": "MNG",
+    "name": "Mongolia",
+    "region": "East Asia & Pacific",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "WPRO",
+    "lat": 46.9,
+    "lon": 103.8,
+    "population": 3524788
+  },
+  {
+    "iso3": "MNP",
+    "name": "MNP",
+    "region": "East Asia & Pacific",
+    "incomeGroup": "High income",
+    "whoRegion": "WPRO",
+    "lat": 0,
+    "lon": 0,
+    "population": 44278
+  },
+  {
+    "iso3": "MOZ",
+    "name": "Mozambique",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Low income",
+    "whoRegion": "AFRO",
+    "lat": -18.7,
+    "lon": 35.5,
+    "population": 34631766
+  },
+  {
+    "iso3": "MRT",
+    "name": "Mauritania",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "AFRO",
+    "lat": 21.0,
+    "lon": -10.9,
+    "population": 5169395
+  },
+  {
+    "iso3": "MSR",
+    "name": "MSR",
+    "region": "",
+    "incomeGroup": "",
+    "whoRegion": "AMRO",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "MTQ",
+    "name": "MTQ",
+    "region": "",
+    "incomeGroup": "",
+    "whoRegion": "AMRO",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "MUS",
+    "name": "Mauritius",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "AFRO",
+    "lat": -20.3,
+    "lon": 57.6,
+    "population": 1245779
+  },
+  {
+    "iso3": "MWI",
+    "name": "Malawi",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Low income",
+    "whoRegion": "AFRO",
+    "lat": -13.3,
+    "lon": 34.3,
+    "population": 21655286
+  },
+  {
+    "iso3": "MYS",
+    "name": "Malaysia",
+    "region": "East Asia & Pacific",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "WPRO",
+    "lat": 4.2,
+    "lon": 101.9,
+    "population": 35557673
+  },
+  {
+    "iso3": "MYT",
+    "name": "Mayotte",
+    "region": "",
+    "incomeGroup": "",
+    "whoRegion": "AFRO",
+    "lat": -12.8,
+    "lon": 45.2,
+    "population": null
+  },
+  {
+    "iso3": "NAC",
+    "name": "NAC",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 381464223
+  },
+  {
+    "iso3": "NAF",
+    "name": "NAF",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "NAM",
+    "name": "Namibia",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "AFRO",
+    "lat": -22.6,
+    "lon": 17.1,
+    "population": 3030131
+  },
+  {
+    "iso3": "NCL",
+    "name": "NCL",
+    "region": "East Asia & Pacific",
+    "incomeGroup": "High income",
+    "whoRegion": "WPRO",
+    "lat": 0,
+    "lon": 0,
+    "population": 292639
+  },
+  {
+    "iso3": "NER",
+    "name": "Niger",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Low income",
+    "whoRegion": "AFRO",
+    "lat": 17.6,
+    "lon": 8.1,
+    "population": 27032412
+  },
+  {
+    "iso3": "NGA",
+    "name": "Nigeria",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "AFRO",
+    "lat": 9.1,
+    "lon": 8.7,
+    "population": 232679478
+  },
+  {
+    "iso3": "NIC",
+    "name": "Nicaragua",
+    "region": "Latin America & Caribbean ",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "AMRO",
+    "lat": 12.9,
+    "lon": -85.2,
+    "population": 6916140
+  },
+  {
+    "iso3": "NIU",
+    "name": "NIU",
+    "region": "",
+    "incomeGroup": "",
+    "whoRegion": "WPRO",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "NLD",
+    "name": "Netherlands",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "High income",
+    "whoRegion": "EURO",
+    "lat": 52.1,
+    "lon": 5.3,
+    "population": 17993485
+  },
+  {
+    "iso3": "NOR",
+    "name": "Norway",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "High income",
+    "whoRegion": "EURO",
+    "lat": 60.5,
+    "lon": 8.5,
+    "population": 5572279
+  },
+  {
+    "iso3": "NPL",
+    "name": "Nepal",
+    "region": "South Asia",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "SEARO",
+    "lat": 28.4,
+    "lon": 84.1,
+    "population": 29651054
+  },
+  {
+    "iso3": "NRS",
+    "name": "NRS",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "NRU",
+    "name": "NRU",
+    "region": "East Asia & Pacific",
+    "incomeGroup": "High income",
+    "whoRegion": "WPRO",
+    "lat": 0,
+    "lon": 0,
+    "population": 11947
+  },
+  {
+    "iso3": "NXS",
+    "name": "NXS",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "NZL",
+    "name": "New Zealand",
+    "region": "East Asia & Pacific",
+    "incomeGroup": "High income",
+    "whoRegion": "WPRO",
+    "lat": -40.9,
+    "lon": 174.9,
+    "population": 5287500
+  },
+  {
+    "iso3": "OED",
+    "name": "OED",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 1396877448
+  },
+  {
+    "iso3": "OMN",
+    "name": "Oman",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "incomeGroup": "High income",
+    "whoRegion": "EMRO",
+    "lat": 21.5,
+    "lon": 55.9,
+    "population": 5281538
+  },
+  {
+    "iso3": "OSS",
+    "name": "OSS",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 12931878
+  },
+  {
+    "iso3": "PAK",
+    "name": "Pakistan",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "EMRO",
+    "lat": 30.4,
+    "lon": 69.3,
+    "population": 251269164
+  },
+  {
+    "iso3": "PAN",
+    "name": "Panama",
+    "region": "Latin America & Caribbean ",
+    "incomeGroup": "High income",
+    "whoRegion": "AMRO",
+    "lat": 8.5,
+    "lon": -80.8,
+    "population": 4515577
+  },
+  {
+    "iso3": "PER",
+    "name": "Peru",
+    "region": "Latin America & Caribbean ",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "AMRO",
+    "lat": -9.2,
+    "lon": -75.0,
+    "population": 34217848
+  },
+  {
+    "iso3": "PHL",
+    "name": "Philippines",
+    "region": "East Asia & Pacific",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "WPRO",
+    "lat": 12.9,
+    "lon": 121.8,
+    "population": 115843670
+  },
+  {
+    "iso3": "PLW",
+    "name": "PLW",
+    "region": "East Asia & Pacific",
+    "incomeGroup": "High income",
+    "whoRegion": "WPRO",
+    "lat": 0,
+    "lon": 0,
+    "population": 17695
+  },
+  {
+    "iso3": "PNG",
+    "name": "Papua New Guinea",
+    "region": "East Asia & Pacific",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "WPRO",
+    "lat": -6.3,
+    "lon": 143.9,
+    "population": 10576502
+  },
+  {
+    "iso3": "POL",
+    "name": "Poland",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "High income",
+    "whoRegion": "EURO",
+    "lat": 51.9,
+    "lon": 19.1,
+    "population": 36559233
+  },
+  {
+    "iso3": "PRE",
+    "name": "PRE",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 1105951788
+  },
+  {
+    "iso3": "PRI",
+    "name": "PRI",
+    "region": "Latin America & Caribbean ",
+    "incomeGroup": "High income",
+    "whoRegion": "AMRO",
+    "lat": 0,
+    "lon": 0,
+    "population": 3203295
+  },
+  {
+    "iso3": "PRK",
+    "name": "PRK",
+    "region": "East Asia & Pacific",
+    "incomeGroup": "Low income",
+    "whoRegion": "SEARO",
+    "lat": 0,
+    "lon": 0,
+    "population": 26498823
+  },
+  {
+    "iso3": "PRT",
+    "name": "Portugal",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "High income",
+    "whoRegion": "EURO",
+    "lat": 39.4,
+    "lon": -8.2,
+    "population": 10694681
+  },
+  {
+    "iso3": "PRY",
+    "name": "Paraguay",
+    "region": "Latin America & Caribbean ",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "AMRO",
+    "lat": -23.4,
+    "lon": -58.4,
+    "population": 6929153
+  },
+  {
+    "iso3": "PSE",
+    "name": "Palestine",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "EMRO",
+    "lat": 31.9,
+    "lon": 35.2,
+    "population": 5289152
+  },
+  {
+    "iso3": "PSS",
+    "name": "PSS",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 2722467
+  },
+  {
+    "iso3": "PST",
+    "name": "PST",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 1128377826
+  },
+  {
+    "iso3": "PYF",
+    "name": "PYF",
+    "region": "East Asia & Pacific",
+    "incomeGroup": "High income",
+    "whoRegion": "WPRO",
+    "lat": 0,
+    "lon": 0,
+    "population": 281807
+  },
+  {
+    "iso3": "QAT",
+    "name": "Qatar",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "incomeGroup": "High income",
+    "whoRegion": "EMRO",
+    "lat": 25.4,
+    "lon": 51.2,
+    "population": 2857822
+  },
+  {
+    "iso3": "REU",
+    "name": "La R\u00e9union",
+    "region": "",
+    "incomeGroup": "",
+    "whoRegion": "AFRO",
+    "lat": -21.1,
+    "lon": 55.5,
+    "population": null
+  },
+  {
+    "iso3": "ROU",
+    "name": "Romania",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "High income",
+    "whoRegion": "EURO",
+    "lat": 45.9,
+    "lon": 25.0,
+    "population": 19051804
+  },
+  {
+    "iso3": "RRS",
+    "name": "RRS",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "RUS",
+    "name": "Russia",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "High income",
+    "whoRegion": "EURO",
+    "lat": 61.5,
+    "lon": 105.3,
+    "population": 143533851
+  },
+  {
+    "iso3": "RWA",
+    "name": "Rwanda",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Low income",
+    "whoRegion": "AFRO",
+    "lat": -1.9,
+    "lon": 29.9,
+    "population": 14256567
+  },
+  {
+    "iso3": "SAS",
+    "name": "SAS",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 1677384532
+  },
+  {
+    "iso3": "SAU",
+    "name": "Saudi Arabia",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "incomeGroup": "High income",
+    "whoRegion": "EMRO",
+    "lat": 23.9,
+    "lon": 45.1,
+    "population": 35300280
+  },
+  {
+    "iso3": "SDN",
+    "name": "Sudan",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Low income",
+    "whoRegion": "EMRO",
+    "lat": 12.9,
+    "lon": 30.2,
+    "population": 50448963
+  },
+  {
+    "iso3": "SEN",
+    "name": "Senegal",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "AFRO",
+    "lat": 14.5,
+    "lon": -14.5,
+    "population": 18501984
+  },
+  {
+    "iso3": "SGP",
+    "name": "Singapore",
+    "region": "East Asia & Pacific",
+    "incomeGroup": "High income",
+    "whoRegion": "WPRO",
+    "lat": 1.4,
+    "lon": 103.8,
+    "population": 6036860
+  },
+  {
+    "iso3": "SHN",
+    "name": "SHN",
+    "region": "",
+    "incomeGroup": "",
+    "whoRegion": "AFRO",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "SLB",
+    "name": "SLB",
+    "region": "East Asia & Pacific",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "WPRO",
+    "lat": 0,
+    "lon": 0,
+    "population": 819198
+  },
+  {
+    "iso3": "SLE",
+    "name": "Sierra Leone",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Low income",
+    "whoRegion": "AFRO",
+    "lat": 8.5,
+    "lon": -11.8,
+    "population": 8642022
+  },
+  {
+    "iso3": "SLV",
+    "name": "El Salvador",
+    "region": "Latin America & Caribbean ",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "AMRO",
+    "lat": 13.8,
+    "lon": -88.9,
+    "population": 6338193
+  },
+  {
+    "iso3": "SMR",
+    "name": "SMR",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "High income",
+    "whoRegion": "EURO",
+    "lat": 0,
+    "lon": 0,
+    "population": 33977
+  },
+  {
+    "iso3": "SOM",
+    "name": "Somalia",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Low income",
+    "whoRegion": "EMRO",
+    "lat": 5.2,
+    "lon": 46.2,
+    "population": 19009151
+  },
+  {
+    "iso3": "SPM",
+    "name": "SPM",
+    "region": "",
+    "incomeGroup": "",
+    "whoRegion": "AMRO",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "SRB",
+    "name": "Serbia",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "EURO",
+    "lat": 44.0,
+    "lon": 21.0,
+    "population": 6586476
+  },
+  {
+    "iso3": "SSA",
+    "name": "SSA",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 1158863843
+  },
+  {
+    "iso3": "SSD",
+    "name": "South Sudan",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Low income",
+    "whoRegion": "AFRO",
+    "lat": 6.9,
+    "lon": 31.3,
+    "population": 11943408
+  },
+  {
+    "iso3": "SSF",
+    "name": "SSF",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 1291044964
+  },
+  {
+    "iso3": "SST",
+    "name": "SST",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 20193405
+  },
+  {
+    "iso3": "STP",
+    "name": "STP",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "AFRO",
+    "lat": 0,
+    "lon": 0,
+    "population": 235536
+  },
+  {
+    "iso3": "SUR",
+    "name": "Suriname",
+    "region": "Latin America & Caribbean ",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "AMRO",
+    "lat": 3.9,
+    "lon": -56.0,
+    "population": 634431
+  },
+  {
+    "iso3": "SVK",
+    "name": "Slovakia",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "High income",
+    "whoRegion": "EURO",
+    "lat": 48.7,
+    "lon": 19.7,
+    "population": 5422069
+  },
+  {
+    "iso3": "SVN",
+    "name": "Slovenia",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "High income",
+    "whoRegion": "EURO",
+    "lat": 46.2,
+    "lon": 15.0,
+    "population": 2127400
+  },
+  {
+    "iso3": "SWE",
+    "name": "Sweden",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "High income",
+    "whoRegion": "EURO",
+    "lat": 60.1,
+    "lon": 18.6,
+    "population": 10569709
+  },
+  {
+    "iso3": "SWZ",
+    "name": "Eswatini",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "AFRO",
+    "lat": -26.5,
+    "lon": 31.5,
+    "population": 1242822
+  },
+  {
+    "iso3": "SXM",
+    "name": "SXM",
+    "region": "Latin America & Caribbean ",
+    "incomeGroup": "High income",
+    "whoRegion": "AMRO",
+    "lat": 0,
+    "lon": 0,
+    "population": 43350
+  },
+  {
+    "iso3": "SXZ",
+    "name": "SXZ",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "SYC",
+    "name": "SYC",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "High income",
+    "whoRegion": "AFRO",
+    "lat": 0,
+    "lon": 0,
+    "population": 121354
+  },
+  {
+    "iso3": "SYR",
+    "name": "Syria",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "incomeGroup": "Low income",
+    "whoRegion": "EMRO",
+    "lat": 35.0,
+    "lon": 38.0,
+    "population": 24672760
+  },
+  {
+    "iso3": "TCA",
+    "name": "TCA",
+    "region": "Latin America & Caribbean ",
+    "incomeGroup": "High income",
+    "whoRegion": "AMRO",
+    "lat": 0,
+    "lon": 0,
+    "population": 46535
+  },
+  {
+    "iso3": "TCD",
+    "name": "Chad",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Low income",
+    "whoRegion": "AFRO",
+    "lat": 15.5,
+    "lon": 18.7,
+    "population": 20299123
+  },
+  {
+    "iso3": "TEA",
+    "name": "TEA",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 2114653077
+  },
+  {
+    "iso3": "TEC",
+    "name": "TEC",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 459734030
+  },
+  {
+    "iso3": "TGO",
+    "name": "Togo",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Low income",
+    "whoRegion": "AFRO",
+    "lat": 8.6,
+    "lon": 1.2,
+    "population": 9515236
+  },
+  {
+    "iso3": "THA",
+    "name": "Thailand",
+    "region": "East Asia & Pacific",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "SEARO",
+    "lat": 15.9,
+    "lon": 100.9,
+    "population": 71668011
+  },
+  {
+    "iso3": "TJK",
+    "name": "Tajikistan",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "EURO",
+    "lat": 38.9,
+    "lon": 71.3,
+    "population": 10590927
+  },
+  {
+    "iso3": "TKL",
+    "name": "TKL",
+    "region": "",
+    "incomeGroup": "",
+    "whoRegion": "WPRO",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "TKM",
+    "name": "Turkmenistan",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "EURO",
+    "lat": 39.0,
+    "lon": 59.6,
+    "population": 7494498
+  },
+  {
+    "iso3": "TLA",
+    "name": "TLA",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 647003746
+  },
+  {
+    "iso3": "TLS",
+    "name": "Timor-Leste",
+    "region": "East Asia & Pacific",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "SEARO",
+    "lat": -8.9,
+    "lon": 126.0,
+    "population": 1400638
+  },
+  {
+    "iso3": "TMN",
+    "name": "TMN",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 736401764
+  },
+  {
+    "iso3": "TON",
+    "name": "TON",
+    "region": "East Asia & Pacific",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "WPRO",
+    "lat": 0,
+    "lon": 0,
+    "population": 104175
+  },
+  {
+    "iso3": "TSA",
+    "name": "TSA",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 1677384532
+  },
+  {
+    "iso3": "TSS",
+    "name": "TSS",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 1291044964
+  },
+  {
+    "iso3": "TTO",
+    "name": "Trinidad and Tobago",
+    "region": "Latin America & Caribbean ",
+    "incomeGroup": "High income",
+    "whoRegion": "AMRO",
+    "lat": 10.7,
+    "lon": -61.2,
+    "population": 1368333
+  },
+  {
+    "iso3": "TUN",
+    "name": "Tunisia",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "EMRO",
+    "lat": 33.9,
+    "lon": 9.5,
+    "population": 12277109
+  },
+  {
+    "iso3": "TUR",
+    "name": "Turkey",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "EURO",
+    "lat": 38.9,
+    "lon": 35.2,
+    "population": 85518661
+  },
+  {
+    "iso3": "TUV",
+    "name": "TUV",
+    "region": "East Asia & Pacific",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "WPRO",
+    "lat": 0,
+    "lon": 0,
+    "population": 9646
+  },
+  {
+    "iso3": "TZA",
+    "name": "Tanzania",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "AFRO",
+    "lat": -6.4,
+    "lon": 34.9,
+    "population": 68560157
+  },
+  {
+    "iso3": "UGA",
+    "name": "Uganda",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Low income",
+    "whoRegion": "AFRO",
+    "lat": 1.4,
+    "lon": 32.3,
+    "population": 50015092
+  },
+  {
+    "iso3": "UKR",
+    "name": "Ukraine",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "EURO",
+    "lat": 48.4,
+    "lon": 31.2,
+    "population": 37860221
+  },
+  {
+    "iso3": "UMC",
+    "name": "UMC",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "URY",
+    "name": "Uruguay",
+    "region": "Latin America & Caribbean ",
+    "incomeGroup": "High income",
+    "whoRegion": "AMRO",
+    "lat": -32.5,
+    "lon": -55.8,
+    "population": 3386588
+  },
+  {
+    "iso3": "USA",
+    "name": "United States",
+    "region": "North America",
+    "incomeGroup": "High income",
+    "whoRegion": "AMRO",
+    "lat": 37.1,
+    "lon": -95.7,
+    "population": 340110988
+  },
+  {
+    "iso3": "UZB",
+    "name": "Uzbekistan",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "EURO",
+    "lat": 41.4,
+    "lon": 64.6,
+    "population": 36361859
+  },
+  {
+    "iso3": "VCT",
+    "name": "VCT",
+    "region": "Latin America & Caribbean ",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "AMRO",
+    "lat": 0,
+    "lon": 0,
+    "population": 100616
+  },
+  {
+    "iso3": "VEN",
+    "name": "Venezuela",
+    "region": "Latin America & Caribbean ",
+    "incomeGroup": "Not classified",
+    "whoRegion": "AMRO",
+    "lat": 6.4,
+    "lon": -66.6,
+    "population": 28405543
+  },
+  {
+    "iso3": "VGB",
+    "name": "VGB",
+    "region": "Latin America & Caribbean ",
+    "incomeGroup": "High income",
+    "whoRegion": "AMRO",
+    "lat": 0,
+    "lon": 0,
+    "population": 39471
+  },
+  {
+    "iso3": "VIR",
+    "name": "VIR",
+    "region": "Latin America & Caribbean ",
+    "incomeGroup": "High income",
+    "whoRegion": "AMRO",
+    "lat": 0,
+    "lon": 0,
+    "population": 104377
+  },
+  {
+    "iso3": "VNM",
+    "name": "Vietnam",
+    "region": "East Asia & Pacific",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "WPRO",
+    "lat": 14.1,
+    "lon": 108.3,
+    "population": 100987686
+  },
+  {
+    "iso3": "VUT",
+    "name": "VUT",
+    "region": "East Asia & Pacific",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "WPRO",
+    "lat": 0,
+    "lon": 0,
+    "population": 327777
+  },
+  {
+    "iso3": "WLD",
+    "name": "WLD",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 8141808945
+  },
+  {
+    "iso3": "WLF",
+    "name": "WLF",
+    "region": "",
+    "incomeGroup": "",
+    "whoRegion": "WPRO",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "WSM",
+    "name": "WSM",
+    "region": "East Asia & Pacific",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "WPRO",
+    "lat": 0,
+    "lon": 0,
+    "population": 218019
+  },
+  {
+    "iso3": "XKX",
+    "name": "XKX",
+    "region": "Europe & Central Asia",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": 1594353
+  },
+  {
+    "iso3": "XZN",
+    "name": "XZN",
+    "region": "Aggregates",
+    "incomeGroup": "Aggregates",
+    "whoRegion": "",
+    "lat": 0,
+    "lon": 0,
+    "population": null
+  },
+  {
+    "iso3": "YEM",
+    "name": "Yemen",
+    "region": "Middle East, North Africa, Afghanistan & Pakistan",
+    "incomeGroup": "Low income",
+    "whoRegion": "EMRO",
+    "lat": 15.6,
+    "lon": 48.5,
+    "population": 40583164
+  },
+  {
+    "iso3": "ZAF",
+    "name": "South Africa",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Upper middle income",
+    "whoRegion": "AFRO",
+    "lat": -30.6,
+    "lon": 22.9,
+    "population": 64007187
+  },
+  {
+    "iso3": "ZMB",
+    "name": "Zambia",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "AFRO",
+    "lat": -13.1,
+    "lon": 28.6,
+    "population": 21314956
+  },
+  {
+    "iso3": "ZWE",
+    "name": "Zimbabwe",
+    "region": "Sub-Saharan Africa ",
+    "incomeGroup": "Lower middle income",
+    "whoRegion": "AFRO",
+    "lat": -19.0,
+    "lon": 29.2,
+    "population": 16634373
+  }
+]

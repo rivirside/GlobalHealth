@@ -96,6 +96,13 @@ export const DISEASE_CATEGORY_LABELS: Record<DiseaseCategory, string> = {
   other: "Other",
 };
 
+export interface IndicatorGroup {
+  key: string;
+  label: string;
+  color: string;
+  codes: string[];
+}
+
 export const CAPACITY_INDICATORS = [
   {
     code: "hospital_beds",
@@ -139,4 +146,102 @@ export const CAPACITY_INDICATORS = [
     benchmark: 86,
     benchmarkLabel: "WHO minimum: $86/capita",
   },
+  // Vaccination Coverage
+  {
+    code: "mcv1_coverage",
+    name: "Measles (MCV1)",
+    unit: "%",
+    benchmark: 95,
+    benchmarkLabel: "WHO target: 95%",
+  },
+  {
+    code: "mcv2_coverage",
+    name: "Measles 2nd Dose (MCV2)",
+    unit: "%",
+    benchmark: 95,
+    benchmarkLabel: "WHO target: 95%",
+  },
+  {
+    code: "pol3_coverage",
+    name: "Polio (Pol3)",
+    unit: "%",
+    benchmark: 90,
+    benchmarkLabel: "WHO target: 90%",
+  },
+  {
+    code: "hepb3_coverage",
+    name: "Hepatitis B (HepB3)",
+    unit: "%",
+    benchmark: 90,
+    benchmarkLabel: "WHO target: 90%",
+  },
+  {
+    code: "pcv3_coverage",
+    name: "Pneumococcal (PCV3)",
+    unit: "%",
+    benchmark: 90,
+    benchmarkLabel: "WHO target: 90%",
+  },
+  {
+    code: "bcg_coverage",
+    name: "BCG",
+    unit: "%",
+    benchmark: 90,
+    benchmarkLabel: "WHO target: 90%",
+  },
+  // Health Outcomes
+  {
+    code: "life_expectancy",
+    name: "Life Expectancy",
+    unit: "years",
+    benchmark: null,
+    benchmarkLabel: null,
+  },
+  {
+    code: "under5_mortality",
+    name: "Under-5 Mortality",
+    unit: "per 1,000 live births",
+    benchmark: 25,
+    benchmarkLabel: "SDG target: <25 per 1,000",
+  },
+  {
+    code: "maternal_mortality",
+    name: "Maternal Mortality Ratio",
+    unit: "per 100,000 live births",
+    benchmark: 70,
+    benchmarkLabel: "SDG target: <70 per 100,000",
+  },
 ] as const;
+
+export const INDICATOR_GROUPS: IndicatorGroup[] = [
+  {
+    key: "capacity",
+    label: "Health System Capacity",
+    color: "#3B82F6",
+    codes: ["hospital_beds", "physicians", "nurses", "uhc_index", "dtp3_coverage", "health_expenditure_pc"],
+  },
+  {
+    key: "vaccination",
+    label: "Vaccination Coverage",
+    color: "#8B5CF6",
+    codes: ["mcv1_coverage", "mcv2_coverage", "pol3_coverage", "hepb3_coverage", "pcv3_coverage", "bcg_coverage"],
+  },
+  {
+    key: "wash",
+    label: "Water, Sanitation & Hygiene",
+    color: "#06B6D4",
+    codes: ["basic_water", "basic_sanitation", "safe_water", "safe_sanitation"],
+  },
+  {
+    key: "outcomes",
+    label: "Health Outcomes",
+    color: "#10B981",
+    codes: ["life_expectancy", "under5_mortality", "maternal_mortality"],
+  },
+  {
+    key: "demographics",
+    label: "Demographics",
+    color: "#6B7280",
+    codes: ["population", "population_density", "population_65plus", "urban_population", "gdp_per_capita", "health_expenditure_gdp"],
+  },
+];

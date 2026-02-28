@@ -4,8 +4,8 @@ import { CapacitySection } from "./CapacitySection";
 import { ReadinessScoreBadge } from "@/components/ReadinessScoreBadge";
 import { PreparednessRadar } from "@/components/PreparednessRadar";
 import { PrintButton } from "@/components/PrintButton";
-import { DISEASE_CATEGORY_COLORS, DISEASE_CATEGORY_LABELS } from "@/types";
-import type { DiseaseCategory } from "@/types";
+import { DISEASE_CATEGORY_COLORS, DISEASE_CATEGORY_LABELS, INDICATOR_GROUPS } from "@/types";
+import type { DiseaseCategory, CapacityIndicator } from "@/types";
 
 interface Props {
   params: Promise<{ iso3: string }>;
@@ -59,9 +59,11 @@ export default async function CountryProfilePage({ params }: Props) {
     );
   }
 
-  // Separate indicators into ones with benchmarks (capacity) and context (no benchmark)
-  const capacityIndicators = capacity.indicators.filter((i) => i.benchmark !== null);
-  const contextIndicators = capacity.indicators.filter((i) => i.benchmark === null);
+  // Group indicators by category
+  const indicatorsByCode = new Map<string, CapacityIndicator>();
+  for (const ind of capacity.indicators) {
+    indicatorsByCode.set(ind.code, ind);
+  }
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-8">
@@ -100,42 +102,49 @@ export default async function CountryProfilePage({ params }: Props) {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-        {/* Left: Health Capacity */}
+        {/* Left: Grouped Indicators */}
         <div className="lg:col-span-2 space-y-8">
-          {/* Capacity Indicators with benchmarks */}
-          <section>
-            <h2 className="text-lg font-semibold text-gray-900 mb-4 flex items-center gap-2">
-              <span className="w-1 h-5 bg-blue-500 rounded-full" />
-              Health System Capacity
-            </h2>
-            <CapacitySection indicators={capacityIndicators} />
-          </section>
+          {INDICATOR_GROUPS.map((group) => {
+            const groupIndicators = group.codes
+              .map((code) => indicatorsByCode.get(code))
+              .filter((ind): ind is CapacityIndicator => ind !== undefined);
 
-          {/* Context indicators */}
-          {contextIndicators.length > 0 && (
-            <section>
-              <h2 className="text-lg font-semibold text-gray-900 mb-4 flex items-center gap-2">
-                <span className="w-1 h-5 bg-gray-400 rounded-full" />
-                Country Context
-              </h2>
-              <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
-                {contextIndicators.map((ind) => (
-                  <div
-                    key={ind.code}
-                    className="bg-white border border-gray-200 rounded-lg p-4"
-                  >
-                    <p className="text-xs text-gray-500 mb-1">{ind.name}</p>
-                    <p className="text-lg font-semibold font-mono text-gray-900">
-                      {formatContextValue(ind.value, ind.unit)}
-                    </p>
-                    {ind.year && (
-                      <p className="text-xs text-gray-400 mt-1">{ind.year}</p>
-                    )}
+            if (groupIndicators.length === 0) return null;
+
+            const hasBenchmarks = groupIndicators.some((i) => i.benchmark !== null);
+
+            return (
+              <section key={group.key}>
+                <h2 className="text-lg font-semibold text-gray-900 mb-4 flex items-center gap-2">
+                  <span
+                    className="w-1 h-5 rounded-full"
+                    style={{ backgroundColor: group.color }}
+                  />
+                  {group.label}
+                </h2>
+                {hasBenchmarks ? (
+                  <CapacitySection indicators={groupIndicators} />
+                ) : (
+                  <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+                    {groupIndicators.map((ind) => (
+                      <div
+                        key={ind.code}
+                        className="bg-white border border-gray-200 rounded-lg p-4"
+                      >
+                        <p className="text-xs text-gray-500 mb-1">{ind.name}</p>
+                        <p className="text-lg font-semibold font-mono text-gray-900">
+                          {formatContextValue(ind.value, ind.unit)}
+                        </p>
+                        {ind.year && (
+                          <p className="text-xs text-gray-400 mt-1">{ind.year}</p>
+                        )}
+                      </div>
+                    ))}
                   </div>
-                ))}
-              </div>
-            </section>
-          )}
+                )}
+              </section>
+            );
+          })}
 
           {/* Preparedness Indices */}
           {countryIndices.length > 0 && (

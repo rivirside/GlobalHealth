@@ -22,9 +22,13 @@ export function CapacitySection({ indicators }: Props) {
   );
 }
 
+// Indicators where lower values are better (e.g., mortality rates)
+const INVERSE_INDICATORS = new Set(["under5_mortality", "maternal_mortality"]);
+
 function CapacityRow({ indicator }: { indicator: CapacityIndicator }) {
-  const { name, value, benchmark, benchmarkLabel, unit, year, source } =
+  const { name, value, benchmark, benchmarkLabel, unit, year, source, code } =
     indicator;
+  const isInverse = INVERSE_INDICATORS.has(code);
 
   if (value === null) {
     return (
@@ -38,8 +42,17 @@ function CapacityRow({ indicator }: { indicator: CapacityIndicator }) {
     );
   }
 
-  const ratio = benchmark ? value / benchmark : 0;
-  const percentage = benchmark ? Math.min(ratio * 100, 100) : 0;
+  // For inverse indicators (lower = better), invert the ratio logic
+  const ratio = benchmark
+    ? isInverse
+      ? benchmark / Math.max(value, 0.01)
+      : value / benchmark
+    : 0;
+  const percentage = benchmark
+    ? isInverse
+      ? Math.min((1 - Math.min(value / (benchmark * 3), 1)) * 100, 100)
+      : Math.min(ratio * 100, 100)
+    : 0;
   const status = getStatus(ratio);
   const barColor =
     status === "good"
@@ -49,10 +62,10 @@ function CapacityRow({ indicator }: { indicator: CapacityIndicator }) {
         : "bg-red-500";
   const statusText =
     status === "good"
-      ? "Meets benchmark"
+      ? isInverse ? "Below threshold" : "Meets benchmark"
       : status === "warning"
-        ? "Below benchmark"
-        : "Far below benchmark";
+        ? isInverse ? "Above threshold" : "Below benchmark"
+        : isInverse ? "Far above threshold" : "Far below benchmark";
   const statusDot =
     status === "good"
       ? "bg-emerald-500"
@@ -108,7 +121,15 @@ function formatValue(value: number, unit: string): string {
   if (unit === "% of GDP") return `${value.toFixed(1)}%`;
   if (unit === "USD per capita") return `$${Math.round(value).toLocaleString()}`;
   if (unit === "USD") return `$${Math.round(value).toLocaleString()}`;
-  if (unit === "people") return Math.round(value).toLocaleString();
+  if (unit === "people") {
+    if (value >= 1_000_000) return `${(value / 1_000_000).toFixed(1)}M`;
+    if (value >= 1_000) return `${(value / 1_000).toFixed(0)}K`;
+    return Math.round(value).toLocaleString();
+  }
+  if (unit === "years") return value.toFixed(1);
+  if (unit === "per km²") return Math.round(value).toLocaleString();
+  if (unit.includes("per 1,000")) return value.toFixed(1);
+  if (unit.includes("per 100,000")) return Math.round(value).toLocaleString();
   if (unit.includes("index")) return value.toFixed(0);
   return value.toFixed(1);
 }

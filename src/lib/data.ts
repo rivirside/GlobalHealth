@@ -67,3 +67,52 @@ export function getBorders(): Record<string, string[]> {
     return {};
   }
 }
+
+export interface DiseaseProfile {
+  slug: string;
+  name: string;
+  category: string;
+  outbreakCount: number;
+  affectedCountries: string[];
+  countryCount: number;
+  totalCases: number | null;
+  totalDeaths: number | null;
+  firstReport: string | null;
+  lastReport: string | null;
+  transmission: string | null;
+  incubation: string | null;
+  symptoms: string | null;
+  factSheet: string | null;
+}
+
+export function getDiseases(): DiseaseProfile[] {
+  try {
+    return readJson<DiseaseProfile[]>("diseases.json");
+  } catch {
+    return [];
+  }
+}
+
+export interface RegionProfile {
+  code: string;
+  name: string;
+  shortName: string;
+  description: string;
+  countryCount: number;
+  countries: { iso3: string; name: string }[];
+  outbreakCount: number;
+  activeOutbreaks: number;
+  affectedCountries: string[];
+  affectedCountryCount: number;
+  avgReadiness: number | null;
+  readinessScoreCount: number;
+  topDiseases: { name: string; count: number }[];
+}
+
+export function getRegions(): RegionProfile[] {
+  try {
+    return readJson<RegionProfile[]>("regions.json");
+  } catch {
+    return [];
+  }
+}

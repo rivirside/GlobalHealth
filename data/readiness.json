@@ -11,7 +11,7 @@
       "health_expenditure_pc": 8004.17
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "ERI": {
     "iso3": "ERI",
@@ -25,7 +25,7 @@
       "health_expenditure_pc": 28.3
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "BEL": {
     "iso3": "BEL",
@@ -39,7 +39,7 @@
       "health_expenditure_pc": 5931.01
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "LTU": {
     "iso3": "LTU",
@@ -53,7 +53,7 @@
       "health_expenditure_pc": 2232.48
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "ECU": {
     "iso3": "ECU",
@@ -67,7 +67,7 @@
       "health_expenditure_pc": 509.49
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "AND": {
     "iso3": "AND",
@@ -81,7 +81,7 @@
       "health_expenditure_pc": 3605.2
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "SUR": {
     "iso3": "SUR",
@@ -95,7 +95,7 @@
       "health_expenditure_pc": 297.05
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "MNG": {
     "iso3": "MNG",
@@ -109,7 +109,7 @@
       "health_expenditure_pc": 359.61
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "LVA": {
     "iso3": "LVA",
@@ -123,7 +123,7 @@
       "health_expenditure_pc": 1645.42
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "CHN": {
     "iso3": "CHN",
@@ -137,7 +137,7 @@
       "health_expenditure_pc": 763.38
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "TGO": {
     "iso3": "TGO",
@@ -151,7 +151,7 @@
       "health_expenditure_pc": 59.61
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "ROU": {
     "iso3": "ROU",
@@ -165,7 +165,7 @@
       "health_expenditure_pc": 1051.0
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "TKM": {
     "iso3": "TKM",
@@ -179,7 +179,7 @@
       "health_expenditure_pc": 581.38
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "BGD": {
     "iso3": "BGD",
@@ -193,7 +193,7 @@
       "health_expenditure_pc": 53.46
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "MDA": {
     "iso3": "MDA",
@@ -207,7 +207,7 @@
       "health_expenditure_pc": 451.73
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "KAZ": {
     "iso3": "KAZ",
@@ -221,7 +221,7 @@
       "health_expenditure_pc": 489.71
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "BRA": {
     "iso3": "BRA",
@@ -235,7 +235,7 @@
       "health_expenditure_pc": 1009.84
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "MLT": {
     "iso3": "MLT",
@@ -249,7 +249,7 @@
       "health_expenditure_pc": 3623.46
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "ALB": {
     "iso3": "ALB",
@@ -263,7 +263,7 @@
       "health_expenditure_pc": 590.63
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "NZL": {
     "iso3": "NZL",
@@ -277,7 +277,7 @@
       "health_expenditure_pc": 5022.03
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "IND": {
     "iso3": "IND",
@@ -291,7 +291,7 @@
       "health_expenditure_pc": 84.69
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "SYR": {
     "iso3": "SYR",
@@ -305,7 +305,7 @@
       "health_expenditure_pc": 33.34
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "SDN": {
     "iso3": "SDN",
@@ -319,7 +319,7 @@
       "health_expenditure_pc": 21.08
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "PRT": {
     "iso3": "PRT",
@@ -333,7 +333,7 @@
       "health_expenditure_pc": 2971.04
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "MRT": {
     "iso3": "MRT",
@@ -347,7 +347,7 @@
       "health_expenditure_pc": 92.11
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "LBY": {
     "iso3": "LBY",
@@ -361,7 +361,7 @@
       "health_expenditure_pc": 470.4
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "CHL": {
     "iso3": "CHL",
@@ -375,7 +375,7 @@
       "health_expenditure_pc": 1759.71
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "PER": {
     "iso3": "PER",
@@ -389,7 +389,7 @@
       "health_expenditure_pc": 445.53
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "FIN": {
     "iso3": "FIN",
@@ -403,7 +403,7 @@
       "health_expenditure_pc": 5515.4
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "GUY": {
     "iso3": "GUY",
@@ -417,7 +417,7 @@
       "health_expenditure_pc": 505.03
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "MLI": {
     "iso3": "MLI",
@@ -431,7 +431,7 @@
       "health_expenditure_pc": 33.98
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "ISR": {
     "iso3": "ISR",
@@ -445,7 +445,7 @@
       "health_expenditure_pc": 3927.7
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "CUB": {
     "iso3": "CUB",
@@ -459,7 +459,7 @@
       "health_expenditure_pc": 1199.35
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "DOM": {
     "iso3": "DOM",
@@ -473,7 +473,7 @@
       "health_expenditure_pc": 488.87
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "SYC": {
     "iso3": "SYC",
@@ -487,7 +487,7 @@
       "health_expenditure_pc": 766.29
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "CZE": {
     "iso3": "CZE",
@@ -501,7 +501,7 @@
       "health_expenditure_pc": 2692.76
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "MYS": {
     "iso3": "MYS",
@@ -515,7 +515,7 @@
       "health_expenditure_pc": 450.34
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "CRI": {
     "iso3": "CRI",
@@ -529,7 +529,7 @@
       "health_expenditure_pc": 1163.3
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "UKR": {
     "iso3": "UKR",
@@ -543,7 +543,7 @@
       "health_expenditure_pc": 369.9
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "FJI": {
     "iso3": "FJI",
@@ -557,7 +557,7 @@
       "health_expenditure_pc": 212.89
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "PAN": {
     "iso3": "PAN",
@@ -571,7 +571,7 @@
       "health_expenditure_pc": 1557.81
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "KHM": {
     "iso3": "KHM",
@@ -585,7 +585,7 @@
       "health_expenditure_pc": 114.56
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "NPL": {
     "iso3": "NPL",
@@ -599,7 +599,7 @@
       "health_expenditure_pc": 83.96
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "KOR": {
     "iso3": "KOR",
@@ -613,7 +613,7 @@
       "health_expenditure_pc": 3136.79
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "TJK": {
     "iso3": "TJK",
@@ -627,7 +627,7 @@
       "health_expenditure_pc": 85.15
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "MMR": {
     "iso3": "MMR",
@@ -641,7 +641,7 @@
       "health_expenditure_pc": 56.19
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "DZA": {
     "iso3": "DZA",
@@ -655,7 +655,7 @@
       "health_expenditure_pc": 233.38
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "JPN": {
     "iso3": "JPN",
@@ -669,7 +669,7 @@
       "health_expenditure_pc": 3638.19
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "BRN": {
     "iso3": "BRN",
@@ -683,7 +683,7 @@
       "health_expenditure_pc": 733.01
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "MDG": {
     "iso3": "MDG",
@@ -697,7 +697,7 @@
       "health_expenditure_pc": 17.44
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "EGY": {
     "iso3": "EGY",
@@ -711,7 +711,7 @@
       "health_expenditure_pc": 141.41
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "MAR": {
     "iso3": "MAR",
@@ -725,7 +725,7 @@
       "health_expenditure_pc": 232.25
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "THA": {
     "iso3": "THA",
@@ -739,7 +739,7 @@
       "health_expenditure_pc": 326.5
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "AFG": {
     "iso3": "AFG",
@@ -753,7 +753,7 @@
       "health_expenditure_pc": 59.07
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "BRB": {
     "iso3": "BRB",
@@ -767,7 +767,7 @@
       "health_expenditure_pc": 1286.48
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "SVK": {
     "iso3": "SVK",
@@ -781,7 +781,7 @@
       "health_expenditure_pc": 1813.47
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "HRV": {
     "iso3": "HRV",
@@ -795,7 +795,7 @@
       "health_expenditure_pc": 1548.34
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "ARM": {
     "iso3": "ARM",
@@ -809,7 +809,7 @@
       "health_expenditure_pc": 766.96
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "LAO": {
     "iso3": "LAO",
@@ -823,7 +823,7 @@
       "health_expenditure_pc": 27.42
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "JAM": {
     "iso3": "JAM",
@@ -837,7 +837,7 @@
       "health_expenditure_pc": 520.16
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "SWE": {
     "iso3": "SWE",
@@ -851,7 +851,7 @@
       "health_expenditure_pc": 6484.76
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "BHS": {
     "iso3": "BHS",
@@ -865,7 +865,7 @@
       "health_expenditure_pc": 2262.33
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "ARE": {
     "iso3": "ARE",
@@ -879,7 +879,7 @@
       "health_expenditure_pc": 2401.52
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "QAT": {
     "iso3": "QAT",
@@ -893,7 +893,7 @@
       "health_expenditure_pc": 1804.35
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "GBR": {
     "iso3": "GBR",
@@ -907,7 +907,7 @@
       "health_expenditure_pc": 5860.24
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "ATG": {
     "iso3": "ATG",
@@ -921,7 +921,7 @@
       "health_expenditure_pc": 841.25
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "YEM": {
     "iso3": "YEM",
@@ -935,7 +935,7 @@
       "health_expenditure_pc": 47.78
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "ISL": {
     "iso3": "ISL",
@@ -949,7 +949,7 @@
       "health_expenditure_pc": 7641.57
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "SOM": {
     "iso3": "SOM",
@@ -963,7 +963,7 @@
       "health_expenditure_pc": 22.37
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "PAK": {
     "iso3": "PAK",
@@ -977,7 +977,7 @@
       "health_expenditure_pc": 30.49
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "VEN": {
     "iso3": "VEN",
@@ -991,7 +991,7 @@
       "health_expenditure_pc": 185.99
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "LKA": {
     "iso3": "LKA",
@@ -1005,7 +1005,7 @@
       "health_expenditure_pc": 134.24
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "TUN": {
     "iso3": "TUN",
@@ -1019,7 +1019,7 @@
       "health_expenditure_pc": 317.71
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "FRA": {
     "iso3": "FRA",
@@ -1033,7 +1033,7 @@
       "health_expenditure_pc": 5327.43
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "MKD": {
     "iso3": "MKD",
@@ -1047,7 +1047,7 @@
       "health_expenditure_pc": 639.42
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "RUS": {
     "iso3": "RUS",
@@ -1061,7 +1061,7 @@
       "health_expenditure_pc": 1003.33
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "UZB": {
     "iso3": "UZB",
@@ -1075,7 +1075,7 @@
       "health_expenditure_pc": 192.12
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "SLE": {
     "iso3": "SLE",
@@ -1089,7 +1089,7 @@
       "health_expenditure_pc": 35.76
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "LBN": {
     "iso3": "LBN",
@@ -1103,7 +1103,7 @@
       "health_expenditure_pc": 260.81
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "MUS": {
     "iso3": "MUS",
@@ -1117,7 +1117,7 @@
       "health_expenditure_pc": 616.21
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "NLD": {
     "iso3": "NLD",
@@ -1131,7 +1131,7 @@
       "health_expenditure_pc": 6845.14
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "USA": {
     "iso3": "USA",
@@ -1145,7 +1145,7 @@
       "health_expenditure_pc": 13473.19
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "PSE": {
     "iso3": "PSE",
@@ -1157,7 +1157,7 @@
       "health_expenditure_pc": 345.68
     },
     "indicatorsUsed": 4,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "VCT": {
     "iso3": "VCT",
@@ -1171,7 +1171,7 @@
       "health_expenditure_pc": 469.21
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "BIH": {
     "iso3": "BIH",
@@ -1185,7 +1185,7 @@
       "health_expenditure_pc": 772.89
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "OMN": {
     "iso3": "OMN",
@@ -1199,7 +1199,7 @@
       "health_expenditure_pc": 732.04
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "AUS": {
     "iso3": "AUS",
@@ -1213,7 +1213,7 @@
       "health_expenditure_pc": 6980.39
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "GRD": {
     "iso3": "GRD",
@@ -1227,7 +1227,7 @@
       "health_expenditure_pc": 526.39
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "BHR": {
     "iso3": "BHR",
@@ -1241,7 +1241,7 @@
       "health_expenditure_pc": 1175.82
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "LUX": {
     "iso3": "LUX",
@@ -1255,7 +1255,7 @@
       "health_expenditure_pc": 8169.91
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "DEU": {
     "iso3": "DEU",
@@ -1269,7 +1269,7 @@
       "health_expenditure_pc": 6849.26
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "SGP": {
     "iso3": "SGP",
@@ -1283,7 +1283,7 @@
       "health_expenditure_pc": 3921.6
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "GRC": {
     "iso3": "GRC",
@@ -1297,7 +1297,7 @@
       "health_expenditure_pc": 1962.6
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "EST": {
     "iso3": "EST",
@@ -1311,7 +1311,7 @@
       "health_expenditure_pc": 2437.84
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "SAU": {
     "iso3": "SAU",
@@ -1325,7 +1325,7 @@
       "health_expenditure_pc": 1825.25
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "AZE": {
     "iso3": "AZE",
@@ -1339,7 +1339,7 @@
       "health_expenditure_pc": 299.81
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "DJI": {
     "iso3": "DJI",
@@ -1353,7 +1353,7 @@
       "health_expenditure_pc": 77.57
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "SLV": {
     "iso3": "SLV",
@@ -1367,7 +1367,7 @@
       "health_expenditure_pc": 500.69
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "AUT": {
     "iso3": "AUT",
@@ -1381,7 +1381,7 @@
       "health_expenditure_pc": 6739.31
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "SVN": {
     "iso3": "SVN",
@@ -1395,7 +1395,7 @@
       "health_expenditure_pc": 3370.53
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "JOR": {
     "iso3": "JOR",
@@ -1409,7 +1409,7 @@
       "health_expenditure_pc": 342.1
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "MDV": {
     "iso3": "MDV",
@@ -1423,7 +1423,7 @@
       "health_expenditure_pc": 1159.03
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "PRY": {
     "iso3": "PRY",
@@ -1437,7 +1437,7 @@
       "health_expenditure_pc": 526.51
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "NOR": {
     "iso3": "NOR",
@@ -1451,7 +1451,7 @@
       "health_expenditure_pc": 8296.36
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "HUN": {
     "iso3": "HUN",
@@ -1465,7 +1465,7 @@
       "health_expenditure_pc": 1419.87
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "NER": {
     "iso3": "NER",
@@ -1479,7 +1479,7 @@
       "health_expenditure_pc": 26.01
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "NRU": {
     "iso3": "NRU",
@@ -1493,7 +1493,7 @@
       "health_expenditure_pc": 2292.37
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "KNA": {
     "iso3": "KNA",
@@ -1507,7 +1507,7 @@
       "health_expenditure_pc": 1294.88
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "COK": {
     "iso3": "COK",
@@ -1520,7 +1520,7 @@
       "dtp3_coverage": 75.0
     },
     "indicatorsUsed": 5,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "POL": {
     "iso3": "POL",
@@ -1534,7 +1534,7 @@
       "health_expenditure_pc": 2014.13
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "TUR": {
     "iso3": "TUR",
@@ -1548,7 +1548,7 @@
       "health_expenditure_pc": 547.81
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "MOZ": {
     "iso3": "MOZ",
@@ -1562,7 +1562,7 @@
       "health_expenditure_pc": 52.96
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "SRB": {
     "iso3": "SRB",
@@ -1576,7 +1576,7 @@
       "health_expenditure_pc": 983.69
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "GEO": {
     "iso3": "GEO",
@@ -1590,7 +1590,7 @@
       "health_expenditure_pc": 554.32
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "BLZ": {
     "iso3": "BLZ",
@@ -1604,7 +1604,7 @@
       "health_expenditure_pc": 309.41
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "CHE": {
     "iso3": "CHE",
@@ -1618,7 +1618,7 @@
       "health_expenditure_pc": 11783.67
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "GTM": {
     "iso3": "GTM",
@@ -1632,7 +1632,7 @@
       "health_expenditure_pc": 392.01
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "KWT": {
     "iso3": "KWT",
@@ -1646,7 +1646,7 @@
       "health_expenditure_pc": 1679.12
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "MEX": {
     "iso3": "MEX",
@@ -1660,7 +1660,7 @@
       "health_expenditure_pc": 760.99
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "LBR": {
     "iso3": "LBR",
@@ -1674,7 +1674,7 @@
       "health_expenditure_pc": 103.94
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "BOL": {
     "iso3": "BOL",
@@ -1688,7 +1688,7 @@
       "health_expenditure_pc": 255.04
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "CYP": {
     "iso3": "CYP",
@@ -1702,7 +1702,7 @@
       "health_expenditure_pc": 2899.36
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "KGZ": {
     "iso3": "KGZ",
@@ -1716,7 +1716,7 @@
       "health_expenditure_pc": 96.65
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "BTN": {
     "iso3": "BTN",
@@ -1730,7 +1730,7 @@
       "health_expenditure_pc": 162.2
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "ARG": {
     "iso3": "ARG",
@@ -1744,7 +1744,7 @@
       "health_expenditure_pc": 1456.99
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "GMB": {
     "iso3": "GMB",
@@ -1758,7 +1758,7 @@
       "health_expenditure_pc": 25.74
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "MNE": {
     "iso3": "MNE",
@@ -1772,7 +1772,7 @@
       "health_expenditure_pc": 1147.7
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "CAF": {
     "iso3": "CAF",
@@ -1786,7 +1786,7 @@
       "health_expenditure_pc": 53.81
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "BWA": {
     "iso3": "BWA",
@@ -1800,7 +1800,7 @@
       "health_expenditure_pc": 489.6
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "CAN": {
     "iso3": "CAN",
@@ -1814,7 +1814,7 @@
       "health_expenditure_pc": 6377.97
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "IDN": {
     "iso3": "IDN",
@@ -1828,7 +1828,7 @@
       "health_expenditure_pc": 131.78
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "BDI": {
     "iso3": "BDI",
@@ -1842,7 +1842,7 @@
       "health_expenditure_pc": 28.14
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "PHL": {
     "iso3": "PHL",
@@ -1856,7 +1856,7 @@
       "health_expenditure_pc": 194.05
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "URY": {
     "iso3": "URY",
@@ -1870,7 +1870,7 @@
       "health_expenditure_pc": 2076.09
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "IRQ": {
     "iso3": "IRQ",
@@ -1884,7 +1884,7 @@
       "health_expenditure_pc": 333.29
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "SMR": {
     "iso3": "SMR",
@@ -1898,7 +1898,7 @@
       "health_expenditure_pc": 3923.52
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "DMA": {
     "iso3": "DMA",
@@ -1912,7 +1912,7 @@
       "health_expenditure_pc": 492.45
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "ITA": {
     "iso3": "ITA",
@@ -1926,7 +1926,7 @@
       "health_expenditure_pc": 3397.69
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "ZAF": {
     "iso3": "ZAF",
@@ -1940,7 +1940,7 @@
       "health_expenditure_pc": 536.59
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "PNG": {
     "iso3": "PNG",
@@ -1954,7 +1954,7 @@
       "health_expenditure_pc": 85.15
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "GNQ": {
     "iso3": "GNQ",
@@ -1968,7 +1968,7 @@
       "health_expenditure_pc": 233.68
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "TZA": {
     "iso3": "TZA",
@@ -1982,7 +1982,7 @@
       "health_expenditure_pc": 36.26
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "ESP": {
     "iso3": "ESP",
@@ -1996,7 +1996,7 @@
       "health_expenditure_pc": 3106.62
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "BEN": {
     "iso3": "BEN",
@@ -2010,7 +2010,7 @@
       "health_expenditure_pc": 46.53
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "IRL": {
     "iso3": "IRL",
@@ -2024,7 +2024,7 @@
       "health_expenditure_pc": 7394.85
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "KIR": {
     "iso3": "KIR",
@@ -2038,7 +2038,7 @@
       "health_expenditure_pc": 238.13
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "VNM": {
     "iso3": "VNM",
@@ -2052,7 +2052,7 @@
       "health_expenditure_pc": 197.19
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "TTO": {
     "iso3": "TTO",
@@ -2066,7 +2066,7 @@
       "health_expenditure_pc": 1276.34
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "BLR": {
     "iso3": "BLR",
@@ -2080,7 +2080,7 @@
       "health_expenditure_pc": 558.23
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "ZWE": {
     "iso3": "ZWE",
@@ -2094,7 +2094,7 @@
       "health_expenditure_pc": 62.93
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "COM": {
     "iso3": "COM",
@@ -2108,7 +2108,7 @@
       "health_expenditure_pc": 102.23
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "BGR": {
     "iso3": "BGR",
@@ -2122,7 +2122,7 @@
       "health_expenditure_pc": 1257.88
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "HTI": {
     "iso3": "HTI",
@@ -2136,7 +2136,7 @@
       "health_expenditure_pc": 54.41
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "RWA": {
     "iso3": "RWA",
@@ -2150,7 +2150,7 @@
       "health_expenditure_pc": 52.66
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "COL": {
     "iso3": "COL",
@@ -2164,7 +2164,7 @@
       "health_expenditure_pc": 644.31
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "IRN": {
     "iso3": "IRN",
@@ -2178,7 +2178,7 @@
       "health_expenditure_pc": 267.06
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "NIC": {
     "iso3": "NIC",
@@ -2191,7 +2191,7 @@
       "health_expenditure_pc": 216.55
     },
     "indicatorsUsed": 5,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "HND": {
     "iso3": "HND",
@@ -2205,7 +2205,7 @@
       "health_expenditure_pc": 249.15
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "LCA": {
     "iso3": "LCA",
@@ -2219,7 +2219,7 @@
       "health_expenditure_pc": 641.07
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "NAM": {
     "iso3": "NAM",
@@ -2233,7 +2233,7 @@
       "health_expenditure_pc": 397.09
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "DNK": {
     "iso3": "DNK",
@@ -2247,7 +2247,7 @@
       "health_expenditure_pc": 6745.06
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "ZMB": {
     "iso3": "ZMB",
@@ -2261,7 +2261,7 @@
       "health_expenditure_pc": 79.56
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "GHA": {
     "iso3": "GHA",
@@ -2275,7 +2275,7 @@
       "health_expenditure_pc": 70.26
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "TLS": {
     "iso3": "TLS",
@@ -2289,7 +2289,7 @@
       "health_expenditure_pc": 144.21
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "CPV": {
     "iso3": "CPV",
@@ -2303,7 +2303,7 @@
       "health_expenditure_pc": 290.13
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "LSO": {
     "iso3": "LSO",
@@ -2317,7 +2317,7 @@
       "health_expenditure_pc": 122.64
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "TCD": {
     "iso3": "TCD",
@@ -2331,7 +2331,7 @@
       "health_expenditure_pc": 47.44
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "KEN": {
     "iso3": "KEN",
@@ -2345,7 +2345,7 @@
       "health_expenditure_pc": 84.96
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "MHL": {
     "iso3": "MHL",
@@ -2359,7 +2359,7 @@
       "health_expenditure_pc": 894.22
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "FSM": {
     "iso3": "FSM",
@@ -2373,7 +2373,7 @@
       "health_expenditure_pc": 507.78
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "COD": {
     "iso3": "COD",
@@ -2387,7 +2387,7 @@
       "health_expenditure_pc": 23.43
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "PRK": {
     "iso3": "PRK",
@@ -2400,7 +2400,7 @@
       "dtp3_coverage": 99.0
     },
     "indicatorsUsed": 5,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "CIV": {
     "iso3": "CIV",
@@ -2414,7 +2414,7 @@
       "health_expenditure_pc": 87.68
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "ETH": {
     "iso3": "ETH",
@@ -2428,7 +2428,7 @@
       "health_expenditure_pc": 34.8
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "MWI": {
     "iso3": "MWI",
@@ -2442,7 +2442,7 @@
       "health_expenditure_pc": 41.27
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "BFA": {
     "iso3": "BFA",
@@ -2456,7 +2456,7 @@
       "health_expenditure_pc": 71.73
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "SEN": {
     "iso3": "SEN",
@@ -2470,7 +2470,7 @@
       "health_expenditure_pc": 73.23
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "NGA": {
     "iso3": "NGA",
@@ -2484,7 +2484,7 @@
       "health_expenditure_pc": 66.82
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "TUV": {
     "iso3": "TUV",
@@ -2498,7 +2498,7 @@
       "health_expenditure_pc": 1723.57
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "UGA": {
     "iso3": "UGA",
@@ -2512,7 +2512,7 @@
       "health_expenditure_pc": 45.21
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "SWZ": {
     "iso3": "SWZ",
@@ -2526,7 +2526,7 @@
       "health_expenditure_pc": 296.05
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "GAB": {
     "iso3": "GAB",
@@ -2540,7 +2540,7 @@
       "health_expenditure_pc": 252.98
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "PLW": {
     "iso3": "PLW",
@@ -2554,7 +2554,7 @@
       "health_expenditure_pc": 1683.85
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "WSM": {
     "iso3": "WSM",
@@ -2568,7 +2568,7 @@
       "health_expenditure_pc": 292.81
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "GIN": {
     "iso3": "GIN",
@@ -2582,7 +2582,7 @@
       "health_expenditure_pc": 59.33
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "NIU": {
     "iso3": "NIU",
@@ -2595,7 +2595,7 @@
       "dtp3_coverage": 99.0
     },
     "indicatorsUsed": 5,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "COG": {
     "iso3": "COG",
@@ -2609,7 +2609,7 @@
       "health_expenditure_pc": 75.55
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "TON": {
     "iso3": "TON",
@@ -2623,7 +2623,7 @@
       "health_expenditure_pc": 357.54
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "AGO": {
     "iso3": "AGO",
@@ -2637,7 +2637,7 @@
       "health_expenditure_pc": 76.07
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "VUT": {
     "iso3": "VUT",
@@ -2651,7 +2651,7 @@
       "health_expenditure_pc": 143.44
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "STP": {
     "iso3": "STP",
@@ -2665,7 +2665,7 @@
       "health_expenditure_pc": 171.05
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "CMR": {
     "iso3": "CMR",
@@ -2679,7 +2679,7 @@
       "health_expenditure_pc": 79.1
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "GNB": {
     "iso3": "GNB",
@@ -2693,7 +2693,7 @@
       "health_expenditure_pc": 82.14
     },
     "indicatorsUsed": 6,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "SLB": {
     "iso3": "SLB",
@@ -2706,7 +2706,7 @@
       "health_expenditure_pc": 111.36
     },
     "indicatorsUsed": 5,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   },
   "SSD": {
     "iso3": "SSD",
@@ -2719,6 +2719,6 @@
       "health_expenditure_pc": 72.76
     },
     "indicatorsUsed": 5,
-    "computedAt": "2026-02-27"
+    "computedAt": "2026-02-28"
   }
 }

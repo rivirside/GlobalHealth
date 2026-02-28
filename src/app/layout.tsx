@@ -27,12 +27,24 @@ export default function RootLayout({
                 BETA
               </span>
             </Link>
-            <nav className="hidden md:flex items-center gap-6 text-sm">
+            <nav className="hidden md:flex items-center gap-5 text-sm">
               <Link
                 href="/"
                 className="text-gray-600 hover:text-gray-900 transition-colors"
               >
                 Dashboard
+              </Link>
+              <Link
+                href="/diseases"
+                className="text-gray-600 hover:text-gray-900 transition-colors"
+              >
+                Diseases
+              </Link>
+              <Link
+                href="/regions"
+                className="text-gray-600 hover:text-gray-900 transition-colors"
+              >
+                Regions
               </Link>
               <Link
                 href="/timeline"
