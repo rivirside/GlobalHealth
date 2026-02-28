@@ -69,6 +69,40 @@ export interface ReadinessScore {
   computedAt: string;
 }
 
+export type RiskLevel = "critical" | "high" | "moderate" | "low" | "minimal";
+
+export interface RiskScore {
+  iso3: string;
+  score: number;
+  level: RiskLevel;
+  outbreakPressure: number;
+  vulnerability: number;
+  readinessScore: number | null;
+  factors: {
+    outbreakCount: number;
+    activeCount: number;
+    recentCount: number;
+    categoryBreakdown: Record<string, number>;
+  };
+  computedAt: string;
+}
+
+export const RISK_LEVEL_COLORS: Record<RiskLevel, string> = {
+  critical: "#DC2626",
+  high: "#F97316",
+  moderate: "#F59E0B",
+  low: "#10B981",
+  minimal: "#6B7280",
+};
+
+export const RISK_LEVEL_LABELS: Record<RiskLevel, string> = {
+  critical: "Critical",
+  high: "High",
+  moderate: "Moderate",
+  low: "Low",
+  minimal: "Minimal",
+};
+
 export interface OutbreakFilters {
   diseaseCategory: DiseaseCategory | "all";
   dateRange: "30d" | "90d" | "1y" | "all";

@@ -3,7 +3,7 @@
 > **Read this file in full at the start of every conversation.**
 
 ## Current Phase
-Wave 2 Complete: Data Enrichment + Content Pages
+Wave 3 Complete: Smart Features + Data Expansion
 
 ## What's Done
 - [x] Project idea research and competitive analysis (17 tools analyzed)
@@ -11,12 +11,12 @@ Wave 2 Complete: Data Enrichment + Content Pages
 - [x] Next.js 15 + TypeScript + Tailwind CSS setup
 - [x] Leaflet, React-Leaflet, Recharts installed
 - [x] Python data pipeline: fetch_outbreaks.py (WHO DON API), fetch_capacity.py (WHO GHO + World Bank)
-- [x] Data fetch: 74 outbreaks, 270 countries with 25 capacity indicators
+- [x] Data fetch: 618 outbreaks, 270 countries with 25 capacity indicators
 - [x] TypeScript types and data models with indicator grouping system
-- [x] API routes: /api/outbreaks, /api/capacity/[iso3], /api/countries, /api/readiness/[iso3], /api/indices/[iso3]
+- [x] API routes: /api/outbreaks, /api/capacity/[iso3], /api/countries, /api/readiness/[iso3], /api/indices/[iso3], /api/risk/[iso3]
 - [x] Interactive Leaflet map with color-coded outbreak markers
 - [x] Choropleth map layer toggling between outbreak markers and readiness score heatmap
-- [x] Sidebar with outbreak details + health system capacity bars + readiness score + index summary
+- [x] Sidebar with outbreak details + health system capacity bars + readiness + risk + index summary
 - [x] Filter controls (disease category, date range, region, active only)
 - [x] Country profile pages (/country/[iso3]) with 5 grouped indicator sections
 - [x] About/methodology page with data sources, benchmarks, limitations, citation guide
@@ -38,12 +38,21 @@ Wave 2 Complete: Data Enrichment + Content Pages
 - [x] Expanded pipeline: 25 indicators (capacity, vaccination, WASH, demographics, outcomes)
 - [x] Country profiles: 5 grouped indicator sections with benchmarks and progress bars
 - [x] Choropleth map layer colored by readiness score (GeoJSON, 177 countries)
-- [x] Disease profile pages (/diseases, /diseases/[slug]) — 29 diseases with metadata
+- [x] Disease profile pages (/diseases, /diseases/[slug]) — 65 diseases with metadata
 - [x] Regional overview pages (/regions, /regions/[region]) — 6 WHO regions
 - [x] Country metadata pipeline: build_countries.py → data/countries.json (311 countries with WHO regions)
 - [x] Region filter on dashboard (AFRO, AMRO, EMRO, EURO, SEARO, WPRO)
 - [x] Latest reports feed in sidebar when no outbreak selected
 - [x] Navigation updated: Dashboard, Diseases, Regions, Timeline, Compare, About
+- [x] Paginated WHO DON fetching: 8 pages × 100 items = 618 outbreaks across 99 countries (up from 74)
+- [x] Outbreak status tracking: active (≤1 year) vs resolved (>1 year)
+- [x] Composite risk scoring: pipeline/compute_risk.py → data/risk.json (197 countries)
+- [x] RiskBadge component with 5 severity levels (critical/high/moderate/low/minimal)
+- [x] Risk scores integrated into outbreak sidebar and country profiles
+- [x] Loading skeletons for sidebar and stats bar (Skeleton, SkeletonBar, SidebarSkeleton components)
+- [x] Empty state component for no-data scenarios
+- [x] Open Graph + Twitter meta tags on all pages (root layout + dynamic per-page)
+- [x] Dynamic metadata generation for country, disease, and region pages
 
 ## Current Blockers
 None
@@ -57,6 +66,7 @@ None
 - **Data refresh**: GitHub Actions cron (outbreaks every 12h, capacity quarterly)
 - **Responsive sidebar**: Bottom sheet on mobile (<768px), right overlay on tablet (768-1024px), persistent on desktop (>1024px)
 - **Readiness score**: Weighted composite of 6 WHO capacity indicators (min 3 required)
+- **Risk score**: Outbreak pressure (recency × severity) × vulnerability (inverse readiness), 5 levels
 - **GHSI source**: CSV from ghsindex.org (2021 data, 163 countries)
 - **INFORM source**: Excel from drmkc.jrc.ec.europa.eu (2025 data, 191 countries, inverted scale)
 - **SPAR source**: WHO GHO API, IHRSPAR2 2nd edition codes (15 capacities, 218 countries)
@@ -65,27 +75,22 @@ None
 - **Choropleth**: Natural Earth 110m GeoJSON (280KB, 177 features)
 - **Disease profiles**: Pipeline builds from outbreaks + static metadata (transmission, symptoms, WHO links)
 - **Region profiles**: Pipeline builds from outbreaks + countries + readiness, grouped by WHO region
+- **Outbreak pagination**: 8 pages from WHO DON API covering ~10 years of data (2015-2026)
 
 ## Data Files
 | File | Source | Records |
 |------|--------|---------|
-| data/outbreaks.json | WHO DON API | 74 outbreaks |
+| data/outbreaks.json | WHO DON API (paginated) | 618 outbreaks, 99 countries |
 | data/capacity.json | WHO GHO + World Bank | 270 countries, 25 indicators |
 | data/readiness.json | Computed from capacity | 195 countries |
+| data/risk.json | Computed from outbreaks + readiness | 197 countries |
 | data/indices.json | GHSI + INFORM + SPAR | 219 countries |
 | data/borders.json | Static mapping | 148 countries |
 | data/countries.json | WHO GHO + World Bank | 311 countries |
-| data/diseases.json | Built from outbreaks | 29 diseases |
+| data/diseases.json | Built from outbreaks | 65 diseases |
 | data/regions.json | Built from outbreaks + countries | 6 WHO regions |
 
 ## What To Work On Next
-
-### Wave 3: Smart Features
-1. WHO regional RSS feeds (AFRO, EMRO) for more outbreak data
-2. Composite risk scoring (outbreak pressure × vulnerability)
-3. Loading skeletons for data fetching states
-4. Open Graph meta tags for social sharing
-5. Better empty states when no data available
 
 ### Deployment
 1. Deploy to Vercel — connect GitHub repo, import project, click deploy

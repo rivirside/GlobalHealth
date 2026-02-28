@@ -1,7 +1,13 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import { getDiseases } from "@/lib/data";
 import { DISEASE_CATEGORY_COLORS, DISEASE_CATEGORY_LABELS } from "@/types";
 import type { DiseaseCategory } from "@/types";
+
+export const metadata: Metadata = {
+  title: "Disease Profiles",
+  description: "Browse disease profiles tracked from WHO Disease Outbreak News. View outbreak counts, affected countries, transmission details, and more.",
+};
 
 export default function DiseasesPage() {
   const diseases = getDiseases();

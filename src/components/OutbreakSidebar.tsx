@@ -8,15 +8,19 @@ import {
   type Outbreak,
   type CountryCapacity,
   type IndexScore,
+  type RiskScore,
 } from "@/types";
 import { CapacityBar } from "./CapacityBar";
 import { ReadinessScoreBadge } from "./ReadinessScoreBadge";
+import { RiskBadge } from "./RiskBadge";
+import { Skeleton, SkeletonBar } from "./Skeleton";
 
 interface OutbreakSidebarProps {
   outbreak: Outbreak;
   capacity: CountryCapacity | null;
   readinessScore: number | null;
   indices: IndexScore[];
+  riskScore: RiskScore | null;
   onClose: () => void;
 }
 
@@ -25,6 +29,7 @@ export function OutbreakSidebar({
   capacity,
   readinessScore,
   indices,
+  riskScore,
   onClose,
 }: OutbreakSidebarProps) {
   const [expanded, setExpanded] = useState(false);
@@ -104,6 +109,11 @@ export function OutbreakSidebar({
               <span className="text-xs font-medium text-gray-500 uppercase tracking-wider">
                 {categoryLabel}
               </span>
+              {outbreak.status === "resolved" && (
+                <span className="text-[10px] font-medium text-gray-400 bg-gray-100 px-1.5 py-0.5 rounded">
+                  Resolved
+                </span>
+              )}
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-1">
               {outbreak.disease}
@@ -147,28 +157,35 @@ export function OutbreakSidebar({
             </a>
           </div>
 
-          {/* Readiness Score + Index Summary */}
-          {(readinessScore !== null || indices.length > 0) && (
-            <div className="px-4 py-3 border-b border-gray-200 bg-gray-50">
-              <div className="flex items-center gap-4">
-                {readinessScore !== null && (
-                  <ReadinessScoreBadge score={readinessScore} size="sm" />
-                )}
-                {indices.length > 0 && (
-                  <div className="flex gap-3">
-                    {indices.map((idx) => (
-                      <div key={idx.indexName} className="text-center">
-                        <p className="text-sm font-semibold font-mono text-gray-900">
-                          {idx.score.toFixed(0)}
-                        </p>
-                        <p className="text-[10px] text-gray-500">{idx.indexName}</p>
-                      </div>
-                    ))}
-                  </div>
-                )}
-              </div>
+          {/* Risk + Readiness + Index Summary */}
+          <div className="px-4 py-3 border-b border-gray-200 bg-gray-50">
+            <div className="flex items-center gap-3 flex-wrap">
+              {riskScore && (
+                <RiskBadge score={riskScore.score} level={riskScore.level} size="sm" />
+              )}
+              {readinessScore !== null && (
+                <ReadinessScoreBadge score={readinessScore} size="sm" />
+              )}
+              {indices.length > 0 && (
+                <div className="flex gap-3">
+                  {indices.map((idx) => (
+                    <div key={idx.indexName} className="text-center">
+                      <p className="text-sm font-semibold font-mono text-gray-900">
+                        {idx.score.toFixed(0)}
+                      </p>
+                      <p className="text-[10px] text-gray-500">{idx.indexName}</p>
+                    </div>
+                  ))}
+                </div>
+              )}
+              {!riskScore && readinessScore === null && indices.length === 0 && (
+                <div className="flex gap-2">
+                  <Skeleton className="h-5 w-20" />
+                  <Skeleton className="h-5 w-16" />
+                </div>
+              )}
             </div>
-          )}
+          </div>
 
           {/* Health System Capacity */}
           <div className="px-4 py-4 border-b border-gray-200">
@@ -182,9 +199,12 @@ export function OutbreakSidebar({
                 ))}
               </div>
             ) : (
-              <p className="text-sm text-gray-400">
-                Loading capacity data...
-              </p>
+              <div className="space-y-3">
+                <SkeletonBar />
+                <SkeletonBar />
+                <SkeletonBar />
+                <SkeletonBar />
+              </div>
             )}
 
             <Link

@@ -1,0 +1,2759 @@
+{
+  "AFG": {
+    "iso3": "AFG",
+    "score": 23.3,
+    "level": "low",
+    "outbreakPressure": 2.0,
+    "vulnerability": 55.3,
+    "readinessScore": 44.7,
+    "factors": {
+      "outbreakCount": 2,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "vaccine-preventable": 1,
+        "vector-borne": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "AGO": {
+    "iso3": "AGO",
+    "score": 23.3,
+    "level": "low",
+    "outbreakPressure": 9.0,
+    "vulnerability": 44.7,
+    "readinessScore": 55.3,
+    "factors": {
+      "outbreakCount": 5,
+      "activeCount": 1,
+      "categoryBreakdown": {
+        "diarrheal": 1,
+        "vector-borne": 4
+      },
+      "recentCount": 1
+    },
+    "computedAt": "2026-02-28"
+  },
+  "ALB": {
+    "iso3": "ALB",
+    "score": 0.4,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 2.9,
+    "readinessScore": 97.1,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "AND": {
+    "iso3": "AND",
+    "score": 0.5,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 3.4,
+    "readinessScore": 96.6,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "ARE": {
+    "iso3": "ARE",
+    "score": 9.4,
+    "level": "minimal",
+    "outbreakPressure": 12.0,
+    "vulnerability": 5.4,
+    "readinessScore": 94.6,
+    "factors": {
+      "outbreakCount": 8,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "respiratory": 8
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "ARG": {
+    "iso3": "ARG",
+    "score": 2.8,
+    "level": "minimal",
+    "outbreakPressure": 3.0,
+    "vulnerability": 2.4,
+    "readinessScore": 97.6,
+    "factors": {
+      "outbreakCount": 5,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "other": 3,
+        "vector-borne": 2
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "ARM": {
+    "iso3": "ARM",
+    "score": 0.4,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 2.9,
+    "readinessScore": 97.1,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "ATG": {
+    "iso3": "ATG",
+    "score": 0.0,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 0.0,
+    "readinessScore": 100.0,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "AUS": {
+    "iso3": "AUS",
+    "score": 2.4,
+    "level": "minimal",
+    "outbreakPressure": 4.0,
+    "vulnerability": 0.0,
+    "readinessScore": 100.0,
+    "factors": {
+      "outbreakCount": 3,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "zoonotic": 1,
+        "other": 2
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "AUT": {
+    "iso3": "AUT",
+    "score": 1.2,
+    "level": "minimal",
+    "outbreakPressure": 1.5,
+    "vulnerability": 0.8,
+    "readinessScore": 99.2,
+    "factors": {
+      "outbreakCount": 1,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "respiratory": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "AZE": {
+    "iso3": "AZE",
+    "score": 1.5,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 9.7,
+    "readinessScore": 90.3,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "BDI": {
+    "iso3": "BDI",
+    "score": 23.5,
+    "level": "low",
+    "outbreakPressure": 1.2,
+    "vulnerability": 57.0,
+    "readinessScore": 43.0,
+    "factors": {
+      "outbreakCount": 1,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "vaccine-preventable": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "BEL": {
+    "iso3": "BEL",
+    "score": 0.0,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 0.0,
+    "readinessScore": 100.0,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "BEN": {
+    "iso3": "BEN",
+    "score": 27.4,
+    "level": "low",
+    "outbreakPressure": 6.0,
+    "vulnerability": 59.6,
+    "readinessScore": 40.4,
+    "factors": {
+      "outbreakCount": 3,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "diarrheal": 1,
+        "hemorrhagic": 2
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "BFA": {
+    "iso3": "BFA",
+    "score": 20.4,
+    "level": "low",
+    "outbreakPressure": 2.0,
+    "vulnerability": 48.1,
+    "readinessScore": 51.9,
+    "factors": {
+      "outbreakCount": 3,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "other": 1,
+        "vector-borne": 2
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "BGD": {
+    "iso3": "BGD",
+    "score": 28.7,
+    "level": "low",
+    "outbreakPressure": 21.5,
+    "vulnerability": 39.4,
+    "readinessScore": 60.6,
+    "factors": {
+      "outbreakCount": 8,
+      "activeCount": 2,
+      "categoryBreakdown": {
+        "zoonotic": 4,
+        "vector-borne": 3,
+        "vaccine-preventable": 1
+      },
+      "recentCount": 2
+    },
+    "computedAt": "2026-02-28"
+  },
+  "BGR": {
+    "iso3": "BGR",
+    "score": 0.3,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 1.9,
+    "readinessScore": 98.1,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "BHR": {
+    "iso3": "BHR",
+    "score": 4.8,
+    "level": "minimal",
+    "outbreakPressure": 1.5,
+    "vulnerability": 9.8,
+    "readinessScore": 90.2,
+    "factors": {
+      "outbreakCount": 1,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "respiratory": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "BHS": {
+    "iso3": "BHS",
+    "score": 0.6,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 3.9,
+    "readinessScore": 96.1,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "BIH": {
+    "iso3": "BIH",
+    "score": 1.4,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 9.1,
+    "readinessScore": 90.9,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "BLR": {
+    "iso3": "BLR",
+    "score": 0.0,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 0.0,
+    "readinessScore": 100.0,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "BLZ": {
+    "iso3": "BLZ",
+    "score": 2.2,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 15.0,
+    "readinessScore": 85.0,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "BOL": {
+    "iso3": "BOL",
+    "score": 13.2,
+    "level": "low",
+    "outbreakPressure": 8.2,
+    "vulnerability": 20.6,
+    "readinessScore": 79.4,
+    "factors": {
+      "outbreakCount": 2,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "hemorrhagic": 1,
+        "vector-borne": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "BRA": {
+    "iso3": "BRA",
+    "score": 11.2,
+    "level": "low",
+    "outbreakPressure": 17.2,
+    "vulnerability": 2.3,
+    "readinessScore": 97.7,
+    "factors": {
+      "outbreakCount": 19,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "respiratory": 4,
+        "vector-borne": 12,
+        "vaccine-preventable": 1,
+        "other": 2
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "BRB": {
+    "iso3": "BRB",
+    "score": 1.3,
+    "level": "minimal",
+    "outbreakPressure": 2.2,
+    "vulnerability": 0.0,
+    "readinessScore": 100.0,
+    "factors": {
+      "outbreakCount": 1,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "vector-borne": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "BRN": {
+    "iso3": "BRN",
+    "score": 0.0,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 0.0,
+    "readinessScore": 100.0,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "BTN": {
+    "iso3": "BTN",
+    "score": 2.4,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 15.9,
+    "readinessScore": 84.1,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "BWA": {
+    "iso3": "BWA",
+    "score": 2.5,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 16.6,
+    "readinessScore": 83.4,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "CAF": {
+    "iso3": "CAF",
+    "score": 25.6,
+    "level": "low",
+    "outbreakPressure": 2.2,
+    "vulnerability": 60.8,
+    "readinessScore": 39.2,
+    "factors": {
+      "outbreakCount": 2,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "vaccine-preventable": 1,
+        "zoonotic": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "CAN": {
+    "iso3": "CAN",
+    "score": 0.3,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 2.2,
+    "readinessScore": 97.8,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "CHE": {
+    "iso3": "CHE",
+    "score": 0.0,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 0.0,
+    "readinessScore": 100.0,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "CHL": {
+    "iso3": "CHL",
+    "score": 4.9,
+    "level": "minimal",
+    "outbreakPressure": 4.8,
+    "vulnerability": 5.1,
+    "readinessScore": 94.9,
+    "factors": {
+      "outbreakCount": 5,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "vaccine-preventable": 1,
+        "zoonotic": 2,
+        "vector-borne": 2
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "CHN": {
+    "iso3": "CHN",
+    "score": 48.0,
+    "level": "moderate",
+    "outbreakPressure": 80.0,
+    "vulnerability": 0.0,
+    "readinessScore": 100.0,
+    "factors": {
+      "outbreakCount": 57,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "other": 1,
+        "zoonotic": 3,
+        "respiratory": 49,
+        "vector-borne": 4
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "CIV": {
+    "iso3": "CIV",
+    "score": 6.4,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 42.8,
+    "readinessScore": 57.2,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "CMR": {
+    "iso3": "CMR",
+    "score": 17.4,
+    "level": "low",
+    "outbreakPressure": 4.0,
+    "vulnerability": 37.6,
+    "readinessScore": 62.4,
+    "factors": {
+      "outbreakCount": 4,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "diarrheal": 3,
+        "zoonotic": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "COD": {
+    "iso3": "COD",
+    "score": 83.8,
+    "level": "critical",
+    "outbreakPressure": 100.0,
+    "vulnerability": 59.4,
+    "readinessScore": 40.6,
+    "factors": {
+      "outbreakCount": 139,
+      "activeCount": 3,
+      "categoryBreakdown": {
+        "hemorrhagic": 125,
+        "other": 2,
+        "vector-borne": 4,
+        "zoonotic": 4,
+        "diarrheal": 3,
+        "vaccine-preventable": 1
+      },
+      "recentCount": 3
+    },
+    "computedAt": "2026-02-28"
+  },
+  "COG": {
+    "iso3": "COG",
+    "score": 14.8,
+    "level": "low",
+    "outbreakPressure": 1.8,
+    "vulnerability": 34.4,
+    "readinessScore": 65.6,
+    "factors": {
+      "outbreakCount": 2,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "diarrheal": 1,
+        "vector-borne": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "COK": {
+    "iso3": "COK",
+    "score": 0.7,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 4.7,
+    "readinessScore": 95.3,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "COL": {
+    "iso3": "COL",
+    "score": 1.8,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 11.7,
+    "readinessScore": 88.3,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "COM": {
+    "iso3": "COM",
+    "score": 4.0,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 27.0,
+    "readinessScore": 73.0,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "CPV": {
+    "iso3": "CPV",
+    "score": 6.1,
+    "level": "minimal",
+    "outbreakPressure": 0.8,
+    "vulnerability": 14.0,
+    "readinessScore": 86.0,
+    "factors": {
+      "outbreakCount": 1,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "vector-borne": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "CRI": {
+    "iso3": "CRI",
+    "score": 1.3,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 8.9,
+    "readinessScore": 91.1,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "CUB": {
+    "iso3": "CUB",
+    "score": 1.3,
+    "level": "minimal",
+    "outbreakPressure": 2.2,
+    "vulnerability": 0.0,
+    "readinessScore": 100.0,
+    "factors": {
+      "outbreakCount": 1,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "vector-borne": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "CYP": {
+    "iso3": "CYP",
+    "score": 0.8,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 5.1,
+    "readinessScore": 94.9,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "CZE": {
+    "iso3": "CZE",
+    "score": 0.1,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 0.6,
+    "readinessScore": 99.4,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "DEU": {
+    "iso3": "DEU",
+    "score": 4.0,
+    "level": "minimal",
+    "outbreakPressure": 6.5,
+    "vulnerability": 0.2,
+    "readinessScore": 99.8,
+    "factors": {
+      "outbreakCount": 3,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "respiratory": 1,
+        "hemorrhagic": 2
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "DJI": {
+    "iso3": "DJI",
+    "score": 6.8,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 45.1,
+    "readinessScore": 54.9,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "DMA": {
+    "iso3": "DMA",
+    "score": 0.2,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 1.3,
+    "readinessScore": 98.7,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "DNK": {
+    "iso3": "DNK",
+    "score": 0.4,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 2.7,
+    "readinessScore": 97.3,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "DOM": {
+    "iso3": "DOM",
+    "score": 7.4,
+    "level": "minimal",
+    "outbreakPressure": 0.8,
+    "vulnerability": 17.3,
+    "readinessScore": 82.7,
+    "factors": {
+      "outbreakCount": 1,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "vector-borne": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "DZA": {
+    "iso3": "DZA",
+    "score": 4.3,
+    "level": "minimal",
+    "outbreakPressure": 1.0,
+    "vulnerability": 9.3,
+    "readinessScore": 90.7,
+    "factors": {
+      "outbreakCount": 1,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "diarrheal": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "ECU": {
+    "iso3": "ECU",
+    "score": 5.3,
+    "level": "minimal",
+    "outbreakPressure": 1.0,
+    "vulnerability": 11.7,
+    "readinessScore": 88.3,
+    "factors": {
+      "outbreakCount": 1,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "zoonotic": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "EGY": {
+    "iso3": "EGY",
+    "score": 2.2,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 14.8,
+    "readinessScore": 85.2,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "ERI": {
+    "iso3": "ERI",
+    "score": 8.0,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 53.1,
+    "readinessScore": 46.9,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "ESP": {
+    "iso3": "ESP",
+    "score": 2.4,
+    "level": "minimal",
+    "outbreakPressure": 3.8,
+    "vulnerability": 0.4,
+    "readinessScore": 99.6,
+    "factors": {
+      "outbreakCount": 4,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "respiratory": 1,
+        "zoonotic": 1,
+        "vector-borne": 1,
+        "other": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "EST": {
+    "iso3": "EST",
+    "score": 0.3,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 1.7,
+    "readinessScore": 98.3,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "ETH": {
+    "iso3": "ETH",
+    "score": 51.2,
+    "level": "high",
+    "outbreakPressure": 44.8,
+    "vulnerability": 60.9,
+    "readinessScore": 39.1,
+    "factors": {
+      "outbreakCount": 6,
+      "activeCount": 2,
+      "categoryBreakdown": {
+        "hemorrhagic": 2,
+        "vector-borne": 2,
+        "vaccine-preventable": 1,
+        "other": 1
+      },
+      "recentCount": 2
+    },
+    "computedAt": "2026-02-28"
+  },
+  "FIN": {
+    "iso3": "FIN",
+    "score": 0.3,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 1.9,
+    "readinessScore": 98.1,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "FJI": {
+    "iso3": "FJI",
+    "score": 2.1,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 13.8,
+    "readinessScore": 86.2,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "FRA": {
+    "iso3": "FRA",
+    "score": 3.1,
+    "level": "minimal",
+    "outbreakPressure": 5.2,
+    "vulnerability": 0.0,
+    "readinessScore": 100.0,
+    "factors": {
+      "outbreakCount": 8,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "other": 3,
+        "vector-borne": 5
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "FSM": {
+    "iso3": "FSM",
+    "score": 1.2,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 8.2,
+    "readinessScore": 91.8,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "GAB": {
+    "iso3": "GAB",
+    "score": 10.8,
+    "level": "low",
+    "outbreakPressure": 0.8,
+    "vulnerability": 25.8,
+    "readinessScore": 74.2,
+    "factors": {
+      "outbreakCount": 1,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "vector-borne": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "GBR": {
+    "iso3": "GBR",
+    "score": 8.0,
+    "level": "minimal",
+    "outbreakPressure": 11.5,
+    "vulnerability": 2.8,
+    "readinessScore": 97.2,
+    "factors": {
+      "outbreakCount": 11,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "respiratory": 2,
+        "zoonotic": 4,
+        "other": 4,
+        "hemorrhagic": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "GEO": {
+    "iso3": "GEO",
+    "score": 0.4,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 3.0,
+    "readinessScore": 97.0,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "GHA": {
+    "iso3": "GHA",
+    "score": 16.1,
+    "level": "low",
+    "outbreakPressure": 5.8,
+    "vulnerability": 31.5,
+    "readinessScore": 68.5,
+    "factors": {
+      "outbreakCount": 3,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "hemorrhagic": 2,
+        "vector-borne": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "GIN": {
+    "iso3": "GIN",
+    "score": 32.5,
+    "level": "moderate",
+    "outbreakPressure": 14.5,
+    "vulnerability": 59.5,
+    "readinessScore": 40.5,
+    "factors": {
+      "outbreakCount": 7,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "vaccine-preventable": 1,
+        "hemorrhagic": 5,
+        "vector-borne": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "GMB": {
+    "iso3": "GMB",
+    "score": 23.0,
+    "level": "low",
+    "outbreakPressure": 0.8,
+    "vulnerability": 56.4,
+    "readinessScore": 43.6,
+    "factors": {
+      "outbreakCount": 1,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "vector-borne": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "GNB": {
+    "iso3": "GNB",
+    "score": 6.5,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 43.6,
+    "readinessScore": 56.4,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "GNQ": {
+    "iso3": "GNQ",
+    "score": 21.3,
+    "level": "low",
+    "outbreakPressure": 12.5,
+    "vulnerability": 34.6,
+    "readinessScore": 65.4,
+    "factors": {
+      "outbreakCount": 5,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "hemorrhagic": 5
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "GRC": {
+    "iso3": "GRC",
+    "score": 0.1,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 0.8,
+    "readinessScore": 99.2,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "GRD": {
+    "iso3": "GRD",
+    "score": 0.1,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 0.5,
+    "readinessScore": 99.5,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "GTM": {
+    "iso3": "GTM",
+    "score": 3.1,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 20.8,
+    "readinessScore": 79.2,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "GUY": {
+    "iso3": "GUY",
+    "score": 0.3,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 1.9,
+    "readinessScore": 98.1,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "HND": {
+    "iso3": "HND",
+    "score": 11.9,
+    "level": "low",
+    "outbreakPressure": 0.8,
+    "vulnerability": 28.5,
+    "readinessScore": 71.5,
+    "factors": {
+      "outbreakCount": 1,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "vector-borne": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "HRV": {
+    "iso3": "HRV",
+    "score": 0.2,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 1.1,
+    "readinessScore": 98.9,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "HTI": {
+    "iso3": "HTI",
+    "score": 18.7,
+    "level": "low",
+    "outbreakPressure": 2.8,
+    "vulnerability": 42.5,
+    "readinessScore": 57.5,
+    "factors": {
+      "outbreakCount": 3,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "diarrheal": 2,
+        "vector-borne": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "HUN": {
+    "iso3": "HUN",
+    "score": 0.0,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 0.0,
+    "readinessScore": 100.0,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "IDN": {
+    "iso3": "IDN",
+    "score": 8.5,
+    "level": "minimal",
+    "outbreakPressure": 1.2,
+    "vulnerability": 19.5,
+    "readinessScore": 80.5,
+    "factors": {
+      "outbreakCount": 1,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "vaccine-preventable": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "IND": {
+    "iso3": "IND",
+    "score": 21.2,
+    "level": "low",
+    "outbreakPressure": 28.3,
+    "vulnerability": 10.6,
+    "readinessScore": 89.4,
+    "factors": {
+      "outbreakCount": 11,
+      "activeCount": 2,
+      "categoryBreakdown": {
+        "zoonotic": 7,
+        "vector-borne": 3,
+        "other": 1
+      },
+      "recentCount": 2
+    },
+    "computedAt": "2026-02-28"
+  },
+  "IRL": {
+    "iso3": "IRL",
+    "score": 0.0,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 0.2,
+    "readinessScore": 99.8,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "IRN": {
+    "iso3": "IRN",
+    "score": 3.5,
+    "level": "minimal",
+    "outbreakPressure": 2.2,
+    "vulnerability": 5.5,
+    "readinessScore": 94.5,
+    "factors": {
+      "outbreakCount": 1,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "vector-borne": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "IRQ": {
+    "iso3": "IRQ",
+    "score": 2.0,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 13.5,
+    "readinessScore": 86.5,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "ISL": {
+    "iso3": "ISL",
+    "score": 0.1,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 0.8,
+    "readinessScore": 99.2,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "ISR": {
+    "iso3": "ISR",
+    "score": 0.0,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 0.0,
+    "readinessScore": 100.0,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "ITA": {
+    "iso3": "ITA",
+    "score": 0.9,
+    "level": "minimal",
+    "outbreakPressure": 1.5,
+    "vulnerability": 0.0,
+    "readinessScore": 100.0,
+    "factors": {
+      "outbreakCount": 2,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "vector-borne": 2
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "JAM": {
+    "iso3": "JAM",
+    "score": 4.6,
+    "level": "minimal",
+    "outbreakPressure": 0.8,
+    "vulnerability": 10.4,
+    "readinessScore": 89.6,
+    "factors": {
+      "outbreakCount": 1,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "vector-borne": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "JOR": {
+    "iso3": "JOR",
+    "score": 1.4,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 9.2,
+    "readinessScore": 90.8,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "JPN": {
+    "iso3": "JPN",
+    "score": 2.5,
+    "level": "minimal",
+    "outbreakPressure": 4.2,
+    "vulnerability": 0.0,
+    "readinessScore": 100.0,
+    "factors": {
+      "outbreakCount": 3,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "respiratory": 2,
+        "vaccine-preventable": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "KAZ": {
+    "iso3": "KAZ",
+    "score": 0.0,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 0.0,
+    "readinessScore": 100.0,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "KEN": {
+    "iso3": "KEN",
+    "score": 16.8,
+    "level": "low",
+    "outbreakPressure": 6.5,
+    "vulnerability": 32.3,
+    "readinessScore": 67.7,
+    "factors": {
+      "outbreakCount": 8,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "vector-borne": 6,
+        "diarrheal": 2
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "KGZ": {
+    "iso3": "KGZ",
+    "score": 0.4,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 2.4,
+    "readinessScore": 97.6,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "KHM": {
+    "iso3": "KHM",
+    "score": 21.8,
+    "level": "low",
+    "outbreakPressure": 12.0,
+    "vulnerability": 36.5,
+    "readinessScore": 63.5,
+    "factors": {
+      "outbreakCount": 5,
+      "activeCount": 1,
+      "categoryBreakdown": {
+        "zoonotic": 5
+      },
+      "recentCount": 1
+    },
+    "computedAt": "2026-02-28"
+  },
+  "KIR": {
+    "iso3": "KIR",
+    "score": 3.1,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 20.8,
+    "readinessScore": 79.2,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "KNA": {
+    "iso3": "KNA",
+    "score": 0.0,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 0.0,
+    "readinessScore": 100.0,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "KOR": {
+    "iso3": "KOR",
+    "score": 0.0,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 0.0,
+    "readinessScore": 100.0,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "KWT": {
+    "iso3": "KWT",
+    "score": 0.5,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 3.2,
+    "readinessScore": 96.8,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "LAO": {
+    "iso3": "LAO",
+    "score": 18.2,
+    "level": "low",
+    "outbreakPressure": 1.0,
+    "vulnerability": 44.1,
+    "readinessScore": 55.9,
+    "factors": {
+      "outbreakCount": 1,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "zoonotic": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "LBN": {
+    "iso3": "LBN",
+    "score": 8.1,
+    "level": "minimal",
+    "outbreakPressure": 3.8,
+    "vulnerability": 14.6,
+    "readinessScore": 85.4,
+    "factors": {
+      "outbreakCount": 3,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "diarrheal": 1,
+        "vaccine-preventable": 1,
+        "respiratory": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "LBR": {
+    "iso3": "LBR",
+    "score": 19.0,
+    "level": "low",
+    "outbreakPressure": 6.8,
+    "vulnerability": 37.4,
+    "readinessScore": 62.6,
+    "factors": {
+      "outbreakCount": 4,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "hemorrhagic": 2,
+        "vaccine-preventable": 1,
+        "other": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "LBY": {
+    "iso3": "LBY",
+    "score": 0.4,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 3.0,
+    "readinessScore": 97.0,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "LCA": {
+    "iso3": "LCA",
+    "score": 1.6,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 10.5,
+    "readinessScore": 89.5,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "LKA": {
+    "iso3": "LKA",
+    "score": 1.9,
+    "level": "minimal",
+    "outbreakPressure": 0.8,
+    "vulnerability": 3.5,
+    "readinessScore": 96.5,
+    "factors": {
+      "outbreakCount": 1,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "vector-borne": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "LSO": {
+    "iso3": "LSO",
+    "score": 4.1,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 27.1,
+    "readinessScore": 72.9,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "LTU": {
+    "iso3": "LTU",
+    "score": 0.1,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 0.7,
+    "readinessScore": 99.3,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "LUX": {
+    "iso3": "LUX",
+    "score": 0.0,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 0.0,
+    "readinessScore": 100.0,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "LVA": {
+    "iso3": "LVA",
+    "score": 0.1,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 0.8,
+    "readinessScore": 99.2,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "MAR": {
+    "iso3": "MAR",
+    "score": 15.7,
+    "level": "low",
+    "outbreakPressure": 7.5,
+    "vulnerability": 28.0,
+    "readinessScore": 72.0,
+    "factors": {
+      "outbreakCount": 1,
+      "activeCount": 1,
+      "categoryBreakdown": {
+        "vaccine-preventable": 1
+      },
+      "recentCount": 1
+    },
+    "computedAt": "2026-02-28"
+  },
+  "MCO": {
+    "iso3": "MCO",
+    "score": 0.0,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 0.0,
+    "readinessScore": 100.0,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "MDA": {
+    "iso3": "MDA",
+    "score": 0.4,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 3.0,
+    "readinessScore": 97.0,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "MDG": {
+    "iso3": "MDG",
+    "score": 34.0,
+    "level": "moderate",
+    "outbreakPressure": 8.2,
+    "vulnerability": 72.8,
+    "readinessScore": 27.2,
+    "factors": {
+      "outbreakCount": 8,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "zoonotic": 7,
+        "vaccine-preventable": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "MDV": {
+    "iso3": "MDV",
+    "score": 1.4,
+    "level": "minimal",
+    "outbreakPressure": 0.8,
+    "vulnerability": 2.4,
+    "readinessScore": 97.6,
+    "factors": {
+      "outbreakCount": 1,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "vector-borne": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "MEX": {
+    "iso3": "MEX",
+    "score": 12.6,
+    "level": "low",
+    "outbreakPressure": 13.2,
+    "vulnerability": 11.6,
+    "readinessScore": 88.4,
+    "factors": {
+      "outbreakCount": 4,
+      "activeCount": 1,
+      "categoryBreakdown": {
+        "zoonotic": 3,
+        "vaccine-preventable": 1
+      },
+      "recentCount": 1
+    },
+    "computedAt": "2026-02-28"
+  },
+  "MHL": {
+    "iso3": "MHL",
+    "score": 0.8,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 5.5,
+    "readinessScore": 94.5,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "MKD": {
+    "iso3": "MKD",
+    "score": 0.5,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 3.1,
+    "readinessScore": 96.9,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "MLI": {
+    "iso3": "MLI",
+    "score": 24.4,
+    "level": "low",
+    "outbreakPressure": 0.8,
+    "vulnerability": 59.9,
+    "readinessScore": 40.1,
+    "factors": {
+      "outbreakCount": 1,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "vector-borne": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "MLT": {
+    "iso3": "MLT",
+    "score": 0.0,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 0.0,
+    "readinessScore": 100.0,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "MMR": {
+    "iso3": "MMR",
+    "score": 6.6,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 43.7,
+    "readinessScore": 56.3,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "MNE": {
+    "iso3": "MNE",
+    "score": 0.6,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 4.1,
+    "readinessScore": 95.9,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "MNG": {
+    "iso3": "MNG",
+    "score": 0.4,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 2.7,
+    "readinessScore": 97.3,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "MOZ": {
+    "iso3": "MOZ",
+    "score": 23.2,
+    "level": "low",
+    "outbreakPressure": 3.2,
+    "vulnerability": 53.1,
+    "readinessScore": 46.9,
+    "factors": {
+      "outbreakCount": 3,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "diarrheal": 2,
+        "vaccine-preventable": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "MRT": {
+    "iso3": "MRT",
+    "score": 19.4,
+    "level": "low",
+    "outbreakPressure": 6.0,
+    "vulnerability": 39.4,
+    "readinessScore": 60.6,
+    "factors": {
+      "outbreakCount": 3,
+      "activeCount": 1,
+      "categoryBreakdown": {
+        "vector-borne": 3
+      },
+      "recentCount": 1
+    },
+    "computedAt": "2026-02-28"
+  },
+  "MUS": {
+    "iso3": "MUS",
+    "score": 0.2,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 1.3,
+    "readinessScore": 98.7,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "MWI": {
+    "iso3": "MWI",
+    "score": 22.8,
+    "level": "low",
+    "outbreakPressure": 4.2,
+    "vulnerability": 50.8,
+    "readinessScore": 49.2,
+    "factors": {
+      "outbreakCount": 4,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "diarrheal": 3,
+        "vaccine-preventable": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "MYS": {
+    "iso3": "MYS",
+    "score": 0.7,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 4.9,
+    "readinessScore": 95.1,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "MYT": {
+    "iso3": "MYT",
+    "score": 24.5,
+    "level": "low",
+    "outbreakPressure": 0.8,
+    "vulnerability": 60.0,
+    "readinessScore": null,
+    "factors": {
+      "outbreakCount": 1,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "vector-borne": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "NAM": {
+    "iso3": "NAM",
+    "score": 5.9,
+    "level": "minimal",
+    "outbreakPressure": 0.5,
+    "vulnerability": 14.0,
+    "readinessScore": 86.0,
+    "factors": {
+      "outbreakCount": 1,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "other": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "NER": {
+    "iso3": "NER",
+    "score": 27.9,
+    "level": "low",
+    "outbreakPressure": 3.0,
+    "vulnerability": 65.2,
+    "readinessScore": 34.8,
+    "factors": {
+      "outbreakCount": 4,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "diarrheal": 1,
+        "other": 1,
+        "vector-borne": 2
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "NGA": {
+    "iso3": "NGA",
+    "score": 41.4,
+    "level": "moderate",
+    "outbreakPressure": 38.8,
+    "vulnerability": 45.2,
+    "readinessScore": 54.8,
+    "factors": {
+      "outbreakCount": 25,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "vaccine-preventable": 4,
+        "hemorrhagic": 10,
+        "vector-borne": 7,
+        "zoonotic": 2,
+        "diarrheal": 1,
+        "other": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "NIC": {
+    "iso3": "NIC",
+    "score": 3.2,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 21.3,
+    "readinessScore": 78.7,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "NIU": {
+    "iso3": "NIU",
+    "score": 0.7,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 4.4,
+    "readinessScore": 95.6,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "NLD": {
+    "iso3": "NLD",
+    "score": 4.8,
+    "level": "minimal",
+    "outbreakPressure": 6.2,
+    "vulnerability": 2.8,
+    "readinessScore": 97.2,
+    "factors": {
+      "outbreakCount": 4,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "respiratory": 2,
+        "hemorrhagic": 1,
+        "vector-borne": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "NOR": {
+    "iso3": "NOR",
+    "score": 0.0,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 0.0,
+    "readinessScore": 100.0,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "NPL": {
+    "iso3": "NPL",
+    "score": 8.4,
+    "level": "minimal",
+    "outbreakPressure": 2.0,
+    "vulnerability": 18.1,
+    "readinessScore": 81.9,
+    "factors": {
+      "outbreakCount": 2,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "vaccine-preventable": 1,
+        "vector-borne": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "NRU": {
+    "iso3": "NRU",
+    "score": 0.7,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 4.8,
+    "readinessScore": 95.2,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "NZL": {
+    "iso3": "NZL",
+    "score": 0.4,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 2.5,
+    "readinessScore": 97.5,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "OMN": {
+    "iso3": "OMN",
+    "score": 10.0,
+    "level": "low",
+    "outbreakPressure": 9.0,
+    "vulnerability": 11.4,
+    "readinessScore": 88.6,
+    "factors": {
+      "outbreakCount": 6,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "respiratory": 6
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "PAK": {
+    "iso3": "PAK",
+    "score": 21.4,
+    "level": "low",
+    "outbreakPressure": 6.8,
+    "vulnerability": 43.3,
+    "readinessScore": 56.7,
+    "factors": {
+      "outbreakCount": 8,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "vector-borne": 4,
+        "diarrheal": 2,
+        "other": 1,
+        "vaccine-preventable": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "PAN": {
+    "iso3": "PAN",
+    "score": 4.6,
+    "level": "minimal",
+    "outbreakPressure": 2.5,
+    "vulnerability": 7.8,
+    "readinessScore": 92.2,
+    "factors": {
+      "outbreakCount": 4,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "other": 2,
+        "vector-borne": 2
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "PER": {
+    "iso3": "PER",
+    "score": 5.6,
+    "level": "minimal",
+    "outbreakPressure": 1.5,
+    "vulnerability": 11.7,
+    "readinessScore": 88.3,
+    "factors": {
+      "outbreakCount": 2,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "vector-borne": 2
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "PHL": {
+    "iso3": "PHL",
+    "score": 7.7,
+    "level": "minimal",
+    "outbreakPressure": 1.2,
+    "vulnerability": 17.5,
+    "readinessScore": 82.5,
+    "factors": {
+      "outbreakCount": 1,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "vaccine-preventable": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "PLW": {
+    "iso3": "PLW",
+    "score": 0.2,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 1.3,
+    "readinessScore": 98.7,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "PNG": {
+    "iso3": "PNG",
+    "score": 23.3,
+    "level": "low",
+    "outbreakPressure": 2.0,
+    "vulnerability": 55.3,
+    "readinessScore": 44.7,
+    "factors": {
+      "outbreakCount": 2,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "vaccine-preventable": 1,
+        "vector-borne": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "POL": {
+    "iso3": "POL",
+    "score": 1.2,
+    "level": "minimal",
+    "outbreakPressure": 2.0,
+    "vulnerability": 0.0,
+    "readinessScore": 100.0,
+    "factors": {
+      "outbreakCount": 2,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "other": 1,
+        "respiratory": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "PRK": {
+    "iso3": "PRK",
+    "score": 0.1,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 1.0,
+    "readinessScore": 99.0,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "PRT": {
+    "iso3": "PRT",
+    "score": 0.0,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 0.0,
+    "readinessScore": 100.0,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "PRY": {
+    "iso3": "PRY",
+    "score": 5.7,
+    "level": "minimal",
+    "outbreakPressure": 2.0,
+    "vulnerability": 11.2,
+    "readinessScore": 88.8,
+    "factors": {
+      "outbreakCount": 2,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "vaccine-preventable": 1,
+        "vector-borne": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "PSE": {
+    "iso3": "PSE",
+    "score": 2.6,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 17.4,
+    "readinessScore": 82.6,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "QAT": {
+    "iso3": "QAT",
+    "score": 7.8,
+    "level": "minimal",
+    "outbreakPressure": 7.5,
+    "vulnerability": 8.3,
+    "readinessScore": 91.7,
+    "factors": {
+      "outbreakCount": 5,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "respiratory": 5
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "REU": {
+    "iso3": "REU",
+    "score": 26.7,
+    "level": "low",
+    "outbreakPressure": 4.5,
+    "vulnerability": 60.0,
+    "readinessScore": null,
+    "factors": {
+      "outbreakCount": 1,
+      "activeCount": 1,
+      "categoryBreakdown": {
+        "vector-borne": 1
+      },
+      "recentCount": 1
+    },
+    "computedAt": "2026-02-28"
+  },
+  "ROU": {
+    "iso3": "ROU",
+    "score": 0.4,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 2.5,
+    "readinessScore": 97.5,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "RUS": {
+    "iso3": "RUS",
+    "score": 0.6,
+    "level": "minimal",
+    "outbreakPressure": 1.0,
+    "vulnerability": 0.0,
+    "readinessScore": 100.0,
+    "factors": {
+      "outbreakCount": 1,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "zoonotic": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "RWA": {
+    "iso3": "RWA",
+    "score": 48.9,
+    "level": "moderate",
+    "outbreakPressure": 52.5,
+    "vulnerability": 43.4,
+    "readinessScore": 56.6,
+    "factors": {
+      "outbreakCount": 7,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "hemorrhagic": 7
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "SAU": {
+    "iso3": "SAU",
+    "score": 61.1,
+    "level": "high",
+    "outbreakPressure": 100.0,
+    "vulnerability": 2.8,
+    "readinessScore": 97.2,
+    "factors": {
+      "outbreakCount": 55,
+      "activeCount": 3,
+      "categoryBreakdown": {
+        "respiratory": 54,
+        "vaccine-preventable": 1
+      },
+      "recentCount": 3
+    },
+    "computedAt": "2026-02-28"
+  },
+  "SDN": {
+    "iso3": "SDN",
+    "score": 25.6,
+    "level": "low",
+    "outbreakPressure": 0.8,
+    "vulnerability": 62.8,
+    "readinessScore": 37.2,
+    "factors": {
+      "outbreakCount": 1,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "vector-borne": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "SEN": {
+    "iso3": "SEN",
+    "score": 19.3,
+    "level": "low",
+    "outbreakPressure": 0.8,
+    "vulnerability": 47.0,
+    "readinessScore": 53.0,
+    "factors": {
+      "outbreakCount": 1,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "vector-borne": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "SGP": {
+    "iso3": "SGP",
+    "score": 1.0,
+    "level": "minimal",
+    "outbreakPressure": 1.0,
+    "vulnerability": 0.9,
+    "readinessScore": 99.1,
+    "factors": {
+      "outbreakCount": 1,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "zoonotic": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "SLB": {
+    "iso3": "SLB",
+    "score": 3.8,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 25.2,
+    "readinessScore": 74.8,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "SLE": {
+    "iso3": "SLE",
+    "score": 8.0,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 53.5,
+    "readinessScore": 46.5,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "SLV": {
+    "iso3": "SLV",
+    "score": 1.6,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 10.6,
+    "readinessScore": 89.4,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "SMR": {
+    "iso3": "SMR",
+    "score": 0.3,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 1.9,
+    "readinessScore": 98.1,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "SOM": {
+    "iso3": "SOM",
+    "score": 29.3,
+    "level": "low",
+    "outbreakPressure": 3.2,
+    "vulnerability": 68.4,
+    "readinessScore": 31.6,
+    "factors": {
+      "outbreakCount": 3,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "diarrheal": 2,
+        "vaccine-preventable": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "SRB": {
+    "iso3": "SRB",
+    "score": 0.3,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 1.9,
+    "readinessScore": 98.1,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "SSD": {
+    "iso3": "SSD",
+    "score": 20.6,
+    "level": "low",
+    "outbreakPressure": 4.2,
+    "vulnerability": 45.3,
+    "readinessScore": 54.7,
+    "factors": {
+      "outbreakCount": 3,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "other": 1,
+        "vaccine-preventable": 1,
+        "hemorrhagic": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "STP": {
+    "iso3": "STP",
+    "score": 2.4,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 15.8,
+    "readinessScore": 84.2,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "SUR": {
+    "iso3": "SUR",
+    "score": 4.2,
+    "level": "minimal",
+    "outbreakPressure": 0.8,
+    "vulnerability": 9.3,
+    "readinessScore": 90.7,
+    "factors": {
+      "outbreakCount": 1,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "vector-borne": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "SVK": {
+    "iso3": "SVK",
+    "score": 0.1,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 0.5,
+    "readinessScore": 99.5,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "SVN": {
+    "iso3": "SVN",
+    "score": 0.0,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 0.0,
+    "readinessScore": 100.0,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "SWE": {
+    "iso3": "SWE",
+    "score": 5.4,
+    "level": "minimal",
+    "outbreakPressure": 5.5,
+    "vulnerability": 5.2,
+    "readinessScore": 94.8,
+    "factors": {
+      "outbreakCount": 2,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "zoonotic": 1,
+        "hemorrhagic": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "SWZ": {
+    "iso3": "SWZ",
+    "score": 2.1,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 14.1,
+    "readinessScore": 85.9,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "SYC": {
+    "iso3": "SYC",
+    "score": 0.3,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 1.7,
+    "readinessScore": 98.3,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "SYR": {
+    "iso3": "SYR",
+    "score": 4.8,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 32.1,
+    "readinessScore": 67.9,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "TCD": {
+    "iso3": "TCD",
+    "score": 29.0,
+    "level": "low",
+    "outbreakPressure": 4.0,
+    "vulnerability": 66.5,
+    "readinessScore": 33.5,
+    "factors": {
+      "outbreakCount": 5,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "other": 3,
+        "vector-borne": 2
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "TGO": {
+    "iso3": "TGO",
+    "score": 27.5,
+    "level": "low",
+    "outbreakPressure": 9.2,
+    "vulnerability": 54.9,
+    "readinessScore": 45.1,
+    "factors": {
+      "outbreakCount": 6,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "vaccine-preventable": 2,
+        "hemorrhagic": 2,
+        "diarrheal": 1,
+        "vector-borne": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "THA": {
+    "iso3": "THA",
+    "score": 9.8,
+    "level": "minimal",
+    "outbreakPressure": 10.5,
+    "vulnerability": 8.7,
+    "readinessScore": 91.3,
+    "factors": {
+      "outbreakCount": 4,
+      "activeCount": 1,
+      "categoryBreakdown": {
+        "zoonotic": 1,
+        "respiratory": 3
+      },
+      "recentCount": 1
+    },
+    "computedAt": "2026-02-28"
+  },
+  "TJK": {
+    "iso3": "TJK",
+    "score": 0.4,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 2.4,
+    "readinessScore": 97.6,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "TKM": {
+    "iso3": "TKM",
+    "score": 0.0,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 0.0,
+    "readinessScore": 100.0,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "TLS": {
+    "iso3": "TLS",
+    "score": 16.5,
+    "level": "low",
+    "outbreakPressure": 6.8,
+    "vulnerability": 31.1,
+    "readinessScore": 68.9,
+    "factors": {
+      "outbreakCount": 2,
+      "activeCount": 1,
+      "categoryBreakdown": {
+        "zoonotic": 1,
+        "vector-borne": 1
+      },
+      "recentCount": 1
+    },
+    "computedAt": "2026-02-28"
+  },
+  "TON": {
+    "iso3": "TON",
+    "score": 0.7,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 4.9,
+    "readinessScore": 95.1,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "TTO": {
+    "iso3": "TTO",
+    "score": 2.2,
+    "level": "minimal",
+    "outbreakPressure": 0.8,
+    "vulnerability": 4.4,
+    "readinessScore": 95.6,
+    "factors": {
+      "outbreakCount": 1,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "vector-borne": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "TUN": {
+    "iso3": "TUN",
+    "score": 4.7,
+    "level": "minimal",
+    "outbreakPressure": 1.2,
+    "vulnerability": 10.0,
+    "readinessScore": 90.0,
+    "factors": {
+      "outbreakCount": 1,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "vaccine-preventable": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "TUR": {
+    "iso3": "TUR",
+    "score": 0.1,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 0.8,
+    "readinessScore": 99.2,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "TUV": {
+    "iso3": "TUV",
+    "score": 0.6,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 4.0,
+    "readinessScore": 96.0,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "TZA": {
+    "iso3": "TZA",
+    "score": 44.9,
+    "level": "moderate",
+    "outbreakPressure": 37.0,
+    "vulnerability": 56.7,
+    "readinessScore": 43.3,
+    "factors": {
+      "outbreakCount": 8,
+      "activeCount": 1,
+      "categoryBreakdown": {
+        "hemorrhagic": 5,
+        "other": 2,
+        "diarrheal": 1
+      },
+      "recentCount": 1
+    },
+    "computedAt": "2026-02-28"
+  },
+  "UGA": {
+    "iso3": "UGA",
+    "score": 36.8,
+    "level": "moderate",
+    "outbreakPressure": 33.8,
+    "vulnerability": 41.4,
+    "readinessScore": 58.6,
+    "factors": {
+      "outbreakCount": 16,
+      "activeCount": 2,
+      "categoryBreakdown": {
+        "other": 4,
+        "hemorrhagic": 9,
+        "vector-borne": 3
+      },
+      "recentCount": 2
+    },
+    "computedAt": "2026-02-28"
+  },
+  "UKR": {
+    "iso3": "UKR",
+    "score": 0.0,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 0.3,
+    "readinessScore": 99.7,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "URY": {
+    "iso3": "URY",
+    "score": 2.3,
+    "level": "minimal",
+    "outbreakPressure": 2.0,
+    "vulnerability": 2.7,
+    "readinessScore": 97.3,
+    "factors": {
+      "outbreakCount": 3,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "other": 1,
+        "vector-borne": 2
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "USA": {
+    "iso3": "USA",
+    "score": 20.3,
+    "level": "low",
+    "outbreakPressure": 32.8,
+    "vulnerability": 1.5,
+    "readinessScore": 98.5,
+    "factors": {
+      "outbreakCount": 17,
+      "activeCount": 2,
+      "categoryBreakdown": {
+        "zoonotic": 5,
+        "vaccine-preventable": 2,
+        "respiratory": 2,
+        "other": 4,
+        "vector-borne": 4
+      },
+      "recentCount": 2
+    },
+    "computedAt": "2026-02-28"
+  },
+  "UZB": {
+    "iso3": "UZB",
+    "score": 0.0,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 0.3,
+    "readinessScore": 99.7,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "VCT": {
+    "iso3": "VCT",
+    "score": 0.0,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 0.0,
+    "readinessScore": 100.0,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "VEN": {
+    "iso3": "VEN",
+    "score": 8.2,
+    "level": "minimal",
+    "outbreakPressure": 1.5,
+    "vulnerability": 18.2,
+    "readinessScore": 81.8,
+    "factors": {
+      "outbreakCount": 2,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "vector-borne": 2
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "VNM": {
+    "iso3": "VNM",
+    "score": 11.0,
+    "level": "low",
+    "outbreakPressure": 11.2,
+    "vulnerability": 10.8,
+    "readinessScore": 89.2,
+    "factors": {
+      "outbreakCount": 4,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "respiratory": 1,
+        "zoonotic": 2,
+        "vector-borne": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "VUT": {
+    "iso3": "VUT",
+    "score": 5.2,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 34.4,
+    "readinessScore": 65.6,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "WSM": {
+    "iso3": "WSM",
+    "score": 3.3,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 21.7,
+    "readinessScore": 78.3,
+    "factors": {},
+    "computedAt": "2026-02-28"
+  },
+  "YEM": {
+    "iso3": "YEM",
+    "score": 25.6,
+    "level": "low",
+    "outbreakPressure": 1.2,
+    "vulnerability": 62.2,
+    "readinessScore": 37.8,
+    "factors": {
+      "outbreakCount": 1,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "vaccine-preventable": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "ZAF": {
+    "iso3": "ZAF",
+    "score": 7.6,
+    "level": "minimal",
+    "outbreakPressure": 5.2,
+    "vulnerability": 11.1,
+    "readinessScore": 88.9,
+    "factors": {
+      "outbreakCount": 4,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "zoonotic": 1,
+        "vaccine-preventable": 1,
+        "other": 2
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "ZMB": {
+    "iso3": "ZMB",
+    "score": 12.4,
+    "level": "low",
+    "outbreakPressure": 2.0,
+    "vulnerability": 27.9,
+    "readinessScore": 72.1,
+    "factors": {
+      "outbreakCount": 2,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "zoonotic": 1,
+        "diarrheal": 1
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  },
+  "ZWE": {
+    "iso3": "ZWE",
+    "score": 14.8,
+    "level": "low",
+    "outbreakPressure": 2.0,
+    "vulnerability": 33.9,
+    "readinessScore": 66.1,
+    "factors": {
+      "outbreakCount": 2,
+      "activeCount": 0,
+      "categoryBreakdown": {
+        "diarrheal": 2
+      },
+      "recentCount": 0
+    },
+    "computedAt": "2026-02-28"
+  }
+}

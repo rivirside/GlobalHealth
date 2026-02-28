@@ -1,5 +1,11 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import { getRegions } from "@/lib/data";
+
+export const metadata: Metadata = {
+  title: "WHO Regions",
+  description: "Health profiles for 6 WHO regions: Africa, Americas, Eastern Mediterranean, Europe, South-East Asia, and Western Pacific.",
+};
 
 const REGION_COLORS: Record<string, string> = {
   AFRO: "#F59E0B",

@@ -1,6 +1,6 @@
 import { readFileSync } from "fs";
 import { join } from "path";
-import type { Outbreak, CountryCapacity, Country, IndexScore, ReadinessScore } from "@/types";
+import type { Outbreak, CountryCapacity, Country, IndexScore, ReadinessScore, RiskScore } from "@/types";
 
 const DATA_DIR = join(process.cwd(), "data");
 
@@ -114,5 +114,22 @@ export function getRegions(): RegionProfile[] {
     return readJson<RegionProfile[]>("regions.json");
   } catch {
     return [];
+  }
+}
+
+export function getRiskScore(iso3: string): RiskScore | null {
+  try {
+    const all = readJson<Record<string, RiskScore>>("risk.json");
+    return all[iso3] || null;
+  } catch {
+    return null;
+  }
+}
+
+export function getAllRiskScores(): Record<string, RiskScore> {
+  try {
+    return readJson<Record<string, RiskScore>>("risk.json");
+  } catch {
+    return {};
   }
 }

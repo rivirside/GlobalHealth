@@ -4,9 +4,41 @@ import { MobileNav } from "@/components/MobileNav";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Global Health Outbreak Context Dashboard",
+  title: {
+    default: "Outbreak Context — Global Health Dashboard",
+    template: "%s | Outbreak Context",
+  },
   description:
-    "Real-time disease outbreak alerts combined with health system capacity data for affected countries.",
+    "Real-time disease outbreak alerts combined with health system capacity data for affected countries. Track 600+ outbreaks across 99 countries with readiness scores, risk analysis, and WHO preparedness indices.",
+  keywords: [
+    "disease outbreak",
+    "global health",
+    "WHO",
+    "epidemiology",
+    "health system capacity",
+    "outbreak tracker",
+    "disease surveillance",
+    "public health",
+  ],
+  authors: [{ name: "Outbreak Context" }],
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    siteName: "Outbreak Context",
+    title: "Outbreak Context — Global Health Dashboard",
+    description:
+      "Real-time disease outbreak alerts combined with health system capacity data for affected countries.",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Outbreak Context — Global Health Dashboard",
+    description:
+      "Track 600+ disease outbreaks across 99 countries with health system readiness scores and risk analysis.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({

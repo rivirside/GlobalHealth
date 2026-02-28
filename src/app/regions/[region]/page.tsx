@@ -1,4 +1,5 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import { getRegions, getOutbreaks, getAllReadinessScores } from "@/lib/data";
 import { ReadinessScoreBadge } from "@/components/ReadinessScoreBadge";
 import { DISEASE_CATEGORY_COLORS, DISEASE_CATEGORY_LABELS } from "@/types";
@@ -6,6 +7,22 @@ import type { DiseaseCategory } from "@/types";
 
 interface Props {
   params: Promise<{ region: string }>;
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { region } = await params;
+  const regions = getRegions();
+  const regionData = regions.find((r) => r.code === region.toUpperCase());
+  if (!regionData) return { title: "Region Not Found" };
+
+  return {
+    title: `${regionData.name} (${regionData.shortName})`,
+    description: `WHO ${regionData.name}: ${regionData.countryCount} countries, ${regionData.outbreakCount} outbreak reports.${regionData.avgReadiness ? ` Average readiness: ${regionData.avgReadiness.toFixed(0)}/100.` : ""}`,
+    openGraph: {
+      title: `${regionData.name} — Regional Overview`,
+      description: `${regionData.countryCount} countries, ${regionData.outbreakCount} outbreak reports.`,
+    },
+  };
 }
 
 export default async function RegionProfilePage({ params }: Props) {

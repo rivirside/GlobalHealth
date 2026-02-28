@@ -207,45 +207,71 @@
         "name": "Zimbabwe"
       }
     ],
-    "outbreakCount": 32,
-    "activeOutbreaks": 32,
+    "outbreakCount": 301,
+    "activeOutbreaks": 11,
     "affectedCountries": [
-      "REU",
-      "TZA",
-      "ETH",
-      "UGA",
-      "GIN",
-      "TCD",
-      "COD",
       "AGO",
-      "ZAF",
-      "ZMB",
+      "TGO",
+      "SEN",
       "RWA",
-      "MRT"
+      "BFA",
+      "TCD",
+      "MDG",
+      "BDI",
+      "GAB",
+      "DZA",
+      "LBR",
+      "COG",
+      "MWI",
+      "GHA",
+      "CAF",
+      "ZAF",
+      "NAM",
+      "TZA",
+      "MLI",
+      "CPV",
+      "MYT",
+      "NER",
+      "SSD",
+      "GNQ",
+      "CMR",
+      "NGA",
+      "KEN",
+      "ETH",
+      "GIN",
+      "COD",
+      "ZMB",
+      "MRT",
+      "ZWE",
+      "MOZ",
+      "UGA",
+      "REU",
+      "GMB",
+      "BEN"
     ],
-    "affectedCountryCount": 12,
+    "affectedCountryCount": 38,
     "avgReadiness": 59.8,
     "readinessScoreCount": 47,
     "topDiseases": [
       {
-        "name": "Marburg virus disease",
-        "count": 10
-      },
-      {
-        "name": "Sudan virus disease",
-        "count": 4
-      },
-      {
         "name": "Ebola virus disease",
-        "count": 2
+        "count": 127
       },
       {
-        "name": "Mpox",
-        "count": 2
+        "name": "Marburg virus disease",
+        "count": 24
       },
       {
-        "name": "Rift Valley fever",
-        "count": 1
+        "name": "Cholera",
+        "count": 23
+      },
+      {
+        "name": "Yellow fever",
+        "count": 20
+      },
+      {
+        "name": "Lassa Fever",
+        "count": 13
       }
     ]
   },
@@ -465,40 +491,53 @@
         "name": "VIR"
       }
     ],
-    "outbreakCount": 11,
-    "activeOutbreaks": 11,
+    "outbreakCount": 76,
+    "activeOutbreaks": 3,
     "affectedCountries": [
-      "MEX",
+      "ECU",
       "ARG",
-      "BOL",
+      "BRA",
+      "PER",
       "BRB",
-      "URY",
+      "HTI",
+      "SUR",
+      "DOM",
+      "USA",
       "CUB",
-      "USA"
+      "BOL",
+      "TTO",
+      "JAM",
+      "URY",
+      "CHL",
+      "PRY",
+      "MEX",
+      "HND",
+      "PAN",
+      "VEN"
     ],
-    "affectedCountryCount": 7,
+    "affectedCountryCount": 20,
     "avgReadiness": 90.6,
     "readinessScoreCount": 35,
     "topDiseases": [
       {
-        "name": "Avian Influenza A(H5N1)",
-        "count": 2
+        "name": "Zika virus disease",
+        "count": 15
       },
       {
-        "name": "Human infection caused by avian Influenza A(H5N2)",
-        "count": 2
-      },
-      {
-        "name": "Avian Influenza A(H5N5)",
-        "count": 1
+        "name": "Yellow fever",
+        "count": 13
       },
       {
         "name": "Measles",
-        "count": 1
+        "count": 5
       },
       {
-        "name": "Chapare haemorrhagic fever",
-        "count": 1
+        "name": "Microcephaly",
+        "count": 4
+      },
+      {
+        "name": "Avian Influenza A(H5N1)",
+        "count": 3
       }
     ]
   },
@@ -598,36 +637,47 @@
         "name": "Yemen"
       }
     ],
-    "outbreakCount": 8,
-    "activeOutbreaks": 8,
+    "outbreakCount": 96,
+    "activeOutbreaks": 4,
     "affectedCountries": [
-      "IRN",
+      "OMN",
+      "LBN",
       "SAU",
-      "MAR"
+      "SOM",
+      "MAR",
+      "AFG",
+      "PAK",
+      "QAT",
+      "YEM",
+      "TUN",
+      "SDN",
+      "BHR",
+      "IRN",
+      "ARE"
     ],
-    "affectedCountryCount": 3,
+    "affectedCountryCount": 14,
     "avgReadiness": 76.1,
     "readinessScoreCount": 22,
     "topDiseases": [
       {
         "name": "Middle East respiratory syndrome coronavirus",
-        "count": 4
+        "count": 74
       },
       {
         "name": "Measles",
-        "count": 1
+        "count": 5
       },
       {
-        "name": "Invasive meningococcal disease",
-        "count": 1
+        "name": "Cholera",
+        "count": 4
+      },
+      {
+        "name": "Dengue fever",
+        "count": 3
       },
       {
         "name": "Dengue",
-        "count": 1
-      },
-      {
-        "name": "Middle East Respiratory Syndrome Coronavirus",
-        "count": 1
+        "count": 2
       }
     ]
   },
@@ -871,27 +921,42 @@
         "name": "Uzbekistan"
       }
     ],
-    "outbreakCount": 3,
-    "activeOutbreaks": 3,
+    "outbreakCount": 38,
+    "activeOutbreaks": 0,
     "affectedCountries": [
-      "SWE",
       "GBR",
-      "ESP"
+      "AUT",
+      "RUS",
+      "FRA",
+      "ESP",
+      "SWE",
+      "ITA",
+      "NLD",
+      "POL",
+      "DEU"
     ],
-    "affectedCountryCount": 3,
+    "affectedCountryCount": 10,
     "avgReadiness": 98.4,
     "readinessScoreCount": 53,
     "topDiseases": [
       {
+        "name": "Lassa Fever",
+        "count": 4
+      },
+      {
+        "name": "Monkeypox",
+        "count": 3
+      },
+      {
+        "name": "Zika virus disease",
+        "count": 3
+      },
+      {
+        "name": "Chikungunya",
+        "count": 3
+      },
+      {
         "name": "Mpox",
-        "count": 1
-      },
-      {
-        "name": "Influenza A(H1N1) variant virus",
-        "count": 1
-      },
-      {
-        "name": "Influenza A(H1N2) variant virus infection",
         "count": 1
       }
     ]
@@ -944,37 +1009,40 @@
         "name": "Timor-Leste"
       }
     ],
-    "outbreakCount": 11,
-    "activeOutbreaks": 11,
+    "outbreakCount": 29,
+    "activeOutbreaks": 6,
     "affectedCountries": [
-      "TLS",
       "BGD",
-      "THA",
-      "IND"
+      "IND",
+      "MDV",
+      "NPL",
+      "TLS",
+      "LKA",
+      "THA"
     ],
-    "affectedCountryCount": 4,
+    "affectedCountryCount": 7,
     "avgReadiness": 82.6,
     "readinessScoreCount": 10,
     "topDiseases": [
       {
         "name": "Nipah virus infection",
+        "count": 6
+      },
+      {
+        "name": "Dengue",
+        "count": 5
+      },
+      {
+        "name": "Zika virus disease",
         "count": 4
       },
       {
-        "name": "Nipah virus disease",
-        "count": 1
+        "name": "Nipah virus",
+        "count": 2
       },
       {
-        "name": "Nipah Virus Infection",
-        "count": 1
-      },
-      {
-        "name": "Rabies",
-        "count": 1
-      },
-      {
-        "name": "Anthrax",
-        "count": 1
+        "name": "Middle East respiratory syndrome coronavirus",
+        "count": 2
       }
     ]
   },
@@ -1126,37 +1194,43 @@
         "name": "WSM"
       }
     ],
-    "outbreakCount": 9,
-    "activeOutbreaks": 9,
+    "outbreakCount": 78,
+    "activeOutbreaks": 1,
     "affectedCountries": [
+      "IDN",
+      "PHL",
       "AUS",
-      "VNM",
       "CHN",
-      "KHM"
+      "JPN",
+      "PNG",
+      "VNM",
+      "KHM",
+      "SGP",
+      "LAO"
     ],
-    "affectedCountryCount": 4,
+    "affectedCountryCount": 10,
     "avgReadiness": 87.6,
     "readinessScoreCount": 28,
     "topDiseases": [
       {
+        "name": "Influenza A H7N9 virus",
+        "count": 38
+      },
+      {
+        "name": "Influenza A H5N6 virus",
+        "count": 8
+      },
+      {
         "name": "Avian Influenza A(H5N1)",
-        "count": 3
+        "count": 4
       },
       {
         "name": "Avian Influenza A (H5N1)",
+        "count": 4
+      },
+      {
+        "name": "Novel Coronavirus",
         "count": 3
-      },
-      {
-        "name": "Influenza A(H1N1) variant virus",
-        "count": 1
-      },
-      {
-        "name": "Avian Influenza A(H9N2)",
-        "count": 1
-      },
-      {
-        "name": "Upsurge of respiratory illnesses among children",
-        "count": 1
       }
     ]
   }

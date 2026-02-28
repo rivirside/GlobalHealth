@@ -1,10 +1,27 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import { getDiseases, getOutbreaks } from "@/lib/data";
 import { DISEASE_CATEGORY_COLORS, DISEASE_CATEGORY_LABELS } from "@/types";
 import type { DiseaseCategory } from "@/types";
 
 interface Props {
   params: Promise<{ slug: string }>;
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { slug } = await params;
+  const diseases = getDiseases();
+  const disease = diseases.find((d) => d.slug === slug);
+  if (!disease) return { title: "Disease Not Found" };
+
+  return {
+    title: disease.name,
+    description: `${disease.name}: ${disease.outbreakCount} outbreak reports across ${disease.countryCount} countries. ${disease.transmission || ""}`.trim(),
+    openGraph: {
+      title: `${disease.name} — Outbreak Profile`,
+      description: `${disease.outbreakCount} reports across ${disease.countryCount} countries.`,
+    },
+  };
 }
 
 export default async function DiseaseProfilePage({ params }: Props) {

@@ -129,44 +129,35 @@ def make_id(disease: str, country: str, date: str) -> str:
     return hashlib.md5(raw.encode()).hexdigest()[:12]
 
 
-def fetch_who_don() -> list[dict]:
-    """Fetch WHO Disease Outbreak News via the OData API."""
-    print("Fetching WHO DON via API...")
-
-    # Build full URL — use a Session with a PreparedRequest to prevent
-    # requests from re-encoding the OData $ parameters
+def fetch_who_don_page(skip: int = 0, top: int = 100) -> list[dict]:
+    """Fetch one page of WHO Disease Outbreak News via the OData API."""
     full_url = (
         WHO_DON_API
         + "?sf_provider=dynamicProvider372"
         "&sf_culture=en"
         "&$orderby=PublicationDateAndTime%20desc"
         "&$select=Title,TitleSuffix,OverrideTitle,UseOverrideTitle,ItemDefaultUrl,PublicationDateAndTime"
-        "&$top=100"
+        f"&$top={top}"
+        f"&$skip={skip}"
     )
 
-    try:
-        session = requests.Session()
-        session.headers.update({
-            "User-Agent": "Mozilla/5.0 (GlobalHealthDashboard/1.0)",
-            "Accept": "application/json",
-        })
-        req = requests.Request("GET", full_url)
-        prepared = req.prepare()
-        # Override the URL to prevent requests from re-encoding OData params
-        prepared.url = full_url
-        resp = session.send(prepared, timeout=30)
-        resp.raise_for_status()
-        data = resp.json()
-    except Exception as e:
-        print(f"  Error fetching WHO DON API: {e}")
-        return []
+    session = requests.Session()
+    session.headers.update({
+        "User-Agent": "Mozilla/5.0 (GlobalHealthDashboard/1.0)",
+        "Accept": "application/json",
+    })
+    req = requests.Request("GET", full_url)
+    prepared = req.prepare()
+    prepared.url = full_url
+    resp = session.send(prepared, timeout=30)
+    resp.raise_for_status()
+    return resp.json().get("value", [])
 
-    items = data.get("value", [])
-    print(f"  Received {len(items)} items from API")
 
+def parse_don_items(items: list[dict]) -> list[dict]:
+    """Parse a list of WHO DON API items into outbreak records."""
     outbreaks = []
     for item in items:
-        # Build title
         title = item.get("Title", "")
         suffix = item.get("TitleSuffix", "")
         override = item.get("OverrideTitle", "")
@@ -176,28 +167,31 @@ def fetch_who_don() -> list[dict]:
         if suffix:
             display_title += f" {suffix}"
 
-        # Parse title
         disease, country = parse_don_title(display_title)
         if not country:
-            print(f"  Skipping (no country): {display_title}")
             continue
 
         iso3 = get_iso3(country)
         if not iso3:
-            print(f"  Unknown country '{country}' from: {display_title}")
             continue
 
         coords = get_coordinates(iso3)
         if not coords:
             continue
 
-        # Parse date
         date_str = item.get("PublicationDateAndTime", "")
         date = date_str[:10] if date_str else datetime.now().strftime("%Y-%m-%d")
 
-        # Build URL
         url_path = item.get("ItemDefaultUrl", "")
         source_url = f"https://www.who.int{url_path}" if url_path else ""
+
+        # Mark older outbreaks (>1 year) as resolved
+        try:
+            outbreak_date = datetime.strptime(date, "%Y-%m-%d")
+            age_days = (datetime.now() - outbreak_date).days
+            status = "resolved" if age_days > 365 else "active"
+        except ValueError:
+            status = "active"
 
         outbreak = {
             "id": make_id(disease, country, date),
@@ -213,13 +207,46 @@ def fetch_who_don() -> list[dict]:
             "source": "WHO DON",
             "lat": coords[0],
             "lon": coords[1],
-            "status": "active",
+            "status": status,
         }
         outbreaks.append(outbreak)
-        print(f"  + {disease} in {country} ({iso3}) - {date}")
 
-    print(f"\nParsed {len(outbreaks)} outbreaks from WHO DON")
     return outbreaks
+
+
+# Maximum pages to fetch (100 items each). 8 pages = up to 800 items, going back ~8 years.
+MAX_PAGES = 8
+
+
+def fetch_who_don() -> list[dict]:
+    """Fetch WHO Disease Outbreak News via the OData API with pagination."""
+    print("Fetching WHO DON via API (paginated)...")
+
+    all_outbreaks = []
+    for page in range(MAX_PAGES):
+        skip = page * 100
+        try:
+            items = fetch_who_don_page(skip=skip)
+        except Exception as e:
+            print(f"  Error fetching page {page + 1} (skip={skip}): {e}")
+            break
+
+        if not items:
+            print(f"  Page {page + 1}: no more items")
+            break
+
+        parsed = parse_don_items(items)
+        all_outbreaks.extend(parsed)
+
+        first_date = items[0].get("PublicationDateAndTime", "")[:10]
+        last_date = items[-1].get("PublicationDateAndTime", "")[:10]
+        print(f"  Page {page + 1}: {len(items)} items, {len(parsed)} parsed ({last_date} to {first_date})")
+
+        if len(items) < 100:
+            break
+
+    print(f"\nParsed {len(all_outbreaks)} outbreaks total from WHO DON")
+    return all_outbreaks
 
 
 def main():

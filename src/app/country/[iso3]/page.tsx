@@ -1,7 +1,9 @@
 import Link from "next/link";
-import { getOutbreaks, getCountryCapacity, getReadinessScore, getIndices, getBorders, getAllReadinessScores } from "@/lib/data";
+import type { Metadata } from "next";
+import { getOutbreaks, getCountryCapacity, getReadinessScore, getIndices, getBorders, getAllReadinessScores, getRiskScore } from "@/lib/data";
 import { CapacitySection } from "./CapacitySection";
 import { ReadinessScoreBadge } from "@/components/ReadinessScoreBadge";
+import { RiskBadge } from "@/components/RiskBadge";
 import { PreparednessRadar } from "@/components/PreparednessRadar";
 import { PrintButton } from "@/components/PrintButton";
 import { DISEASE_CATEGORY_COLORS, DISEASE_CATEGORY_LABELS, INDICATOR_GROUPS } from "@/types";
@@ -11,12 +13,31 @@ interface Props {
   params: Promise<{ iso3: string }>;
 }
 
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { iso3 } = await params;
+  const upper = iso3.toUpperCase();
+  const capacity = getCountryCapacity(upper);
+  const name = capacity?.name || upper;
+  const readiness = getReadinessScore(upper);
+  const scoreText = readiness ? ` (Readiness: ${readiness.score.toFixed(0)}/100)` : "";
+
+  return {
+    title: `${name} Health Profile`,
+    description: `Health system capacity, outbreak history, and preparedness data for ${name}${scoreText}. Includes WHO indicators, vaccination coverage, and risk assessment.`,
+    openGraph: {
+      title: `${name} — Health System Profile`,
+      description: `Health capacity data and outbreak history for ${name}${scoreText}.`,
+    },
+  };
+}
+
 export default async function CountryProfilePage({ params }: Props) {
   const { iso3 } = await params;
   const upper = iso3.toUpperCase();
 
   const capacity = getCountryCapacity(upper);
   const readiness = getReadinessScore(upper);
+  const risk = getRiskScore(upper);
   const allIndices = getIndices();
   const countryIndices = allIndices[upper] || [];
   const allOutbreaks = getOutbreaks();
@@ -79,6 +100,7 @@ export default async function CountryProfilePage({ params }: Props) {
       <div className="mt-4 mb-8 print:mb-4">
         <div className="flex items-start gap-6">
           {readiness && <ReadinessScoreBadge score={readiness.score} size="lg" />}
+          {risk && <RiskBadge score={risk.score} level={risk.level} size="lg" />}
           <div className="flex-1">
             <div className="flex items-center justify-between">
               <h1 className="text-3xl font-bold text-gray-900">{capacity.name || upper}</h1>

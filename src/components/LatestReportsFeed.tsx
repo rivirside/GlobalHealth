@@ -12,7 +12,15 @@ export function LatestReportsFeed({ outbreaks }: Props) {
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
     .slice(0, 8);
 
-  if (latest.length === 0) return null;
+  if (latest.length === 0) {
+    return (
+      <div className="text-center py-8">
+        <span className="text-3xl" role="img" aria-hidden="true">🔍</span>
+        <p className="text-sm font-medium text-gray-600 mt-2">No outbreaks match filters</p>
+        <p className="text-xs text-gray-400 mt-1">Try adjusting your filters to see more results</p>
+      </div>
+    );
+  }
 
   return (
     <div className="bg-white border border-gray-200 rounded-lg shadow-sm overflow-hidden">
