@@ -1,6 +1,6 @@
 "use client";
 
-import { MapContainer, TileLayer, CircleMarker, Popup, useMap } from "react-leaflet";
+import { MapContainer, TileLayer, CircleMarker, Popup, Tooltip, useMap } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import { DISEASE_CATEGORY_COLORS, type Outbreak } from "@/types";
 
@@ -58,6 +58,16 @@ export default function OutbreakMap({
               click: () => onSelectOutbreak(outbreak),
             }}
           >
+            <Tooltip direction="top" offset={[0, -radius]} opacity={0.95}>
+              <span className="text-xs font-semibold">{outbreak.disease}</span>
+              {" — "}
+              <span className="text-xs">{outbreak.country}</span>
+              {outbreak.cases !== null && (
+                <span className="text-xs text-gray-500">
+                  {" "}({outbreak.cases.toLocaleString()} cases)
+                </span>
+              )}
+            </Tooltip>
             <Popup>
               <div className="text-sm">
                 <p className="font-semibold">{outbreak.disease}</p>

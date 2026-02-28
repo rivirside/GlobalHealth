@@ -26,3 +26,46 @@ body {
   width: 100%;
   z-index: 0;
 }
+
+/* Print styles for country brief export */
+@media print {
+  header,
+  footer,
+  nav {
+    display: none !important;
+  }
+
+  body {
+    font-size: 11px;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  main {
+    padding: 0 !important;
+  }
+
+  .print\:hidden {
+    display: none !important;
+  }
+
+  .print\:mb-4 {
+    margin-bottom: 1rem !important;
+  }
+
+  /* Force single page layout */
+  @page {
+    size: A4;
+    margin: 1.5cm;
+  }
+
+  /* Avoid breaking inside cards */
+  .rounded-lg {
+    break-inside: avoid;
+  }
+
+  /* Recharts SVGs print properly */
+  .recharts-wrapper {
+    break-inside: avoid;
+  }
+}

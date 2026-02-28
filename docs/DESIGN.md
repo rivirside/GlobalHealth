@@ -100,3 +100,39 @@
 - Section headers: `text-xs font-semibold uppercase tracking-wider text-gray-500`
 - Data labels: `text-sm text-gray-500`
 - Data values: `text-lg font-semibold text-gray-900 font-mono`
+
+## Readiness Score Badge
+- Component: `ReadinessScoreBadge.tsx`
+- SVG circular ring gauge (0-100)
+- Colors: green (`#10B981`) for 75+, amber (`#F59E0B`) for 40-74, red (`#EF4444`) for <40
+- Two sizes: `lg` (96px, used on country profile) and `sm` (64px, used in sidebar/neighbors)
+- Labels: "Strong", "Moderate", "Limited" based on score range
+
+## Preparedness Radar
+- Component: `PreparednessRadar.tsx`
+- **GHSI**: Recharts RadarChart with 6 category axes (Prevention, Detection, Response, Health, Norms, Risk)
+- **INFORM**: Recharts RadarChart with 3 dimension axes (Hazard, Vulnerability, Coping Capacity). Note: INFORM uses inverted scale (higher = more risk)
+- **SPAR**: Horizontal progress bars for 15 IHR capacity areas
+- Bar colors: green for 60+, amber for 40-59, red for <40
+
+## Comparison Charts
+- Component: `ComparisonChart.tsx`
+- Up to 3 countries, color-coded: blue (`#3B82F6`), red (`#EF4444`), green (`#10B981`)
+- Horizontal grouped BarChart for capacity indicators
+- Vertical grouped BarChart for GHSI/SPAR indices
+- Overview cards with readiness badges per country
+
+## Timeline Chart
+- Component: `OutbreakTimeline.tsx`
+- Recharts AreaChart with monthly outbreak counts
+- Two views: "Total" (single blue area) and "By Category" (stacked areas using disease category colors)
+- Country filter dropdown
+- Stats grid: Total Reports, Countries, Diseases, Date Range
+
+## Print Styles
+- `@media print` rules in `globals.css`
+- Hides header, nav, footer, and `.print:hidden` elements
+- A4 page size with 1.5cm margins
+- `break-inside: avoid` on cards and charts
+- `print-color-adjust: exact` for color preservation
+- PrintButton component calls `window.print()`, hides itself when printing

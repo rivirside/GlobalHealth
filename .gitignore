@@ -42,6 +42,7 @@ __pycache__/
 venv/
 .venv/
 pipeline/.venv/
+pipeline/source_data/
 
 # IDE
 .idea/

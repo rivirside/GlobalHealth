@@ -93,3 +93,111 @@ Each decision follows this structure:
 - All styles via Tailwind utility classes
 - Custom colors defined in Tailwind config for disease categories and capacity status
 - No external UI component library dependency
+
+---
+
+## 2026-02-27: Readiness Score — Weighted Composite of WHO Capacity Indicators
+
+**Decision**: Compute a 0-100 composite readiness score from 6 WHO capacity indicators using weighted normalization against benchmarks.
+
+**Context**: Needed a single number to summarize a country's health system preparedness for outbreak response.
+
+**Options Considered**:
+1. Simple average of all indicators
+2. Weighted composite with benchmark normalization
+3. Reuse GHSI or INFORM scores directly
+
+**Rationale**: Weighted composite allows emphasizing the most relevant indicators (UHC index and health expenditure get 1.5x weight). Normalizing against WHO benchmarks gives a meaningful 0-100 scale where 100 = meets all benchmarks. Requires minimum 3 indicators to avoid sparse data artifacts. GHSI/INFORM serve different purposes (security vs risk) and don't measure operational readiness directly.
+
+**Consequences**:
+- Formula: `min(value/benchmark, 1.0)` per indicator, then weighted average × 100
+- Indicators: hospital_beds, physicians, nurses, uhc_index, dtp3_coverage, health_expenditure_pc
+- UHC and health_expenditure get 1.5x weight; rest get 1.0x
+- Countries with <3 indicators get null score (excluded from display)
+- 195 countries have valid scores
+
+---
+
+## 2026-02-27: Index Data Sources — GHSI CSV + INFORM Excel + SPAR via GHO API
+
+**Decision**: Use three distinct sources for preparedness indices: GHSI CSV, INFORM Excel, and SPAR via WHO GHO API.
+
+**Context**: Multiple global health preparedness indices exist. Need to integrate the most authoritative ones.
+
+**Options Considered**:
+1. GHSI only (most well-known)
+2. GHSI + INFORM (two perspectives: security + risk)
+3. GHSI + INFORM + SPAR (adds WHO's own self-assessment)
+
+**Rationale**: Each index measures something different. GHSI measures health security capacity (higher = better). INFORM measures disaster risk (higher = worse — inverted scale). SPAR provides WHO's IHR self-assessment (15 granular capacities). Together they give a triangulated picture that no single index provides.
+
+**Consequences**:
+- GHSI: CSV download from ghsindex.org (2021 data, 163 countries)
+- INFORM: Excel from drmkc.jrc.ec.europa.eu (2025 data, 191 countries)
+- SPAR: WHO GHO API with IHRSPAR2 2nd edition codes (218 countries, 15 capacities)
+- INFORM uses `invertedScale: true` flag in data model
+- Excel parsing requires openpyxl dependency in pipeline
+- GHSI data is from 2021 (latest available); may update when new edition releases
+
+---
+
+## 2026-02-27: Outbreak History — Append Mode with Deduplication
+
+**Decision**: Outbreak pipeline appends new entries to existing data and deduplicates by ID, rather than overwriting.
+
+**Context**: Want to build historical trends over time for the timeline view.
+
+**Options Considered**:
+1. Overwrite outbreaks.json on each run (simple, no history)
+2. Append with deduplication (accumulates history)
+3. Separate archive file + current file
+
+**Rationale**: Appending is simple and the data is small. Deduplication by WHO DON ID prevents duplicates. A single file is easier to query than split archives. Over months of pipeline runs, the dataset naturally grows to support trend analysis.
+
+**Consequences**:
+- `fetch_outbreaks.py` loads existing outbreaks.json, merges new entries, deduplicates by `id`
+- Timeline page (/timeline) can show outbreak frequency over time
+- Data file grows slowly over time (currently 74 entries)
+- GitHub Actions commits updated file on each run
+
+---
+
+## 2026-02-27: Country Briefs — Browser Print, Not PDF Library
+
+**Decision**: Use `window.print()` with `@media print` CSS for exportable country briefs instead of a PDF generation library.
+
+**Context**: Country profiles need a "download as PDF" feature for offline use.
+
+**Options Considered**:
+1. jsPDF + html2canvas (JavaScript PDF generation)
+2. Puppeteer/Playwright server-side rendering
+3. Browser print-to-PDF with `@media print` CSS
+
+**Rationale**: Browser print requires zero external dependencies and produces high-quality output. Users can save as PDF from the print dialog. CSS gives full control over layout (A4 page, hidden nav, avoid page breaks inside cards). jsPDF would add ~200KB bundle size for worse output quality. Server-side rendering would require a headless browser on Vercel.
+
+**Consequences**:
+- PrintButton component calls `window.print()`
+- `@media print` in globals.css: hides nav, sets A4 page, avoids breaking cards
+- Zero bundle size impact
+- Users must use browser's "Save as PDF" option (standard behavior)
+
+---
+
+## 2026-02-27: Border Data — Static JSON Mapping
+
+**Decision**: Use a static `data/borders.json` file mapping ISO3 codes to arrays of neighbor ISO3 codes.
+
+**Context**: Country profiles need a "Neighboring Countries" section showing nearby health system context.
+
+**Options Considered**:
+1. Compute borders from GeoJSON polygon data at runtime
+2. Use an external API for border information
+3. Static JSON mapping maintained manually
+
+**Rationale**: Border relationships don't change frequently. A static file is fast to read, requires no API calls, and works offline. Computing from GeoJSON would add a large data dependency (~10MB topology file). 148 countries cover all countries likely to have active outbreaks.
+
+**Consequences**:
+- `data/borders.json` is a simple object: `{ "KEN": ["ETH", "SOM", "SSD", "TZA", "UGA"], ... }`
+- 148 countries with bidirectional mappings
+- Must be manually updated if new countries are added (rare)
+- Island nations without land borders are excluded (acceptable)

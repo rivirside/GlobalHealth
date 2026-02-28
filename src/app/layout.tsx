@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { MobileNav } from "@/components/MobileNav";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -16,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="min-h-screen flex flex-col">
-        <header className="border-b border-gray-200 bg-white">
+        <header className="border-b border-gray-200 bg-white relative">
           <div className="max-w-screen-2xl mx-auto px-4 py-3 flex items-center justify-between">
             <Link href="/" className="flex items-center gap-2">
               <span className="text-lg font-semibold text-gray-900">
@@ -26,12 +27,24 @@ export default function RootLayout({
                 BETA
               </span>
             </Link>
-            <nav className="flex items-center gap-6 text-sm">
+            <nav className="hidden md:flex items-center gap-6 text-sm">
               <Link
                 href="/"
                 className="text-gray-600 hover:text-gray-900 transition-colors"
               >
                 Dashboard
+              </Link>
+              <Link
+                href="/timeline"
+                className="text-gray-600 hover:text-gray-900 transition-colors"
+              >
+                Timeline
+              </Link>
+              <Link
+                href="/compare"
+                className="text-gray-600 hover:text-gray-900 transition-colors"
+              >
+                Compare
               </Link>
               <Link
                 href="/about"
@@ -40,6 +53,7 @@ export default function RootLayout({
                 About
               </Link>
             </nav>
+            <MobileNav />
           </div>
         </header>
         <main className="flex-1">{children}</main>

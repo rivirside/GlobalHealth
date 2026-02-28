@@ -2,109 +2,139 @@
 
 > **Do NOT read this file in full. GREP for specific topics as needed.**
 
-## Phase 1: Foundation (Current)
+## Phase 1: Foundation ✅
 ### 1.1 Project Setup
 - [x] Initialize repo with README, CLAUDE.md, .gitignore
 - [x] Install Next.js 15 + TypeScript + Tailwind
 - [x] Install Leaflet, React-Leaflet, Recharts
 - [x] Create directory structure
-- [ ] Create TypeScript type definitions
-- [ ] Set up global CSS with Tailwind
+- [x] Create TypeScript type definitions
+- [x] Set up global CSS with Tailwind
 
 ### 1.2 Data Pipeline
-- [ ] Write fetch_outbreaks.py (WHO DON RSS + ProMED RSS parser)
-- [ ] Write fetch_capacity.py (WHO GHO API + World Bank API)
-- [ ] Write fetch_indices.py (GHSI CSV + INFORM CSV + SPAR CSV)
-- [ ] Write normalize.py (country name → ISO3 mapping)
-- [ ] Create requirements.txt for Python dependencies
-- [ ] Run initial data fetch
-- [ ] Verify data quality (spot-check 10 countries)
-- [ ] Commit initial data/*.json files
+- [x] Write fetch_outbreaks.py (WHO DON OData API)
+- [x] Write fetch_capacity.py (WHO GHO API + World Bank API)
+- [x] Write fetch_indices.py (GHSI CSV + INFORM Excel + SPAR via WHO GHO)
+- [x] Write compute_readiness.py (derived composite score)
+- [x] Create requirements.txt for Python dependencies
+- [x] Run initial data fetch (74 outbreaks, 268 countries, 219 index countries)
+- [x] Verify data quality
+- [x] Commit initial data/*.json files
 
 ### 1.3 Core App Shell
-- [ ] Create root layout with header/footer
-- [ ] Set up global styles (Tailwind config, CSS reset)
-- [ ] Create home page placeholder
-- [ ] Verify dev server runs cleanly
+- [x] Create root layout with header/navigation
+- [x] Set up global styles (Tailwind config, CSS)
+- [x] Create home page with interactive map
+- [x] Verify dev server runs cleanly
 
-## Phase 2: Core Features
+## Phase 2: Core Features ✅
 ### 2.1 Interactive Map
-- [ ] Leaflet map component with dynamic import (no SSR)
-- [ ] Load outbreak data and place markers
-- [ ] Color markers by disease category
-- [ ] Click marker → select outbreak
-- [ ] Zoom controls and default world view
-- [ ] Tile layer (CartoDB Positron for clean look)
+- [x] Leaflet map component with dynamic import (no SSR)
+- [x] Load outbreak data and place markers
+- [x] Color markers by disease category
+- [x] Click marker → select outbreak
+- [x] Zoom controls and default world view
+- [x] Tile layer (CartoDB Positron)
+- [x] Tooltips on marker hover
+- [x] Disease category legend (collapsible)
 
 ### 2.2 Outbreak Sidebar
-- [ ] Sidebar component (slides in from right on desktop, bottom sheet on mobile)
-- [ ] Outbreak details section (disease, country, cases, deaths, dates)
-- [ ] Source links (WHO DON, ProMED)
-- [ ] Capacity indicators section (horizontal bar charts)
-- [ ] WHO benchmark comparison coloring (green/amber/red)
-- [ ] Historical outbreaks list for that country
-- [ ] "View Full Profile" link to country page
+- [x] Sidebar component (persistent desktop, overlay tablet, bottom sheet mobile)
+- [x] Outbreak details section (disease, country, cases, deaths, dates)
+- [x] Source links (WHO DON)
+- [x] Capacity indicators section (horizontal bar charts with WHO benchmarks)
+- [x] Readiness score badge (SVG ring, color-coded)
+- [x] Index summary (GHSI/INFORM/SPAR one-line)
+- [x] Historical outbreaks list for that country
+- [x] "View Full Profile" link to country page
 
 ### 2.3 Filter Controls
-- [ ] Disease type dropdown (respiratory, vector-borne, etc.)
-- [ ] Date range selector (last 30 days, 90 days, 1 year, all)
-- [ ] Region filter (WHO regions or continents)
-- [ ] Active-only toggle
-- [ ] Stats bar showing filtered count ("47 outbreaks across 32 countries")
+- [x] Disease type dropdown (7 categories)
+- [x] Date range selector (last 30 days, 90 days, 1 year, all)
+- [x] Active-only toggle
+- [x] Stats bar showing filtered count
 
-## Phase 3: Country Profiles
+## Phase 3: Country Profiles ✅
 ### 3.1 Country Profile Page
-- [ ] Dynamic route /country/[iso3]
-- [ ] Country header (name, flag, region, income group)
-- [ ] Capacity indicator grid (all indicators with values + benchmarks)
-- [ ] Time trend charts for key indicators (Recharts line charts)
-- [ ] Comparison to regional average and income-group peers
-- [ ] Preparedness radar chart (GHSI/INFORM dimensions)
+- [x] Dynamic route /country/[iso3]
+- [x] Country header (name, ISO3, readiness badge, print button)
+- [x] Capacity indicator cards (6 indicators with values + benchmarks)
+- [x] Country context (GDP, population, health expenditure % GDP)
+- [x] Preparedness radar chart (GHSI/INFORM radar + SPAR bars)
+- [x] Outbreak history list
+- [x] Neighboring countries (readiness scores + active outbreak counts)
 
-### 3.2 Historical Outbreak Timeline
-- [ ] Chronological list of all past WHO DON reports for the country
-- [ ] Filterable by disease type
-- [ ] Links to original WHO DON reports
-
-## Phase 4: Polish & Deploy
+## Phase 4: Polish & Deploy ✅
 ### 4.1 About/Methodology Page
-- [ ] Data sources table with links and update frequencies
-- [ ] Methodology explanation (how data is collected, normalized, displayed)
-- [ ] Limitations section (data lag, reporting delays, coverage gaps)
-- [ ] How to cite
-- [ ] Contact/feedback mechanism
+- [x] Data sources table with links and update frequencies
+- [x] Methodology explanation
+- [x] Limitations section
+- [x] How to cite
+- [x] Benchmarks reference table
 
 ### 4.2 Responsive Design
-- [ ] Mobile layout: full-width map, bottom sheet sidebar
-- [ ] Tablet layout: collapsible sidebar
-- [ ] Desktop layout: persistent sidebar
-- [ ] Touch-friendly map interactions
+- [x] Mobile layout: full-width map, bottom sheet sidebar, hamburger nav
+- [x] Tablet layout: overlay sidebar
+- [x] Desktop layout: persistent sidebar
+- [x] Stacked filters on small screens
 
-### 4.3 Deployment
-- [ ] Deploy to Vercel
-- [ ] Set up GitHub Actions for data refresh cron
-- [ ] Test auto-refresh pipeline
-- [ ] Add Open Graph meta tags for social sharing
+### 4.3 Deployment Prep
+- [x] Vercel config (vercel.json with API caching headers)
+- [x] GitHub Actions: outbreak refresh every 12h
+- [x] GitHub Actions: capacity refresh quarterly
+- [x] Production build passes with zero errors
+
+## Phase 5: Analytical Depth ✅
+### 5.1 Composite Readiness Score
+- [x] Weighted composite of 6 capacity indicators (0-100 scale)
+- [x] Pipeline: `compute_readiness.py` → `data/readiness.json` (195 countries)
+- [x] ReadinessScoreBadge component (SVG ring, green/amber/red, lg/sm sizes)
+- [x] Displayed on country profile and sidebar
+
+### 5.2 GHSI / INFORM / SPAR Index Integration
+- [x] Pipeline: `fetch_indices.py` → `data/indices.json` (219 countries)
+- [x] GHSI: CSV from ghsindex.org (2021, 163 countries, 6 categories)
+- [x] INFORM: Excel from drmkc.jrc.ec.europa.eu (2025, 191 countries, inverted scale)
+- [x] SPAR: WHO GHO API, IHRSPAR2 2nd edition (218 countries, 15 capacities)
+- [x] PreparednessRadar component (radar charts + horizontal bars)
+- [x] Index summary in sidebar
+
+### 5.3 Historical Outbreak Timeline
+- [x] Outbreak pipeline append mode with deduplication
+- [x] Timeline page (/timeline) with Recharts area chart
+- [x] Total and by-category views with country filter
+- [x] Stats grid (total, countries, diseases, date range)
+
+### 5.4 Neighboring Country Context
+- [x] `data/borders.json` (148 countries, bidirectional)
+- [x] Neighboring Countries section on country profile
+- [x] Readiness scores + active outbreak badges per neighbor
+- [x] Clickable links to neighbor profiles
+
+### 5.5 Country Comparison Mode
+- [x] Compare page (/compare) with 2-3 country selectors
+- [x] Grouped bar charts for capacity indicators
+- [x] Index score comparison (GHSI/SPAR)
+- [x] Overview cards with readiness badges
+
+### 5.6 Exportable Country Briefs
+- [x] Print button on country profile
+- [x] `@media print` CSS for clean A4 layout
+- [x] Browser print-to-PDF (zero dependencies)
+
+## Phase 6: Deployment & Polish (Next)
+### 6.1 Deploy
+- [ ] Deploy to Vercel (connect GitHub repo)
+- [ ] Manually trigger GitHub Actions workflows to verify
+- [ ] Test auto-refresh pipeline end-to-end
 - [ ] Performance audit (Lighthouse)
 
-## Phase 5: Enhancements (Post-MVP)
-### 5.1 Data Enrichment
-- [ ] Add WHO AFRO outbreak alerts (regional feed)
-- [ ] Add WAHIS animal health alerts (One Health angle)
-- [ ] Subnational data where available
-- [ ] Historical capacity time series (show trends)
-
-### 5.2 Analytics Features
-- [ ] Capacity gap analysis ("this country needs X more physicians")
-- [ ] Outbreak frequency analysis (which countries have recurring outbreaks)
-- [ ] Regional comparison views
-- [ ] Export/download data as CSV
-
-### 5.3 User Features
-- [ ] Email alerts for outbreaks in selected countries
+### 6.2 Optional Enhancements
+- [ ] Marker clustering for zoomed-out views (leaflet.markercluster)
+- [ ] Region filter implementation
+- [ ] Choropleth map layer by readiness score
 - [ ] Bookmarkable filters (URL-based state)
-- [ ] Embeddable widget for other websites
-- [ ] Print-friendly country profiles
+- [ ] Open Graph meta tags for social sharing
 
 ## Data Source API Reference
 
@@ -135,19 +165,27 @@
   - `NY.GDP.PCAP.CD` — GDP per capita
   - `SP.POP.TOTL` — Total population
 
-### WHO DON RSS
-- URL: `https://www.who.int/feeds/entity/don/en/rss.xml`
-- Format: RSS 2.0 XML
-- Fields: title, link, description, pubDate, category
-- Parse disease name and country from title (format: "Disease – Country")
+### WHO DON API (OData)
+- URL: `https://www.who.int/api/emergencies/diseaseoutbreaknews`
+- Format: OData JSON (old RSS feed is deprecated)
+- Key fields: Id, DatePublished, DonId, Summary, Country, DiseaseId
+- Note: Use `requests.PreparedRequest` to avoid URL double-encoding of OData `$filter` params
 
-### ProMED RSS
-- URL: `https://promedmail.org/promed-posts/` (check for RSS endpoint)
-- Alternative: scrape recent posts list
-- Fields: title, link, description, pubDate
+### GHSI (Global Health Security Index)
+- URL: `https://www.ghsindex.org/wp-content/uploads/2022/04/2021-GHS-Index-April-2022.csv`
+- Format: CSV with country rows and indicator columns
+- Key columns: "Country", "OVERALL SCORE", plus 6 category scores
+- Data: 2021 edition, 163 countries
 
-### Static CSV Sources
-- GHSI: `https://ghsindex.org/` → download data model Excel
-- INFORM: `https://drmkc.jrc.ec.europa.eu/inform-index/Portals/0/InfoRM/Scores/INFORM_2024.xlsx`
-- SPAR/IHR: `https://extranet.who.int/e-spar/` → export data
-- Fragile States Index: `https://fragilestatesindex.org/excel/`
+### INFORM Risk Index
+- URL: `https://drmkc.jrc.ec.europa.eu/inform-index/Portals/0/InfoRM/2025/INFORM_Risk_Mid_2025_v071.xlsx`
+- Format: Excel (.xlsx), requires openpyxl
+- Key columns: Iso3, INFORM RISK, HAZARD & EXPOSURE, VULNERABILITY, LACK OF COPING CAPACITY
+- Data: 2025 mid-year, 191 countries
+- **Inverted scale**: Higher INFORM = more risk (opposite of GHSI/SPAR)
+
+### SPAR (State Party Annual Report)
+- Source: WHO GHO API using IHRSPAR2 2nd edition indicator codes
+- Codes: `IHRSPAR2_C01` through `IHRSPAR2_C15` (15 capacities)
+- Includes: Legislation, IHR Coordination, Zoonotic Events, Food Safety, Laboratory, Surveillance, Human Resources, Health Emergency Management, Health Service Provision, Risk Communication, Points of Entry, Chemical Events, Radiation, Climate Change, Communities
+- Data: 218 countries, latest available year per country

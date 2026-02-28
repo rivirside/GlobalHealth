@@ -1,6 +1,9 @@
 import Link from "next/link";
-import { getOutbreaks, getCountryCapacity } from "@/lib/data";
+import { getOutbreaks, getCountryCapacity, getReadinessScore, getIndices, getBorders, getAllReadinessScores } from "@/lib/data";
 import { CapacitySection } from "./CapacitySection";
+import { ReadinessScoreBadge } from "@/components/ReadinessScoreBadge";
+import { PreparednessRadar } from "@/components/PreparednessRadar";
+import { PrintButton } from "@/components/PrintButton";
 import { DISEASE_CATEGORY_COLORS, DISEASE_CATEGORY_LABELS } from "@/types";
 import type { DiseaseCategory } from "@/types";
 
@@ -13,10 +16,29 @@ export default async function CountryProfilePage({ params }: Props) {
   const upper = iso3.toUpperCase();
 
   const capacity = getCountryCapacity(upper);
+  const readiness = getReadinessScore(upper);
+  const allIndices = getIndices();
+  const countryIndices = allIndices[upper] || [];
   const allOutbreaks = getOutbreaks();
   const countryOutbreaks = allOutbreaks
     .filter((o) => o.countryIso3 === upper)
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
+  // Neighboring countries
+  const borders = getBorders();
+  const neighborIso3s = borders[upper] || [];
+  const allReadiness = getAllReadinessScores();
+  const neighbors = neighborIso3s.map((nIso3) => {
+    const nCapacity = getCountryCapacity(nIso3);
+    const nReadiness = allReadiness[nIso3];
+    const nOutbreaks = allOutbreaks.filter((o) => o.countryIso3 === nIso3);
+    return {
+      iso3: nIso3,
+      name: nCapacity?.name || nIso3,
+      readinessScore: nReadiness?.score ?? null,
+      activeOutbreaks: nOutbreaks.filter((o) => o.status === "active").length,
+    };
+  });
 
   if (!capacity) {
     return (
@@ -52,16 +74,29 @@ export default async function CountryProfilePage({ params }: Props) {
       </Link>
 
       {/* Country Header */}
-      <div className="mt-4 mb-8">
-        <h1 className="text-3xl font-bold text-gray-900">{capacity.name || upper}</h1>
-        <p className="text-sm text-gray-500 mt-1">
-          ISO 3166-1: {upper}
-          {countryOutbreaks.length > 0 && (
-            <span className="ml-4">
-              {countryOutbreaks.length} outbreak{countryOutbreaks.length !== 1 ? "s" : ""} reported
-            </span>
-          )}
-        </p>
+      <div className="mt-4 mb-8 print:mb-4">
+        <div className="flex items-start gap-6">
+          {readiness && <ReadinessScoreBadge score={readiness.score} size="lg" />}
+          <div className="flex-1">
+            <div className="flex items-center justify-between">
+              <h1 className="text-3xl font-bold text-gray-900">{capacity.name || upper}</h1>
+              <PrintButton />
+            </div>
+            <p className="text-sm text-gray-500 mt-1">
+              ISO 3166-1: {upper}
+              {countryOutbreaks.length > 0 && (
+                <span className="ml-4">
+                  {countryOutbreaks.length} outbreak{countryOutbreaks.length !== 1 ? "s" : ""} reported
+                </span>
+              )}
+            </p>
+            {readiness && (
+              <p className="text-xs text-gray-400 mt-1">
+                Based on {readiness.indicatorsUsed} capacity indicators
+              </p>
+            )}
+          </div>
+        </div>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -101,10 +136,22 @@ export default async function CountryProfilePage({ params }: Props) {
               </div>
             </section>
           )}
+
+          {/* Preparedness Indices */}
+          {countryIndices.length > 0 && (
+            <section>
+              <h2 className="text-lg font-semibold text-gray-900 mb-4 flex items-center gap-2">
+                <span className="w-1 h-5 bg-purple-500 rounded-full" />
+                Preparedness Indices
+              </h2>
+              <PreparednessRadar indices={countryIndices} />
+            </section>
+          )}
         </div>
 
-        {/* Right: Outbreak History */}
-        <div>
+        {/* Right: Outbreak History + Neighbors */}
+        <div className="space-y-8">
+          <section>
           <h2 className="text-lg font-semibold text-gray-900 mb-4 flex items-center gap-2">
             <span className="w-1 h-5 bg-red-500 rounded-full" />
             Outbreak History
@@ -172,6 +219,40 @@ export default async function CountryProfilePage({ params }: Props) {
                 );
               })}
             </div>
+          )}
+          </section>
+
+          {/* Neighboring Countries */}
+          {neighbors.length > 0 && (
+            <section className="print:hidden">
+              <h2 className="text-lg font-semibold text-gray-900 mb-4 flex items-center gap-2">
+                <span className="w-1 h-5 bg-amber-500 rounded-full" />
+                Neighboring Countries
+              </h2>
+              <div className="space-y-2">
+                {neighbors.map((n) => (
+                  <Link
+                    key={n.iso3}
+                    href={`/country/${n.iso3}`}
+                    className="flex items-center justify-between bg-white border border-gray-200 rounded-lg p-3 hover:border-gray-300 transition-colors"
+                  >
+                    <div className="flex items-center gap-3">
+                      {n.readinessScore !== null && (
+                        <ReadinessScoreBadge score={n.readinessScore} size="sm" />
+                      )}
+                      <span className="text-sm font-medium text-gray-900">
+                        {n.name}
+                      </span>
+                    </div>
+                    {n.activeOutbreaks > 0 && (
+                      <span className="text-xs text-red-600 bg-red-50 px-2 py-0.5 rounded-full">
+                        {n.activeOutbreaks} active
+                      </span>
+                    )}
+                  </Link>
+                ))}
+              </div>
+            </section>
           )}
         </div>
       </div>

@@ -13,7 +13,7 @@ interface FilterBarProps {
 
 export function FilterBar({ filters, onFiltersChange }: FilterBarProps) {
   return (
-    <div className="border-b border-gray-200 bg-white px-4 py-2 flex items-center gap-4 flex-wrap">
+    <div className="border-b border-gray-200 bg-white px-4 py-2 flex flex-col gap-2 sm:flex-row sm:items-center sm:gap-4 sm:flex-wrap">
       <label className="flex items-center gap-2 text-sm">
         <span className="text-gray-500">Disease:</span>
         <select

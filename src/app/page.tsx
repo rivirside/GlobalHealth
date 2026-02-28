@@ -5,7 +5,8 @@ import dynamic from "next/dynamic";
 import { FilterBar } from "@/components/FilterBar";
 import { StatsBar } from "@/components/StatsBar";
 import { OutbreakSidebar } from "@/components/OutbreakSidebar";
-import type { Outbreak, OutbreakFilters, CountryCapacity } from "@/types";
+import { MapLegend } from "@/components/MapLegend";
+import type { Outbreak, OutbreakFilters, CountryCapacity, IndexScore } from "@/types";
 
 const OutbreakMap = dynamic(() => import("@/components/OutbreakMap"), {
   ssr: false,
@@ -23,6 +24,8 @@ export default function HomePage() {
   );
   const [countryCapacity, setCountryCapacity] =
     useState<CountryCapacity | null>(null);
+  const [readinessScore, setReadinessScore] = useState<number | null>(null);
+  const [countryIndices, setCountryIndices] = useState<IndexScore[]>([]);
   const [filters, setFilters] = useState<OutbreakFilters>({
     diseaseCategory: "all",
     dateRange: "all",
@@ -40,12 +43,23 @@ export default function HomePage() {
   useEffect(() => {
     if (!selectedOutbreak) {
       setCountryCapacity(null);
+      setReadinessScore(null);
+      setCountryIndices([]);
       return;
     }
-    fetch(`/api/capacity/${selectedOutbreak.countryIso3}`)
+    const iso3 = selectedOutbreak.countryIso3;
+    fetch(`/api/capacity/${iso3}`)
       .then((res) => res.json())
       .then((data) => setCountryCapacity(data))
       .catch((err) => console.error("Failed to fetch capacity:", err));
+    fetch(`/api/readiness/${iso3}`)
+      .then((res) => res.ok ? res.json() : null)
+      .then((data) => setReadinessScore(data?.score ?? null))
+      .catch(() => setReadinessScore(null));
+    fetch(`/api/indices/${iso3}`)
+      .then((res) => res.ok ? res.json() : [])
+      .then((data) => setCountryIndices(data))
+      .catch(() => setCountryIndices([]));
   }, [selectedOutbreak]);
 
   const filteredOutbreaks = outbreaks.filter((o) => {
@@ -70,24 +84,27 @@ export default function HomePage() {
   const uniqueCountries = new Set(filteredOutbreaks.map((o) => o.countryIso3));
 
   return (
-    <div className="flex flex-col" style={{ height: "calc(100vh - 53px)" }}>
+    <div className="flex flex-col h-[calc(100dvh-53px)]">
       <FilterBar filters={filters} onFiltersChange={setFilters} />
       <StatsBar
         outbreakCount={filteredOutbreaks.length}
         countryCount={uniqueCountries.size}
       />
       <div className="flex-1 flex relative overflow-hidden">
-        <div className="flex-1">
+        <div className="flex-1 relative">
           <OutbreakMap
             outbreaks={filteredOutbreaks}
             selectedOutbreak={selectedOutbreak}
             onSelectOutbreak={setSelectedOutbreak}
           />
+          <MapLegend />
         </div>
         {selectedOutbreak && (
           <OutbreakSidebar
             outbreak={selectedOutbreak}
             capacity={countryCapacity}
+            readinessScore={readinessScore}
+            indices={countryIndices}
             onClose={() => setSelectedOutbreak(null)}
           />
         )}

@@ -224,13 +224,32 @@ def fetch_who_don() -> list[dict]:
 
 def main():
     DATA_DIR.mkdir(exist_ok=True)
-    outbreaks = fetch_who_don()
-    outbreaks.sort(key=lambda x: x["date"], reverse=True)
+
+    # Load existing outbreaks for append/dedup
+    existing: list[dict] = []
+    if OUTPUT_FILE.exists():
+        try:
+            existing = json.loads(OUTPUT_FILE.read_text())
+            print(f"Loaded {len(existing)} existing outbreaks")
+        except Exception:
+            pass
+
+    new_outbreaks = fetch_who_don()
+
+    # Merge: deduplicate by ID, keeping new entries if duplicate
+    by_id = {o["id"]: o for o in existing}
+    added = 0
+    for o in new_outbreaks:
+        if o["id"] not in by_id:
+            added += 1
+        by_id[o["id"]] = o
+
+    merged = sorted(by_id.values(), key=lambda x: x["date"], reverse=True)
 
     with open(OUTPUT_FILE, "w") as f:
-        json.dump(outbreaks, f, indent=2)
+        json.dump(merged, f, indent=2)
 
-    print(f"Wrote {len(outbreaks)} outbreaks to {OUTPUT_FILE}")
+    print(f"Wrote {len(merged)} outbreaks to {OUTPUT_FILE} ({added} new, {len(existing)} existing)")
 
 
 if __name__ == "__main__":

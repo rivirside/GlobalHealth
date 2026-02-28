@@ -57,7 +57,16 @@ export interface IndexScore {
   indexName: string;
   score: number;
   year: number;
+  invertedScale?: boolean;
   categories?: Record<string, number>;
+}
+
+export interface ReadinessScore {
+  iso3: string;
+  score: number;
+  breakdown: Record<string, number>;
+  indicatorsUsed: number;
+  computedAt: string;
 }
 
 export interface OutbreakFilters {
