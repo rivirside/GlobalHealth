@@ -136,6 +136,41 @@
 - [ ] Bookmarkable filters (URL-based state)
 - [ ] Open Graph meta tags for social sharing
 
+## Wave 4: Credibility & Data Integrity ✅
+
+### 4.1 Data Correctness
+- [x] Fix disease miscategorizations (Sudan virus, hantavirus, encephalitis → correct categories)
+- [x] Remove phantom ProMED source type (never used in practice)
+- [x] Multi-country outbreaks produce separate records for each country
+- [x] Improved active/resolved status using supersession logic
+
+### 4.2 Case/Death Count Extraction
+- [x] Create extract_counts.py module for HTML scraping of WHO DON pages
+- [x] Ordered regex patterns with strict number parsing (handles commas, spaces)
+- [x] Local HTML caching for reproducibility
+- [x] Rate limiting + retry with exponential backoff
+- [x] 58% of outbreaks now have case/death data (was 0%)
+- [x] Fix source URLs to use correct WHO DON path prefix
+
+### 4.3 GitHub Actions Pipeline
+- [x] Wire compute_risk.py, build_diseases.py, build_regions.py into outbreak refresh workflow
+- [x] Wire compute_readiness.py, build_countries.py, compute_risk.py, build_regions.py into capacity refresh workflow
+- [x] Commit all derived data files on refresh
+
+### 4.4 Methodology Documentation
+- [x] Full readiness score documentation (formula, benchmarks, weights, disclaimer)
+- [x] Full risk score documentation (formula, severity weights, recency decay, tier thresholds)
+- [x] Disease categorization rules
+- [x] Active/resolved status logic
+- [x] Data vintage reference dates
+
+### 4.5 Data Vintage Warnings
+- [x] GHSI year badge on preparedness indices (amber badge for data >2 years old)
+- [x] Stale indicator warnings on capacity cards (amber badge for data >4 years old)
+
+### 4.6 Performance & Validation
+- [x] Module-level caching in data.ts (avoid redundant readFileSync per request)
+
 ## Data Source API Reference
 
 ### WHO GHO API

@@ -35,7 +35,14 @@ function IndexHeader({ index }: { index: IndexScore }) {
   return (
     <div className="flex items-center justify-between mb-2">
       <div>
-        <h4 className="text-sm font-semibold text-gray-900">{index.indexName}</h4>
+        <div className="flex items-center gap-2">
+          <h4 className="text-sm font-semibold text-gray-900">{index.indexName}</h4>
+          {index.year < new Date().getFullYear() - 2 && (
+            <span className="text-[10px] text-amber-600 bg-amber-50 px-1.5 py-0.5 rounded">
+              {index.year} data
+            </span>
+          )}
+        </div>
         <p className="text-xs text-gray-500">
           {index.indexName === "GHSI" && "Global Health Security Index"}
           {index.indexName === "INFORM" && "INFORM Risk Index"}

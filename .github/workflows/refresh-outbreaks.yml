@@ -26,16 +26,23 @@ jobs:
         working-directory: pipeline
         run: python fetch_outbreaks.py
 
+      - name: Rebuild derived data
+        working-directory: pipeline
+        run: |
+          python compute_risk.py
+          python build_diseases.py
+          python build_regions.py
+
       - name: Check for changes
         id: changes
         run: |
-          git diff --quiet data/outbreaks.json || echo "changed=true" >> $GITHUB_OUTPUT
+          git diff --quiet data/ || echo "changed=true" >> $GITHUB_OUTPUT
 
       - name: Commit and push
         if: steps.changes.outputs.changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/outbreaks.json
+          git add data/outbreaks.json data/risk.json data/diseases.json data/regions.json
           git commit -m "data: refresh outbreak data [automated]"
           git push

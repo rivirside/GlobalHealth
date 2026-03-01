@@ -29,6 +29,7 @@ function CapacityRow({ indicator }: { indicator: CapacityIndicator }) {
   const { name, value, benchmark, benchmarkLabel, unit, year, source, code } =
     indicator;
   const isInverse = INVERSE_INDICATORS.has(code);
+  const isStale = year !== null && year < new Date().getFullYear() - 4;
 
   if (value === null) {
     return (
@@ -88,7 +89,14 @@ function CapacityRow({ indicator }: { indicator: CapacityIndicator }) {
             {formatValue(value, unit)}
           </span>
           {year && (
-            <p className="text-xs text-gray-400">{year}</p>
+            <p className="text-xs text-gray-400">
+              {year}
+              {isStale && (
+                <span className="ml-1 text-[10px] text-amber-600 bg-amber-50 px-1 py-0.5 rounded">
+                  old data
+                </span>
+              )}
+            </p>
           )}
         </div>
       </div>

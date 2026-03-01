@@ -118,13 +118,15 @@ export default function AboutPage() {
         <h2 className="text-xl font-semibold text-gray-900 mb-3">
           Methodology
         </h2>
-        <div className="space-y-3 text-sm text-gray-700 leading-relaxed">
+        <div className="space-y-4 text-sm text-gray-700 leading-relaxed">
           <p>
             <strong>Outbreak data</strong> is fetched from the WHO Disease
-            Outbreak News API. Disease names and affected countries are
-            extracted from report titles. Each outbreak is categorized
-            (respiratory, vector-borne, hemorrhagic, etc.) based on the
-            disease type.
+            Outbreak News OData API. Disease names and affected countries are
+            extracted from report titles using pattern matching. Multi-country
+            reports (e.g., &ldquo;Marburg - Uganda and Kenya&rdquo;) produce separate
+            records for each country. Case and death counts are extracted from
+            the HTML body of each WHO DON report page using regex pattern
+            matching, since the API only returns metadata.
           </p>
           <p>
             <strong>Capacity data</strong> uses the most recent available
@@ -136,6 +138,176 @@ export default function AboutPage() {
             <strong>Country matching</strong> uses ISO 3166-1 alpha-3 codes.
             Country names from WHO DON reports are normalized to ISO3 codes
             using a comprehensive mapping that accounts for name variations.
+          </p>
+        </div>
+      </section>
+
+      {/* Readiness Score */}
+      <section className="mb-10">
+        <h2 className="text-xl font-semibold text-gray-900 mb-3">
+          Readiness Score
+        </h2>
+        <div className="space-y-3 text-sm text-gray-700 leading-relaxed">
+          <p>
+            The readiness score is a composite 0&ndash;100 metric summarizing a
+            country&apos;s health system preparedness for outbreak response. It is
+            computed from 6 WHO capacity indicators, each normalized against an
+            internationally recognized benchmark.
+          </p>
+          <div className="bg-gray-50 border border-gray-200 rounded-lg p-4 text-xs">
+            <h4 className="font-semibold text-gray-700 mb-2">Indicators &amp; Benchmarks</h4>
+            <table className="w-full text-left">
+              <thead>
+                <tr className="border-b border-gray-200">
+                  <th className="py-1 pr-4">Indicator</th>
+                  <th className="py-1 pr-4">Benchmark</th>
+                  <th className="py-1">Weight</th>
+                </tr>
+              </thead>
+              <tbody className="text-gray-600">
+                <tr><td className="py-0.5">Hospital beds</td><td>30 per 10,000</td><td>1.0x</td></tr>
+                <tr><td className="py-0.5">Physicians</td><td>10 per 10,000</td><td>1.0x</td></tr>
+                <tr><td className="py-0.5">Nurses &amp; midwives</td><td>25 per 10,000</td><td>1.0x</td></tr>
+                <tr><td className="py-0.5">UHC service coverage</td><td>80 (index)</td><td>1.5x</td></tr>
+                <tr><td className="py-0.5">DTP3 immunization</td><td>90%</td><td>1.0x</td></tr>
+                <tr><td className="py-0.5">Health expenditure</td><td>$86/capita</td><td>1.5x</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div className="bg-gray-50 border border-gray-200 rounded-lg p-4 text-xs font-mono text-gray-600">
+            <p className="font-semibold text-gray-700 font-sans mb-1">Formula</p>
+            <p>normalized(i) = min(value / benchmark, 1.0)</p>
+            <p>score = (sum of weighted_normalized / sum of weights) &times; 100</p>
+          </div>
+          <p className="text-xs text-gray-500 italic">
+            Countries with fewer than 3 available indicators receive no score.
+            Weights are informal and not based on a published epidemiological
+            framework.
+          </p>
+        </div>
+      </section>
+
+      {/* Risk Score */}
+      <section className="mb-10">
+        <h2 className="text-xl font-semibold text-gray-900 mb-3">
+          Risk Score
+        </h2>
+        <div className="space-y-3 text-sm text-gray-700 leading-relaxed">
+          <p>
+            The risk score combines outbreak pressure (frequency and severity of
+            recent outbreaks) with health system vulnerability (inverse of
+            readiness). The formula is:
+          </p>
+          <div className="bg-gray-50 border border-gray-200 rounded-lg p-4 text-xs font-mono text-gray-600">
+            <p>Risk = Outbreak Pressure &times; 0.6 + Vulnerability &times; 0.4</p>
+            <p className="mt-1 text-gray-500">For countries with no outbreaks: Risk = Vulnerability &times; 0.15</p>
+          </div>
+          <div className="bg-gray-50 border border-gray-200 rounded-lg p-4 text-xs">
+            <h4 className="font-semibold text-gray-700 mb-2">Disease Severity Weights</h4>
+            <div className="grid grid-cols-2 gap-x-4 gap-y-0.5 text-gray-600">
+              <span>Hemorrhagic: 5.0</span>
+              <span>Respiratory: 3.0</span>
+              <span>Zoonotic: 2.5</span>
+              <span>Vector-borne: 2.0</span>
+              <span>Diarrheal: 2.0</span>
+              <span>Vaccine-preventable: 1.5</span>
+              <span>Other: 1.0</span>
+            </div>
+          </div>
+          <div className="bg-gray-50 border border-gray-200 rounded-lg p-4 text-xs">
+            <h4 className="font-semibold text-gray-700 mb-2">Recency Decay</h4>
+            <div className="grid grid-cols-2 gap-x-4 gap-y-0.5 text-gray-600">
+              <span>&le;90 days: 1.0 weight</span>
+              <span>&le;365 days: 0.6 weight</span>
+              <span>&le;730 days: 0.3 weight</span>
+              <span>&gt;730 days: 0.1 weight</span>
+            </div>
+          </div>
+          <div className="bg-gray-50 border border-gray-200 rounded-lg p-4 text-xs">
+            <h4 className="font-semibold text-gray-700 mb-2">Risk Tiers</h4>
+            <div className="grid grid-cols-2 gap-x-4 gap-y-0.5 text-gray-600">
+              <span className="text-red-600 font-medium">Critical: &ge;70</span>
+              <span className="text-orange-500 font-medium">High: &ge;50</span>
+              <span className="text-amber-500 font-medium">Moderate: &ge;30</span>
+              <span className="text-emerald-600 font-medium">Low: &ge;10</span>
+              <span className="text-gray-500 font-medium">Minimal: &lt;10</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Disease Categorization */}
+      <section className="mb-10">
+        <h2 className="text-xl font-semibold text-gray-900 mb-3">
+          Disease Categorization
+        </h2>
+        <div className="space-y-3 text-sm text-gray-700 leading-relaxed">
+          <p>
+            Diseases are assigned to 7 categories based on keyword matching
+            against the disease name from WHO DON report titles:
+          </p>
+          <div className="bg-gray-50 border border-gray-200 rounded-lg p-4 text-xs">
+            <div className="space-y-1.5 text-gray-600">
+              <p><span className="font-medium text-blue-600">Respiratory:</span> Influenza, COVID-19, MERS-CoV, SARS, pneumonia</p>
+              <p><span className="font-medium text-amber-500">Vector-borne:</span> Dengue, malaria, Zika, chikungunya, yellow fever, Rift Valley fever</p>
+              <p><span className="font-medium text-red-600">Hemorrhagic:</span> Ebola, Marburg, Lassa fever, Crimean-Congo, Sudan virus, hantavirus</p>
+              <p><span className="font-medium text-emerald-600">Diarrheal:</span> Cholera, typhoid, Shigella, salmonellosis, E. coli</p>
+              <p><span className="font-medium text-purple-600">Vaccine-preventable:</span> Measles, polio, diphtheria, pertussis, meningococcal</p>
+              <p><span className="font-medium text-orange-500">Zoonotic:</span> Mpox, Nipah, plague, anthrax, rabies, avian influenza</p>
+              <p><span className="font-medium text-gray-500">Other:</span> Diseases not matching the above categories</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Active/Resolved Logic */}
+      <section className="mb-10">
+        <h2 className="text-xl font-semibold text-gray-900 mb-3">
+          Active vs. Resolved Status
+        </h2>
+        <div className="space-y-3 text-sm text-gray-700 leading-relaxed">
+          <p>
+            Outbreak status is determined using a supersession model:
+          </p>
+          <ul className="list-disc list-inside space-y-1 text-sm text-gray-700">
+            <li>
+              If multiple WHO DON reports exist for the same disease and country,
+              only the most recent report is &ldquo;active&rdquo; (if within 365 days).
+              Older reports are marked &ldquo;resolved.&rdquo;
+            </li>
+            <li>
+              Single-report outbreaks use a 365-day fallback: active if less than
+              one year old, resolved otherwise.
+            </li>
+          </ul>
+          <p className="text-xs text-gray-500 italic">
+            This is a heuristic. WHO DON does not formally declare outbreaks
+            as resolved.
+          </p>
+        </div>
+      </section>
+
+      {/* Data Vintage */}
+      <section className="mb-10">
+        <h2 className="text-xl font-semibold text-gray-900 mb-3">
+          Data Vintage
+        </h2>
+        <div className="space-y-3 text-sm text-gray-700 leading-relaxed">
+          <p>
+            Data ages vary by source and country. Key reference dates:
+          </p>
+          <div className="bg-gray-50 border border-gray-200 rounded-lg p-4 text-xs">
+            <div className="space-y-1.5 text-gray-600">
+              <p><span className="font-medium">GHSI:</span> 2021 edition (latest available; published biennially)</p>
+              <p><span className="font-medium">INFORM Risk:</span> 2025 edition (updated annually)</p>
+              <p><span className="font-medium">IHR SPAR:</span> Varies by country (annual self-assessment)</p>
+              <p><span className="font-medium">WHO capacity indicators:</span> Year shown per indicator (may lag 1&ndash;5 years)</p>
+              <p><span className="font-medium">Outbreaks:</span> WHO DON reports from 2015 to present, refreshed every 12 hours</p>
+            </div>
+          </div>
+          <p className="text-xs text-gray-500 italic">
+            Indicators older than 4 years are flagged in the UI with an amber
+            warning badge.
           </p>
         </div>
       </section>
