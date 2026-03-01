@@ -66,7 +66,7 @@
 │ Cases: 1,234            │
 │ Deaths: 56              │
 │                         │
-│ [WHO DON →] [ProMED →]  │
+│ [WHO DON →]             │
 ├─────────────────────────┤
 │ HEALTH SYSTEM CAPACITY  │
 │                         │

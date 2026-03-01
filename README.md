@@ -4,7 +4,7 @@ An interactive web application that combines real-time disease outbreak alerts w
 
 ## The Problem
 
-Outbreak trackers (WHO, ProMED, HealthMap) tell you **what's happening**. Health system assessments (GHSI, HeRAMS, INFORM) measure **preparedness**. But no public tool combines both — forcing analysts to manually cross-reference multiple sources during every outbreak.
+Outbreak trackers (WHO, HealthMap) tell you **what's happening**. Health system assessments (GHSI, HeRAMS, INFORM) measure **preparedness**. But no public tool combines both — forcing analysts to manually cross-reference multiple sources during every outbreak.
 
 ## Features
 
@@ -13,13 +13,13 @@ Outbreak trackers (WHO, ProMED, HealthMap) tell you **what's happening**. Health
 - **Capacity benchmarking** — indicators compared against WHO recommendations and regional averages
 - **Country profiles** with full capacity data, historical outbreaks, and preparedness indices
 - **Filters** by disease type, date range, and region
-- **Auto-updating** outbreak feeds from WHO Disease Outbreak News and ProMED
+- **Auto-updating** outbreak feeds from WHO Disease Outbreak News
 
 ## Data Sources
 
 | Data | Source | Update Frequency |
 |------|--------|-----------------|
-| Outbreak alerts | WHO DON RSS, ProMED RSS | Every 12 hours |
+| Outbreak alerts | WHO DON API | Every 12 hours |
 | Hospital beds, physicians, nurses | WHO Global Health Observatory API | Quarterly |
 | Health expenditure, GDP | World Bank API | Quarterly |
 | UHC Service Coverage Index | WHO GHO API | Quarterly |
@@ -34,7 +34,7 @@ Outbreak trackers (WHO, ProMED, HealthMap) tell you **what's happening**. Health
 - **Frontend**: Next.js 15, React, TypeScript
 - **Maps**: Leaflet + React-Leaflet
 - **Charts**: Recharts
-- **Data Pipeline**: Python (requests, feedparser, pandas)
+- **Data Pipeline**: Python (requests, beautifulsoup4)
 - **Hosting**: Vercel
 
 ## Getting Started

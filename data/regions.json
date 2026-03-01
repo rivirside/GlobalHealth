@@ -207,47 +207,47 @@
         "name": "Zimbabwe"
       }
     ],
-    "outbreakCount": 301,
-    "activeOutbreaks": 11,
+    "outbreakCount": 307,
+    "activeOutbreaks": 10,
     "affectedCountries": [
-      "AGO",
-      "TGO",
-      "SEN",
       "RWA",
-      "BFA",
-      "TCD",
-      "MDG",
-      "BDI",
-      "GAB",
-      "DZA",
-      "LBR",
-      "COG",
-      "MWI",
-      "GHA",
-      "CAF",
-      "ZAF",
-      "NAM",
-      "TZA",
-      "MLI",
-      "CPV",
-      "MYT",
-      "NER",
-      "SSD",
       "GNQ",
-      "CMR",
-      "NGA",
-      "KEN",
-      "ETH",
-      "GIN",
-      "COD",
-      "ZMB",
-      "MRT",
-      "ZWE",
-      "MOZ",
-      "UGA",
-      "REU",
+      "TGO",
       "GMB",
-      "BEN"
+      "TCD",
+      "KEN",
+      "CPV",
+      "GIN",
+      "ZWE",
+      "TZA",
+      "AGO",
+      "UGA",
+      "BDI",
+      "MOZ",
+      "GHA",
+      "BEN",
+      "REU",
+      "MDG",
+      "ZMB",
+      "SEN",
+      "CMR",
+      "BFA",
+      "COD",
+      "MLI",
+      "COG",
+      "CAF",
+      "MWI",
+      "ZAF",
+      "GAB",
+      "NGA",
+      "LBR",
+      "NER",
+      "MYT",
+      "ETH",
+      "NAM",
+      "MRT",
+      "DZA",
+      "SSD"
     ],
     "affectedCountryCount": 38,
     "avgReadiness": 59.8,
@@ -259,7 +259,7 @@
       },
       {
         "name": "Marburg virus disease",
-        "count": 24
+        "count": 27
       },
       {
         "name": "Cholera",
@@ -271,7 +271,7 @@
       },
       {
         "name": "Lassa Fever",
-        "count": 13
+        "count": 14
       }
     ]
   },
@@ -491,37 +491,38 @@
         "name": "VIR"
       }
     ],
-    "outbreakCount": 76,
+    "outbreakCount": 82,
     "activeOutbreaks": 3,
     "affectedCountries": [
-      "ECU",
-      "ARG",
-      "BRA",
-      "PER",
-      "BRB",
-      "HTI",
-      "SUR",
       "DOM",
-      "USA",
-      "CUB",
-      "BOL",
-      "TTO",
+      "BRA",
       "JAM",
-      "URY",
+      "BOL",
+      "HND",
+      "MEX",
+      "PER",
+      "SUR",
       "CHL",
       "PRY",
-      "MEX",
-      "HND",
+      "TTO",
+      "URY",
+      "ARG",
+      "CUB",
+      "USA",
+      "VEN",
+      "BRB",
       "PAN",
-      "VEN"
+      "HTI",
+      "CAN",
+      "ECU"
     ],
-    "affectedCountryCount": 20,
+    "affectedCountryCount": 21,
     "avgReadiness": 90.6,
     "readinessScoreCount": 35,
     "topDiseases": [
       {
         "name": "Zika virus disease",
-        "count": 15
+        "count": 17
       },
       {
         "name": "Yellow fever",
@@ -637,23 +638,23 @@
         "name": "Yemen"
       }
     ],
-    "outbreakCount": 96,
-    "activeOutbreaks": 4,
+    "outbreakCount": 98,
+    "activeOutbreaks": 3,
     "affectedCountries": [
-      "OMN",
+      "BHR",
       "LBN",
-      "SAU",
-      "SOM",
+      "PAK",
+      "OMN",
+      "ARE",
+      "YEM",
       "MAR",
       "AFG",
-      "PAK",
       "QAT",
-      "YEM",
-      "TUN",
       "SDN",
-      "BHR",
-      "IRN",
-      "ARE"
+      "TUN",
+      "SAU",
+      "SOM",
+      "IRN"
     ],
     "affectedCountryCount": 14,
     "avgReadiness": 76.1,
@@ -661,7 +662,7 @@
     "topDiseases": [
       {
         "name": "Middle East respiratory syndrome coronavirus",
-        "count": 74
+        "count": 76
       },
       {
         "name": "Measles",
@@ -921,19 +922,19 @@
         "name": "Uzbekistan"
       }
     ],
-    "outbreakCount": 38,
+    "outbreakCount": 39,
     "activeOutbreaks": 0,
     "affectedCountries": [
-      "GBR",
+      "NLD",
+      "ITA",
+      "FRA",
       "AUT",
       "RUS",
-      "FRA",
+      "DEU",
       "ESP",
+      "GBR",
       "SWE",
-      "ITA",
-      "NLD",
-      "POL",
-      "DEU"
+      "POL"
     ],
     "affectedCountryCount": 10,
     "avgReadiness": 98.4,
@@ -944,11 +945,11 @@
         "count": 4
       },
       {
-        "name": "Monkeypox",
-        "count": 3
+        "name": "Zika virus disease",
+        "count": 4
       },
       {
-        "name": "Zika virus disease",
+        "name": "Monkeypox",
         "count": 3
       },
       {
@@ -1010,15 +1011,15 @@
       }
     ],
     "outbreakCount": 29,
-    "activeOutbreaks": 6,
+    "activeOutbreaks": 5,
     "affectedCountries": [
       "BGD",
-      "IND",
-      "MDV",
-      "NPL",
       "TLS",
       "LKA",
-      "THA"
+      "THA",
+      "NPL",
+      "MDV",
+      "IND"
     ],
     "affectedCountryCount": 7,
     "avgReadiness": 82.6,
@@ -1197,16 +1198,16 @@
     "outbreakCount": 78,
     "activeOutbreaks": 1,
     "affectedCountries": [
-      "IDN",
       "PHL",
-      "AUS",
-      "CHN",
-      "JPN",
-      "PNG",
-      "VNM",
-      "KHM",
+      "LAO",
       "SGP",
-      "LAO"
+      "PNG",
+      "IDN",
+      "KHM",
+      "JPN",
+      "CHN",
+      "AUS",
+      "VNM"
     ],
     "affectedCountryCount": 10,
     "avgReadiness": 87.6,

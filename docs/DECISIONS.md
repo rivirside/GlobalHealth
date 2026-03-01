@@ -29,7 +29,7 @@ Each decision follows this structure:
 **Rationale**: Competitive analysis of 17 existing outbreak/capacity tools confirmed that literally zero public tools combine outbreak alerts with health system capacity data in an integrated view. The WHO Emergency Dashboard comes closest but the "integration" is just separate toggle layers. Gap is structural (data silos between organizations), not due to lack of demand.
 
 **Consequences**:
-- Data pipeline fetches from WHO GHO API, World Bank API, WHO DON RSS, ProMED RSS
+- Data pipeline fetches from WHO GHO API, World Bank API, WHO DON API
 - All sources are free with no API keys
 - Near-zero maintenance (automated feeds + quarterly refresh)
 

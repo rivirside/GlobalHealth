@@ -10,10 +10,12 @@ import re
 import hashlib
 from pathlib import Path
 from datetime import datetime
+from collections import defaultdict
 
 import requests
 
 from country_mapping import get_iso3, get_coordinates
+from extract_counts import enrich_outbreaks
 
 DATA_DIR = Path(__file__).parent.parent / "data"
 OUTPUT_FILE = DATA_DIR / "outbreaks.json"
@@ -62,6 +64,15 @@ DISEASE_CATEGORIES: dict[str, str] = {
     "rabies": "zoonotic",
     "nipah": "zoonotic",
     "hendra": "zoonotic",
+    # Fix miscategorizations: diseases that were falling through to "other"
+    "sudan virus": "hemorrhagic",
+    "hantavirus": "hemorrhagic",
+    "chapare": "hemorrhagic",
+    "western equine encephalitis": "vector-borne",
+    "japanese encephalitis": "vector-borne",
+    "enterohaemorrhagic": "diarrheal",
+    "enterohemorrhagic": "diarrheal",
+    "salmonellosis": "diarrheal",
 }
 
 
@@ -74,16 +85,15 @@ def categorize_disease(disease_name: str) -> str:
     return "other"
 
 
-def parse_don_title(title: str) -> tuple[str, str | None]:
+def parse_don_title(title: str) -> list[tuple[str, str | None]]:
     """
     Parse WHO DON titles. Common formats:
     - "Nipah virus infection - Bangladesh"
     - "Ebola virus disease – Democratic Republic of the Congo"
-    - "Marburg virus disease- Ethiopia"
-    - "Avian Influenza A(H5N5)- United States of America"
+    - "Marburg virus disease - Uganda and Kenya"
     - "Cholera – Multi-country with a focus on..."
-    - "Mpox: recombinant virus... – Global situation"
-    Returns (disease, country_or_none).
+    Returns a list of (disease, country_or_none) tuples.
+    Multi-country titles produce multiple tuples.
     """
     # Normalize dash types
     normalized = title.replace("\u2013", "-").replace("\u2014", "-")
@@ -92,10 +102,9 @@ def parse_don_title(title: str) -> tuple[str, str | None]:
     lower = normalized.lower()
     if "global situation" in lower or "multi-country" in lower or "global update" in lower:
         disease = normalized.split(" - ")[0].split(":")[0].strip()
-        return disease, None
+        return [(disease, None)]
 
     # Try "Disease - Country" pattern with various dash formats
-    # Match: "Disease - Country" or "Disease- Country" or "Disease -Country"
     match = re.match(r'^(.+?)\s*-\s*(.+)$', normalized)
     if match:
         disease = match.group(1).strip()
@@ -107,20 +116,31 @@ def parse_don_title(title: str) -> tuple[str, str | None]:
         country = re.sub(r'\s*\d{1,2}\s+\w+\s+\d{4}\s*$', '', country)
         # Remove "African Region" style entries
         if "region" in country.lower():
-            return disease, None
+            return [(disease, None)]
 
-        # Handle "Country and Country" → check if it's one country or two
+        # Handle "Country A and Country B" → create records for both
         if " and " in country:
+            # First check if full string is one country (e.g., "Trinidad and Tobago")
             full_iso = get_iso3(country)
             if full_iso:
-                return disease, country
-            # Take the first country
-            first = country.split(" and ")[0].strip()
-            return disease, first
+                return [(disease, country)]
 
-        return disease, country
+            # Split into multiple countries
+            parts = country.split(" and ")
+            results = []
+            for part in parts:
+                part = part.strip()
+                if get_iso3(part):
+                    results.append((disease, part))
 
-    return title, None
+            if results:
+                return results
+            # Fallback: just the first part
+            return [(disease, parts[0].strip())]
+
+        return [(disease, country)]
+
+    return [(title, None)]
 
 
 def make_id(disease: str, country: str, date: str) -> str:
@@ -167,49 +187,88 @@ def parse_don_items(items: list[dict]) -> list[dict]:
         if suffix:
             display_title += f" {suffix}"
 
-        disease, country = parse_don_title(display_title)
-        if not country:
-            continue
-
-        iso3 = get_iso3(country)
-        if not iso3:
-            continue
-
-        coords = get_coordinates(iso3)
-        if not coords:
-            continue
-
         date_str = item.get("PublicationDateAndTime", "")
         date = date_str[:10] if date_str else datetime.now().strftime("%Y-%m-%d")
 
         url_path = item.get("ItemDefaultUrl", "")
-        source_url = f"https://www.who.int{url_path}" if url_path else ""
+        if url_path:
+            # ItemDefaultUrl returns paths like "/2026-DON594" or "/dd-month-yyyy-disease-country-en"
+            # Full URL needs the emergencies/disease-outbreak-news/item prefix
+            clean_path = url_path.lstrip("/")
+            source_url = f"https://www.who.int/emergencies/disease-outbreak-news/item/{clean_path}"
+        else:
+            source_url = ""
 
-        # Mark older outbreaks (>1 year) as resolved
-        try:
-            outbreak_date = datetime.strptime(date, "%Y-%m-%d")
-            age_days = (datetime.now() - outbreak_date).days
-            status = "resolved" if age_days > 365 else "active"
-        except ValueError:
-            status = "active"
+        # parse_don_title now returns a list of (disease, country) tuples
+        parsed_pairs = parse_don_title(display_title)
 
-        outbreak = {
-            "id": make_id(disease, country, date),
-            "disease": disease,
-            "diseaseCategory": categorize_disease(disease),
-            "country": country,
-            "countryIso3": iso3,
-            "date": date,
-            "cases": None,
-            "deaths": None,
-            "summary": display_title,
-            "sourceUrl": source_url,
-            "source": "WHO DON",
-            "lat": coords[0],
-            "lon": coords[1],
-            "status": status,
-        }
-        outbreaks.append(outbreak)
+        for disease, country in parsed_pairs:
+            if not country:
+                continue
+
+            iso3 = get_iso3(country)
+            if not iso3:
+                continue
+
+            coords = get_coordinates(iso3)
+            if not coords:
+                continue
+
+            outbreak = {
+                "id": make_id(disease, country, date),
+                "disease": disease,
+                "diseaseCategory": categorize_disease(disease),
+                "country": country,
+                "countryIso3": iso3,
+                "date": date,
+                "cases": None,
+                "deaths": None,
+                "summary": display_title,
+                "sourceUrl": source_url,
+                "source": "WHO DON",
+                "lat": coords[0],
+                "lon": coords[1],
+                "status": "active",  # Placeholder; determined in post-processing
+            }
+            outbreaks.append(outbreak)
+
+    return outbreaks
+
+
+def determine_status(outbreaks: list[dict]) -> list[dict]:
+    """
+    Mark outbreaks as active or resolved using two rules:
+    1. If a newer DON report exists for the same disease+country, older ones are "resolved"
+    2. Fallback: >365 days old = "resolved"
+    """
+    groups: dict[tuple[str, str], list[dict]] = defaultdict(list)
+    for o in outbreaks:
+        key = (o["disease"].lower().strip(), o["countryIso3"])
+        groups[key].append(o)
+
+    now = datetime.now()
+    for _key, group in groups.items():
+        if len(group) == 1:
+            # Single report: use 365-day rule
+            o = group[0]
+            try:
+                age = (now - datetime.strptime(o["date"], "%Y-%m-%d")).days
+                o["status"] = "resolved" if age > 365 else "active"
+            except ValueError:
+                o["status"] = "active"
+        else:
+            # Multiple reports: most recent is active (if within 365 days), older ones resolved
+            sorted_group = sorted(group, key=lambda x: x["date"], reverse=True)
+            for i, o in enumerate(sorted_group):
+                try:
+                    age = (now - datetime.strptime(o["date"], "%Y-%m-%d")).days
+                except ValueError:
+                    age = 0
+
+                if i == 0:  # Most recent report
+                    o["status"] = "resolved" if age > 365 else "active"
+                else:  # Older reports: superseded by newer report
+                    o["status"] = "resolved"
 
     return outbreaks
 
@@ -271,7 +330,16 @@ def main():
             added += 1
         by_id[o["id"]] = o
 
-    merged = sorted(by_id.values(), key=lambda x: x["date"], reverse=True)
+    merged = list(by_id.values())
+
+    # Post-processing: determine active/resolved status
+    merged = determine_status(merged)
+
+    # Enrich with case/death counts from DON HTML pages
+    merged = enrich_outbreaks(merged, max_fetch=0)
+
+    # Sort by date descending
+    merged = sorted(merged, key=lambda x: x["date"], reverse=True)
 
     with open(OUTPUT_FILE, "w") as f:
         json.dump(merged, f, indent=2)

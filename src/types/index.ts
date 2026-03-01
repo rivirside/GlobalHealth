@@ -9,7 +9,7 @@ export interface Outbreak {
   deaths: number | null;
   summary: string;
   sourceUrl: string;
-  source: "WHO DON" | "ProMED";
+  source: "WHO DON";
   lat: number;
   lon: number;
   status: "active" | "resolved";
