@@ -3,7 +3,7 @@
 > **Read this file in full at the start of every conversation.**
 
 ## Current Phase
-Wave 3 Complete: Smart Features + Data Expansion
+Wave 4 Complete: Credibility & Data Integrity
 
 ## What's Done
 - [x] Project idea research and competitive analysis (17 tools analyzed)
@@ -53,6 +53,17 @@ Wave 3 Complete: Smart Features + Data Expansion
 - [x] Empty state component for no-data scenarios
 - [x] Open Graph + Twitter meta tags on all pages (root layout + dynamic per-page)
 - [x] Dynamic metadata generation for country, disease, and region pages
+- [x] Research-grade polish: search, export, table view, cross-linking, metrics, timeline filters, compare typeahead
+- [x] Case/death count extraction from WHO DON HTML pages (365/633 outbreaks enriched)
+- [x] Disease miscategorization fixes (Sudan virus, hantavirus, encephalitis, etc.)
+- [x] ProMED phantom source removed (was never used)
+- [x] Multi-country outbreak splitting (e.g., "Marburg - Uganda and Kenya" → 2 records)
+- [x] Improved active/resolved status with supersession logic
+- [x] Source URLs fixed to use correct WHO DON path prefix
+- [x] Full methodology documentation on /about page (readiness, risk, categorization, status logic)
+- [x] Data vintage warnings: amber badges on old preparedness indices (>2yr) and capacity indicators (>4yr)
+- [x] Module-level caching in data.ts (avoids redundant readFileSync)
+- [x] GitHub Actions wired to run all downstream compute/build scripts
 
 ## Current Blockers
 None
@@ -80,14 +91,14 @@ None
 ## Data Files
 | File | Source | Records |
 |------|--------|---------|
-| data/outbreaks.json | WHO DON API (paginated) | 618 outbreaks, 99 countries |
+| data/outbreaks.json | WHO DON API + HTML scraping | 633 outbreaks, 365 with case/death data |
 | data/capacity.json | WHO GHO + World Bank | 270 countries, 25 indicators |
 | data/readiness.json | Computed from capacity | 195 countries |
 | data/risk.json | Computed from outbreaks + readiness | 197 countries |
 | data/indices.json | GHSI + INFORM + SPAR | 219 countries |
 | data/borders.json | Static mapping | 148 countries |
 | data/countries.json | WHO GHO + World Bank | 311 countries |
-| data/diseases.json | Built from outbreaks | 65 diseases |
+| data/diseases.json | Built from outbreaks | 66 diseases |
 | data/regions.json | Built from outbreaks + countries | 6 WHO regions |
 
 ## What To Work On Next

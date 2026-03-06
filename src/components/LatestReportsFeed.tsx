@@ -55,6 +55,15 @@ export function LatestReportsFeed({ outbreaks, onSelectOutbreak }: Props) {
                 {o.disease}
               </Link>
               <p className="text-xs text-gray-500">{o.country}</p>
+              <a
+                href={o.sourceUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={(e) => e.stopPropagation()}
+                className="text-xs text-blue-600 hover:text-blue-800 underline mt-1 inline-block"
+              >
+                WHO DON Report &rarr;
+              </a>
             </button>
           );
         })}
