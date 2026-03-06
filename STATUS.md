@@ -64,6 +64,7 @@ Wave 4 Complete: Credibility & Data Integrity
 - [x] Data vintage warnings: amber badges on old preparedness indices (>2yr) and capacity indicators (>4yr)
 - [x] Module-level caching in data.ts (avoids redundant readFileSync)
 - [x] GitHub Actions wired to run all downstream compute/build scripts
+- [x] WHO DON report links fixed in LatestReportsFeed (was navigating to internal disease page instead of who.int)
 
 ## Current Blockers
 None
