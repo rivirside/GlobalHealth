@@ -1,0 +1,58 @@
+name: Data Quality Issue
+description: Wrong, missing, or stale data in the dashboard
+labels: ["data"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this for issues with the data shown in the dashboard — wrong outbreak counts, misclassified diseases, stale capacity figures, broken pipeline fetches, etc.
+
+  - type: dropdown
+    id: source
+    attributes:
+      label: Affected data source
+      options:
+        - WHO DON (outbreak reports)
+        - WHO GHO (health capacity indicators)
+        - World Bank (demographic / economic indicators)
+        - GHSI (Global Health Security Index)
+        - INFORM (risk index)
+        - IHR SPAR (health regulations)
+        - Computed / derived (readiness score, risk score)
+        - Other / unknown
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What's wrong?
+      description: Describe the data problem clearly.
+      placeholder: |
+        e.g. Nipah virus in Bangladesh is categorized as "other" but should be "zoonotic".
+
+        e.g. Case count for 2026-DON594 shows 47 but the WHO DON page says 47,500.
+    validations:
+      required: true
+
+  - type: input
+    id: affected
+    attributes:
+      label: Affected country / disease / outbreak ID
+      placeholder: "BGD, Nipah virus, 2026-DON594"
+
+  - type: textarea
+    id: source_link
+    attributes:
+      label: Source / evidence
+      description: Link to the authoritative source showing the correct data.
+      placeholder: "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON594"
+
+  - type: dropdown
+    id: pipeline_fix
+    attributes:
+      label: Does this require a pipeline fix?
+      options:
+        - "Yes — needs a code change in the Python pipeline"
+        - "No — data is correct in source but wrong in the app"
+        - "Unsure"

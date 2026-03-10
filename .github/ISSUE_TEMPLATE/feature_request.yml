@@ -1,0 +1,50 @@
+name: Feature Request
+description: Suggest a new feature or improvement
+labels: ["feature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this for new capabilities or meaningful improvements to existing ones.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What do you want?
+      description: A clear description of the feature.
+      placeholder: "e.g. Cluster map markers when zoomed out so overlapping outbreaks are readable"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem it solves
+      description: What's the current friction or gap?
+      placeholder: "At the world zoom level, dozens of markers overlap in West Africa making individual outbreaks unclickable"
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      placeholder: "Use leaflet.markercluster — clusters expand on click, shows count badge"
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      placeholder: "Reduce marker size at low zoom (doesn't help overlap), opacity toggle (hides data)"
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Frontend (UI / components)
+        - Pipeline (data fetching / processing)
+        - Infrastructure (CI / deployment)
+        - Other
+    validations:
+      required: true

@@ -1,0 +1,58 @@
+name: Bug Report
+description: Something isn't working correctly
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug. Please fill out the fields below.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What's broken?
+      description: A clear description of the problem.
+      placeholder: "e.g. Clicking the WHO DON report link opens the wrong page"
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: How do we trigger the bug?
+      placeholder: |
+        1. Go to the dashboard
+        2. Click a marker on the map
+        3. Click "WHO DON Report →"
+        4. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      placeholder: "Should open the WHO DON page on who.int in a new tab"
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      placeholder: "Navigates to /diseases/nipah-virus-infection instead"
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: URL where it happened
+      placeholder: "https://global-health-two.vercel.app/..."
+
+  - type: input
+    id: environment
+    attributes:
+      label: Browser / device
+      placeholder: "Chrome 122 on macOS, iPhone Safari, etc."
