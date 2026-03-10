@@ -1,10 +1,19 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
-import { MapContainer, TileLayer, CircleMarker, Popup, Tooltip, GeoJSON, useMap } from "react-leaflet";
+import { useState, useEffect, useCallback, useRef } from "react";
+import { MapContainer, TileLayer, GeoJSON, useMap } from "react-leaflet";
+import L from "leaflet";
 import "leaflet/dist/leaflet.css";
+import "leaflet.markercluster/dist/MarkerCluster.css";
+import "leaflet.markercluster/dist/MarkerCluster.Default.css";
 import type { Layer, LeafletMouseEvent } from "leaflet";
-import { DISEASE_CATEGORY_COLORS, type Outbreak } from "@/types";
+import { DISEASE_CATEGORY_COLORS, type Outbreak, type DiseaseCategory } from "@/types";
+
+// Expose L globally so leaflet.markercluster can extend it
+if (typeof window !== "undefined") {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  (window as any).L = L;
+}
 
 interface ReadinessEntry {
   score: number;
@@ -118,6 +127,132 @@ function ChoroplethLegend() {
   );
 }
 
+// Severity ranking for cluster color: highest-severity disease category wins
+const SEVERITY_RANK: Record<string, number> = {
+  hemorrhagic: 6,
+  respiratory: 5,
+  "vaccine-preventable": 4,
+  "vector-borne": 3,
+  diarrheal: 2,
+  zoonotic: 1,
+  other: 0,
+};
+
+function ClusteredMarkers({
+  outbreaks,
+  selectedOutbreak,
+  onSelectOutbreak,
+}: {
+  outbreaks: Outbreak[];
+  selectedOutbreak: Outbreak | null;
+  onSelectOutbreak: (outbreak: Outbreak) => void;
+}) {
+  const map = useMap();
+  const clusterRef = useRef<L.MarkerClusterGroup | null>(null);
+  const [pluginReady, setPluginReady] = useState(false);
+
+  // Load leaflet.markercluster plugin dynamically (needs window.L set first)
+  useEffect(() => {
+    import("leaflet.markercluster").then(() => setPluginReady(true));
+  }, []);
+
+  useEffect(() => {
+    if (!pluginReady) return;
+
+    // Clean up previous cluster group
+    if (clusterRef.current) {
+      map.removeLayer(clusterRef.current);
+    }
+
+    const cluster = L.markerClusterGroup({
+      maxClusterRadius: 45,
+      spiderfyOnMaxZoom: true,
+      showCoverageOnHover: false,
+      zoomToBoundsOnClick: true,
+      iconCreateFunction: (c) => {
+        const childMarkers = c.getAllChildMarkers();
+        const count = childMarkers.length;
+
+        // Find the most severe disease category in this cluster
+        let maxRank = -1;
+        let dominantColor = "#6B7280";
+        for (const m of childMarkers) {
+          const cat = (m.options as { diseaseCategory?: string }).diseaseCategory || "other";
+          const rank = SEVERITY_RANK[cat] ?? 0;
+          if (rank > maxRank) {
+            maxRank = rank;
+            dominantColor = DISEASE_CATEGORY_COLORS[cat as DiseaseCategory] || "#6B7280";
+          }
+        }
+
+        const size = count < 10 ? 36 : count < 50 ? 44 : 52;
+        return L.divIcon({
+          html: `<div style="
+            background: ${dominantColor};
+            opacity: 0.75;
+            width: ${size}px;
+            height: ${size}px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 12px;
+            font-weight: 600;
+            border: 2px solid rgba(255,255,255,0.8);
+            box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+          ">${count}</div>`,
+          className: "",
+          iconSize: L.point(size, size),
+          iconAnchor: L.point(size / 2, size / 2),
+        });
+      },
+    });
+
+    for (const outbreak of outbreaks) {
+      const color = DISEASE_CATEGORY_COLORS[outbreak.diseaseCategory] || "#6B7280";
+      const radius = getMarkerRadius(outbreak.cases);
+      const isSelected = selectedOutbreak?.id === outbreak.id;
+      const d = radius * 2;
+
+      const marker = L.marker([outbreak.lat, outbreak.lon], {
+        icon: L.divIcon({
+          html: `<div style="
+            width: ${d}px;
+            height: ${d}px;
+            border-radius: 50%;
+            background: ${color};
+            opacity: ${isSelected ? 0.9 : 0.6};
+            border: ${isSelected ? "3px solid #111827" : `1.5px solid ${color}`};
+            box-sizing: border-box;
+          "></div>`,
+          className: "",
+          iconSize: L.point(d, d),
+          iconAnchor: L.point(radius, radius),
+        }),
+        // Store category on options for cluster icon coloring
+        diseaseCategory: outbreak.diseaseCategory,
+      } as L.MarkerOptions & { diseaseCategory: string });
+
+      const tooltipContent = `<span style="font-size:12px;font-weight:600">${outbreak.disease}</span> — <span style="font-size:12px">${outbreak.country}</span>${outbreak.cases !== null ? ` <span style="font-size:12px;color:#6B7280">(${outbreak.cases.toLocaleString()} cases)</span>` : ""}`;
+      marker.bindTooltip(tooltipContent, { direction: "top", offset: L.point(0, -radius) });
+
+      marker.on("click", () => onSelectOutbreak(outbreak));
+      cluster.addLayer(marker);
+    }
+
+    map.addLayer(cluster);
+    clusterRef.current = cluster;
+
+    return () => {
+      map.removeLayer(cluster);
+      clusterRef.current = null;
+    };
+  }, [outbreaks, selectedOutbreak, onSelectOutbreak, map, pluginReady]);
+
+  return null;
+}
+
 export default function OutbreakMap({
   outbreaks,
   selectedOutbreak,
@@ -173,51 +308,11 @@ export default function OutbreakMap({
           <ChoroplethLayer readinessScores={readinessScores} />
         )}
 
-        {outbreaks.map((outbreak) => {
-          const isSelected = selectedOutbreak?.id === outbreak.id;
-          const color =
-            DISEASE_CATEGORY_COLORS[outbreak.diseaseCategory] || "#6B7280";
-          const radius = getMarkerRadius(outbreak.cases);
-
-          return (
-            <CircleMarker
-              key={outbreak.id}
-              center={[outbreak.lat, outbreak.lon]}
-              radius={radius}
-              pathOptions={{
-                color: isSelected ? "#111827" : color,
-                fillColor: color,
-                fillOpacity: isSelected ? 0.9 : 0.6,
-                weight: isSelected ? 3 : 1.5,
-              }}
-              eventHandlers={{
-                click: () => onSelectOutbreak(outbreak),
-              }}
-            >
-              <Tooltip direction="top" offset={[0, -radius]} opacity={0.95}>
-                <span className="text-xs font-semibold">{outbreak.disease}</span>
-                {" — "}
-                <span className="text-xs">{outbreak.country}</span>
-                {outbreak.cases !== null && (
-                  <span className="text-xs text-gray-500">
-                    {" "}({outbreak.cases.toLocaleString()} cases)
-                  </span>
-                )}
-              </Tooltip>
-              <Popup>
-                <div className="text-sm">
-                  <p className="font-semibold">{outbreak.disease}</p>
-                  <p className="text-gray-600">{outbreak.country}</p>
-                  {outbreak.cases !== null && (
-                    <p className="text-gray-500">
-                      {outbreak.cases.toLocaleString()} cases
-                    </p>
-                  )}
-                </div>
-              </Popup>
-            </CircleMarker>
-          );
-        })}
+        <ClusteredMarkers
+          outbreaks={outbreaks}
+          selectedOutbreak={selectedOutbreak}
+          onSelectOutbreak={onSelectOutbreak}
+        />
       </MapContainer>
     </div>
   );
