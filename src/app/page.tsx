@@ -161,9 +161,11 @@ export default function HomePage() {
       return false;
     if (filters.dateRange !== "all") {
       const daysAgo = getDaysAgo(filters.dateRange);
-      const outbreakDate = new Date(o.date);
+      // Append T00:00:00Z to treat date strings as UTC, avoiding timezone shifts
+      const outbreakDate = new Date(o.date + "T00:00:00Z");
       const cutoff = new Date();
-      cutoff.setDate(cutoff.getDate() - daysAgo);
+      cutoff.setUTCDate(cutoff.getUTCDate() - daysAgo);
+      cutoff.setUTCHours(0, 0, 0, 0);
       if (outbreakDate < cutoff) return false;
     }
     return true;

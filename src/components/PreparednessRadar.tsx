@@ -195,6 +195,12 @@ export function PreparednessRadar({ indices }: PreparednessRadarProps) {
   const inform = indices.find((i) => i.indexName === "INFORM");
   const spar = indices.find((i) => i.indexName === "SPAR");
 
+  const missingIndices = [
+    !ghsi && "GHSI (163 countries covered)",
+    !inform && "INFORM (191 countries covered)",
+    !spar && "SPAR (218 countries covered)",
+  ].filter(Boolean);
+
   return (
     <div className="space-y-4">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -202,6 +208,11 @@ export function PreparednessRadar({ indices }: PreparednessRadarProps) {
         {inform && <INFORMRadar index={inform} />}
       </div>
       {spar && <SPARBars index={spar} />}
+      {missingIndices.length > 0 && (
+        <p className="text-[11px] text-gray-400 italic">
+          Not included in: {missingIndices.join(", ")}
+        </p>
+      )}
     </div>
   );
 }

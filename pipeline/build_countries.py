@@ -127,6 +127,11 @@ def main():
 
         coords = ISO3_COORDINATES.get(iso3, (0, 0))
         wb = wb_metadata.get(iso3, {})
+
+        # Skip World Bank regional aggregates (no real coordinates, no WHO region)
+        # These are entries like "AFR" (Africa), "AFE" (Eastern Africa) etc.
+        if coords == (0, 0) and not who_regions.get(iso3):
+            continue
         pop = None
         # Try to get population from capacity data
         if iso3 in capacity:

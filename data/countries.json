@@ -10,16 +10,6 @@
     "population": 107995
   },
   {
-    "iso3": "AFE",
-    "name": "AFE",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 769280888
-  },
-  {
     "iso3": "AFG",
     "name": "Afghanistan",
     "region": "Middle East, North Africa, Afghanistan & Pakistan",
@@ -28,26 +18,6 @@
     "lat": 33.9,
     "lon": 67.7,
     "population": 42647492
-  },
-  {
-    "iso3": "AFR",
-    "name": "AFR",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": null
-  },
-  {
-    "iso3": "AFW",
-    "name": "AFW",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 521764076
   },
   {
     "iso3": "AGO",
@@ -88,16 +58,6 @@
     "lat": 0,
     "lon": 0,
     "population": 81938
-  },
-  {
-    "iso3": "ARB",
-    "name": "ARB",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 492612632
   },
   {
     "iso3": "ARE",
@@ -190,26 +150,6 @@
     "population": 14047786
   },
   {
-    "iso3": "BEA",
-    "name": "BEA",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": null
-  },
-  {
-    "iso3": "BEC",
-    "name": "BEC",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": null
-  },
-  {
     "iso3": "BEL",
     "name": "Belgium",
     "region": "Europe & Central Asia",
@@ -270,16 +210,6 @@
     "population": 6441421
   },
   {
-    "iso3": "BHI",
-    "name": "BHI",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": null
-  },
-  {
     "iso3": "BHR",
     "name": "Bahrain",
     "region": "Middle East, North Africa, Afghanistan & Pakistan",
@@ -310,16 +240,6 @@
     "population": 3164253
   },
   {
-    "iso3": "BLA",
-    "name": "BLA",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": null
-  },
-  {
     "iso3": "BLR",
     "name": "Belarus",
     "region": "Europe & Central Asia",
@@ -338,16 +258,6 @@
     "lat": 0,
     "lon": 0,
     "population": 417072
-  },
-  {
-    "iso3": "BMN",
-    "name": "BMN",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": null
   },
   {
     "iso3": "BMU",
@@ -400,16 +310,6 @@
     "population": 462721
   },
   {
-    "iso3": "BSS",
-    "name": "BSS",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": null
-  },
-  {
     "iso3": "BTN",
     "name": "Bhutan",
     "region": "South Asia",
@@ -428,16 +328,6 @@
     "lat": -22.3,
     "lon": 24.7,
     "population": 2521139
-  },
-  {
-    "iso3": "CAA",
-    "name": "CAA",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": null
   },
   {
     "iso3": "CAF",
@@ -460,36 +350,6 @@
     "population": 41288599
   },
   {
-    "iso3": "CEA",
-    "name": "CEA",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": null
-  },
-  {
-    "iso3": "CEB",
-    "name": "CEB",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 100061963
-  },
-  {
-    "iso3": "CEU",
-    "name": "CEU",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": null
-  },
-  {
     "iso3": "CHE",
     "name": "Switzerland",
     "region": "Europe & Central Asia",
@@ -498,16 +358,6 @@
     "lat": 46.8,
     "lon": 8.2,
     "population": 9005582
-  },
-  {
-    "iso3": "CHI",
-    "name": "CHI",
-    "region": "Europe & Central Asia",
-    "incomeGroup": "High income",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 168126
   },
   {
     "iso3": "CHL",
@@ -538,26 +388,6 @@
     "lat": 7.5,
     "lon": -5.5,
     "population": 31934230
-  },
-  {
-    "iso3": "CLA",
-    "name": "CLA",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": null
-  },
-  {
-    "iso3": "CME",
-    "name": "CME",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": null
   },
   {
     "iso3": "CMR",
@@ -640,26 +470,6 @@
     "population": 5129910
   },
   {
-    "iso3": "CSA",
-    "name": "CSA",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": null
-  },
-  {
-    "iso3": "CSS",
-    "name": "CSS",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 4539060
-  },
-  {
     "iso3": "CUB",
     "name": "Cuba",
     "region": "Latin America & Caribbean ",
@@ -710,26 +520,6 @@
     "population": 10905028
   },
   {
-    "iso3": "DEA",
-    "name": "DEA",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": null
-  },
-  {
-    "iso3": "DEC",
-    "name": "DEC",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": null
-  },
-  {
     "iso3": "DEU",
     "name": "Germany",
     "region": "Europe & Central Asia",
@@ -750,16 +540,6 @@
     "population": 1168722
   },
   {
-    "iso3": "DLA",
-    "name": "DLA",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": null
-  },
-  {
     "iso3": "DMA",
     "name": "DMA",
     "region": "Latin America & Caribbean ",
@@ -768,16 +548,6 @@
     "lat": 0,
     "lon": 0,
     "population": 66205
-  },
-  {
-    "iso3": "DMN",
-    "name": "DMN",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": null
   },
   {
     "iso3": "DNK",
@@ -790,16 +560,6 @@
     "population": 5976992
   },
   {
-    "iso3": "DNS",
-    "name": "DNS",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": null
-  },
-  {
     "iso3": "DOM",
     "name": "Dominican Republic",
     "region": "Latin America & Caribbean ",
@@ -810,36 +570,6 @@
     "population": 11427557
   },
   {
-    "iso3": "DSA",
-    "name": "DSA",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": null
-  },
-  {
-    "iso3": "DSF",
-    "name": "DSF",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": null
-  },
-  {
-    "iso3": "DSS",
-    "name": "DSS",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": null
-  },
-  {
     "iso3": "DZA",
     "name": "Algeria",
     "region": "Middle East, North Africa, Afghanistan & Pakistan",
@@ -848,56 +578,6 @@
     "lat": 28.0,
     "lon": 1.7,
     "population": 46814308
-  },
-  {
-    "iso3": "EAP",
-    "name": "EAP",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 2141122258
-  },
-  {
-    "iso3": "EAR",
-    "name": "EAR",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 3552278604
-  },
-  {
-    "iso3": "EAS",
-    "name": "EAS",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 2388319494
-  },
-  {
-    "iso3": "ECA",
-    "name": "ECA",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 250281521
-  },
-  {
-    "iso3": "ECS",
-    "name": "ECS",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 928263208
   },
   {
     "iso3": "ECU",
@@ -918,16 +598,6 @@
     "lat": 26.8,
     "lon": 30.8,
     "population": 116538258
-  },
-  {
-    "iso3": "EMU",
-    "name": "EMU",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 351161936
   },
   {
     "iso3": "ERI",
@@ -968,26 +638,6 @@
     "lat": 9.1,
     "lon": 40.5,
     "population": 132059767
-  },
-  {
-    "iso3": "EUU",
-    "name": "EUU",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 450228188
-  },
-  {
-    "iso3": "FCS",
-    "name": "FCS",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 1081767572
   },
   {
     "iso3": "FIN",
@@ -1048,16 +698,6 @@
     "lat": 0,
     "lon": 0,
     "population": 113160
-  },
-  {
-    "iso3": "FXS",
-    "name": "FXS",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": null
   },
   {
     "iso3": "GAB",
@@ -1230,26 +870,6 @@
     "population": 831087
   },
   {
-    "iso3": "HIC",
-    "name": "HIC",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": null
-  },
-  {
-    "iso3": "HKG",
-    "name": "HKG",
-    "region": "East Asia & Pacific",
-    "incomeGroup": "High income",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 7524100
-  },
-  {
     "iso3": "HND",
     "name": "Honduras",
     "region": "Latin America & Caribbean ",
@@ -1258,16 +878,6 @@
     "lat": 15.2,
     "lon": -86.2,
     "population": 10825703
-  },
-  {
-    "iso3": "HPC",
-    "name": "HPC",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 941413026
   },
   {
     "iso3": "HRV",
@@ -1300,56 +910,6 @@
     "population": 9562065
   },
   {
-    "iso3": "IBB",
-    "name": "IBB",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": null
-  },
-  {
-    "iso3": "IBD",
-    "name": "IBD",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 4979421568
-  },
-  {
-    "iso3": "IBT",
-    "name": "IBT",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 6926222113
-  },
-  {
-    "iso3": "IDA",
-    "name": "IDA",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 1946800545
-  },
-  {
-    "iso3": "IDB",
-    "name": "IDB",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 676957651
-  },
-  {
     "iso3": "IDN",
     "name": "Indonesia",
     "region": "East Asia & Pacific",
@@ -1358,16 +918,6 @@
     "lat": -0.8,
     "lon": 113.9,
     "population": 283487931
-  },
-  {
-    "iso3": "IDX",
-    "name": "IDX",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 1269842894
   },
   {
     "iso3": "IMN",
@@ -1388,16 +938,6 @@
     "lat": 20.6,
     "lon": 79.0,
     "population": 1450935791
-  },
-  {
-    "iso3": "INX",
-    "name": "INX",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": null
   },
   {
     "iso3": "IRL",
@@ -1570,16 +1110,6 @@
     "population": 4897263
   },
   {
-    "iso3": "LAC",
-    "name": "LAC",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 594158638
-  },
-  {
     "iso3": "LAO",
     "name": "Laos",
     "region": "East Asia & Pacific",
@@ -1630,36 +1160,6 @@
     "population": 179744
   },
   {
-    "iso3": "LCN",
-    "name": "LCN",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 662186388
-  },
-  {
-    "iso3": "LDC",
-    "name": "LDC",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 1187777591
-  },
-  {
-    "iso3": "LIC",
-    "name": "LIC",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": null
-  },
-  {
     "iso3": "LIE",
     "name": "LIE",
     "region": "Europe & Central Asia",
@@ -1680,26 +1180,6 @@
     "population": 21916000
   },
   {
-    "iso3": "LMC",
-    "name": "LMC",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": null
-  },
-  {
-    "iso3": "LMY",
-    "name": "LMY",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 6563501708
-  },
-  {
     "iso3": "LSO",
     "name": "Lesotho",
     "region": "Sub-Saharan Africa ",
@@ -1708,16 +1188,6 @@
     "lat": -29.6,
     "lon": 28.2,
     "population": 2337423
-  },
-  {
-    "iso3": "LTE",
-    "name": "LTE",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 2328628339
   },
   {
     "iso3": "LTU",
@@ -1750,26 +1220,6 @@
     "population": 1866124
   },
   {
-    "iso3": "MAC",
-    "name": "MAC",
-    "region": "East Asia & Pacific",
-    "incomeGroup": "High income",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 687000
-  },
-  {
-    "iso3": "MAF",
-    "name": "MAF",
-    "region": "Latin America & Caribbean ",
-    "incomeGroup": "High income",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 26129
-  },
-  {
     "iso3": "MAR",
     "name": "Morocco",
     "region": "Middle East, North Africa, Afghanistan & Pakistan",
@@ -1800,16 +1250,6 @@
     "population": 2402306
   },
   {
-    "iso3": "MDE",
-    "name": "MDE",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": null
-  },
-  {
     "iso3": "MDG",
     "name": "Madagascar",
     "region": "Sub-Saharan Africa ",
@@ -1830,16 +1270,6 @@
     "population": 527799
   },
   {
-    "iso3": "MEA",
-    "name": "MEA",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 813146136
-  },
-  {
     "iso3": "MEX",
     "name": "Mexico",
     "region": "Latin America & Caribbean ",
@@ -1858,16 +1288,6 @@
     "lat": 0,
     "lon": 0,
     "population": 37548
-  },
-  {
-    "iso3": "MIC",
-    "name": "MIC",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 5938893610
   },
   {
     "iso3": "MKD",
@@ -1908,16 +1328,6 @@
     "lat": 21.9,
     "lon": 96.0,
     "population": 54500091
-  },
-  {
-    "iso3": "MNA",
-    "name": "MNA",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 741690916
   },
   {
     "iso3": "MNE",
@@ -2030,26 +1440,6 @@
     "population": null
   },
   {
-    "iso3": "NAC",
-    "name": "NAC",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 381464223
-  },
-  {
-    "iso3": "NAF",
-    "name": "NAF",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": null
-  },
-  {
     "iso3": "NAM",
     "name": "Namibia",
     "region": "Sub-Saharan Africa ",
@@ -2140,16 +1530,6 @@
     "population": 29651054
   },
   {
-    "iso3": "NRS",
-    "name": "NRS",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": null
-  },
-  {
     "iso3": "NRU",
     "name": "NRU",
     "region": "East Asia & Pacific",
@@ -2158,16 +1538,6 @@
     "lat": 0,
     "lon": 0,
     "population": 11947
-  },
-  {
-    "iso3": "NXS",
-    "name": "NXS",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": null
   },
   {
     "iso3": "NZL",
@@ -2180,16 +1550,6 @@
     "population": 5287500
   },
   {
-    "iso3": "OED",
-    "name": "OED",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 1396877448
-  },
-  {
     "iso3": "OMN",
     "name": "Oman",
     "region": "Middle East, North Africa, Afghanistan & Pakistan",
@@ -2198,16 +1558,6 @@
     "lat": 21.5,
     "lon": 55.9,
     "population": 5281538
-  },
-  {
-    "iso3": "OSS",
-    "name": "OSS",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 12931878
   },
   {
     "iso3": "PAK",
@@ -2280,16 +1630,6 @@
     "population": 36559233
   },
   {
-    "iso3": "PRE",
-    "name": "PRE",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 1105951788
-  },
-  {
     "iso3": "PRI",
     "name": "PRI",
     "region": "Latin America & Caribbean ",
@@ -2340,26 +1680,6 @@
     "population": 5289152
   },
   {
-    "iso3": "PSS",
-    "name": "PSS",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 2722467
-  },
-  {
-    "iso3": "PST",
-    "name": "PST",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 1128377826
-  },
-  {
     "iso3": "PYF",
     "name": "PYF",
     "region": "East Asia & Pacific",
@@ -2400,16 +1720,6 @@
     "population": 19051804
   },
   {
-    "iso3": "RRS",
-    "name": "RRS",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": null
-  },
-  {
     "iso3": "RUS",
     "name": "Russia",
     "region": "Europe & Central Asia",
@@ -2428,16 +1738,6 @@
     "lat": -1.9,
     "lon": 29.9,
     "population": 14256567
-  },
-  {
-    "iso3": "SAS",
-    "name": "SAS",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 1677384532
   },
   {
     "iso3": "SAU",
@@ -2560,16 +1860,6 @@
     "population": 6586476
   },
   {
-    "iso3": "SSA",
-    "name": "SSA",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 1158863843
-  },
-  {
     "iso3": "SSD",
     "name": "South Sudan",
     "region": "Sub-Saharan Africa ",
@@ -2578,26 +1868,6 @@
     "lat": 6.9,
     "lon": 31.3,
     "population": 11943408
-  },
-  {
-    "iso3": "SSF",
-    "name": "SSF",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 1291044964
-  },
-  {
-    "iso3": "SST",
-    "name": "SST",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 20193405
   },
   {
     "iso3": "STP",
@@ -2670,16 +1940,6 @@
     "population": 43350
   },
   {
-    "iso3": "SXZ",
-    "name": "SXZ",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": null
-  },
-  {
     "iso3": "SYC",
     "name": "SYC",
     "region": "Sub-Saharan Africa ",
@@ -2718,26 +1978,6 @@
     "lat": 15.5,
     "lon": 18.7,
     "population": 20299123
-  },
-  {
-    "iso3": "TEA",
-    "name": "TEA",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 2114653077
-  },
-  {
-    "iso3": "TEC",
-    "name": "TEC",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 459734030
   },
   {
     "iso3": "TGO",
@@ -2790,16 +2030,6 @@
     "population": 7494498
   },
   {
-    "iso3": "TLA",
-    "name": "TLA",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 647003746
-  },
-  {
     "iso3": "TLS",
     "name": "Timor-Leste",
     "region": "East Asia & Pacific",
@@ -2810,16 +2040,6 @@
     "population": 1400638
   },
   {
-    "iso3": "TMN",
-    "name": "TMN",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 736401764
-  },
-  {
     "iso3": "TON",
     "name": "TON",
     "region": "East Asia & Pacific",
@@ -2828,26 +2048,6 @@
     "lat": 0,
     "lon": 0,
     "population": 104175
-  },
-  {
-    "iso3": "TSA",
-    "name": "TSA",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 1677384532
-  },
-  {
-    "iso3": "TSS",
-    "name": "TSS",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 1291044964
   },
   {
     "iso3": "TTO",
@@ -2918,16 +2118,6 @@
     "lat": 48.4,
     "lon": 31.2,
     "population": 37860221
-  },
-  {
-    "iso3": "UMC",
-    "name": "UMC",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": null
   },
   {
     "iso3": "URY",
@@ -3020,16 +2210,6 @@
     "population": 327777
   },
   {
-    "iso3": "WLD",
-    "name": "WLD",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 8141808945
-  },
-  {
     "iso3": "WLF",
     "name": "WLF",
     "region": "",
@@ -3048,26 +2228,6 @@
     "lat": 0,
     "lon": 0,
     "population": 218019
-  },
-  {
-    "iso3": "XKX",
-    "name": "XKX",
-    "region": "Europe & Central Asia",
-    "incomeGroup": "Upper middle income",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": 1594353
-  },
-  {
-    "iso3": "XZN",
-    "name": "XZN",
-    "region": "Aggregates",
-    "incomeGroup": "Aggregates",
-    "whoRegion": "",
-    "lat": 0,
-    "lon": 0,
-    "population": null
   },
   {
     "iso3": "YEM",
