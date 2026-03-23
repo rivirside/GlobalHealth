@@ -52,7 +52,7 @@ export function RiskBadge({ score, level, size = "sm", showLabel = true }: RiskB
 
   return (
     <span
-      className="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full text-xs font-medium"
+      className="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full text-xs font-medium group relative cursor-help"
       style={{
         backgroundColor: `${color}15`,
         color,
@@ -60,6 +60,10 @@ export function RiskBadge({ score, level, size = "sm", showLabel = true }: RiskB
     >
       <span className="w-1.5 h-1.5 rounded-full" style={{ backgroundColor: color }} />
       {label} ({Math.round(score)})
+      <span className="absolute bottom-full left-0 mb-1 hidden group-hover:block w-48 p-2 bg-gray-900 text-white text-[10px] rounded shadow-lg z-50 leading-relaxed font-normal">
+        Combines outbreak pressure (60%) with health system vulnerability (40%). Project-defined weights.{" "}
+        <a href="/about" className="underline text-white">Methodology</a>
+      </span>
     </span>
   );
 }

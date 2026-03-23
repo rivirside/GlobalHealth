@@ -39,6 +39,9 @@ export function MapLegend() {
               </span>
             </div>
           ))}
+          <p className="text-[10px] text-gray-400 pt-1 border-t border-gray-100 leading-snug">
+            Markers show country-level location, not precise outbreak site.
+          </p>
         </div>
       )}
     </div>

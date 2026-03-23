@@ -111,11 +111,14 @@ export function OutbreakSidebar({
               <span className="text-xs font-medium text-gray-500 uppercase tracking-wider">
                 {categoryLabel}
               </span>
-              {outbreak.status === "resolved" && (
-                <span className="text-[10px] font-medium text-gray-400 bg-gray-100 px-1.5 py-0.5 rounded">
-                  Resolved
+              <span className="text-[10px] font-medium text-gray-400 bg-gray-100 px-1.5 py-0.5 rounded group relative cursor-help">
+                {outbreak.status === "resolved" ? "Resolved" : "Active"}
+                <span className="absolute bottom-full left-0 mb-1 hidden group-hover:block w-52 p-2 bg-gray-900 text-white text-[10px] rounded shadow-lg z-50 leading-relaxed font-normal">
+                  {outbreak.status === "resolved"
+                    ? "No WHO DON report within the past 365 days, or superseded by a newer report. WHO does not formally declare outbreaks resolved."
+                    : "Reported within the past 365 days. This is a heuristic — WHO does not formally declare outbreaks resolved."}
                 </span>
-              )}
+              </span>
               {incomeGroup && (
                 <span className="text-[10px] font-medium text-gray-400 bg-gray-100 px-1.5 py-0.5 rounded ml-auto">
                   {incomeGroup}
@@ -144,22 +147,26 @@ export function OutbreakSidebar({
             </p>
 
             <div className="flex gap-6 mb-3">
-              {outbreak.cases !== null && (
-                <div>
-                  <p className="text-xs text-gray-500">Cases</p>
+              <div>
+                <p className="text-xs text-gray-500">Cases</p>
+                {outbreak.cases !== null ? (
                   <p className="text-lg font-semibold font-mono text-gray-900">
                     {outbreak.cases.toLocaleString()}
                   </p>
-                </div>
-              )}
-              {outbreak.deaths !== null && (
-                <div>
-                  <p className="text-xs text-gray-500">Deaths</p>
+                ) : (
+                  <p className="text-sm text-gray-400 italic">Not reported</p>
+                )}
+              </div>
+              <div>
+                <p className="text-xs text-gray-500">Deaths</p>
+                {outbreak.deaths !== null ? (
                   <p className="text-lg font-semibold font-mono text-red-600">
                     {outbreak.deaths.toLocaleString()}
                   </p>
-                </div>
-              )}
+                ) : (
+                  <p className="text-sm text-gray-400 italic">Not reported</p>
+                )}
+              </div>
             </div>
 
             <a

@@ -23,7 +23,7 @@ export function ReadinessScoreBadge({ score, size = "lg" }: ReadinessScoreBadgeP
 
   if (size === "sm") {
     return (
-      <div className="flex items-center gap-2">
+      <div className="flex items-center gap-2 group relative">
         <div
           className="w-8 h-8 rounded-full flex items-center justify-center text-white text-xs font-bold"
           style={{ backgroundColor: color }}
@@ -33,6 +33,10 @@ export function ReadinessScoreBadge({ score, size = "lg" }: ReadinessScoreBadgeP
         <div>
           <p className="text-xs font-semibold text-gray-900">{label}</p>
           <p className="text-[10px] text-gray-500">Readiness</p>
+        </div>
+        <div className="absolute bottom-full left-0 mb-1 hidden group-hover:block w-48 p-2 bg-gray-900 text-white text-[10px] rounded shadow-lg z-50 leading-relaxed">
+          Custom composite of 6 WHO indicators. Not a validated index.{" "}
+          <a href="/about#readiness" className="underline">Methodology</a>
         </div>
       </div>
     );
@@ -78,7 +82,13 @@ export function ReadinessScoreBadge({ score, size = "lg" }: ReadinessScoreBadgeP
           {label}
         </text>
       </svg>
-      <p className="text-xs font-semibold text-gray-700 mt-1">Readiness Score</p>
+      <p className="text-xs font-semibold text-gray-700 mt-1 group relative cursor-help">
+        Readiness Score
+        <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-1 hidden group-hover:block w-48 p-2 bg-gray-900 text-white text-[10px] rounded shadow-lg z-50 leading-relaxed font-normal">
+          Custom composite of 6 WHO indicators. Not a validated index.{" "}
+          <a href="/about" className="underline">Methodology</a>
+        </span>
+      </p>
     </div>
   );
 }
