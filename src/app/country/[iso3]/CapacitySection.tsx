@@ -79,6 +79,9 @@ function CapacityRow({ indicator }: { indicator: CapacityIndicator }) {
       <div className="flex justify-between items-start mb-1">
         <div>
           <span className="text-sm font-medium text-gray-700">{name}</span>
+          {isInverse && (
+            <span className="text-[10px] text-gray-400 ml-1">(lower is better)</span>
+          )}
           <div className="flex items-center gap-2 mt-0.5">
             <span className={`w-1.5 h-1.5 rounded-full ${statusDot}`} />
             <span className="text-xs text-gray-500">{statusText}</span>

@@ -163,8 +163,6 @@ export default async function CountryProfilePage({ params }: Props) {
               .map((code) => indicatorsByCode.get(code))
               .filter((ind): ind is CapacityIndicator => ind !== undefined);
 
-            if (groupIndicators.length === 0) return null;
-
             const hasBenchmarks = groupIndicators.some((i) => i.benchmark !== null);
 
             return (
@@ -176,7 +174,9 @@ export default async function CountryProfilePage({ params }: Props) {
                   />
                   {group.label}
                 </h2>
-                {hasBenchmarks ? (
+                {groupIndicators.length === 0 ? (
+                  <p className="text-sm text-gray-400 italic">No data available for this category.</p>
+                ) : hasBenchmarks ? (
                   <CapacitySection indicators={groupIndicators} />
                 ) : (
                   <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">

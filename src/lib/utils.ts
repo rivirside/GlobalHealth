@@ -21,7 +21,9 @@ export function downloadCsv(
   if (data.length === 0) return;
 
   const headers = Object.keys(data[0]);
+  const exported = new Date().toISOString().split("T")[0];
   const csvRows = [
+    `# Source: WHO DON + WHO GHO + World Bank | Exported: ${exported} | https://global-health-two.vercel.app`,
     headers.join(","),
     ...data.map((row) =>
       headers

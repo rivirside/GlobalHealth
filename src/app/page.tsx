@@ -77,6 +77,7 @@ function writeFiltersToUrl(
 export default function HomePage() {
   const [outbreaks, setOutbreaks] = useState<Outbreak[]>([]);
   const [loading, setLoading] = useState(true);
+  const [fetchError, setFetchError] = useState(false);
   const [selectedOutbreak, setSelectedOutbreak] = useState<Outbreak | null>(
     null
   );
@@ -112,7 +113,10 @@ export default function HomePage() {
         setAllReadiness(readinessData);
         setCountries(countryData);
       })
-      .catch((err) => console.error("Failed to fetch data:", err))
+      .catch((err) => {
+        console.error("Failed to fetch data:", err);
+        setFetchError(true);
+      })
       .finally(() => setLoading(false));
   }, []);
 
@@ -195,6 +199,19 @@ export default function HomePage() {
 
   return (
     <div className="flex flex-col h-[calc(100dvh-53px)]">
+      {fetchError && (
+        <div className="bg-red-50 border-b border-red-200 px-4 py-2 flex items-center justify-between">
+          <p className="text-sm text-red-700">
+            Unable to load outbreak data. Try refreshing the page.
+          </p>
+          <button
+            onClick={() => window.location.reload()}
+            className="text-xs font-medium text-red-700 hover:text-red-900 underline"
+          >
+            Refresh
+          </button>
+        </div>
+      )}
       <FilterBar filters={filters} onFiltersChange={setFilters} />
       <div className="bg-gray-50 px-4 py-1.5 border-b border-gray-200 flex items-center justify-between">
         {loading ? (

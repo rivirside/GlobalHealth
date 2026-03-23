@@ -136,7 +136,7 @@ export default async function DiseaseProfilePage({ params }: Props) {
                 <StatCard
                   label="Case Fatality Rate"
                   value={`${((disease.totalDeaths / disease.totalCases) * 100).toFixed(1)}%`}
-                  subtitle="From aggregate reported figures"
+                  subtitle={`Aggregate from ${disease.outbreakCount} reports — not a clinical CFR`}
                 />
               )}
             </div>

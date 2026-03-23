@@ -28,6 +28,32 @@ interface ComparisonChartProps {
 }
 
 const COLORS = ["#3B82F6", "#EF4444", "#10B981"];
+const CURRENT_YEAR = new Date().getFullYear();
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function CapacityTooltip({ active, payload, label }: any) {
+  if (!active || !payload?.length) return null;
+  return (
+    <div className="bg-white border border-gray-200 rounded shadow-lg p-2 text-xs">
+      <p className="font-semibold text-gray-900 mb-1">{label}</p>
+      {payload.map((p: { name: string; value: number; color: string; payload: Record<string, number | null> }, i: number) => {
+        const iso3 = Object.keys(p.payload).find(k => !k.includes("_") && k !== "name" && k !== "benchmark" && p.payload[k] === p.value);
+        const year = iso3 ? p.payload[`${iso3}_year`] : null;
+        const stale = year && year < CURRENT_YEAR - 2;
+        return (
+          <p key={i} style={{ color: p.color }}>
+            {p.name}: {p.value?.toLocaleString() ?? "N/A"}
+            {year && (
+              <span className={stale ? "text-amber-600 ml-1" : "text-gray-400 ml-1"}>
+                ({year})
+              </span>
+            )}
+          </p>
+        );
+      })}
+    </div>
+  );
+}
 
 export function ComparisonChart({ countries }: ComparisonChartProps) {
   const capacityData = useMemo(() => {
@@ -39,6 +65,7 @@ export function ComparisonChart({ countries }: ComparisonChartProps) {
       for (const c of countries) {
         const found = c.capacity?.indicators.find((i) => i.code === ind.code);
         entry[c.iso3] = found?.value ?? null;
+        entry[`${c.iso3}_year`] = found?.year ?? null;
       }
       return entry;
     });
@@ -47,7 +74,16 @@ export function ComparisonChart({ countries }: ComparisonChartProps) {
   const indexData = useMemo(() => {
     const indexNames = ["GHSI", "SPAR"];
     return indexNames.map((name) => {
-      const entry: Record<string, string | number | null> = { name };
+      // Show year in label to surface data staleness (e.g. "GHSI (2021)")
+      let label = name;
+      for (const c of countries) {
+        const idx = c.indices.find((i) => i.indexName === name);
+        if (idx && idx.year < CURRENT_YEAR - 1) {
+          label = `${name} (${idx.year})`;
+          break;
+        }
+      }
+      const entry: Record<string, string | number | null> = { name: label };
       for (const c of countries) {
         const idx = c.indices.find((i) => i.indexName === name);
         entry[c.iso3] = idx?.score ?? null;
@@ -102,7 +138,7 @@ export function ComparisonChart({ countries }: ComparisonChartProps) {
                 width={130}
                 tick={{ fontSize: 11, fill: "#6B7280" }}
               />
-              <Tooltip contentStyle={{ fontSize: 12 }} />
+              <Tooltip content={<CapacityTooltip />} />
               <Legend wrapperStyle={{ fontSize: 12 }} />
               {countries.map((c, i) => (
                 <Bar
@@ -116,6 +152,9 @@ export function ComparisonChart({ countries }: ComparisonChartProps) {
               ))}
             </BarChart>
           </ResponsiveContainer>
+          <p className="text-[10px] text-gray-400 mt-2">
+            Data years vary by country and indicator. Hover bars to see vintage.
+          </p>
         </div>
       </section>
 
