@@ -344,6 +344,33 @@ export default function AboutPage() {
         </ul>
       </section>
 
+      {/* Embed Widget */}
+      <section className="mb-10">
+        <h2 className="text-xl font-semibold text-gray-900 mb-3">
+          Embed Widget
+        </h2>
+        <div className="space-y-3 text-sm text-gray-700 leading-relaxed">
+          <p>
+            Embed the outbreak map on your website or internal dashboard.
+            Copy the snippet below and adjust the parameters as needed.
+          </p>
+          <div className="bg-gray-50 border border-gray-200 rounded-lg p-4 text-xs font-mono text-gray-600 overflow-x-auto">
+            <p>&lt;iframe</p>
+            <p className="ml-4">src=&quot;https://global-health-two.vercel.app/embed&quot;</p>
+            <p className="ml-4">width=&quot;100%&quot; height=&quot;500&quot; frameborder=&quot;0&quot;</p>
+            <p>&gt;&lt;/iframe&gt;</p>
+          </div>
+          <div className="bg-gray-50 border border-gray-200 rounded-lg p-4 text-xs">
+            <h4 className="font-semibold text-gray-700 mb-2">Optional Parameters</h4>
+            <div className="space-y-1 text-gray-600">
+              <p><code className="bg-gray-200 px-1 rounded">?disease=hemorrhagic</code> &mdash; Filter by disease category</p>
+              <p><code className="bg-gray-200 px-1 rounded">?active=1</code> &mdash; Show active outbreaks only</p>
+              <p><code className="bg-gray-200 px-1 rounded">?choropleth=1</code> &mdash; Show readiness choropleth instead of markers</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* How to Cite */}
       <section className="mb-10">
         <h2 className="text-xl font-semibold text-gray-900 mb-3">

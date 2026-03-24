@@ -1,8 +1,9 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
 import { slugify } from "@/lib/utils";
+import { isWatched, addToWatchlist, removeFromWatchlist, isWatchlistFull } from "@/lib/watchlist";
 import {
   DISEASE_CATEGORY_COLORS,
   DISEASE_CATEGORY_LABELS,
@@ -36,6 +37,24 @@ export function OutbreakSidebar({
   onClose,
 }: OutbreakSidebarProps) {
   const [expanded, setExpanded] = useState(false);
+  const [watched, setWatched] = useState(false);
+
+  useEffect(() => {
+    setWatched(isWatched(outbreak.countryIso3));
+  }, [outbreak.countryIso3]);
+
+  const toggleWatch = useCallback(() => {
+    if (watched) {
+      removeFromWatchlist(outbreak.countryIso3);
+      setWatched(false);
+    } else {
+      if (!isWatchlistFull()) {
+        addToWatchlist(outbreak.countryIso3);
+        setWatched(true);
+      }
+    }
+  }, [watched, outbreak.countryIso3]);
+
   const categoryColor =
     DISEASE_CATEGORY_COLORS[outbreak.diseaseCategory] || "#6B7280";
   const categoryLabel =
@@ -131,12 +150,23 @@ export function OutbreakSidebar({
             >
               {outbreak.disease}
             </Link>
-            <Link
-              href={`/country/${outbreak.countryIso3}`}
-              className="text-sm text-gray-600 hover:text-blue-600 mb-3 block"
-            >
-              {outbreak.country}
-            </Link>
+            <div className="flex items-center gap-2 mb-3">
+              <Link
+                href={`/country/${outbreak.countryIso3}`}
+                className="text-sm text-gray-600 hover:text-blue-600"
+              >
+                {outbreak.country}
+              </Link>
+              <button
+                onClick={toggleWatch}
+                className={`text-sm ${watched ? "text-blue-500" : "text-gray-300 hover:text-blue-400"}`}
+                title={watched ? "Remove from watchlist" : "Add to watchlist"}
+              >
+                <svg className="w-4 h-4" fill={watched ? "currentColor" : "none"} stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+                </svg>
+              </button>
+            </div>
             <p className="text-xs text-gray-500 mb-3">
               Reported:{" "}
               {new Date(outbreak.date).toLocaleDateString("en-US", {

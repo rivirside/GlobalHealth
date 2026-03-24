@@ -9,6 +9,7 @@ import { OutbreakTable } from "@/components/OutbreakTable";
 import { MapLegend } from "@/components/MapLegend";
 import { LatestReportsFeed } from "@/components/LatestReportsFeed";
 import { ExportButton } from "@/components/ExportButton";
+import { Watchlist } from "@/components/Watchlist";
 import { Skeleton } from "@/components/Skeleton";
 import { downloadCsv } from "@/lib/utils";
 import type {
@@ -89,6 +90,7 @@ export default function HomePage() {
   const [allReadiness, setAllReadiness] = useState<
     Record<string, ReadinessScore>
   >({});
+  const [allRisk, setAllRisk] = useState<Record<string, RiskScore>>({});
   const [countries, setCountries] = useState<Country[]>([]);
 
   // Read initial state from URL
@@ -107,11 +109,15 @@ export default function HomePage() {
         res.ok ? res.json() : {}
       ),
       fetch("/api/countries").then((res) => res.json()),
+      fetch("/api/risk/all").then((res) =>
+        res.ok ? res.json() : {}
+      ),
     ])
-      .then(([outbreakData, readinessData, countryData]) => {
+      .then(([outbreakData, readinessData, countryData, riskData]) => {
         setOutbreaks(outbreakData);
         setAllReadiness(readinessData);
         setCountries(countryData);
+        setAllRisk(riskData);
       })
       .catch((err) => {
         console.error("Failed to fetch data:", err);
@@ -215,6 +221,14 @@ export default function HomePage() {
         </div>
       )}
       <FilterBar filters={filters} onFiltersChange={setFilters} />
+      {!loading && (
+        <Watchlist
+          outbreaks={outbreaks}
+          countries={countries}
+          allReadiness={allReadiness}
+          allRisk={allRisk}
+        />
+      )}
       <div className="bg-gray-50 px-4 py-1.5 border-b border-gray-200 flex items-center justify-between">
         {loading ? (
           <div className="flex items-center gap-4">
