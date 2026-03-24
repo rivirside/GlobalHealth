@@ -1,13 +1,12 @@
 export default function EmbedLayout({ children }: { children: React.ReactNode }) {
   return (
-    <>
-      {/* Hide the root layout header and main wrapper styling for embed */}
+    <div className="embed-wrapper">
       <style>{`
         header { display: none !important; }
+        body { min-height: auto !important; overflow: hidden !important; margin: 0 !important; padding: 0 !important; }
         main { flex: none !important; }
-        body { min-height: auto !important; }
       `}</style>
       {children}
-    </>
+    </div>
   );
 }
