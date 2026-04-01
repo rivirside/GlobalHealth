@@ -7,7 +7,7 @@
     "whoRegion": "AMRO",
     "lat": 0,
     "lon": 0,
-    "population": 107995
+    "population": null
   },
   {
     "iso3": "AFG",
@@ -17,7 +17,7 @@
     "whoRegion": "EMRO",
     "lat": 33.9,
     "lon": 67.7,
-    "population": 42647492
+    "population": null
   },
   {
     "iso3": "AGO",
@@ -27,7 +27,7 @@
     "whoRegion": "AFRO",
     "lat": -11.2,
     "lon": 17.9,
-    "population": 37885849
+    "population": null
   },
   {
     "iso3": "AIA",
@@ -47,7 +47,7 @@
     "whoRegion": "EURO",
     "lat": 41.2,
     "lon": 20.2,
-    "population": 2377128
+    "population": null
   },
   {
     "iso3": "AND",
@@ -57,7 +57,7 @@
     "whoRegion": "EURO",
     "lat": 0,
     "lon": 0,
-    "population": 81938
+    "population": null
   },
   {
     "iso3": "ARE",
@@ -67,7 +67,7 @@
     "whoRegion": "EMRO",
     "lat": 23.4,
     "lon": 53.8,
-    "population": 10986400
+    "population": null
   },
   {
     "iso3": "ARG",
@@ -77,7 +77,7 @@
     "whoRegion": "AMRO",
     "lat": -38.4,
     "lon": -63.6,
-    "population": 45696159
+    "population": null
   },
   {
     "iso3": "ARM",
@@ -87,7 +87,7 @@
     "whoRegion": "EURO",
     "lat": 40.1,
     "lon": 45.0,
-    "population": 3033500
+    "population": null
   },
   {
     "iso3": "ASM",
@@ -97,7 +97,7 @@
     "whoRegion": "WPRO",
     "lat": 0,
     "lon": 0,
-    "population": 46765
+    "population": null
   },
   {
     "iso3": "ATG",
@@ -107,7 +107,7 @@
     "whoRegion": "AMRO",
     "lat": 0,
     "lon": 0,
-    "population": 93772
+    "population": null
   },
   {
     "iso3": "AUS",
@@ -117,7 +117,7 @@
     "whoRegion": "WPRO",
     "lat": -25.3,
     "lon": 133.8,
-    "population": 27196812
+    "population": null
   },
   {
     "iso3": "AUT",
@@ -127,7 +127,7 @@
     "whoRegion": "EURO",
     "lat": 47.5,
     "lon": 14.6,
-    "population": 9177982
+    "population": null
   },
   {
     "iso3": "AZE",
@@ -137,7 +137,7 @@
     "whoRegion": "EURO",
     "lat": 40.1,
     "lon": 47.6,
-    "population": 10202830
+    "population": null
   },
   {
     "iso3": "BDI",
@@ -147,7 +147,7 @@
     "whoRegion": "AFRO",
     "lat": -3.4,
     "lon": 29.9,
-    "population": 14047786
+    "population": null
   },
   {
     "iso3": "BEL",
@@ -157,7 +157,7 @@
     "whoRegion": "EURO",
     "lat": 50.8,
     "lon": 4.5,
-    "population": 11858610
+    "population": null
   },
   {
     "iso3": "BEN",
@@ -167,7 +167,7 @@
     "whoRegion": "AFRO",
     "lat": 9.3,
     "lon": 2.3,
-    "population": 14462724
+    "population": null
   },
   {
     "iso3": "BES",
@@ -187,7 +187,7 @@
     "whoRegion": "AFRO",
     "lat": 12.4,
     "lon": -1.6,
-    "population": 23548781
+    "population": null
   },
   {
     "iso3": "BGD",
@@ -197,7 +197,7 @@
     "whoRegion": "SEARO",
     "lat": 23.7,
     "lon": 90.4,
-    "population": 173562364
+    "population": null
   },
   {
     "iso3": "BGR",
@@ -207,7 +207,7 @@
     "whoRegion": "EURO",
     "lat": 42.7,
     "lon": 25.5,
-    "population": 6441421
+    "population": null
   },
   {
     "iso3": "BHR",
@@ -217,7 +217,7 @@
     "whoRegion": "EMRO",
     "lat": 26.0,
     "lon": 50.6,
-    "population": 1588670
+    "population": null
   },
   {
     "iso3": "BHS",
@@ -227,7 +227,7 @@
     "whoRegion": "AMRO",
     "lat": 0,
     "lon": 0,
-    "population": 401283
+    "population": null
   },
   {
     "iso3": "BIH",
@@ -237,7 +237,7 @@
     "whoRegion": "EURO",
     "lat": 43.9,
     "lon": 17.7,
-    "population": 3164253
+    "population": null
   },
   {
     "iso3": "BLR",
@@ -247,7 +247,7 @@
     "whoRegion": "EURO",
     "lat": 53.7,
     "lon": 27.6,
-    "population": 9132629
+    "population": null
   },
   {
     "iso3": "BLZ",
@@ -257,7 +257,7 @@
     "whoRegion": "AMRO",
     "lat": 0,
     "lon": 0,
-    "population": 417072
+    "population": null
   },
   {
     "iso3": "BMU",
@@ -267,7 +267,7 @@
     "whoRegion": "AMRO",
     "lat": 0,
     "lon": 0,
-    "population": 64636
+    "population": null
   },
   {
     "iso3": "BOL",
@@ -277,7 +277,7 @@
     "whoRegion": "AMRO",
     "lat": -16.3,
     "lon": -63.6,
-    "population": 12413315
+    "population": null
   },
   {
     "iso3": "BRA",
@@ -287,7 +287,7 @@
     "whoRegion": "AMRO",
     "lat": -14.2,
     "lon": -51.9,
-    "population": 211998573
+    "population": null
   },
   {
     "iso3": "BRB",
@@ -297,7 +297,7 @@
     "whoRegion": "AMRO",
     "lat": 13.2,
     "lon": -59.5,
-    "population": 282467
+    "population": null
   },
   {
     "iso3": "BRN",
@@ -307,7 +307,7 @@
     "whoRegion": "WPRO",
     "lat": 4.5,
     "lon": 114.7,
-    "population": 462721
+    "population": null
   },
   {
     "iso3": "BTN",
@@ -317,7 +317,7 @@
     "whoRegion": "SEARO",
     "lat": 27.5,
     "lon": 90.4,
-    "population": 791524
+    "population": null
   },
   {
     "iso3": "BWA",
@@ -327,7 +327,7 @@
     "whoRegion": "AFRO",
     "lat": -22.3,
     "lon": 24.7,
-    "population": 2521139
+    "population": null
   },
   {
     "iso3": "CAF",
@@ -337,7 +337,7 @@
     "whoRegion": "AFRO",
     "lat": 6.6,
     "lon": 20.9,
-    "population": 5330690
+    "population": null
   },
   {
     "iso3": "CAN",
@@ -347,7 +347,7 @@
     "whoRegion": "AMRO",
     "lat": 56.1,
     "lon": -106.3,
-    "population": 41288599
+    "population": null
   },
   {
     "iso3": "CHE",
@@ -357,7 +357,7 @@
     "whoRegion": "EURO",
     "lat": 46.8,
     "lon": 8.2,
-    "population": 9005582
+    "population": null
   },
   {
     "iso3": "CHL",
@@ -367,7 +367,7 @@
     "whoRegion": "AMRO",
     "lat": -35.7,
     "lon": -71.5,
-    "population": 19764771
+    "population": null
   },
   {
     "iso3": "CHN",
@@ -377,7 +377,7 @@
     "whoRegion": "WPRO",
     "lat": 35.9,
     "lon": 104.2,
-    "population": 1408975000
+    "population": null
   },
   {
     "iso3": "CIV",
@@ -387,7 +387,7 @@
     "whoRegion": "AFRO",
     "lat": 7.5,
     "lon": -5.5,
-    "population": 31934230
+    "population": null
   },
   {
     "iso3": "CMR",
@@ -397,7 +397,7 @@
     "whoRegion": "AFRO",
     "lat": 7.4,
     "lon": 12.4,
-    "population": 29123744
+    "population": null
   },
   {
     "iso3": "COD",
@@ -407,7 +407,7 @@
     "whoRegion": "AFRO",
     "lat": -4.0,
     "lon": 21.8,
-    "population": 109276265
+    "population": null
   },
   {
     "iso3": "COG",
@@ -417,7 +417,7 @@
     "whoRegion": "AFRO",
     "lat": -0.2,
     "lon": 15.8,
-    "population": 6332961
+    "population": null
   },
   {
     "iso3": "COK",
@@ -437,7 +437,7 @@
     "whoRegion": "AMRO",
     "lat": 4.6,
     "lon": -74.3,
-    "population": 52886363
+    "population": null
   },
   {
     "iso3": "COM",
@@ -447,7 +447,7 @@
     "whoRegion": "AFRO",
     "lat": -11.9,
     "lon": 43.9,
-    "population": 866628
+    "population": null
   },
   {
     "iso3": "CPV",
@@ -457,7 +457,7 @@
     "whoRegion": "AFRO",
     "lat": 16.0,
     "lon": -24.0,
-    "population": 524877
+    "population": null
   },
   {
     "iso3": "CRI",
@@ -467,7 +467,7 @@
     "whoRegion": "AMRO",
     "lat": 9.7,
     "lon": -83.8,
-    "population": 5129910
+    "population": null
   },
   {
     "iso3": "CUB",
@@ -477,7 +477,7 @@
     "whoRegion": "AMRO",
     "lat": 21.5,
     "lon": -77.8,
-    "population": 10979783
+    "population": null
   },
   {
     "iso3": "CUW",
@@ -487,7 +487,7 @@
     "whoRegion": "AMRO",
     "lat": 0,
     "lon": 0,
-    "population": 155967
+    "population": null
   },
   {
     "iso3": "CYM",
@@ -497,7 +497,7 @@
     "whoRegion": "AMRO",
     "lat": 0,
     "lon": 0,
-    "population": 74457
+    "population": null
   },
   {
     "iso3": "CYP",
@@ -507,7 +507,7 @@
     "whoRegion": "EURO",
     "lat": 35.1,
     "lon": 33.4,
-    "population": 1358282
+    "population": null
   },
   {
     "iso3": "CZE",
@@ -517,7 +517,7 @@
     "whoRegion": "EURO",
     "lat": 49.8,
     "lon": 15.5,
-    "population": 10905028
+    "population": null
   },
   {
     "iso3": "DEU",
@@ -527,7 +527,7 @@
     "whoRegion": "EURO",
     "lat": 51.2,
     "lon": 10.5,
-    "population": 83516593
+    "population": null
   },
   {
     "iso3": "DJI",
@@ -537,7 +537,7 @@
     "whoRegion": "EMRO",
     "lat": 11.8,
     "lon": 42.6,
-    "population": 1168722
+    "population": null
   },
   {
     "iso3": "DMA",
@@ -547,7 +547,7 @@
     "whoRegion": "AMRO",
     "lat": 0,
     "lon": 0,
-    "population": 66205
+    "population": null
   },
   {
     "iso3": "DNK",
@@ -557,7 +557,7 @@
     "whoRegion": "EURO",
     "lat": 56.3,
     "lon": 9.5,
-    "population": 5976992
+    "population": null
   },
   {
     "iso3": "DOM",
@@ -567,7 +567,7 @@
     "whoRegion": "AMRO",
     "lat": 18.7,
     "lon": -70.2,
-    "population": 11427557
+    "population": null
   },
   {
     "iso3": "DZA",
@@ -577,7 +577,7 @@
     "whoRegion": "AFRO",
     "lat": 28.0,
     "lon": 1.7,
-    "population": 46814308
+    "population": null
   },
   {
     "iso3": "ECU",
@@ -587,7 +587,7 @@
     "whoRegion": "AMRO",
     "lat": -1.8,
     "lon": -78.2,
-    "population": 18135478
+    "population": null
   },
   {
     "iso3": "EGY",
@@ -597,7 +597,7 @@
     "whoRegion": "EMRO",
     "lat": 26.8,
     "lon": 30.8,
-    "population": 116538258
+    "population": null
   },
   {
     "iso3": "ERI",
@@ -607,7 +607,7 @@
     "whoRegion": "AFRO",
     "lat": 15.2,
     "lon": 39.8,
-    "population": 3535603
+    "population": null
   },
   {
     "iso3": "ESP",
@@ -617,7 +617,7 @@
     "whoRegion": "EURO",
     "lat": 40.5,
     "lon": -3.7,
-    "population": 48848840
+    "population": null
   },
   {
     "iso3": "EST",
@@ -627,7 +627,7 @@
     "whoRegion": "EURO",
     "lat": 58.6,
     "lon": 25.0,
-    "population": 1372341
+    "population": null
   },
   {
     "iso3": "ETH",
@@ -637,7 +637,7 @@
     "whoRegion": "AFRO",
     "lat": 9.1,
     "lon": 40.5,
-    "population": 132059767
+    "population": null
   },
   {
     "iso3": "FIN",
@@ -647,7 +647,7 @@
     "whoRegion": "EURO",
     "lat": 61.9,
     "lon": 25.7,
-    "population": 5619911
+    "population": null
   },
   {
     "iso3": "FJI",
@@ -657,7 +657,7 @@
     "whoRegion": "WPRO",
     "lat": -17.7,
     "lon": 178.1,
-    "population": 928784
+    "population": null
   },
   {
     "iso3": "FLK",
@@ -677,7 +677,7 @@
     "whoRegion": "EURO",
     "lat": 46.2,
     "lon": 2.2,
-    "population": 68551653
+    "population": null
   },
   {
     "iso3": "FRO",
@@ -687,7 +687,7 @@
     "whoRegion": "EURO",
     "lat": 0,
     "lon": 0,
-    "population": 54681
+    "population": null
   },
   {
     "iso3": "FSM",
@@ -697,7 +697,7 @@
     "whoRegion": "WPRO",
     "lat": 0,
     "lon": 0,
-    "population": 113160
+    "population": null
   },
   {
     "iso3": "GAB",
@@ -707,7 +707,7 @@
     "whoRegion": "AFRO",
     "lat": -0.8,
     "lon": 11.6,
-    "population": 2538952
+    "population": null
   },
   {
     "iso3": "GBR",
@@ -717,7 +717,7 @@
     "whoRegion": "EURO",
     "lat": 55.4,
     "lon": -3.4,
-    "population": 69226000
+    "population": null
   },
   {
     "iso3": "GEO",
@@ -727,7 +727,7 @@
     "whoRegion": "EURO",
     "lat": 42.3,
     "lon": 43.4,
-    "population": 3699557
+    "population": null
   },
   {
     "iso3": "GHA",
@@ -737,7 +737,7 @@
     "whoRegion": "AFRO",
     "lat": 7.9,
     "lon": -1.0,
-    "population": 34427414
+    "population": null
   },
   {
     "iso3": "GIB",
@@ -747,7 +747,7 @@
     "whoRegion": "EURO",
     "lat": 0,
     "lon": 0,
-    "population": 39329
+    "population": null
   },
   {
     "iso3": "GIN",
@@ -757,7 +757,7 @@
     "whoRegion": "AFRO",
     "lat": 9.9,
     "lon": -11.6,
-    "population": 14754785
+    "population": null
   },
   {
     "iso3": "GLP",
@@ -777,7 +777,7 @@
     "whoRegion": "AFRO",
     "lat": 13.4,
     "lon": -15.3,
-    "population": 2759988
+    "population": null
   },
   {
     "iso3": "GNB",
@@ -787,7 +787,7 @@
     "whoRegion": "AFRO",
     "lat": 11.8,
     "lon": -15.2,
-    "population": 2201352
+    "population": null
   },
   {
     "iso3": "GNQ",
@@ -797,7 +797,7 @@
     "whoRegion": "AFRO",
     "lat": 1.7,
     "lon": 10.3,
-    "population": 1892516
+    "population": null
   },
   {
     "iso3": "GRC",
@@ -807,7 +807,7 @@
     "whoRegion": "EURO",
     "lat": 39.1,
     "lon": 21.8,
-    "population": 10405134
+    "population": null
   },
   {
     "iso3": "GRD",
@@ -817,7 +817,7 @@
     "whoRegion": "AMRO",
     "lat": 0,
     "lon": 0,
-    "population": 117207
+    "population": null
   },
   {
     "iso3": "GRL",
@@ -827,7 +827,7 @@
     "whoRegion": "EURO",
     "lat": 0,
     "lon": 0,
-    "population": 56836
+    "population": null
   },
   {
     "iso3": "GTM",
@@ -837,7 +837,7 @@
     "whoRegion": "AMRO",
     "lat": 15.8,
     "lon": -90.2,
-    "population": 18406359
+    "population": null
   },
   {
     "iso3": "GUF",
@@ -857,7 +857,7 @@
     "whoRegion": "WPRO",
     "lat": 0,
     "lon": 0,
-    "population": 167777
+    "population": null
   },
   {
     "iso3": "GUY",
@@ -867,7 +867,7 @@
     "whoRegion": "AMRO",
     "lat": 5.0,
     "lon": -58.9,
-    "population": 831087
+    "population": null
   },
   {
     "iso3": "HND",
@@ -877,7 +877,7 @@
     "whoRegion": "AMRO",
     "lat": 15.2,
     "lon": -86.2,
-    "population": 10825703
+    "population": null
   },
   {
     "iso3": "HRV",
@@ -887,7 +887,7 @@
     "whoRegion": "EURO",
     "lat": 45.1,
     "lon": 15.2,
-    "population": 3866200
+    "population": null
   },
   {
     "iso3": "HTI",
@@ -897,7 +897,7 @@
     "whoRegion": "AMRO",
     "lat": 19.1,
     "lon": -72.3,
-    "population": 11772557
+    "population": null
   },
   {
     "iso3": "HUN",
@@ -907,7 +907,7 @@
     "whoRegion": "EURO",
     "lat": 47.2,
     "lon": 19.5,
-    "population": 9562065
+    "population": null
   },
   {
     "iso3": "IDN",
@@ -917,7 +917,7 @@
     "whoRegion": "WPRO",
     "lat": -0.8,
     "lon": 113.9,
-    "population": 283487931
+    "population": null
   },
   {
     "iso3": "IMN",
@@ -927,7 +927,7 @@
     "whoRegion": "EURO",
     "lat": 0,
     "lon": 0,
-    "population": 84160
+    "population": null
   },
   {
     "iso3": "IND",
@@ -937,7 +937,7 @@
     "whoRegion": "SEARO",
     "lat": 20.6,
     "lon": 79.0,
-    "population": 1450935791
+    "population": null
   },
   {
     "iso3": "IRL",
@@ -947,7 +947,7 @@
     "whoRegion": "EURO",
     "lat": 53.1,
     "lon": -7.7,
-    "population": 5395790
+    "population": null
   },
   {
     "iso3": "IRN",
@@ -957,7 +957,7 @@
     "whoRegion": "EMRO",
     "lat": 32.4,
     "lon": 53.7,
-    "population": 91567738
+    "population": null
   },
   {
     "iso3": "IRQ",
@@ -967,7 +967,7 @@
     "whoRegion": "EMRO",
     "lat": 33.2,
     "lon": 43.7,
-    "population": 46042015
+    "population": null
   },
   {
     "iso3": "ISL",
@@ -977,7 +977,7 @@
     "whoRegion": "EURO",
     "lat": 65.0,
     "lon": -19.0,
-    "population": 386506
+    "population": null
   },
   {
     "iso3": "ISR",
@@ -987,7 +987,7 @@
     "whoRegion": "EURO",
     "lat": 31.0,
     "lon": 34.9,
-    "population": 9974400
+    "population": null
   },
   {
     "iso3": "ITA",
@@ -997,7 +997,7 @@
     "whoRegion": "EURO",
     "lat": 41.9,
     "lon": 12.6,
-    "population": 58952704
+    "population": null
   },
   {
     "iso3": "JAM",
@@ -1007,7 +1007,7 @@
     "whoRegion": "AMRO",
     "lat": 18.1,
     "lon": -77.3,
-    "population": 2839175
+    "population": null
   },
   {
     "iso3": "JOR",
@@ -1017,7 +1017,7 @@
     "whoRegion": "EMRO",
     "lat": 30.6,
     "lon": 36.2,
-    "population": 11552876
+    "population": null
   },
   {
     "iso3": "JPN",
@@ -1027,7 +1027,7 @@
     "whoRegion": "WPRO",
     "lat": 36.2,
     "lon": 138.3,
-    "population": 123975371
+    "population": null
   },
   {
     "iso3": "KAZ",
@@ -1037,7 +1037,7 @@
     "whoRegion": "EURO",
     "lat": 48.0,
     "lon": 68.0,
-    "population": 20592571
+    "population": null
   },
   {
     "iso3": "KEN",
@@ -1047,7 +1047,7 @@
     "whoRegion": "AFRO",
     "lat": -0.0,
     "lon": 37.9,
-    "population": 56432944
+    "population": null
   },
   {
     "iso3": "KGZ",
@@ -1057,7 +1057,7 @@
     "whoRegion": "EURO",
     "lat": 41.2,
     "lon": 74.8,
-    "population": 7221868
+    "population": null
   },
   {
     "iso3": "KHM",
@@ -1067,7 +1067,7 @@
     "whoRegion": "WPRO",
     "lat": 12.6,
     "lon": 105.0,
-    "population": 17638801
+    "population": null
   },
   {
     "iso3": "KIR",
@@ -1077,7 +1077,7 @@
     "whoRegion": "WPRO",
     "lat": 0,
     "lon": 0,
-    "population": 134518
+    "population": null
   },
   {
     "iso3": "KNA",
@@ -1087,7 +1087,7 @@
     "whoRegion": "AMRO",
     "lat": 0,
     "lon": 0,
-    "population": 46843
+    "population": null
   },
   {
     "iso3": "KOR",
@@ -1097,7 +1097,7 @@
     "whoRegion": "WPRO",
     "lat": 35.9,
     "lon": 127.8,
-    "population": 51751065
+    "population": null
   },
   {
     "iso3": "KWT",
@@ -1107,7 +1107,7 @@
     "whoRegion": "EMRO",
     "lat": 29.3,
     "lon": 47.5,
-    "population": 4897263
+    "population": null
   },
   {
     "iso3": "LAO",
@@ -1117,7 +1117,7 @@
     "whoRegion": "WPRO",
     "lat": 19.9,
     "lon": 102.5,
-    "population": 7769819
+    "population": null
   },
   {
     "iso3": "LBN",
@@ -1127,7 +1127,7 @@
     "whoRegion": "EMRO",
     "lat": 33.9,
     "lon": 35.9,
-    "population": 5805962
+    "population": null
   },
   {
     "iso3": "LBR",
@@ -1137,7 +1137,7 @@
     "whoRegion": "AFRO",
     "lat": 6.4,
     "lon": -9.4,
-    "population": 5612817
+    "population": null
   },
   {
     "iso3": "LBY",
@@ -1147,7 +1147,7 @@
     "whoRegion": "EMRO",
     "lat": 26.3,
     "lon": 17.2,
-    "population": 7381023
+    "population": null
   },
   {
     "iso3": "LCA",
@@ -1157,7 +1157,7 @@
     "whoRegion": "AMRO",
     "lat": 0,
     "lon": 0,
-    "population": 179744
+    "population": null
   },
   {
     "iso3": "LIE",
@@ -1167,7 +1167,7 @@
     "whoRegion": "EURO",
     "lat": 0,
     "lon": 0,
-    "population": 40450
+    "population": null
   },
   {
     "iso3": "LKA",
@@ -1177,7 +1177,7 @@
     "whoRegion": "SEARO",
     "lat": 7.9,
     "lon": 80.8,
-    "population": 21916000
+    "population": null
   },
   {
     "iso3": "LSO",
@@ -1187,7 +1187,7 @@
     "whoRegion": "AFRO",
     "lat": -29.6,
     "lon": 28.2,
-    "population": 2337423
+    "population": null
   },
   {
     "iso3": "LTU",
@@ -1197,7 +1197,7 @@
     "whoRegion": "EURO",
     "lat": 55.2,
     "lon": 23.9,
-    "population": 2888278
+    "population": null
   },
   {
     "iso3": "LUX",
@@ -1207,7 +1207,7 @@
     "whoRegion": "EURO",
     "lat": 49.8,
     "lon": 6.1,
-    "population": 677012
+    "population": null
   },
   {
     "iso3": "LVA",
@@ -1217,7 +1217,7 @@
     "whoRegion": "EURO",
     "lat": 56.9,
     "lon": 24.1,
-    "population": 1866124
+    "population": null
   },
   {
     "iso3": "MAR",
@@ -1227,7 +1227,7 @@
     "whoRegion": "EMRO",
     "lat": 31.8,
     "lon": -7.1,
-    "population": 38081173
+    "population": null
   },
   {
     "iso3": "MCO",
@@ -1237,7 +1237,7 @@
     "whoRegion": "EURO",
     "lat": 0,
     "lon": 0,
-    "population": 38631
+    "population": null
   },
   {
     "iso3": "MDA",
@@ -1247,7 +1247,7 @@
     "whoRegion": "EURO",
     "lat": 47.4,
     "lon": 28.4,
-    "population": 2402306
+    "population": null
   },
   {
     "iso3": "MDG",
@@ -1257,7 +1257,7 @@
     "whoRegion": "AFRO",
     "lat": -18.8,
     "lon": 46.9,
-    "population": 31964956
+    "population": null
   },
   {
     "iso3": "MDV",
@@ -1267,7 +1267,7 @@
     "whoRegion": "SEARO",
     "lat": 3.2,
     "lon": 73.2,
-    "population": 527799
+    "population": null
   },
   {
     "iso3": "MEX",
@@ -1277,7 +1277,7 @@
     "whoRegion": "AMRO",
     "lat": 23.6,
     "lon": -102.6,
-    "population": 130861007
+    "population": null
   },
   {
     "iso3": "MHL",
@@ -1287,7 +1287,7 @@
     "whoRegion": "WPRO",
     "lat": 0,
     "lon": 0,
-    "population": 37548
+    "population": null
   },
   {
     "iso3": "MKD",
@@ -1297,7 +1297,7 @@
     "whoRegion": "EURO",
     "lat": 41.5,
     "lon": 21.7,
-    "population": 1824359
+    "population": null
   },
   {
     "iso3": "MLI",
@@ -1307,7 +1307,7 @@
     "whoRegion": "AFRO",
     "lat": 17.6,
     "lon": -4.0,
-    "population": 24478595
+    "population": null
   },
   {
     "iso3": "MLT",
@@ -1317,7 +1317,7 @@
     "whoRegion": "EURO",
     "lat": 35.9,
     "lon": 14.4,
-    "population": 568847
+    "population": null
   },
   {
     "iso3": "MMR",
@@ -1327,7 +1327,7 @@
     "whoRegion": "SEARO",
     "lat": 21.9,
     "lon": 96.0,
-    "population": 54500091
+    "population": null
   },
   {
     "iso3": "MNE",
@@ -1337,7 +1337,7 @@
     "whoRegion": "EURO",
     "lat": 42.7,
     "lon": 19.4,
-    "population": 623525
+    "population": null
   },
   {
     "iso3": "MNG",
@@ -1347,7 +1347,7 @@
     "whoRegion": "WPRO",
     "lat": 46.9,
     "lon": 103.8,
-    "population": 3524788
+    "population": null
   },
   {
     "iso3": "MNP",
@@ -1357,7 +1357,7 @@
     "whoRegion": "WPRO",
     "lat": 0,
     "lon": 0,
-    "population": 44278
+    "population": null
   },
   {
     "iso3": "MOZ",
@@ -1367,7 +1367,7 @@
     "whoRegion": "AFRO",
     "lat": -18.7,
     "lon": 35.5,
-    "population": 34631766
+    "population": null
   },
   {
     "iso3": "MRT",
@@ -1377,7 +1377,7 @@
     "whoRegion": "AFRO",
     "lat": 21.0,
     "lon": -10.9,
-    "population": 5169395
+    "population": null
   },
   {
     "iso3": "MSR",
@@ -1407,7 +1407,7 @@
     "whoRegion": "AFRO",
     "lat": -20.3,
     "lon": 57.6,
-    "population": 1245779
+    "population": null
   },
   {
     "iso3": "MWI",
@@ -1417,7 +1417,7 @@
     "whoRegion": "AFRO",
     "lat": -13.3,
     "lon": 34.3,
-    "population": 21655286
+    "population": null
   },
   {
     "iso3": "MYS",
@@ -1427,7 +1427,7 @@
     "whoRegion": "WPRO",
     "lat": 4.2,
     "lon": 101.9,
-    "population": 35557673
+    "population": null
   },
   {
     "iso3": "MYT",
@@ -1447,7 +1447,7 @@
     "whoRegion": "AFRO",
     "lat": -22.6,
     "lon": 17.1,
-    "population": 3030131
+    "population": null
   },
   {
     "iso3": "NCL",
@@ -1457,7 +1457,7 @@
     "whoRegion": "WPRO",
     "lat": 0,
     "lon": 0,
-    "population": 292639
+    "population": null
   },
   {
     "iso3": "NER",
@@ -1467,7 +1467,7 @@
     "whoRegion": "AFRO",
     "lat": 17.6,
     "lon": 8.1,
-    "population": 27032412
+    "population": null
   },
   {
     "iso3": "NGA",
@@ -1477,7 +1477,7 @@
     "whoRegion": "AFRO",
     "lat": 9.1,
     "lon": 8.7,
-    "population": 232679478
+    "population": null
   },
   {
     "iso3": "NIC",
@@ -1487,7 +1487,7 @@
     "whoRegion": "AMRO",
     "lat": 12.9,
     "lon": -85.2,
-    "population": 6916140
+    "population": null
   },
   {
     "iso3": "NIU",
@@ -1507,7 +1507,7 @@
     "whoRegion": "EURO",
     "lat": 52.1,
     "lon": 5.3,
-    "population": 17993485
+    "population": null
   },
   {
     "iso3": "NOR",
@@ -1517,7 +1517,7 @@
     "whoRegion": "EURO",
     "lat": 60.5,
     "lon": 8.5,
-    "population": 5572279
+    "population": null
   },
   {
     "iso3": "NPL",
@@ -1527,7 +1527,7 @@
     "whoRegion": "SEARO",
     "lat": 28.4,
     "lon": 84.1,
-    "population": 29651054
+    "population": null
   },
   {
     "iso3": "NRU",
@@ -1537,7 +1537,7 @@
     "whoRegion": "WPRO",
     "lat": 0,
     "lon": 0,
-    "population": 11947
+    "population": null
   },
   {
     "iso3": "NZL",
@@ -1547,7 +1547,7 @@
     "whoRegion": "WPRO",
     "lat": -40.9,
     "lon": 174.9,
-    "population": 5287500
+    "population": null
   },
   {
     "iso3": "OMN",
@@ -1557,7 +1557,7 @@
     "whoRegion": "EMRO",
     "lat": 21.5,
     "lon": 55.9,
-    "population": 5281538
+    "population": null
   },
   {
     "iso3": "PAK",
@@ -1567,7 +1567,7 @@
     "whoRegion": "EMRO",
     "lat": 30.4,
     "lon": 69.3,
-    "population": 251269164
+    "population": null
   },
   {
     "iso3": "PAN",
@@ -1577,7 +1577,7 @@
     "whoRegion": "AMRO",
     "lat": 8.5,
     "lon": -80.8,
-    "population": 4515577
+    "population": null
   },
   {
     "iso3": "PER",
@@ -1587,7 +1587,7 @@
     "whoRegion": "AMRO",
     "lat": -9.2,
     "lon": -75.0,
-    "population": 34217848
+    "population": null
   },
   {
     "iso3": "PHL",
@@ -1597,7 +1597,7 @@
     "whoRegion": "WPRO",
     "lat": 12.9,
     "lon": 121.8,
-    "population": 115843670
+    "population": null
   },
   {
     "iso3": "PLW",
@@ -1607,7 +1607,7 @@
     "whoRegion": "WPRO",
     "lat": 0,
     "lon": 0,
-    "population": 17695
+    "population": null
   },
   {
     "iso3": "PNG",
@@ -1617,7 +1617,7 @@
     "whoRegion": "WPRO",
     "lat": -6.3,
     "lon": 143.9,
-    "population": 10576502
+    "population": null
   },
   {
     "iso3": "POL",
@@ -1627,7 +1627,7 @@
     "whoRegion": "EURO",
     "lat": 51.9,
     "lon": 19.1,
-    "population": 36559233
+    "population": null
   },
   {
     "iso3": "PRI",
@@ -1637,7 +1637,7 @@
     "whoRegion": "AMRO",
     "lat": 0,
     "lon": 0,
-    "population": 3203295
+    "population": null
   },
   {
     "iso3": "PRK",
@@ -1647,7 +1647,7 @@
     "whoRegion": "SEARO",
     "lat": 0,
     "lon": 0,
-    "population": 26498823
+    "population": null
   },
   {
     "iso3": "PRT",
@@ -1657,7 +1657,7 @@
     "whoRegion": "EURO",
     "lat": 39.4,
     "lon": -8.2,
-    "population": 10694681
+    "population": null
   },
   {
     "iso3": "PRY",
@@ -1667,7 +1667,7 @@
     "whoRegion": "AMRO",
     "lat": -23.4,
     "lon": -58.4,
-    "population": 6929153
+    "population": null
   },
   {
     "iso3": "PSE",
@@ -1677,7 +1677,7 @@
     "whoRegion": "EMRO",
     "lat": 31.9,
     "lon": 35.2,
-    "population": 5289152
+    "population": null
   },
   {
     "iso3": "PYF",
@@ -1687,7 +1687,7 @@
     "whoRegion": "WPRO",
     "lat": 0,
     "lon": 0,
-    "population": 281807
+    "population": null
   },
   {
     "iso3": "QAT",
@@ -1697,7 +1697,7 @@
     "whoRegion": "EMRO",
     "lat": 25.4,
     "lon": 51.2,
-    "population": 2857822
+    "population": null
   },
   {
     "iso3": "REU",
@@ -1717,7 +1717,7 @@
     "whoRegion": "EURO",
     "lat": 45.9,
     "lon": 25.0,
-    "population": 19051804
+    "population": null
   },
   {
     "iso3": "RUS",
@@ -1727,7 +1727,7 @@
     "whoRegion": "EURO",
     "lat": 61.5,
     "lon": 105.3,
-    "population": 143533851
+    "population": null
   },
   {
     "iso3": "RWA",
@@ -1737,7 +1737,7 @@
     "whoRegion": "AFRO",
     "lat": -1.9,
     "lon": 29.9,
-    "population": 14256567
+    "population": null
   },
   {
     "iso3": "SAU",
@@ -1747,7 +1747,7 @@
     "whoRegion": "EMRO",
     "lat": 23.9,
     "lon": 45.1,
-    "population": 35300280
+    "population": null
   },
   {
     "iso3": "SDN",
@@ -1757,7 +1757,7 @@
     "whoRegion": "EMRO",
     "lat": 12.9,
     "lon": 30.2,
-    "population": 50448963
+    "population": null
   },
   {
     "iso3": "SEN",
@@ -1767,7 +1767,7 @@
     "whoRegion": "AFRO",
     "lat": 14.5,
     "lon": -14.5,
-    "population": 18501984
+    "population": null
   },
   {
     "iso3": "SGP",
@@ -1777,7 +1777,7 @@
     "whoRegion": "WPRO",
     "lat": 1.4,
     "lon": 103.8,
-    "population": 6036860
+    "population": null
   },
   {
     "iso3": "SHN",
@@ -1797,7 +1797,7 @@
     "whoRegion": "WPRO",
     "lat": 0,
     "lon": 0,
-    "population": 819198
+    "population": null
   },
   {
     "iso3": "SLE",
@@ -1807,7 +1807,7 @@
     "whoRegion": "AFRO",
     "lat": 8.5,
     "lon": -11.8,
-    "population": 8642022
+    "population": null
   },
   {
     "iso3": "SLV",
@@ -1817,7 +1817,7 @@
     "whoRegion": "AMRO",
     "lat": 13.8,
     "lon": -88.9,
-    "population": 6338193
+    "population": null
   },
   {
     "iso3": "SMR",
@@ -1827,7 +1827,7 @@
     "whoRegion": "EURO",
     "lat": 0,
     "lon": 0,
-    "population": 33977
+    "population": null
   },
   {
     "iso3": "SOM",
@@ -1837,7 +1837,7 @@
     "whoRegion": "EMRO",
     "lat": 5.2,
     "lon": 46.2,
-    "population": 19009151
+    "population": null
   },
   {
     "iso3": "SPM",
@@ -1857,7 +1857,7 @@
     "whoRegion": "EURO",
     "lat": 44.0,
     "lon": 21.0,
-    "population": 6586476
+    "population": null
   },
   {
     "iso3": "SSD",
@@ -1867,7 +1867,7 @@
     "whoRegion": "AFRO",
     "lat": 6.9,
     "lon": 31.3,
-    "population": 11943408
+    "population": null
   },
   {
     "iso3": "STP",
@@ -1877,7 +1877,7 @@
     "whoRegion": "AFRO",
     "lat": 0,
     "lon": 0,
-    "population": 235536
+    "population": null
   },
   {
     "iso3": "SUR",
@@ -1887,7 +1887,7 @@
     "whoRegion": "AMRO",
     "lat": 3.9,
     "lon": -56.0,
-    "population": 634431
+    "population": null
   },
   {
     "iso3": "SVK",
@@ -1897,7 +1897,7 @@
     "whoRegion": "EURO",
     "lat": 48.7,
     "lon": 19.7,
-    "population": 5422069
+    "population": null
   },
   {
     "iso3": "SVN",
@@ -1907,7 +1907,7 @@
     "whoRegion": "EURO",
     "lat": 46.2,
     "lon": 15.0,
-    "population": 2127400
+    "population": null
   },
   {
     "iso3": "SWE",
@@ -1917,7 +1917,7 @@
     "whoRegion": "EURO",
     "lat": 60.1,
     "lon": 18.6,
-    "population": 10569709
+    "population": null
   },
   {
     "iso3": "SWZ",
@@ -1927,7 +1927,7 @@
     "whoRegion": "AFRO",
     "lat": -26.5,
     "lon": 31.5,
-    "population": 1242822
+    "population": null
   },
   {
     "iso3": "SXM",
@@ -1937,7 +1937,7 @@
     "whoRegion": "AMRO",
     "lat": 0,
     "lon": 0,
-    "population": 43350
+    "population": null
   },
   {
     "iso3": "SYC",
@@ -1947,7 +1947,7 @@
     "whoRegion": "AFRO",
     "lat": 0,
     "lon": 0,
-    "population": 121354
+    "population": null
   },
   {
     "iso3": "SYR",
@@ -1957,7 +1957,7 @@
     "whoRegion": "EMRO",
     "lat": 35.0,
     "lon": 38.0,
-    "population": 24672760
+    "population": null
   },
   {
     "iso3": "TCA",
@@ -1967,7 +1967,7 @@
     "whoRegion": "AMRO",
     "lat": 0,
     "lon": 0,
-    "population": 46535
+    "population": null
   },
   {
     "iso3": "TCD",
@@ -1977,7 +1977,7 @@
     "whoRegion": "AFRO",
     "lat": 15.5,
     "lon": 18.7,
-    "population": 20299123
+    "population": null
   },
   {
     "iso3": "TGO",
@@ -1987,7 +1987,7 @@
     "whoRegion": "AFRO",
     "lat": 8.6,
     "lon": 1.2,
-    "population": 9515236
+    "population": null
   },
   {
     "iso3": "THA",
@@ -1997,7 +1997,7 @@
     "whoRegion": "SEARO",
     "lat": 15.9,
     "lon": 100.9,
-    "population": 71668011
+    "population": null
   },
   {
     "iso3": "TJK",
@@ -2007,7 +2007,7 @@
     "whoRegion": "EURO",
     "lat": 38.9,
     "lon": 71.3,
-    "population": 10590927
+    "population": null
   },
   {
     "iso3": "TKL",
@@ -2027,7 +2027,7 @@
     "whoRegion": "EURO",
     "lat": 39.0,
     "lon": 59.6,
-    "population": 7494498
+    "population": null
   },
   {
     "iso3": "TLS",
@@ -2037,7 +2037,7 @@
     "whoRegion": "SEARO",
     "lat": -8.9,
     "lon": 126.0,
-    "population": 1400638
+    "population": null
   },
   {
     "iso3": "TON",
@@ -2047,7 +2047,7 @@
     "whoRegion": "WPRO",
     "lat": 0,
     "lon": 0,
-    "population": 104175
+    "population": null
   },
   {
     "iso3": "TTO",
@@ -2057,7 +2057,7 @@
     "whoRegion": "AMRO",
     "lat": 10.7,
     "lon": -61.2,
-    "population": 1368333
+    "population": null
   },
   {
     "iso3": "TUN",
@@ -2067,7 +2067,7 @@
     "whoRegion": "EMRO",
     "lat": 33.9,
     "lon": 9.5,
-    "population": 12277109
+    "population": null
   },
   {
     "iso3": "TUR",
@@ -2077,7 +2077,7 @@
     "whoRegion": "EURO",
     "lat": 38.9,
     "lon": 35.2,
-    "population": 85518661
+    "population": null
   },
   {
     "iso3": "TUV",
@@ -2087,7 +2087,7 @@
     "whoRegion": "WPRO",
     "lat": 0,
     "lon": 0,
-    "population": 9646
+    "population": null
   },
   {
     "iso3": "TZA",
@@ -2097,7 +2097,7 @@
     "whoRegion": "AFRO",
     "lat": -6.4,
     "lon": 34.9,
-    "population": 68560157
+    "population": null
   },
   {
     "iso3": "UGA",
@@ -2107,7 +2107,7 @@
     "whoRegion": "AFRO",
     "lat": 1.4,
     "lon": 32.3,
-    "population": 50015092
+    "population": null
   },
   {
     "iso3": "UKR",
@@ -2117,7 +2117,7 @@
     "whoRegion": "EURO",
     "lat": 48.4,
     "lon": 31.2,
-    "population": 37860221
+    "population": null
   },
   {
     "iso3": "URY",
@@ -2127,7 +2127,7 @@
     "whoRegion": "AMRO",
     "lat": -32.5,
     "lon": -55.8,
-    "population": 3386588
+    "population": null
   },
   {
     "iso3": "USA",
@@ -2137,7 +2137,7 @@
     "whoRegion": "AMRO",
     "lat": 37.1,
     "lon": -95.7,
-    "population": 340110988
+    "population": null
   },
   {
     "iso3": "UZB",
@@ -2147,7 +2147,7 @@
     "whoRegion": "EURO",
     "lat": 41.4,
     "lon": 64.6,
-    "population": 36361859
+    "population": null
   },
   {
     "iso3": "VCT",
@@ -2157,7 +2157,7 @@
     "whoRegion": "AMRO",
     "lat": 0,
     "lon": 0,
-    "population": 100616
+    "population": null
   },
   {
     "iso3": "VEN",
@@ -2167,7 +2167,7 @@
     "whoRegion": "AMRO",
     "lat": 6.4,
     "lon": -66.6,
-    "population": 28405543
+    "population": null
   },
   {
     "iso3": "VGB",
@@ -2177,7 +2177,7 @@
     "whoRegion": "AMRO",
     "lat": 0,
     "lon": 0,
-    "population": 39471
+    "population": null
   },
   {
     "iso3": "VIR",
@@ -2187,7 +2187,7 @@
     "whoRegion": "AMRO",
     "lat": 0,
     "lon": 0,
-    "population": 104377
+    "population": null
   },
   {
     "iso3": "VNM",
@@ -2197,7 +2197,7 @@
     "whoRegion": "WPRO",
     "lat": 14.1,
     "lon": 108.3,
-    "population": 100987686
+    "population": null
   },
   {
     "iso3": "VUT",
@@ -2207,7 +2207,7 @@
     "whoRegion": "WPRO",
     "lat": 0,
     "lon": 0,
-    "population": 327777
+    "population": null
   },
   {
     "iso3": "WLF",
@@ -2227,7 +2227,7 @@
     "whoRegion": "WPRO",
     "lat": 0,
     "lon": 0,
-    "population": 218019
+    "population": null
   },
   {
     "iso3": "YEM",
@@ -2237,7 +2237,7 @@
     "whoRegion": "EMRO",
     "lat": 15.6,
     "lon": 48.5,
-    "population": 40583164
+    "population": null
   },
   {
     "iso3": "ZAF",
@@ -2247,7 +2247,7 @@
     "whoRegion": "AFRO",
     "lat": -30.6,
     "lon": 22.9,
-    "population": 64007187
+    "population": null
   },
   {
     "iso3": "ZMB",
@@ -2257,7 +2257,7 @@
     "whoRegion": "AFRO",
     "lat": -13.1,
     "lon": 28.6,
-    "population": 21314956
+    "population": null
   },
   {
     "iso3": "ZWE",
@@ -2267,6 +2267,6 @@
     "whoRegion": "AFRO",
     "lat": -19.0,
     "lon": 29.2,
-    "population": 16634373
+    "population": null
   }
 ]

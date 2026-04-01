@@ -17,6 +17,16 @@
     },
     "computedAt": "2026-04-01"
   },
+  "AFR": {
+    "iso3": "AFR",
+    "score": 6.2,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 41.3,
+    "readinessScore": 58.7,
+    "factors": {},
+    "computedAt": "2026-04-01"
+  },
   "AGO": {
     "iso3": "AGO",
     "score": 21.5,
@@ -42,6 +52,16 @@
     "outbreakPressure": 0.0,
     "vulnerability": 2.9,
     "readinessScore": 97.1,
+    "factors": {},
+    "computedAt": "2026-04-01"
+  },
+  "AMR": {
+    "iso3": "AMR",
+    "score": 0.1,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 1.0,
+    "readinessScore": 99.0,
     "factors": {},
     "computedAt": "2026-04-01"
   },
@@ -748,6 +768,16 @@
     "factors": {},
     "computedAt": "2026-04-01"
   },
+  "EMR": {
+    "iso3": "EMR",
+    "score": 2.6,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 17.2,
+    "readinessScore": 82.8,
+    "factors": {},
+    "computedAt": "2026-04-01"
+  },
   "ERI": {
     "iso3": "ERI",
     "score": 8.0,
@@ -806,6 +836,16 @@
       },
       "recentCount": 2
     },
+    "computedAt": "2026-04-01"
+  },
+  "EUR": {
+    "iso3": "EUR",
+    "score": 0.0,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 0.0,
+    "readinessScore": 100.0,
+    "factors": {},
     "computedAt": "2026-04-01"
   },
   "FIN": {
@@ -2687,6 +2727,16 @@
     "outbreakPressure": 0.0,
     "vulnerability": 34.4,
     "readinessScore": 65.6,
+    "factors": {},
+    "computedAt": "2026-04-01"
+  },
+  "WPR": {
+    "iso3": "WPR",
+    "score": 0.0,
+    "level": "minimal",
+    "outbreakPressure": 0.0,
+    "vulnerability": 0.0,
+    "readinessScore": 100.0,
     "factors": {},
     "computedAt": "2026-04-01"
   },
