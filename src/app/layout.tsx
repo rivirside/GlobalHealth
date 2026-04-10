@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { MobileNav } from "@/components/MobileNav";
 import { HeaderSearch } from "@/components/HeaderSearch";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -105,6 +106,7 @@ export default function RootLayout({
           </div>
         </header>
         <main className="flex-1">{children}</main>
+        <Analytics />
       </body>
     </html>
   );
