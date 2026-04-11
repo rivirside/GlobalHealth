@@ -1,5 +1,21 @@
 [
   {
+    "id": "820981c1808b",
+    "disease": "Avian Influenza A(H9N2)",
+    "diseaseCategory": "zoonotic",
+    "country": "Italy",
+    "countryIso3": "ITA",
+    "date": "2026-04-10",
+    "cases": null,
+    "deaths": null,
+    "summary": "Avian Influenza A(H9N2) - Italy",
+    "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON597",
+    "source": "WHO DON",
+    "lat": 41.9,
+    "lon": 12.6,
+    "status": "active"
+  },
+  {
     "id": "2d0618b63dd7",
     "disease": "Nipah virus infection",
     "diseaseCategory": "zoonotic",
