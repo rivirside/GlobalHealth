@@ -285,7 +285,7 @@
     "source": "WHO DON",
     "lat": 23.9,
     "lon": 45.1,
-    "status": "active"
+    "status": "resolved"
   },
   {
     "id": "11d31be064ba",
@@ -301,7 +301,7 @@
     "source": "WHO DON",
     "lat": -21.1,
     "lon": 55.5,
-    "status": "active"
+    "status": "resolved"
   },
   {
     "id": "1676674cf9a2",
@@ -317,7 +317,7 @@
     "source": "WHO DON",
     "lat": -12.8,
     "lon": 45.2,
-    "status": "active"
+    "status": "resolved"
   },
   {
     "id": "8ba7f544d233",
