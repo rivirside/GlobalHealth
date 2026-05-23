@@ -1,5 +1,21 @@
 [
   {
+    "id": "1aa8b38c56ce",
+    "disease": "Ebola disease caused by Bundibugyo virus",
+    "diseaseCategory": "hemorrhagic",
+    "country": "Democratic Republic of the Congo",
+    "countryIso3": "COD",
+    "date": "2026-05-21",
+    "cases": 746,
+    "deaths": 176,
+    "summary": "Ebola disease caused by Bundibugyo virus \u2013 Democratic Republic of the Congo",
+    "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON603",
+    "source": "WHO DON",
+    "lat": -4.0,
+    "lon": 21.8,
+    "status": "active"
+  },
+  {
     "id": "a551036474fc",
     "disease": "Measles",
     "diseaseCategory": "vaccine-preventable",
