@@ -1,5 +1,21 @@
 [
   {
+    "id": "9614a0c27653",
+    "disease": "Nipah virus disease",
+    "diseaseCategory": "zoonotic",
+    "country": "India",
+    "countryIso3": "IND",
+    "date": "2026-06-25",
+    "cases": null,
+    "deaths": null,
+    "summary": "Nipah virus disease - India",
+    "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON609",
+    "source": "WHO DON",
+    "lat": 20.6,
+    "lon": 79.0,
+    "status": "active"
+  },
+  {
     "id": "1aa8b38c56ce",
     "disease": "Ebola disease caused by Bundibugyo virus",
     "diseaseCategory": "hemorrhagic",
@@ -77,7 +93,7 @@
     "source": "WHO DON",
     "lat": 20.6,
     "lon": 79.0,
-    "status": "active"
+    "status": "resolved"
   },
   {
     "id": "f530be5df2ed",
