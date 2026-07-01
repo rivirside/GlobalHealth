@@ -1,1428 +1,94 @@
 {
-  "BIH": {
-    "iso3": "BIH",
-    "score": 90.9,
-    "breakdown": {
-      "hospital_beds": 23.53,
-      "physicians": 25.84,
-      "nurses": 67.27,
-      "uhc_index": 64.0,
-      "dtp3_coverage": 79.0,
-      "health_expenditure_pc": 772.89
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "MNE": {
-    "iso3": "MNE",
-    "score": 95.9,
-    "breakdown": {
-      "hospital_beds": 38.25,
-      "physicians": 27.85,
-      "nurses": 59.67,
-      "uhc_index": 70.0,
-      "dtp3_coverage": 81.0,
-      "health_expenditure_pc": 1147.7
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "KNA": {
-    "iso3": "KNA",
+  "AUS": {
+    "iso3": "AUS",
     "score": 100.0,
     "breakdown": {
-      "hospital_beds": 39.78,
-      "physicians": 30.85,
-      "nurses": 65.81,
-      "uhc_index": 80.0,
-      "dtp3_coverage": 97.0,
-      "health_expenditure_pc": 1294.88
+      "hospital_beds": 38.15,
+      "physicians": 42.28,
+      "nurses": 144.31,
+      "uhc_index": 89.0,
+      "dtp3_coverage": 93.0
     },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "ARG": {
-    "iso3": "ARG",
-    "score": 97.6,
-    "breakdown": {
-      "hospital_beds": 33.6,
-      "physicians": 50.88,
-      "nurses": 64.87,
-      "uhc_index": 80.0,
-      "dtp3_coverage": 75.0,
-      "health_expenditure_pc": 1456.99
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "MMR": {
-    "iso3": "MMR",
-    "score": 56.3,
-    "breakdown": {
-      "hospital_beds": 10.69,
-      "physicians": 7.57,
-      "nurses": 2.05,
-      "uhc_index": 52.0,
-      "dtp3_coverage": 71.0,
-      "health_expenditure_pc": 56.19
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "DEU": {
-    "iso3": "DEU",
-    "score": 99.8,
-    "breakdown": {
-      "hospital_beds": 75.5,
-      "physicians": 45.93,
-      "nurses": 123.95,
-      "uhc_index": 87.0,
-      "dtp3_coverage": 89.0,
-      "health_expenditure_pc": 6849.26
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "BRA": {
-    "iso3": "BRA",
-    "score": 97.7,
-    "breakdown": {
-      "hospital_beds": 25.18,
-      "physicians": 24.99,
-      "nurses": 58.32,
-      "uhc_index": 84.0,
-      "dtp3_coverage": 91.0,
-      "health_expenditure_pc": 1009.84
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "AUT": {
-    "iso3": "AUT",
-    "score": 99.2,
-    "breakdown": {
-      "hospital_beds": 67.01,
-      "physicians": 56.7,
-      "nurses": 109.37,
-      "uhc_index": 84.0,
-      "dtp3_coverage": 85.0,
-      "health_expenditure_pc": 6739.31
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "TKM": {
-    "iso3": "TKM",
-    "score": 100.0,
-    "breakdown": {
-      "hospital_beds": 36.0,
-      "physicians": 18.98,
-      "nurses": 34.72,
-      "uhc_index": 81.0,
-      "dtp3_coverage": 98.0,
-      "health_expenditure_pc": 581.38
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "KWT": {
-    "iso3": "KWT",
-    "score": 96.8,
-    "breakdown": {
-      "hospital_beds": 23.29,
-      "physicians": 29.69,
-      "nurses": 67.1,
-      "uhc_index": 84.0,
-      "dtp3_coverage": 99.0,
-      "health_expenditure_pc": 1679.12
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "BEN": {
-    "iso3": "BEN",
-    "score": 40.4,
-    "breakdown": {
-      "hospital_beds": 4.33,
-      "physicians": 2.14,
-      "nurses": 6.12,
-      "uhc_index": 38.0,
-      "dtp3_coverage": 63.0,
-      "health_expenditure_pc": 46.53
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "JPN": {
-    "iso3": "JPN",
-    "score": 100.0,
-    "breakdown": {
-      "hospital_beds": 125.87,
-      "physicians": 26.49,
-      "nurses": 124.44,
-      "uhc_index": 86.0,
-      "dtp3_coverage": 99.0,
-      "health_expenditure_pc": 3638.19
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "MLT": {
-    "iso3": "MLT",
-    "score": 100.0,
-    "breakdown": {
-      "hospital_beds": 40.86,
-      "physicians": 47.19,
-      "nurses": 82.57,
-      "uhc_index": 82.0,
-      "dtp3_coverage": 97.0,
-      "health_expenditure_pc": 3623.46
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "UKR": {
-    "iso3": "UKR",
-    "score": 99.7,
-    "breakdown": {
-      "hospital_beds": 61.39,
-      "physicians": 35.31,
-      "nurses": 60.79,
-      "uhc_index": 80.0,
-      "dtp3_coverage": 88.0,
-      "health_expenditure_pc": 369.9
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "VCT": {
-    "iso3": "VCT",
-    "score": 100.0,
-    "breakdown": {
-      "hospital_beds": 32.14,
-      "physicians": 18.99,
-      "nurses": 80.16,
-      "uhc_index": 80.0,
-      "dtp3_coverage": 99.0,
-      "health_expenditure_pc": 469.21
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "ARE": {
-    "iso3": "ARE",
-    "score": 94.6,
-    "breakdown": {
-      "hospital_beds": 18.65,
-      "physicians": 29.92,
-      "nurses": 61.56,
-      "uhc_index": 84.0,
-      "dtp3_coverage": 96.0,
-      "health_expenditure_pc": 2401.52
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "URY": {
-    "iso3": "URY",
-    "score": 97.3,
-    "breakdown": {
-      "hospital_beds": 24.42,
-      "physicians": 45.51,
-      "nurses": 76.25,
-      "uhc_index": 85.0,
-      "dtp3_coverage": 94.0,
-      "health_expenditure_pc": 2076.09
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "BOL": {
-    "iso3": "BOL",
-    "score": 79.4,
-    "breakdown": {
-      "hospital_beds": 14.91,
-      "physicians": 12.84,
-      "nurses": 16.24,
-      "uhc_index": 67.0,
-      "dtp3_coverage": 59.0,
-      "health_expenditure_pc": 255.04
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "LUX": {
-    "iso3": "LUX",
-    "score": 100.0,
-    "breakdown": {
-      "hospital_beds": 39.47,
-      "physicians": 29.84,
-      "nurses": 137.21,
-      "uhc_index": 83.0,
-      "dtp3_coverage": 99.0,
-      "health_expenditure_pc": 8169.91
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "LBN": {
-    "iso3": "LBN",
-    "score": 85.4,
-    "breakdown": {
-      "hospital_beds": 27.3,
-      "physicians": 26.8,
-      "nurses": 19.18,
-      "uhc_index": 67.0,
-      "dtp3_coverage": 49.0,
-      "health_expenditure_pc": 260.81
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "CHE": {
-    "iso3": "CHE",
-    "score": 100.0,
-    "breakdown": {
-      "hospital_beds": 43.75,
-      "physicians": 45.59,
-      "nurses": 191.96,
-      "uhc_index": 87.0,
-      "dtp3_coverage": 96.0,
-      "health_expenditure_pc": 11783.67
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "GBR": {
-    "iso3": "GBR",
-    "score": 97.2,
-    "breakdown": {
-      "hospital_beds": 24.21,
-      "physicians": 33.54,
-      "nurses": 95.59,
-      "uhc_index": 88.0,
-      "dtp3_coverage": 92.0,
-      "health_expenditure_pc": 5860.24
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "JAM": {
-    "iso3": "JAM",
-    "score": 89.6,
-    "breakdown": {
-      "hospital_beds": 16.47,
-      "physicians": 10.23,
-      "nurses": 20.95,
-      "uhc_index": 74.0,
-      "dtp3_coverage": 99.0,
-      "health_expenditure_pc": 520.16
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "HTI": {
-    "iso3": "HTI",
-    "score": 57.5,
-    "breakdown": {
-      "hospital_beds": 48.99,
-      "physicians": 2.92,
-      "nurses": 7.32,
-      "uhc_index": 44.0,
-      "dtp3_coverage": 60.0,
-      "health_expenditure_pc": 54.41
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "LVA": {
-    "iso3": "LVA",
-    "score": 99.2,
-    "breakdown": {
-      "hospital_beds": 49.47,
-      "physicians": 33.52,
-      "nurses": 43.62,
-      "uhc_index": 77.0,
-      "dtp3_coverage": 97.0,
-      "health_expenditure_pc": 1645.42
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "MEX": {
-    "iso3": "MEX",
-    "score": 88.4,
-    "breakdown": {
-      "hospital_beds": 10.14,
-      "physicians": 27.52,
-      "nurses": 30.48,
-      "uhc_index": 79.0,
-      "dtp3_coverage": 78.0,
-      "health_expenditure_pc": 760.99
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "MDA": {
-    "iso3": "MDA",
-    "score": 97.0,
-    "breakdown": {
-      "hospital_beds": 55.39,
-      "physicians": 39.25,
-      "nurses": 63.17,
-      "uhc_index": 71.0,
-      "dtp3_coverage": 86.0,
-      "health_expenditure_pc": 451.73
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
   },
   "BTN": {
     "iso3": "BTN",
-    "score": 84.1,
+    "score": 79.8,
     "breakdown": {
       "hospital_beds": 21.62,
       "physicians": 5.53,
       "nurses": 20.52,
       "uhc_index": 69.0,
-      "dtp3_coverage": 98.0,
-      "health_expenditure_pc": 162.2
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "CHL": {
-    "iso3": "CHL",
-    "score": 94.9,
-    "breakdown": {
-      "hospital_beds": 19.39,
-      "physicians": 34.9,
-      "nurses": 47.16,
-      "uhc_index": 84.0,
-      "dtp3_coverage": 95.0,
-      "health_expenditure_pc": 1759.71
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "TTO": {
-    "iso3": "TTO",
-    "score": 95.6,
-    "breakdown": {
-      "hospital_beds": 23.66,
-      "physicians": 41.57,
-      "nurses": 41.08,
-      "uhc_index": 75.0,
-      "dtp3_coverage": 92.0,
-      "health_expenditure_pc": 1276.34
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "BRB": {
-    "iso3": "BRB",
-    "score": 100.0,
-    "breakdown": {
-      "hospital_beds": 63.97,
-      "physicians": 23.98,
-      "nurses": 41.37,
-      "uhc_index": 82.0,
-      "dtp3_coverage": 94.0,
-      "health_expenditure_pc": 1286.48
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "THA": {
-    "iso3": "THA",
-    "score": 91.3,
-    "breakdown": {
-      "hospital_beds": 23.9,
-      "physicians": 5.91,
-      "nurses": 35.72,
-      "uhc_index": 82.0,
-      "dtp3_coverage": 92.0,
-      "health_expenditure_pc": 326.5
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "NPL": {
-    "iso3": "NPL",
-    "score": 81.9,
-    "breakdown": {
-      "hospital_beds": 5.39,
-      "physicians": 10.88,
-      "nurses": 41.62,
-      "uhc_index": 58.0,
-      "dtp3_coverage": 97.0,
-      "health_expenditure_pc": 83.96
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "MUS": {
-    "iso3": "MUS",
-    "score": 98.7,
-    "breakdown": {
-      "hospital_beds": 38.04,
-      "physicians": 30.15,
-      "nurses": 35.01,
-      "uhc_index": 75.0,
-      "dtp3_coverage": 93.0,
-      "health_expenditure_pc": 616.21
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "SYR": {
-    "iso3": "SYR",
-    "score": 67.9,
-    "breakdown": {
-      "hospital_beds": 14.3,
-      "physicians": 16.27,
-      "nurses": 14.35,
-      "uhc_index": 70.0,
-      "dtp3_coverage": 73.0,
-      "health_expenditure_pc": 33.34
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "ARM": {
-    "iso3": "ARM",
-    "score": 97.1,
-    "breakdown": {
-      "hospital_beds": 42.4,
-      "physicians": 33.6,
-      "nurses": 47.47,
-      "uhc_index": 69.0,
-      "dtp3_coverage": 94.0,
-      "health_expenditure_pc": 766.96
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "KGZ": {
-    "iso3": "KGZ",
-    "score": 97.6,
-    "breakdown": {
-      "hospital_beds": 37.32,
-      "physicians": 15.45,
-      "nurses": 40.26,
-      "uhc_index": 74.0,
-      "dtp3_coverage": 85.0,
-      "health_expenditure_pc": 96.65
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "MNG": {
-    "iso3": "MNG",
-    "score": 97.3,
-    "breakdown": {
-      "hospital_beds": 85.79,
-      "physicians": 45.96,
-      "nurses": 46.96,
-      "uhc_index": 70.0,
-      "dtp3_coverage": 96.0,
-      "health_expenditure_pc": 359.61
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "SAU": {
-    "iso3": "SAU",
-    "score": 97.2,
-    "breakdown": {
-      "hospital_beds": 24.07,
-      "physicians": 34.06,
-      "nurses": 65.57,
-      "uhc_index": 83.0,
-      "dtp3_coverage": 97.0,
-      "health_expenditure_pc": 1825.25
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "CHN": {
-    "iso3": "CHN",
-    "score": 100.0,
-    "breakdown": {
-      "hospital_beds": 56.27,
-      "physicians": 28.19,
-      "nurses": 39.63,
-      "uhc_index": 85.0,
-      "dtp3_coverage": 97.0,
-      "health_expenditure_pc": 763.38
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "QAT": {
-    "iso3": "QAT",
-    "score": 91.7,
-    "breakdown": {
-      "hospital_beds": 12.5,
-      "physicians": 31.36,
-      "nurses": 86.07,
-      "uhc_index": 84.0,
-      "dtp3_coverage": 96.0,
-      "health_expenditure_pc": 1804.35
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "RUS": {
-    "iso3": "RUS",
-    "score": 100.0,
-    "breakdown": {
-      "hospital_beds": 68.09,
-      "physicians": 51.11,
-      "nurses": 70.39,
-      "uhc_index": 81.0,
-      "dtp3_coverage": 97.0,
-      "health_expenditure_pc": 1003.33
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "MKD": {
-    "iso3": "MKD",
-    "score": 96.9,
-    "breakdown": {
-      "hospital_beds": 47.37,
-      "physicians": 29.44,
-      "nurses": 55.15,
-      "uhc_index": 69.0,
-      "dtp3_coverage": 89.0,
-      "health_expenditure_pc": 639.42
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "LCA": {
-    "iso3": "LCA",
-    "score": 89.5,
-    "breakdown": {
-      "hospital_beds": 10.85,
-      "physicians": 42.34,
-      "nurses": 53.43,
-      "uhc_index": 75.0,
-      "dtp3_coverage": 99.0,
-      "health_expenditure_pc": 641.07
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "SMR": {
-    "iso3": "SMR",
-    "score": 98.1,
-    "breakdown": {
-      "hospital_beds": 33.48,
-      "physicians": 44.05,
-      "nurses": 97.02,
-      "uhc_index": 74.0,
-      "dtp3_coverage": 88.0,
-      "health_expenditure_pc": 3923.52
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "KAZ": {
-    "iso3": "KAZ",
-    "score": 100.0,
-    "breakdown": {
-      "hospital_beds": 65.43,
-      "physicians": 30.59,
-      "nurses": 66.05,
-      "uhc_index": 83.0,
-      "dtp3_coverage": 98.0,
-      "health_expenditure_pc": 489.71
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "BEL": {
-    "iso3": "BEL",
-    "score": 100.0,
-    "breakdown": {
-      "hospital_beds": 54.22,
-      "physicians": 33.91,
-      "nurses": 122.92,
-      "uhc_index": 86.0,
-      "dtp3_coverage": 97.0,
-      "health_expenditure_pc": 5931.01
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "IRN": {
-    "iso3": "IRN",
-    "score": 94.5,
-    "breakdown": {
-      "hospital_beds": 18.52,
-      "physicians": 18.11,
-      "nurses": 28.76,
-      "uhc_index": 81.0,
-      "dtp3_coverage": 98.0,
-      "health_expenditure_pc": 267.06
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "SVK": {
-    "iso3": "SVK",
-    "score": 99.5,
-    "breakdown": {
-      "hospital_beds": 55.67,
-      "physicians": 37.61,
-      "nurses": 59.72,
-      "uhc_index": 78.0,
-      "dtp3_coverage": 96.0,
-      "health_expenditure_pc": 1813.47
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "TUN": {
-    "iso3": "TUN",
-    "score": 90.0,
-    "breakdown": {
-      "hospital_beds": 18.21,
-      "physicians": 12.38,
-      "nurses": 19.16,
-      "uhc_index": 76.0,
-      "dtp3_coverage": 97.0,
-      "health_expenditure_pc": 317.71
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "CZE": {
-    "iso3": "CZE",
-    "score": 99.4,
-    "breakdown": {
-      "hospital_beds": 65.42,
-      "physicians": 42.39,
-      "nurses": 94.24,
-      "uhc_index": 83.0,
-      "dtp3_coverage": 86.0,
-      "health_expenditure_pc": 2692.76
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "CAN": {
-    "iso3": "CAN",
-    "score": 97.8,
-    "breakdown": {
-      "hospital_beds": 25.36,
-      "physicians": 28.54,
-      "nurses": 116.18,
-      "uhc_index": 92.0,
-      "dtp3_coverage": 92.0,
-      "health_expenditure_pc": 6377.97
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "DOM": {
-    "iso3": "DOM",
-    "score": 82.7,
-    "breakdown": {
-      "hospital_beds": 7.47,
-      "physicians": 21.22,
-      "nurses": 17.58,
-      "uhc_index": 73.0,
-      "dtp3_coverage": 87.0,
-      "health_expenditure_pc": 488.87
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "GRC": {
-    "iso3": "GRC",
-    "score": 99.2,
-    "breakdown": {
-      "hospital_beds": 42.71,
-      "physicians": 67.12,
-      "nurses": 41.28,
-      "uhc_index": 77.0,
-      "dtp3_coverage": 95.0,
-      "health_expenditure_pc": 1962.6
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "FIN": {
-    "iso3": "FIN",
-    "score": 98.1,
-    "breakdown": {
-      "hospital_beds": 26.09,
-      "physicians": 28.75,
-      "nurses": 130.2,
-      "uhc_index": 86.0,
-      "dtp3_coverage": 91.0,
-      "health_expenditure_pc": 5515.4
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "KHM": {
-    "iso3": "KHM",
-    "score": 63.5,
-    "breakdown": {
-      "hospital_beds": 7.3,
-      "physicians": 2.11,
-      "nurses": 10.08,
-      "uhc_index": 62.0,
-      "dtp3_coverage": 83.0,
-      "health_expenditure_pc": 114.56
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "DNK": {
-    "iso3": "DNK",
-    "score": 97.3,
-    "breakdown": {
-      "hospital_beds": 24.35,
-      "physicians": 45.3,
-      "nurses": 109.3,
-      "uhc_index": 85.0,
-      "dtp3_coverage": 96.0,
-      "health_expenditure_pc": 6745.06
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "ERI": {
-    "iso3": "ERI",
-    "score": 46.9,
-    "breakdown": {
-      "hospital_beds": 10.22,
-      "physicians": 0.89,
-      "nurses": 15.16,
-      "uhc_index": 40.0,
-      "dtp3_coverage": 95.0,
-      "health_expenditure_pc": 28.3
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "NOR": {
-    "iso3": "NOR",
-    "score": 100.0,
-    "breakdown": {
-      "hospital_beds": 32.99,
-      "physicians": 49.75,
-      "nurses": 160.4,
-      "uhc_index": 89.0,
-      "dtp3_coverage": 97.0,
-      "health_expenditure_pc": 8296.36
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "PRT": {
-    "iso3": "PRT",
-    "score": 100.0,
-    "breakdown": {
-      "hospital_beds": 34.76,
-      "physicians": 60.22,
-      "nurses": 80.09,
-      "uhc_index": 83.0,
-      "dtp3_coverage": 99.0,
-      "health_expenditure_pc": 2971.04
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "CRI": {
-    "iso3": "CRI",
-    "score": 91.1,
-    "breakdown": {
-      "hospital_beds": 11.37,
-      "physicians": 26.87,
-      "nurses": 30.71,
-      "uhc_index": 84.0,
-      "dtp3_coverage": 99.0,
-      "health_expenditure_pc": 1163.3
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "COK": {
-    "iso3": "COK",
-    "score": 95.3,
-    "breakdown": {
-      "hospital_beds": 106.71,
-      "physicians": 19.71,
-      "nurses": 97.81,
-      "uhc_index": 75.0,
-      "dtp3_coverage": 75.0
+      "dtp3_coverage": 98.0
     },
     "indicatorsUsed": 5,
-    "computedAt": "2026-04-01"
-  },
-  "HUN": {
-    "iso3": "HUN",
-    "score": 100.0,
-    "breakdown": {
-      "hospital_beds": 66.26,
-      "physicians": 35.87,
-      "nurses": 57.22,
-      "uhc_index": 80.0,
-      "dtp3_coverage": 99.0,
-      "health_expenditure_pc": 1419.87
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "PHL": {
-    "iso3": "PHL",
-    "score": 82.5,
-    "breakdown": {
-      "hospital_beds": 9.69,
-      "physicians": 8.69,
-      "nurses": 52.87,
-      "uhc_index": 69.0,
-      "dtp3_coverage": 71.0,
-      "health_expenditure_pc": 194.05
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "UZB": {
-    "iso3": "UZB",
-    "score": 99.7,
-    "breakdown": {
-      "hospital_beds": 48.94,
-      "physicians": 23.23,
-      "nurses": 107.02,
-      "uhc_index": 79.0,
-      "dtp3_coverage": 90.0,
-      "health_expenditure_pc": 192.12
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "GTM": {
-    "iso3": "GTM",
-    "score": 79.2,
-    "breakdown": {
-      "hospital_beds": 4.45,
-      "physicians": 16.27,
-      "nurses": 22.73,
-      "uhc_index": 58.0,
-      "dtp3_coverage": 81.0,
-      "health_expenditure_pc": 392.01
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "NZL": {
-    "iso3": "NZL",
-    "score": 97.5,
-    "breakdown": {
-      "hospital_beds": 25.06,
-      "physicians": 37.72,
-      "nurses": 131.24,
-      "uhc_index": 89.0,
-      "dtp3_coverage": 89.0,
-      "health_expenditure_pc": 5022.03
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "STP": {
-    "iso3": "STP",
-    "score": 84.2,
-    "breakdown": {
-      "hospital_beds": 29.1,
-      "physicians": 4.64,
-      "nurses": 21.65,
-      "uhc_index": 60.0,
-      "dtp3_coverage": 87.0,
-      "health_expenditure_pc": 171.05
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "BLZ": {
-    "iso3": "BLZ",
-    "score": 85.0,
-    "breakdown": {
-      "hospital_beds": 10.02,
-      "physicians": 13.36,
-      "nurses": 20.6,
-      "uhc_index": 70.0,
-      "dtp3_coverage": 88.0,
-      "health_expenditure_pc": 309.41
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "BHS": {
-    "iso3": "BHS",
-    "score": 96.1,
-    "breakdown": {
-      "hospital_beds": 21.73,
-      "physicians": 18.95,
-      "nurses": 42.24,
-      "uhc_index": 80.0,
-      "dtp3_coverage": 90.0,
-      "health_expenditure_pc": 2262.33
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "TJK": {
-    "iso3": "TJK",
-    "score": 97.6,
-    "breakdown": {
-      "hospital_beds": 40.42,
-      "physicians": 18.7,
-      "nurses": 64.53,
-      "uhc_index": 72.0,
-      "dtp3_coverage": 97.0,
-      "health_expenditure_pc": 85.15
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "GEO": {
-    "iso3": "GEO",
-    "score": 97.0,
-    "breakdown": {
-      "hospital_beds": 40.45,
-      "physicians": 56.42,
-      "nurses": 56.87,
-      "uhc_index": 71.0,
-      "dtp3_coverage": 86.0,
-      "health_expenditure_pc": 554.32
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "SWE": {
-    "iso3": "SWE",
-    "score": 94.8,
-    "breakdown": {
-      "hospital_beds": 18.99,
-      "physicians": 44.74,
-      "nurses": 117.41,
-      "uhc_index": 85.0,
-      "dtp3_coverage": 96.0,
-      "health_expenditure_pc": 6484.76
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "MAR": {
-    "iso3": "MAR",
-    "score": 72.0,
-    "breakdown": {
-      "hospital_beds": 7.3,
-      "physicians": 7.93,
-      "nurses": 7.2,
-      "uhc_index": 65.0,
-      "dtp3_coverage": 96.0,
-      "health_expenditure_pc": 232.25
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "USA": {
-    "iso3": "USA",
-    "score": 98.5,
-    "breakdown": {
-      "hospital_beds": 26.84,
-      "physicians": 26.54,
-      "nurses": 123.92,
-      "uhc_index": 88.0,
-      "dtp3_coverage": 94.0,
-      "health_expenditure_pc": 13473.19
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "ESP": {
-    "iso3": "ESP",
-    "score": 99.6,
-    "breakdown": {
-      "hospital_beds": 29.07,
-      "physicians": 44.29,
-      "nurses": 62.21,
-      "uhc_index": 84.0,
-      "dtp3_coverage": 94.0,
-      "health_expenditure_pc": 3106.62
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "ITA": {
-    "iso3": "ITA",
-    "score": 100.0,
-    "breakdown": {
-      "hospital_beds": 30.56,
-      "physicians": 53.06,
-      "nurses": 70.95,
-      "uhc_index": 82.0,
-      "dtp3_coverage": 94.0,
-      "health_expenditure_pc": 3397.69
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "SLV": {
-    "iso3": "SLV",
-    "score": 89.4,
-    "breakdown": {
-      "hospital_beds": 12.07,
-      "physicians": 16.16,
-      "nurses": 21.79,
-      "uhc_index": 79.0,
-      "dtp3_coverage": 95.0,
-      "health_expenditure_pc": 500.69
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "NLD": {
-    "iso3": "NLD",
-    "score": 97.2,
-    "breakdown": {
-      "hospital_beds": 24.21,
-      "physicians": 38.68,
-      "nurses": 112.31,
-      "uhc_index": 85.0,
-      "dtp3_coverage": 91.0,
-      "health_expenditure_pc": 6845.14
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
+    "computedAt": "2026-07-01"
   },
   "CPV": {
     "iso3": "CPV",
-    "score": 86.0,
+    "score": 82.1,
     "breakdown": {
       "hospital_beds": 22.13,
       "physicians": 7.3,
       "nurses": 17.98,
       "uhc_index": 71.0,
-      "dtp3_coverage": 93.0,
-      "health_expenditure_pc": 290.13
+      "dtp3_coverage": 93.0
     },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
   },
-  "DMA": {
-    "iso3": "DMA",
-    "score": 98.7,
+  "BWA": {
+    "iso3": "BWA",
+    "score": 78.9,
     "breakdown": {
-      "hospital_beds": 39.68,
-      "physicians": 11.58,
-      "nurses": 67.6,
-      "uhc_index": 75.0,
-      "dtp3_coverage": 90.0,
-      "health_expenditure_pc": 492.45
+      "hospital_beds": 23.57,
+      "physicians": 4.28,
+      "nurses": 30.23,
+      "uhc_index": 60.0,
+      "dtp3_coverage": 95.0
     },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
   },
-  "MDG": {
-    "iso3": "MDG",
-    "score": 27.2,
+  "LBY": {
+    "iso3": "LBY",
+    "score": 96.1,
     "breakdown": {
-      "hospital_beds": 3.17,
-      "physicians": 1.03,
-      "nurses": 2.68,
-      "uhc_index": 33.0,
-      "dtp3_coverage": 60.0,
-      "health_expenditure_pc": 17.44
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "ROU": {
-    "iso3": "ROU",
-    "score": 97.5,
-    "breakdown": {
-      "hospital_beds": 72.32,
-      "physicians": 37.12,
-      "nurses": 83.34,
-      "uhc_index": 77.0,
-      "dtp3_coverage": 79.0,
-      "health_expenditure_pc": 1051.0
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "AND": {
-    "iso3": "AND",
-    "score": 96.6,
-    "breakdown": {
-      "hospital_beds": 25.62,
-      "physicians": 51.16,
-      "nurses": 49.45,
-      "uhc_index": 75.0,
-      "dtp3_coverage": 98.0,
-      "health_expenditure_pc": 3605.2
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "CUB": {
-    "iso3": "CUB",
-    "score": 100.0,
-    "breakdown": {
-      "hospital_beds": 43.29,
-      "physicians": 85.05,
-      "nurses": 71.94,
-      "uhc_index": 86.0,
-      "dtp3_coverage": 99.0,
-      "health_expenditure_pc": 1199.35
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "SDN": {
-    "iso3": "SDN",
-    "score": 37.2,
-    "breakdown": {
-      "hospital_beds": 6.6,
-      "physicians": 2.5,
-      "nurses": 10.83,
-      "uhc_index": 48.0,
-      "dtp3_coverage": 39.0,
-      "health_expenditure_pc": 21.08
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "DZA": {
-    "iso3": "DZA",
-    "score": 90.7,
-    "breakdown": {
-      "hospital_beds": 16.11,
-      "physicians": 16.6,
-      "nurses": 25.08,
-      "uhc_index": 70.0,
-      "dtp3_coverage": 92.0,
-      "health_expenditure_pc": 233.38
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "PSE": {
-    "iso3": "PSE",
-    "score": 82.6,
-    "breakdown": {
-      "hospital_beds": 13.01,
-      "uhc_index": 65.0,
-      "dtp3_coverage": 88.0,
-      "health_expenditure_pc": 345.68
-    },
-    "indicatorsUsed": 4,
-    "computedAt": "2026-04-01"
-  },
-  "SOM": {
-    "iso3": "SOM",
-    "score": 31.6,
-    "breakdown": {
-      "hospital_beds": 8.7,
-      "physicians": 0.65,
-      "nurses": 3.16,
-      "uhc_index": 30.0,
-      "dtp3_coverage": 70.0,
-      "health_expenditure_pc": 22.37
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "MOZ": {
-    "iso3": "MOZ",
-    "score": 46.9,
-    "breakdown": {
-      "hospital_beds": 7.44,
-      "physicians": 0.91,
-      "nurses": 7.62,
-      "uhc_index": 50.0,
-      "dtp3_coverage": 70.0,
-      "health_expenditure_pc": 52.96
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "HND": {
-    "iso3": "HND",
-    "score": 71.5,
-    "breakdown": {
-      "hospital_beds": 5.29,
-      "physicians": 19.02,
-      "nurses": 7.35,
-      "uhc_index": 64.0,
-      "dtp3_coverage": 75.0,
-      "health_expenditure_pc": 249.15
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "EGY": {
-    "iso3": "EGY",
-    "score": 85.2,
-    "breakdown": {
-      "hospital_beds": 10.59,
-      "physicians": 11.8,
-      "nurses": 19.5,
+      "hospital_beds": 35.0,
+      "physicians": 20.42,
+      "nurses": 63.77,
       "uhc_index": 71.0,
-      "dtp3_coverage": 97.0,
-      "health_expenditure_pc": 141.41
+      "dtp3_coverage": 86.0
     },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
   },
-  "PER": {
-    "iso3": "PER",
-    "score": 88.3,
+  "SYC": {
+    "iso3": "SYC",
+    "score": 97.8,
     "breakdown": {
-      "hospital_beds": 15.6,
-      "physicians": 16.88,
-      "nurses": 27.38,
-      "uhc_index": 68.0,
-      "dtp3_coverage": 80.0,
-      "health_expenditure_pc": 445.53
+      "hospital_beds": 26.34,
+      "physicians": 16.33,
+      "nurses": 61.96,
+      "uhc_index": 80.0,
+      "dtp3_coverage": 94.0
     },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
   },
-  "FRA": {
-    "iso3": "FRA",
-    "score": 100.0,
+  "TJK": {
+    "iso3": "TJK",
+    "score": 97.3,
     "breakdown": {
-      "hospital_beds": 56.47,
-      "physicians": 40.09,
-      "nurses": 94.22,
-      "uhc_index": 82.0,
-      "dtp3_coverage": 96.0,
-      "health_expenditure_pc": 5327.43
+      "hospital_beds": 40.42,
+      "physicians": 18.7,
+      "nurses": 64.53,
+      "uhc_index": 72.0,
+      "dtp3_coverage": 97.0
     },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "RWA": {
-    "iso3": "RWA",
-    "score": 56.6,
-    "breakdown": {
-      "hospital_beds": 7.48,
-      "physicians": 1.77,
-      "nurses": 12.78,
-      "uhc_index": 59.0,
-      "dtp3_coverage": 98.0,
-      "health_expenditure_pc": 52.66
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "BFA": {
-    "iso3": "BFA",
-    "score": 51.9,
-    "breakdown": {
-      "hospital_beds": 1.98,
-      "physicians": 1.07,
-      "nurses": 8.24,
-      "uhc_index": 47.0,
-      "dtp3_coverage": 91.0,
-      "health_expenditure_pc": 71.73
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "ISR": {
-    "iso3": "ISR",
-    "score": 100.0,
-    "breakdown": {
-      "hospital_beds": 31.43,
-      "physicians": 39.22,
-      "nurses": 62.14,
-      "uhc_index": 85.0,
-      "dtp3_coverage": 98.0,
-      "health_expenditure_pc": 3927.7
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "LTU": {
-    "iso3": "LTU",
-    "score": 99.3,
-    "breakdown": {
-      "hospital_beds": 57.1,
-      "physicians": 46.45,
-      "nurses": 77.9,
-      "uhc_index": 78.0,
-      "dtp3_coverage": 89.0,
-      "health_expenditure_pc": 2232.48
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "IDN": {
-    "iso3": "IDN",
-    "score": 80.5,
-    "breakdown": {
-      "hospital_beds": 13.69,
-      "physicians": 5.59,
-      "nurses": 33.0,
-      "uhc_index": 67.0,
-      "dtp3_coverage": 78.0,
-      "health_expenditure_pc": 131.78
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "AFG": {
-    "iso3": "AFG",
-    "score": 44.7,
-    "breakdown": {
-      "hospital_beds": 3.53,
-      "physicians": 3.17,
-      "nurses": 5.49,
-      "uhc_index": 42.0,
-      "dtp3_coverage": 59.0,
-      "health_expenditure_pc": 59.07
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "POL": {
-    "iso3": "POL",
-    "score": 100.0,
-    "breakdown": {
-      "hospital_beds": 60.38,
-      "physicians": 36.49,
-      "nurses": 63.11,
-      "uhc_index": 82.0,
-      "dtp3_coverage": 94.0,
-      "health_expenditure_pc": 2014.13
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "NER": {
-    "iso3": "NER",
-    "score": 34.8,
-    "breakdown": {
-      "hospital_beds": 2.76,
-      "physicians": 0.38,
-      "nurses": 4.21,
-      "uhc_index": 39.0,
-      "dtp3_coverage": 86.0,
-      "health_expenditure_pc": 26.01
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
   },
   "MCO": {
     "iso3": "MCO",
@@ -1432,542 +98,373 @@
       "physicians": 86.09,
       "nurses": 208.31,
       "uhc_index": 85.0,
-      "dtp3_coverage": 99.0,
-      "health_expenditure_pc": 8004.17
+      "dtp3_coverage": 99.0
     },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
   },
-  "JOR": {
-    "iso3": "JOR",
-    "score": 90.8,
+  "SDN": {
+    "iso3": "SDN",
+    "score": 40.7,
     "breakdown": {
-      "hospital_beds": 14.15,
-      "physicians": 32.62,
-      "nurses": 33.42,
+      "hospital_beds": 6.6,
+      "physicians": 2.5,
+      "nurses": 10.83,
+      "uhc_index": 48.0,
+      "dtp3_coverage": 39.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "JAM": {
+    "iso3": "JAM",
+    "score": 86.8,
+    "breakdown": {
+      "hospital_beds": 16.47,
+      "physicians": 10.23,
+      "nurses": 20.95,
       "uhc_index": 74.0,
-      "dtp3_coverage": 96.0,
-      "health_expenditure_pc": 342.1
+      "dtp3_coverage": 99.0
     },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "GHA": {
-    "iso3": "GHA",
-    "score": 68.5,
-    "breakdown": {
-      "hospital_beds": 6.94,
-      "physicians": 2.89,
-      "nurses": 41.72,
-      "uhc_index": 56.0,
-      "dtp3_coverage": 95.0,
-      "health_expenditure_pc": 70.26
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "IRQ": {
-    "iso3": "IRQ",
-    "score": 86.5,
-    "breakdown": {
-      "hospital_beds": 10.62,
-      "physicians": 10.64,
-      "nurses": 25.71,
-      "uhc_index": 64.0,
-      "dtp3_coverage": 90.0,
-      "health_expenditure_pc": 333.29
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "KEN": {
-    "iso3": "KEN",
-    "score": 67.7,
-    "breakdown": {
-      "hospital_beds": 13.3,
-      "physicians": 2.6,
-      "nurses": 12.12,
-      "uhc_index": 57.0,
-      "dtp3_coverage": 91.0,
-      "health_expenditure_pc": 84.96
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "BGR": {
-    "iso3": "BGR",
-    "score": 98.1,
-    "breakdown": {
-      "hospital_beds": 82.0,
-      "physicians": 43.92,
-      "nurses": 46.83,
-      "uhc_index": 73.0,
-      "dtp3_coverage": 94.0,
-      "health_expenditure_pc": 1257.88
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "LAO": {
-    "iso3": "LAO",
-    "score": 55.9,
-    "breakdown": {
-      "hospital_beds": 17.13,
-      "physicians": 3.77,
-      "nurses": 13.64,
-      "uhc_index": 64.0,
-      "dtp3_coverage": 67.0,
-      "health_expenditure_pc": 27.42
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "IRL": {
-    "iso3": "IRL",
-    "score": 99.8,
-    "breakdown": {
-      "hospital_beds": 29.58,
-      "physicians": 39.89,
-      "nurses": 154.04,
-      "uhc_index": 82.0,
-      "dtp3_coverage": 92.0,
-      "health_expenditure_pc": 7394.85
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "SUR": {
-    "iso3": "SUR",
-    "score": 90.7,
-    "breakdown": {
-      "hospital_beds": 28.74,
-      "physicians": 13.07,
-      "nurses": 18.4,
-      "uhc_index": 74.0,
-      "dtp3_coverage": 69.0,
-      "health_expenditure_pc": 297.05
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
   },
   "HRV": {
     "iso3": "HRV",
-    "score": 98.9,
+    "score": 98.6,
     "breakdown": {
       "hospital_beds": 55.97,
       "physicians": 39.73,
       "nurses": 80.45,
       "uhc_index": 76.0,
-      "dtp3_coverage": 92.0,
-      "health_expenditure_pc": 1548.34
+      "dtp3_coverage": 92.0
     },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
   },
-  "SRB": {
-    "iso3": "SRB",
-    "score": 98.1,
+  "LAO": {
+    "iso3": "LAO",
+    "score": 62.5,
     "breakdown": {
-      "hospital_beds": 57.78,
-      "physicians": 32.15,
-      "nurses": 70.15,
-      "uhc_index": 73.0,
-      "dtp3_coverage": 95.0,
-      "health_expenditure_pc": 983.69
+      "hospital_beds": 17.13,
+      "physicians": 3.77,
+      "nurses": 13.64,
+      "uhc_index": 64.0,
+      "dtp3_coverage": 67.0
     },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "ALB": {
-    "iso3": "ALB",
-    "score": 97.1,
-    "breakdown": {
-      "hospital_beds": 29.02,
-      "physicians": 18.79,
-      "nurses": 58.21,
-      "uhc_index": 71.0,
-      "dtp3_coverage": 97.0,
-      "health_expenditure_pc": 590.63
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "EST": {
-    "iso3": "EST",
-    "score": 98.3,
-    "breakdown": {
-      "hospital_beds": 41.25,
-      "physicians": 34.9,
-      "nurses": 70.41,
-      "uhc_index": 79.0,
-      "dtp3_coverage": 81.0,
-      "health_expenditure_pc": 2437.84
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "PAK": {
-    "iso3": "PAK",
-    "score": 56.7,
-    "breakdown": {
-      "hospital_beds": 6.26,
-      "physicians": 12.84,
-      "nurses": 5.23,
-      "uhc_index": 56.0,
-      "dtp3_coverage": 87.0,
-      "health_expenditure_pc": 30.49
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "SEN": {
-    "iso3": "SEN",
-    "score": 53.0,
-    "breakdown": {
-      "hospital_beds": 7.12,
-      "physicians": 1.24,
-      "nurses": 4.32,
-      "uhc_index": 48.0,
-      "dtp3_coverage": 91.0,
-      "health_expenditure_pc": 73.23
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "MYS": {
-    "iso3": "MYS",
-    "score": 95.1,
-    "breakdown": {
-      "hospital_beds": 19.63,
-      "physicians": 22.72,
-      "nurses": 40.3,
-      "uhc_index": 80.0,
-      "dtp3_coverage": 93.0,
-      "health_expenditure_pc": 450.34
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
   },
   "CYP": {
     "iso3": "CYP",
-    "score": 94.9,
+    "score": 93.5,
     "breakdown": {
       "hospital_beds": 21.46,
       "physicians": 38.06,
       "nurses": 39.84,
       "uhc_index": 76.0,
-      "dtp3_coverage": 94.0,
-      "health_expenditure_pc": 2899.36
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "AUS": {
-    "iso3": "AUS",
-    "score": 100.0,
-    "breakdown": {
-      "hospital_beds": 38.15,
-      "physicians": 42.28,
-      "nurses": 144.31,
-      "uhc_index": 89.0,
-      "dtp3_coverage": 93.0,
-      "health_expenditure_pc": 6980.39
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "TON": {
-    "iso3": "TON",
-    "score": 95.1,
-    "breakdown": {
-      "hospital_beds": 24.76,
-      "physicians": 10.14,
-      "nurses": 41.99,
-      "uhc_index": 71.0,
-      "dtp3_coverage": 99.0,
-      "health_expenditure_pc": 357.54
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "NIC": {
-    "iso3": "NIC",
-    "score": 78.7,
-    "breakdown": {
-      "hospital_beds": 9.67,
-      "physicians": 9.08,
-      "nurses": 16.97,
-      "uhc_index": 70.0,
-      "health_expenditure_pc": 216.55
+      "dtp3_coverage": 94.0
     },
     "indicatorsUsed": 5,
-    "computedAt": "2026-04-01"
+    "computedAt": "2026-07-01"
   },
-  "BRN": {
-    "iso3": "BRN",
+  "MNE": {
+    "iso3": "MNE",
+    "score": 94.8,
+    "breakdown": {
+      "hospital_beds": 38.25,
+      "physicians": 27.85,
+      "nurses": 59.67,
+      "uhc_index": 70.0,
+      "dtp3_coverage": 81.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "IRN": {
+    "iso3": "IRN",
+    "score": 93.0,
+    "breakdown": {
+      "hospital_beds": 18.52,
+      "physicians": 18.11,
+      "nurses": 28.76,
+      "uhc_index": 81.0,
+      "dtp3_coverage": 98.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "NOR": {
+    "iso3": "NOR",
     "score": 100.0,
     "breakdown": {
-      "hospital_beds": 35.8,
-      "physicians": 21.79,
-      "nurses": 64.95,
+      "hospital_beds": 32.99,
+      "physicians": 49.75,
+      "nurses": 160.4,
+      "uhc_index": 89.0,
+      "dtp3_coverage": 97.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "AUT": {
+    "iso3": "AUT",
+    "score": 99.0,
+    "breakdown": {
+      "hospital_beds": 67.01,
+      "physicians": 56.7,
+      "nurses": 109.37,
       "uhc_index": 84.0,
-      "dtp3_coverage": 99.0,
-      "health_expenditure_pc": 733.01
+      "dtp3_coverage": 85.0
     },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
   },
-  "BHR": {
-    "iso3": "BHR",
-    "score": 90.2,
+  "SUR": {
+    "iso3": "SUR",
+    "score": 88.1,
     "breakdown": {
-      "hospital_beds": 18.36,
-      "physicians": 7.41,
-      "nurses": 26.48,
-      "uhc_index": 78.0,
-      "dtp3_coverage": 96.0,
-      "health_expenditure_pc": 1175.82
+      "hospital_beds": 28.74,
+      "physicians": 13.07,
+      "nurses": 18.4,
+      "uhc_index": 74.0,
+      "dtp3_coverage": 69.0
     },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
   },
-  "KOR": {
-    "iso3": "KOR",
+  "EST": {
+    "iso3": "EST",
+    "score": 97.8,
+    "breakdown": {
+      "hospital_beds": 41.25,
+      "physicians": 34.9,
+      "nurses": 70.41,
+      "uhc_index": 79.0,
+      "dtp3_coverage": 81.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "UZB": {
+    "iso3": "UZB",
+    "score": 99.7,
+    "breakdown": {
+      "hospital_beds": 48.94,
+      "physicians": 23.23,
+      "nurses": 107.02,
+      "uhc_index": 79.0,
+      "dtp3_coverage": 90.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "DNK": {
+    "iso3": "DNK",
+    "score": 96.6,
+    "breakdown": {
+      "hospital_beds": 24.35,
+      "physicians": 45.3,
+      "nurses": 109.3,
+      "uhc_index": 85.0,
+      "dtp3_coverage": 96.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "SOM": {
+    "iso3": "SOM",
+    "score": 33.1,
+    "breakdown": {
+      "hospital_beds": 8.7,
+      "physicians": 0.65,
+      "nurses": 3.16,
+      "uhc_index": 30.0,
+      "dtp3_coverage": 70.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "PRT": {
+    "iso3": "PRT",
     "score": 100.0,
     "breakdown": {
-      "hospital_beds": 128.05,
-      "physicians": 26.63,
-      "nurses": 98.03,
-      "uhc_index": 88.0,
-      "dtp3_coverage": 97.0,
-      "health_expenditure_pc": 3136.79
+      "hospital_beds": 34.76,
+      "physicians": 60.22,
+      "nurses": 80.09,
+      "uhc_index": 83.0,
+      "dtp3_coverage": 99.0
     },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
   },
-  "GRD": {
-    "iso3": "GRD",
-    "score": 99.5,
-    "breakdown": {
-      "hospital_beds": 30.06,
-      "physicians": 13.83,
-      "nurses": 45.77,
-      "uhc_index": 78.0,
-      "dtp3_coverage": 93.0,
-      "health_expenditure_pc": 526.39
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "YEM": {
-    "iso3": "YEM",
-    "score": 37.8,
-    "breakdown": {
-      "hospital_beds": 4.65,
-      "physicians": 1.65,
-      "nurses": 5.41,
-      "uhc_index": 43.0,
-      "dtp3_coverage": 42.0,
-      "health_expenditure_pc": 47.78
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "SGP": {
-    "iso3": "SGP",
-    "score": 99.1,
-    "breakdown": {
-      "hospital_beds": 28.12,
-      "physicians": 26.7,
-      "nurses": 70.9,
-      "uhc_index": 88.0,
-      "dtp3_coverage": 97.0,
-      "health_expenditure_pc": 3921.6
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "GMB": {
-    "iso3": "GMB",
-    "score": 43.6,
-    "breakdown": {
-      "hospital_beds": 11.1,
-      "physicians": 0.9,
-      "nurses": 6.58,
-      "uhc_index": 53.0,
-      "dtp3_coverage": 80.0,
-      "health_expenditure_pc": 25.74
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "BGD": {
-    "iso3": "BGD",
-    "score": 60.6,
-    "breakdown": {
-      "hospital_beds": 9.25,
-      "physicians": 7.22,
-      "nurses": 6.64,
-      "uhc_index": 54.0,
-      "dtp3_coverage": 97.0,
-      "health_expenditure_pc": 53.46
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "IND": {
-    "iso3": "IND",
-    "score": 89.4,
-    "breakdown": {
-      "hospital_beds": 15.95,
-      "physicians": 9.55,
-      "nurses": 27.15,
-      "uhc_index": 69.0,
-      "dtp3_coverage": 94.0,
-      "health_expenditure_pc": 84.69
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "SVN": {
-    "iso3": "SVN",
+  "JPN": {
+    "iso3": "JPN",
     "score": 100.0,
     "breakdown": {
-      "hospital_beds": 41.15,
-      "physicians": 35.07,
-      "nurses": 106.82,
-      "uhc_index": 84.0,
-      "dtp3_coverage": 90.0,
-      "health_expenditure_pc": 3370.53
+      "hospital_beds": 125.87,
+      "physicians": 26.49,
+      "nurses": 124.44,
+      "uhc_index": 86.0,
+      "dtp3_coverage": 99.0
     },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
   },
-  "LBY": {
-    "iso3": "LBY",
+  "ARG": {
+    "iso3": "ARG",
     "score": 97.0,
     "breakdown": {
-      "hospital_beds": 35.0,
-      "physicians": 20.42,
-      "nurses": 63.77,
-      "uhc_index": 71.0,
-      "dtp3_coverage": 86.0,
-      "health_expenditure_pc": 470.4
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "SYC": {
-    "iso3": "SYC",
-    "score": 98.3,
-    "breakdown": {
-      "hospital_beds": 26.34,
-      "physicians": 16.33,
-      "nurses": 61.96,
+      "hospital_beds": 33.6,
+      "physicians": 50.88,
+      "nurses": 64.87,
       "uhc_index": 80.0,
-      "dtp3_coverage": 94.0,
-      "health_expenditure_pc": 766.29
+      "dtp3_coverage": 75.0
     },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "ERI": {
+    "iso3": "ERI",
+    "score": 50.7,
+    "breakdown": {
+      "hospital_beds": 10.22,
+      "physicians": 0.89,
+      "nurses": 15.16,
+      "uhc_index": 40.0,
+      "dtp3_coverage": 95.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "AZE": {
+    "iso3": "AZE",
+    "score": 87.7,
+    "breakdown": {
+      "hospital_beds": 36.83,
+      "physicians": 31.85,
+      "nurses": 55.78,
+      "uhc_index": 67.0,
+      "dtp3_coverage": 51.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
   },
   "VNM": {
     "iso3": "VNM",
-    "score": 89.2,
+    "score": 86.3,
     "breakdown": {
       "hospital_beds": 25.17,
       "physicians": 11.07,
       "nurses": 14.38,
       "uhc_index": 71.0,
-      "dtp3_coverage": 97.0,
-      "health_expenditure_pc": 197.19
+      "dtp3_coverage": 97.0
     },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
   },
-  "ECU": {
-    "iso3": "ECU",
-    "score": 88.3,
+  "ESP": {
+    "iso3": "ESP",
+    "score": 99.4,
     "breakdown": {
-      "hospital_beds": 13.15,
-      "physicians": 23.13,
-      "nurses": 26.3,
-      "uhc_index": 78.0,
-      "dtp3_coverage": 70.0,
-      "health_expenditure_pc": 509.49
+      "hospital_beds": 29.07,
+      "physicians": 44.29,
+      "nurses": 62.21,
+      "uhc_index": 84.0,
+      "dtp3_coverage": 94.0
     },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
   },
-  "NRU": {
-    "iso3": "NRU",
-    "score": 95.2,
+  "LCA": {
+    "iso3": "LCA",
+    "score": 86.7,
     "breakdown": {
-      "hospital_beds": 49.67,
-      "physicians": 12.73,
-      "nurses": 73.04,
-      "uhc_index": 62.0,
-      "dtp3_coverage": 99.0,
-      "health_expenditure_pc": 2292.37
+      "hospital_beds": 10.85,
+      "physicians": 42.34,
+      "nurses": 53.43,
+      "uhc_index": 75.0,
+      "dtp3_coverage": 99.0
     },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
   },
-  "LKA": {
-    "iso3": "LKA",
+  "ALB": {
+    "iso3": "ALB",
+    "score": 96.3,
+    "breakdown": {
+      "hospital_beds": 29.02,
+      "physicians": 18.79,
+      "nurses": 58.21,
+      "uhc_index": 71.0,
+      "dtp3_coverage": 97.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "ISL": {
+    "iso3": "ISL",
+    "score": 99.0,
+    "breakdown": {
+      "hospital_beds": 28.34,
+      "physicians": 45.78,
+      "nurses": 160.83,
+      "uhc_index": 90.0,
+      "dtp3_coverage": 94.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "MLT": {
+    "iso3": "MLT",
+    "score": 100.0,
+    "breakdown": {
+      "hospital_beds": 40.86,
+      "physicians": 47.19,
+      "nurses": 82.57,
+      "uhc_index": 82.0,
+      "dtp3_coverage": 97.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "NLD": {
+    "iso3": "NLD",
     "score": 96.5,
     "breakdown": {
-      "hospital_beds": 39.35,
-      "physicians": 11.36,
-      "nurses": 22.58,
-      "uhc_index": 72.0,
-      "dtp3_coverage": 97.0,
-      "health_expenditure_pc": 134.24
+      "hospital_beds": 24.21,
+      "physicians": 38.68,
+      "nurses": 112.31,
+      "uhc_index": 85.0,
+      "dtp3_coverage": 91.0
     },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
   },
-  "ZAF": {
-    "iso3": "ZAF",
-    "score": 88.9,
+  "BGR": {
+    "iso3": "BGR",
+    "score": 97.6,
     "breakdown": {
-      "hospital_beds": 22.51,
-      "physicians": 7.66,
-      "nurses": 41.54,
-      "uhc_index": 74.0,
-      "dtp3_coverage": 74.0,
-      "health_expenditure_pc": 536.59
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "TGO": {
-    "iso3": "TGO",
-    "score": 45.1,
-    "breakdown": {
-      "hospital_beds": 3.3,
-      "physicians": 0.59,
-      "nurses": 4.08,
-      "uhc_index": 42.0,
-      "dtp3_coverage": 90.0,
-      "health_expenditure_pc": 59.61
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "GUY": {
-    "iso3": "GUY",
-    "score": 98.1,
-    "breakdown": {
-      "hospital_beds": 32.38,
-      "physicians": 12.49,
-      "nurses": 48.43,
+      "hospital_beds": 82.0,
+      "physicians": 43.92,
+      "nurses": 46.83,
       "uhc_index": 73.0,
-      "dtp3_coverage": 98.0,
-      "health_expenditure_pc": 505.03
+      "dtp3_coverage": 94.0
     },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "NIC": {
+    "iso3": "NIC",
+    "score": 71.6,
+    "breakdown": {
+      "hospital_beds": 9.67,
+      "physicians": 9.08,
+      "nurses": 16.97,
+      "uhc_index": 70.0
+    },
+    "indicatorsUsed": 4,
+    "computedAt": "2026-07-01"
   },
   "BLR": {
     "iso3": "BLR",
@@ -1977,137 +474,1204 @@
       "physicians": 47.96,
       "nurses": 107.55,
       "uhc_index": 80.0,
-      "dtp3_coverage": 98.0,
-      "health_expenditure_pc": 558.23
+      "dtp3_coverage": 98.0
     },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
   },
-  "VEN": {
-    "iso3": "VEN",
-    "score": 81.8,
+  "GEO": {
+    "iso3": "GEO",
+    "score": 96.1,
     "breakdown": {
-      "hospital_beds": 9.89,
-      "physicians": 16.64,
-      "nurses": 20.03,
-      "uhc_index": 75.0,
-      "dtp3_coverage": 62.0,
-      "health_expenditure_pc": 185.99
+      "hospital_beds": 40.45,
+      "physicians": 56.42,
+      "nurses": 56.87,
+      "uhc_index": 71.0,
+      "dtp3_coverage": 86.0
     },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
   },
-  "BWA": {
-    "iso3": "BWA",
-    "score": 83.4,
+  "QAT": {
+    "iso3": "QAT",
+    "score": 89.4,
     "breakdown": {
-      "hospital_beds": 23.57,
-      "physicians": 4.28,
-      "nurses": 30.23,
-      "uhc_index": 60.0,
-      "dtp3_coverage": 95.0,
-      "health_expenditure_pc": 489.6
+      "hospital_beds": 12.5,
+      "physicians": 31.36,
+      "nurses": 86.07,
+      "uhc_index": 84.0,
+      "dtp3_coverage": 96.0
     },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
   },
-  "COL": {
-    "iso3": "COL",
-    "score": 88.3,
+  "MYS": {
+    "iso3": "MYS",
+    "score": 93.7,
     "breakdown": {
-      "hospital_beds": 16.99,
-      "physicians": 25.37,
-      "nurses": 15.73,
-      "uhc_index": 82.0,
-      "dtp3_coverage": 89.0,
-      "health_expenditure_pc": 644.31
+      "hospital_beds": 19.63,
+      "physicians": 22.72,
+      "nurses": 40.3,
+      "uhc_index": 80.0,
+      "dtp3_coverage": 93.0
     },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
   },
-  "DJI": {
-    "iso3": "DJI",
-    "score": 54.9,
+  "LBN": {
+    "iso3": "LBN",
+    "score": 81.4,
     "breakdown": {
-      "hospital_beds": 13.98,
-      "physicians": 2.11,
-      "nurses": 1.94,
-      "uhc_index": 47.0,
-      "dtp3_coverage": 77.0,
-      "health_expenditure_pc": 77.57
+      "hospital_beds": 27.3,
+      "physicians": 26.8,
+      "nurses": 19.18,
+      "uhc_index": 67.0,
+      "dtp3_coverage": 49.0
     },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
   },
-  "ISL": {
-    "iso3": "ISL",
+  "URY": {
+    "iso3": "URY",
+    "score": 96.6,
+    "breakdown": {
+      "hospital_beds": 24.42,
+      "physicians": 45.51,
+      "nurses": 76.25,
+      "uhc_index": 85.0,
+      "dtp3_coverage": 94.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "ECU": {
+    "iso3": "ECU",
+    "score": 85.1,
+    "breakdown": {
+      "hospital_beds": 13.15,
+      "physicians": 23.13,
+      "nurses": 26.3,
+      "uhc_index": 78.0,
+      "dtp3_coverage": 70.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "GBR": {
+    "iso3": "GBR",
+    "score": 96.5,
+    "breakdown": {
+      "hospital_beds": 24.21,
+      "physicians": 33.54,
+      "nurses": 95.59,
+      "uhc_index": 88.0,
+      "dtp3_coverage": 92.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "BRA": {
+    "iso3": "BRA",
+    "score": 97.1,
+    "breakdown": {
+      "hospital_beds": 25.18,
+      "physicians": 24.99,
+      "nurses": 58.32,
+      "uhc_index": 84.0,
+      "dtp3_coverage": 91.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "BHS": {
+    "iso3": "BHS",
+    "score": 95.0,
+    "breakdown": {
+      "hospital_beds": 21.73,
+      "physicians": 18.95,
+      "nurses": 42.24,
+      "uhc_index": 80.0,
+      "dtp3_coverage": 90.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "SWE": {
+    "iso3": "SWE",
+    "score": 93.3,
+    "breakdown": {
+      "hospital_beds": 18.99,
+      "physicians": 44.74,
+      "nurses": 117.41,
+      "uhc_index": 85.0,
+      "dtp3_coverage": 96.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "LTU": {
+    "iso3": "LTU",
+    "score": 99.1,
+    "breakdown": {
+      "hospital_beds": 57.1,
+      "physicians": 46.45,
+      "nurses": 77.9,
+      "uhc_index": 78.0,
+      "dtp3_coverage": 89.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "FIN": {
+    "iso3": "FIN",
+    "score": 97.6,
+    "breakdown": {
+      "hospital_beds": 26.09,
+      "physicians": 28.75,
+      "nurses": 130.2,
+      "uhc_index": 86.0,
+      "dtp3_coverage": 91.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "ROU": {
+    "iso3": "ROU",
+    "score": 96.8,
+    "breakdown": {
+      "hospital_beds": 72.32,
+      "physicians": 37.12,
+      "nurses": 83.34,
+      "uhc_index": 77.0,
+      "dtp3_coverage": 79.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "SRB": {
+    "iso3": "SRB",
+    "score": 97.6,
+    "breakdown": {
+      "hospital_beds": 57.78,
+      "physicians": 32.15,
+      "nurses": 70.15,
+      "uhc_index": 73.0,
+      "dtp3_coverage": 95.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "IRQ": {
+    "iso3": "IRQ",
+    "score": 82.8,
+    "breakdown": {
+      "hospital_beds": 10.62,
+      "physicians": 10.64,
+      "nurses": 25.71,
+      "uhc_index": 64.0,
+      "dtp3_coverage": 90.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "SGP": {
+    "iso3": "SGP",
+    "score": 98.9,
+    "breakdown": {
+      "hospital_beds": 28.12,
+      "physicians": 26.7,
+      "nurses": 70.9,
+      "uhc_index": 88.0,
+      "dtp3_coverage": 97.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "USA": {
+    "iso3": "USA",
+    "score": 98.1,
+    "breakdown": {
+      "hospital_beds": 26.84,
+      "physicians": 26.54,
+      "nurses": 123.92,
+      "uhc_index": 88.0,
+      "dtp3_coverage": 94.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "IDN": {
+    "iso3": "IDN",
+    "score": 75.2,
+    "breakdown": {
+      "hospital_beds": 13.69,
+      "physicians": 5.59,
+      "nurses": 33.0,
+      "uhc_index": 67.0,
+      "dtp3_coverage": 78.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "CZE": {
+    "iso3": "CZE",
     "score": 99.2,
     "breakdown": {
-      "hospital_beds": 28.34,
-      "physicians": 45.78,
-      "nurses": 160.83,
-      "uhc_index": 90.0,
-      "dtp3_coverage": 94.0,
-      "health_expenditure_pc": 7641.57
+      "hospital_beds": 65.42,
+      "physicians": 42.39,
+      "nurses": 94.24,
+      "uhc_index": 83.0,
+      "dtp3_coverage": 86.0
     },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
   },
-  "OMN": {
-    "iso3": "OMN",
-    "score": 88.6,
+  "AFG": {
+    "iso3": "AFG",
+    "score": 38.1,
     "breakdown": {
-      "hospital_beds": 9.95,
-      "physicians": 21.37,
-      "nurses": 45.88,
-      "uhc_index": 73.0,
-      "dtp3_coverage": 99.0,
-      "health_expenditure_pc": 732.04
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "FJI": {
-    "iso3": "FJI",
-    "score": 86.2,
-    "breakdown": {
-      "hospital_beds": 18.94,
-      "physicians": 7.54,
-      "nurses": 21.3,
-      "uhc_index": 69.0,
-      "dtp3_coverage": 94.0,
-      "health_expenditure_pc": 212.89
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "MLI": {
-    "iso3": "MLI",
-    "score": 40.1,
-    "breakdown": {
-      "hospital_beds": 2.47,
+      "hospital_beds": 3.53,
       "physicians": 3.17,
-      "nurses": 3.45,
-      "uhc_index": 41.0,
-      "dtp3_coverage": 82.0,
-      "health_expenditure_pc": 33.98
+      "nurses": 5.49,
+      "uhc_index": 42.0,
+      "dtp3_coverage": 59.0
     },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "CHE": {
+    "iso3": "CHE",
+    "score": 100.0,
+    "breakdown": {
+      "hospital_beds": 43.75,
+      "physicians": 45.59,
+      "nurses": 191.96,
+      "uhc_index": 87.0,
+      "dtp3_coverage": 96.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "TKM": {
+    "iso3": "TKM",
+    "score": 100.0,
+    "breakdown": {
+      "hospital_beds": 36.0,
+      "physicians": 18.98,
+      "nurses": 34.72,
+      "uhc_index": 81.0,
+      "dtp3_coverage": 98.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "ISR": {
+    "iso3": "ISR",
+    "score": 100.0,
+    "breakdown": {
+      "hospital_beds": 31.43,
+      "physicians": 39.22,
+      "nurses": 62.14,
+      "uhc_index": 85.0,
+      "dtp3_coverage": 98.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "PSE": {
+    "iso3": "PSE",
+    "score": 75.1,
+    "breakdown": {
+      "hospital_beds": 13.01,
+      "uhc_index": 65.0,
+      "dtp3_coverage": 88.0
+    },
+    "indicatorsUsed": 3,
+    "computedAt": "2026-07-01"
+  },
+  "BRN": {
+    "iso3": "BRN",
+    "score": 100.0,
+    "breakdown": {
+      "hospital_beds": 35.8,
+      "physicians": 21.79,
+      "nurses": 64.95,
+      "uhc_index": 84.0,
+      "dtp3_coverage": 99.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "PAK": {
+    "iso3": "PAK",
+    "score": 62.4,
+    "breakdown": {
+      "hospital_beds": 6.26,
+      "physicians": 12.84,
+      "nurses": 5.23,
+      "uhc_index": 56.0,
+      "dtp3_coverage": 87.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "KOR": {
+    "iso3": "KOR",
+    "score": 100.0,
+    "breakdown": {
+      "hospital_beds": 128.05,
+      "physicians": 26.63,
+      "nurses": 98.03,
+      "uhc_index": 88.0,
+      "dtp3_coverage": 97.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "TTO": {
+    "iso3": "TTO",
+    "score": 94.5,
+    "breakdown": {
+      "hospital_beds": 23.66,
+      "physicians": 41.57,
+      "nurses": 41.08,
+      "uhc_index": 75.0,
+      "dtp3_coverage": 92.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "PER": {
+    "iso3": "PER",
+    "score": 85.2,
+    "breakdown": {
+      "hospital_beds": 15.6,
+      "physicians": 16.88,
+      "nurses": 27.38,
+      "uhc_index": 68.0,
+      "dtp3_coverage": 80.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "JOR": {
+    "iso3": "JOR",
+    "score": 88.3,
+    "breakdown": {
+      "hospital_beds": 14.15,
+      "physicians": 32.62,
+      "nurses": 33.42,
+      "uhc_index": 74.0,
+      "dtp3_coverage": 96.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
   },
   "PRY": {
     "iso3": "PRY",
-    "score": 88.8,
+    "score": 85.8,
     "breakdown": {
       "hospital_beds": 10.4,
       "physicians": 38.93,
       "nurses": 94.09,
       "uhc_index": 79.0,
-      "dtp3_coverage": 80.0,
-      "health_expenditure_pc": 526.51
+      "dtp3_coverage": 80.0
     },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "ZAF": {
+    "iso3": "ZAF",
+    "score": 85.9,
+    "breakdown": {
+      "hospital_beds": 22.51,
+      "physicians": 7.66,
+      "nurses": 41.54,
+      "uhc_index": 74.0,
+      "dtp3_coverage": 74.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "PHL": {
+    "iso3": "PHL",
+    "score": 77.7,
+    "breakdown": {
+      "hospital_beds": 9.69,
+      "physicians": 8.69,
+      "nurses": 52.87,
+      "uhc_index": 69.0,
+      "dtp3_coverage": 71.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "SAU": {
+    "iso3": "SAU",
+    "score": 96.4,
+    "breakdown": {
+      "hospital_beds": 24.07,
+      "physicians": 34.06,
+      "nurses": 65.57,
+      "uhc_index": 83.0,
+      "dtp3_coverage": 97.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "IND": {
+    "iso3": "IND",
+    "score": 86.9,
+    "breakdown": {
+      "hospital_beds": 15.95,
+      "physicians": 9.55,
+      "nurses": 27.15,
+      "uhc_index": 69.0,
+      "dtp3_coverage": 94.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "DEU": {
+    "iso3": "DEU",
+    "score": 99.8,
+    "breakdown": {
+      "hospital_beds": 75.5,
+      "physicians": 45.93,
+      "nurses": 123.95,
+      "uhc_index": 87.0,
+      "dtp3_coverage": 89.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "CHN": {
+    "iso3": "CHN",
+    "score": 100.0,
+    "breakdown": {
+      "hospital_beds": 56.27,
+      "physicians": 28.19,
+      "nurses": 39.63,
+      "uhc_index": 85.0,
+      "dtp3_coverage": 97.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "TCD": {
+    "iso3": "TCD",
+    "score": 27.6,
+    "breakdown": {
+      "hospital_beds": 1.54,
+      "physicians": 0.8,
+      "nurses": 3.62,
+      "uhc_index": 26.0,
+      "dtp3_coverage": 68.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "FRA": {
+    "iso3": "FRA",
+    "score": 100.0,
+    "breakdown": {
+      "hospital_beds": 56.47,
+      "physicians": 40.09,
+      "nurses": 94.22,
+      "uhc_index": 82.0,
+      "dtp3_coverage": 96.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "EGY": {
+    "iso3": "EGY",
+    "score": 81.2,
+    "breakdown": {
+      "hospital_beds": 10.59,
+      "physicians": 11.8,
+      "nurses": 19.5,
+      "uhc_index": 71.0,
+      "dtp3_coverage": 97.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "SVN": {
+    "iso3": "SVN",
+    "score": 100.0,
+    "breakdown": {
+      "hospital_beds": 41.15,
+      "physicians": 35.07,
+      "nurses": 106.82,
+      "uhc_index": 84.0,
+      "dtp3_coverage": 90.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "UKR": {
+    "iso3": "UKR",
+    "score": 99.6,
+    "breakdown": {
+      "hospital_beds": 61.39,
+      "physicians": 35.31,
+      "nurses": 60.79,
+      "uhc_index": 80.0,
+      "dtp3_coverage": 88.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "CAN": {
+    "iso3": "CAN",
+    "score": 97.2,
+    "breakdown": {
+      "hospital_beds": 25.36,
+      "physicians": 28.54,
+      "nurses": 116.18,
+      "uhc_index": 92.0,
+      "dtp3_coverage": 92.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "NZL": {
+    "iso3": "NZL",
+    "score": 96.8,
+    "breakdown": {
+      "hospital_beds": 25.06,
+      "physicians": 37.72,
+      "nurses": 131.24,
+      "uhc_index": 89.0,
+      "dtp3_coverage": 89.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "NER": {
+    "iso3": "NER",
+    "score": 36.1,
+    "breakdown": {
+      "hospital_beds": 2.76,
+      "physicians": 0.38,
+      "nurses": 4.21,
+      "uhc_index": 39.0,
+      "dtp3_coverage": 86.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "LKA": {
+    "iso3": "LKA",
+    "score": 95.5,
+    "breakdown": {
+      "hospital_beds": 39.35,
+      "physicians": 11.36,
+      "nurses": 22.58,
+      "uhc_index": 72.0,
+      "dtp3_coverage": 97.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "MKD": {
+    "iso3": "MKD",
+    "score": 96.0,
+    "breakdown": {
+      "hospital_beds": 47.37,
+      "physicians": 29.44,
+      "nurses": 55.15,
+      "uhc_index": 69.0,
+      "dtp3_coverage": 89.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "TGO": {
+    "iso3": "TGO",
+    "score": 38.5,
+    "breakdown": {
+      "hospital_beds": 3.3,
+      "physicians": 0.59,
+      "nurses": 4.08,
+      "uhc_index": 42.0,
+      "dtp3_coverage": 90.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "ARE": {
+    "iso3": "ARE",
+    "score": 93.1,
+    "breakdown": {
+      "hospital_beds": 18.65,
+      "physicians": 29.92,
+      "nurses": 61.56,
+      "uhc_index": 84.0,
+      "dtp3_coverage": 96.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "ITA": {
+    "iso3": "ITA",
+    "score": 100.0,
+    "breakdown": {
+      "hospital_beds": 30.56,
+      "physicians": 53.06,
+      "nurses": 70.95,
+      "uhc_index": 82.0,
+      "dtp3_coverage": 94.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "MAR": {
+    "iso3": "MAR",
+    "score": 64.4,
+    "breakdown": {
+      "hospital_beds": 7.3,
+      "physicians": 7.93,
+      "nurses": 7.2,
+      "uhc_index": 65.0,
+      "dtp3_coverage": 96.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "THA": {
+    "iso3": "THA",
+    "score": 88.9,
+    "breakdown": {
+      "hospital_beds": 23.9,
+      "physicians": 5.91,
+      "nurses": 35.72,
+      "uhc_index": 82.0,
+      "dtp3_coverage": 92.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "DJI": {
+    "iso3": "DJI",
+    "score": 45.3,
+    "breakdown": {
+      "hospital_beds": 13.98,
+      "physicians": 2.11,
+      "nurses": 1.94,
+      "uhc_index": 47.0,
+      "dtp3_coverage": 77.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "BRB": {
+    "iso3": "BRB",
+    "score": 100.0,
+    "breakdown": {
+      "hospital_beds": 63.97,
+      "physicians": 23.98,
+      "nurses": 41.37,
+      "uhc_index": 82.0,
+      "dtp3_coverage": 94.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "OMN": {
+    "iso3": "OMN",
+    "score": 85.5,
+    "breakdown": {
+      "hospital_beds": 9.95,
+      "physicians": 21.37,
+      "nurses": 45.88,
+      "uhc_index": 73.0,
+      "dtp3_coverage": 99.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "MNG": {
+    "iso3": "MNG",
+    "score": 96.6,
+    "breakdown": {
+      "hospital_beds": 85.79,
+      "physicians": 45.96,
+      "nurses": 46.96,
+      "uhc_index": 70.0,
+      "dtp3_coverage": 96.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "COM": {
+    "iso3": "COM",
+    "score": 65.6,
+    "breakdown": {
+      "hospital_beds": 21.6,
+      "physicians": 4.24,
+      "nurses": 16.44,
+      "uhc_index": 52.0,
+      "dtp3_coverage": 75.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "KWT": {
+    "iso3": "KWT",
+    "score": 95.9,
+    "breakdown": {
+      "hospital_beds": 23.29,
+      "physicians": 29.69,
+      "nurses": 67.1,
+      "uhc_index": 84.0,
+      "dtp3_coverage": 99.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "SVK": {
+    "iso3": "SVK",
+    "score": 99.3,
+    "breakdown": {
+      "hospital_beds": 55.67,
+      "physicians": 37.61,
+      "nurses": 59.72,
+      "uhc_index": 78.0,
+      "dtp3_coverage": 96.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "IRL": {
+    "iso3": "IRL",
+    "score": 99.7,
+    "breakdown": {
+      "hospital_beds": 29.58,
+      "physicians": 39.89,
+      "nurses": 154.04,
+      "uhc_index": 82.0,
+      "dtp3_coverage": 92.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "NPL": {
+    "iso3": "NPL",
+    "score": 77.6,
+    "breakdown": {
+      "hospital_beds": 5.39,
+      "physicians": 10.88,
+      "nurses": 41.62,
+      "uhc_index": 58.0,
+      "dtp3_coverage": 97.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "COL": {
+    "iso3": "COL",
+    "score": 85.2,
+    "breakdown": {
+      "hospital_beds": 16.99,
+      "physicians": 25.37,
+      "nurses": 15.73,
+      "uhc_index": 82.0,
+      "dtp3_coverage": 89.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "KGZ": {
+    "iso3": "KGZ",
+    "score": 96.9,
+    "breakdown": {
+      "hospital_beds": 37.32,
+      "physicians": 15.45,
+      "nurses": 40.26,
+      "uhc_index": 74.0,
+      "dtp3_coverage": 85.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "RUS": {
+    "iso3": "RUS",
+    "score": 100.0,
+    "breakdown": {
+      "hospital_beds": 68.09,
+      "physicians": 51.11,
+      "nurses": 70.39,
+      "uhc_index": 81.0,
+      "dtp3_coverage": 97.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "VUT": {
+    "iso3": "VUT",
+    "score": 56.2,
+    "breakdown": {
+      "hospital_beds": 17.32,
+      "physicians": 1.64,
+      "nurses": 14.59,
+      "uhc_index": 52.0,
+      "dtp3_coverage": 71.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "HND": {
+    "iso3": "HND",
+    "score": 63.7,
+    "breakdown": {
+      "hospital_beds": 5.29,
+      "physicians": 19.02,
+      "nurses": 7.35,
+      "uhc_index": 64.0,
+      "dtp3_coverage": 75.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "BEN": {
+    "iso3": "BEN",
+    "score": 36.6,
+    "breakdown": {
+      "hospital_beds": 4.33,
+      "physicians": 2.14,
+      "nurses": 6.12,
+      "uhc_index": 38.0,
+      "dtp3_coverage": 63.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "MDV": {
+    "iso3": "MDV",
+    "score": 96.9,
+    "breakdown": {
+      "hospital_beds": 45.57,
+      "physicians": 23.0,
+      "nurses": 59.63,
+      "uhc_index": 71.0,
+      "dtp3_coverage": 99.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "BLZ": {
+    "iso3": "BLZ",
+    "score": 80.9,
+    "breakdown": {
+      "hospital_beds": 10.02,
+      "physicians": 13.36,
+      "nurses": 20.6,
+      "uhc_index": 70.0,
+      "dtp3_coverage": 88.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "HUN": {
+    "iso3": "HUN",
+    "score": 100.0,
+    "breakdown": {
+      "hospital_beds": 66.26,
+      "physicians": 35.87,
+      "nurses": 57.22,
+      "uhc_index": 80.0,
+      "dtp3_coverage": 99.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "GMB": {
+    "iso3": "GMB",
+    "score": 47.4,
+    "breakdown": {
+      "hospital_beds": 11.1,
+      "physicians": 0.9,
+      "nurses": 6.58,
+      "uhc_index": 53.0,
+      "dtp3_coverage": 80.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "POL": {
+    "iso3": "POL",
+    "score": 100.0,
+    "breakdown": {
+      "hospital_beds": 60.38,
+      "physicians": 36.49,
+      "nurses": 63.11,
+      "uhc_index": 82.0,
+      "dtp3_coverage": 94.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "CUB": {
+    "iso3": "CUB",
+    "score": 100.0,
+    "breakdown": {
+      "hospital_beds": 43.29,
+      "physicians": 85.05,
+      "nurses": 71.94,
+      "uhc_index": 86.0,
+      "dtp3_coverage": 99.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "DZA": {
+    "iso3": "DZA",
+    "score": 88.2,
+    "breakdown": {
+      "hospital_beds": 16.11,
+      "physicians": 16.6,
+      "nurses": 25.08,
+      "uhc_index": 70.0,
+      "dtp3_coverage": 92.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "MUS": {
+    "iso3": "MUS",
+    "score": 98.3,
+    "breakdown": {
+      "hospital_beds": 38.04,
+      "physicians": 30.15,
+      "nurses": 35.01,
+      "uhc_index": 75.0,
+      "dtp3_coverage": 93.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "CRI": {
+    "iso3": "CRI",
+    "score": 88.7,
+    "breakdown": {
+      "hospital_beds": 11.37,
+      "physicians": 26.87,
+      "nurses": 30.71,
+      "uhc_index": 84.0,
+      "dtp3_coverage": 99.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "SYR": {
+    "iso3": "SYR",
+    "score": 75.9,
+    "breakdown": {
+      "hospital_beds": 14.3,
+      "physicians": 16.27,
+      "nurses": 14.35,
+      "uhc_index": 70.0,
+      "dtp3_coverage": 73.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "VEN": {
+    "iso3": "VEN",
+    "score": 76.8,
+    "breakdown": {
+      "hospital_beds": 9.89,
+      "physicians": 16.64,
+      "nurses": 20.03,
+      "uhc_index": 75.0,
+      "dtp3_coverage": 62.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "ZWE": {
+    "iso3": "ZWE",
+    "score": 64.1,
+    "breakdown": {
+      "hospital_beds": 19.47,
+      "physicians": 1.86,
+      "nurses": 14.65,
+      "uhc_index": 59.0,
+      "dtp3_coverage": 91.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "RWA": {
+    "iso3": "RWA",
+    "score": 55.3,
+    "breakdown": {
+      "hospital_beds": 7.48,
+      "physicians": 1.77,
+      "nurses": 12.78,
+      "uhc_index": 59.0,
+      "dtp3_coverage": 98.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "BEL": {
+    "iso3": "BEL",
+    "score": 100.0,
+    "breakdown": {
+      "hospital_beds": 54.22,
+      "physicians": 33.91,
+      "nurses": 122.92,
+      "uhc_index": 86.0,
+      "dtp3_coverage": 97.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "TUR": {
+    "iso3": "TUR",
+    "score": 99.0,
+    "breakdown": {
+      "hospital_beds": 30.55,
+      "physicians": 23.4,
+      "nurses": 35.3,
+      "uhc_index": 77.0,
+      "dtp3_coverage": 99.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "FJI": {
+    "iso3": "FJI",
+    "score": 82.4,
+    "breakdown": {
+      "hospital_beds": 18.94,
+      "physicians": 7.54,
+      "nurses": 21.3,
+      "uhc_index": 69.0,
+      "dtp3_coverage": 94.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "GUY": {
+    "iso3": "GUY",
+    "score": 97.6,
+    "breakdown": {
+      "hospital_beds": 32.38,
+      "physicians": 12.49,
+      "nurses": 48.43,
+      "uhc_index": 73.0,
+      "dtp3_coverage": 98.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "MMR": {
+    "iso3": "MMR",
+    "score": 53.8,
+    "breakdown": {
+      "hospital_beds": 10.69,
+      "physicians": 7.57,
+      "nurses": 2.05,
+      "uhc_index": 52.0,
+      "dtp3_coverage": 71.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "BIH": {
+    "iso3": "BIH",
+    "score": 88.4,
+    "breakdown": {
+      "hospital_beds": 23.53,
+      "physicians": 25.84,
+      "nurses": 67.27,
+      "uhc_index": 64.0,
+      "dtp3_coverage": 79.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "GRD": {
+    "iso3": "GRD",
+    "score": 99.3,
+    "breakdown": {
+      "hospital_beds": 30.06,
+      "physicians": 13.83,
+      "nurses": 45.77,
+      "uhc_index": 78.0,
+      "dtp3_coverage": 93.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "SLV": {
+    "iso3": "SLV",
+    "score": 86.5,
+    "breakdown": {
+      "hospital_beds": 12.07,
+      "physicians": 16.16,
+      "nurses": 21.79,
+      "uhc_index": 79.0,
+      "dtp3_coverage": 95.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "MDA": {
+    "iso3": "MDA",
+    "score": 96.1,
+    "breakdown": {
+      "hospital_beds": 55.39,
+      "physicians": 39.25,
+      "nurses": 63.17,
+      "uhc_index": 71.0,
+      "dtp3_coverage": 86.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "KHM": {
+    "iso3": "KHM",
+    "score": 53.5,
+    "breakdown": {
+      "hospital_beds": 7.3,
+      "physicians": 2.11,
+      "nurses": 10.08,
+      "uhc_index": 62.0,
+      "dtp3_coverage": 83.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "KNA": {
+    "iso3": "KNA",
+    "score": 100.0,
+    "breakdown": {
+      "hospital_beds": 39.78,
+      "physicians": 30.85,
+      "nurses": 65.81,
+      "uhc_index": 80.0,
+      "dtp3_coverage": 97.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "MEX": {
+    "iso3": "MEX",
+    "score": 85.2,
+    "breakdown": {
+      "hospital_beds": 10.14,
+      "physicians": 27.52,
+      "nurses": 30.48,
+      "uhc_index": 79.0,
+      "dtp3_coverage": 78.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
   },
   "ATG": {
     "iso3": "ATG",
@@ -2117,25 +1681,426 @@
       "physicians": 43.18,
       "nurses": 50.75,
       "uhc_index": 81.0,
-      "dtp3_coverage": 99.0,
-      "health_expenditure_pc": 841.25
+      "dtp3_coverage": 99.0
     },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
   },
-  "SLE": {
-    "iso3": "SLE",
-    "score": 46.5,
+  "BHR": {
+    "iso3": "BHR",
+    "score": 87.6,
     "breakdown": {
-      "hospital_beds": 4.0,
-      "physicians": 1.34,
-      "nurses": 11.63,
-      "uhc_index": 48.0,
-      "dtp3_coverage": 91.0,
-      "health_expenditure_pc": 35.76
+      "hospital_beds": 18.36,
+      "physicians": 7.41,
+      "nurses": 26.48,
+      "uhc_index": 78.0,
+      "dtp3_coverage": 96.0
     },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "MLI": {
+    "iso3": "MLI",
+    "score": 40.3,
+    "breakdown": {
+      "hospital_beds": 2.47,
+      "physicians": 3.17,
+      "nurses": 3.45,
+      "uhc_index": 41.0,
+      "dtp3_coverage": 82.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "GTM": {
+    "iso3": "GTM",
+    "score": 73.5,
+    "breakdown": {
+      "hospital_beds": 4.45,
+      "physicians": 16.27,
+      "nurses": 22.73,
+      "uhc_index": 58.0,
+      "dtp3_coverage": 81.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "HTI": {
+    "iso3": "HTI",
+    "score": 55.9,
+    "breakdown": {
+      "hospital_beds": 48.99,
+      "physicians": 2.92,
+      "nurses": 7.32,
+      "uhc_index": 44.0,
+      "dtp3_coverage": 60.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "LVA": {
+    "iso3": "LVA",
+    "score": 99.0,
+    "breakdown": {
+      "hospital_beds": 49.47,
+      "physicians": 33.52,
+      "nurses": 43.62,
+      "uhc_index": 77.0,
+      "dtp3_coverage": 97.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "VCT": {
+    "iso3": "VCT",
+    "score": 100.0,
+    "breakdown": {
+      "hospital_beds": 32.14,
+      "physicians": 18.99,
+      "nurses": 80.16,
+      "uhc_index": 80.0,
+      "dtp3_coverage": 99.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "CHL": {
+    "iso3": "CHL",
+    "score": 93.6,
+    "breakdown": {
+      "hospital_beds": 19.39,
+      "physicians": 34.9,
+      "nurses": 47.16,
+      "uhc_index": 84.0,
+      "dtp3_coverage": 95.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "NAM": {
+    "iso3": "NAM",
+    "score": 82.1,
+    "breakdown": {
+      "hospital_beds": 27.0,
+      "physicians": 5.58,
+      "nurses": 37.99,
+      "uhc_index": 66.0,
+      "dtp3_coverage": 74.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "PAN": {
+    "iso3": "PAN",
+    "score": 90.0,
+    "breakdown": {
+      "hospital_beds": 19.54,
+      "physicians": 16.25,
+      "nurses": 33.45,
+      "uhc_index": 82.0,
+      "dtp3_coverage": 72.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "BOL": {
+    "iso3": "BOL",
+    "score": 73.8,
+    "breakdown": {
+      "hospital_beds": 14.91,
+      "physicians": 12.84,
+      "nurses": 16.24,
+      "uhc_index": 67.0,
+      "dtp3_coverage": 59.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "MOZ": {
+    "iso3": "MOZ",
+    "score": 42.9,
+    "breakdown": {
+      "hospital_beds": 7.44,
+      "physicians": 0.91,
+      "nurses": 7.62,
+      "uhc_index": 50.0,
+      "dtp3_coverage": 70.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "ETH": {
+    "iso3": "ETH",
+    "score": 38.7,
+    "breakdown": {
+      "hospital_beds": 3.3,
+      "physicians": 1.56,
+      "nurses": 10.85,
+      "uhc_index": 33.0,
+      "dtp3_coverage": 73.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "PNG": {
+    "iso3": "PNG",
+    "score": 29.9,
+    "breakdown": {
+      "hospital_beds": 6.19,
+      "physicians": 0.46,
+      "nurses": 8.12,
+      "uhc_index": 32.0,
+      "dtp3_coverage": 42.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "CAF": {
+    "iso3": "CAF",
+    "score": 32.8,
+    "breakdown": {
+      "hospital_beds": 10.0,
+      "physicians": 1.0,
+      "nurses": 4.37,
+      "uhc_index": 39.0,
+      "dtp3_coverage": 42.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "YEM": {
+    "iso3": "YEM",
+    "score": 32.9,
+    "breakdown": {
+      "hospital_beds": 4.65,
+      "physicians": 1.65,
+      "nurses": 5.41,
+      "uhc_index": 43.0,
+      "dtp3_coverage": 42.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "KAZ": {
+    "iso3": "KAZ",
+    "score": 100.0,
+    "breakdown": {
+      "hospital_beds": 65.43,
+      "physicians": 30.59,
+      "nurses": 66.05,
+      "uhc_index": 83.0,
+      "dtp3_coverage": 98.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "TLS": {
+    "iso3": "TLS",
+    "score": 60.4,
+    "breakdown": {
+      "hospital_beds": 3.83,
+      "physicians": 7.68,
+      "nurses": 15.17,
+      "uhc_index": 48.0,
+      "dtp3_coverage": 83.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "LBR": {
+    "iso3": "LBR",
+    "score": 52.4,
+    "breakdown": {
+      "hospital_beds": 15.9,
+      "physicians": 1.78,
+      "nurses": 8.35,
+      "uhc_index": 49.0,
+      "dtp3_coverage": 83.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "STP": {
+    "iso3": "STP",
+    "score": 79.8,
+    "breakdown": {
+      "hospital_beds": 29.1,
+      "physicians": 4.64,
+      "nurses": 21.65,
+      "uhc_index": 60.0,
+      "dtp3_coverage": 87.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "LUX": {
+    "iso3": "LUX",
+    "score": 100.0,
+    "breakdown": {
+      "hospital_beds": 39.47,
+      "physicians": 29.84,
+      "nurses": 137.21,
+      "uhc_index": 83.0,
+      "dtp3_coverage": 99.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "DOM": {
+    "iso3": "DOM",
+    "score": 78.0,
+    "breakdown": {
+      "hospital_beds": 7.47,
+      "physicians": 21.22,
+      "nurses": 17.58,
+      "uhc_index": 73.0,
+      "dtp3_coverage": 87.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "AND": {
+    "iso3": "AND",
+    "score": 95.6,
+    "breakdown": {
+      "hospital_beds": 25.62,
+      "physicians": 51.16,
+      "nurses": 49.45,
+      "uhc_index": 75.0,
+      "dtp3_coverage": 98.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "ARM": {
+    "iso3": "ARM",
+    "score": 96.2,
+    "breakdown": {
+      "hospital_beds": 42.4,
+      "physicians": 33.6,
+      "nurses": 47.47,
+      "uhc_index": 69.0,
+      "dtp3_coverage": 94.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "MDG": {
+    "iso3": "MDG",
+    "score": 29.1,
+    "breakdown": {
+      "hospital_beds": 3.17,
+      "physicians": 1.03,
+      "nurses": 2.68,
+      "uhc_index": 33.0,
+      "dtp3_coverage": 60.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "TZA": {
+    "iso3": "TZA",
+    "score": 43.6,
+    "breakdown": {
+      "hospital_beds": 8.37,
+      "physicians": 1.75,
+      "nurses": 2.6,
+      "uhc_index": 49.0,
+      "dtp3_coverage": 83.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "GHA": {
+    "iso3": "GHA",
+    "score": 64.9,
+    "breakdown": {
+      "hospital_beds": 6.94,
+      "physicians": 2.89,
+      "nurses": 41.72,
+      "uhc_index": 56.0,
+      "dtp3_coverage": 95.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "TUN": {
+    "iso3": "TUN",
+    "score": 87.2,
+    "breakdown": {
+      "hospital_beds": 18.21,
+      "physicians": 12.38,
+      "nurses": 19.16,
+      "uhc_index": 76.0,
+      "dtp3_coverage": 97.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "KIR": {
+    "iso3": "KIR",
+    "score": 73.5,
+    "breakdown": {
+      "hospital_beds": 18.6,
+      "physicians": 4.68,
+      "nurses": 39.02,
+      "uhc_index": 51.0,
+      "dtp3_coverage": 94.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "SEN": {
+    "iso3": "SEN",
+    "score": 44.3,
+    "breakdown": {
+      "hospital_beds": 7.12,
+      "physicians": 1.24,
+      "nurses": 4.32,
+      "uhc_index": 48.0,
+      "dtp3_coverage": 91.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "BGD": {
+    "iso3": "BGD",
+    "score": 60.2,
+    "breakdown": {
+      "hospital_beds": 9.25,
+      "physicians": 7.22,
+      "nurses": 6.64,
+      "uhc_index": 54.0,
+      "dtp3_coverage": 97.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "CMR": {
+    "iso3": "CMR",
+    "score": 54.4,
+    "breakdown": {
+      "hospital_beds": 26.49,
+      "physicians": 0.88,
+      "nurses": 6.59,
+      "uhc_index": 48.0,
+      "dtp3_coverage": 77.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "GRC": {
+    "iso3": "GRC",
+    "score": 99.0,
+    "breakdown": {
+      "hospital_beds": 42.71,
+      "physicians": 67.12,
+      "nurses": 41.28,
+      "uhc_index": 77.0,
+      "dtp3_coverage": 95.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
   },
   "PRK": {
     "iso3": "PRK",
@@ -2148,497 +2113,371 @@
       "dtp3_coverage": 99.0
     },
     "indicatorsUsed": 5,
-    "computedAt": "2026-04-01"
+    "computedAt": "2026-07-01"
   },
-  "CMR": {
-    "iso3": "CMR",
-    "score": 62.4,
+  "COK": {
+    "iso3": "COK",
+    "score": 95.3,
     "breakdown": {
-      "hospital_beds": 26.49,
-      "physicians": 0.88,
-      "nurses": 6.59,
-      "uhc_index": 48.0,
-      "dtp3_coverage": 77.0,
-      "health_expenditure_pc": 79.1
+      "hospital_beds": 106.71,
+      "physicians": 19.71,
+      "nurses": 97.81,
+      "uhc_index": 75.0,
+      "dtp3_coverage": 75.0
     },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
   },
-  "TUR": {
-    "iso3": "TUR",
-    "score": 99.2,
+  "KEN": {
+    "iso3": "KEN",
+    "score": 59.2,
     "breakdown": {
-      "hospital_beds": 30.55,
-      "physicians": 23.4,
-      "nurses": 35.3,
-      "uhc_index": 77.0,
-      "dtp3_coverage": 99.0,
-      "health_expenditure_pc": 547.81
+      "hospital_beds": 13.3,
+      "physicians": 2.6,
+      "nurses": 12.12,
+      "uhc_index": 57.0,
+      "dtp3_coverage": 91.0
     },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
   },
-  "TZA": {
-    "iso3": "TZA",
-    "score": 43.3,
+  "DMA": {
+    "iso3": "DMA",
+    "score": 98.3,
     "breakdown": {
-      "hospital_beds": 8.37,
-      "physicians": 1.75,
-      "nurses": 2.6,
-      "uhc_index": 49.0,
-      "dtp3_coverage": 83.0,
-      "health_expenditure_pc": 36.26
+      "hospital_beds": 39.68,
+      "physicians": 11.58,
+      "nurses": 67.6,
+      "uhc_index": 75.0,
+      "dtp3_coverage": 90.0
     },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
   },
-  "BDI": {
-    "iso3": "BDI",
-    "score": 43.0,
-    "breakdown": {
-      "hospital_beds": 6.86,
-      "physicians": 0.83,
-      "nurses": 7.94,
-      "uhc_index": 48.0,
-      "dtp3_coverage": 89.0,
-      "health_expenditure_pc": 28.14
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "MDV": {
-    "iso3": "MDV",
+  "SMR": {
+    "iso3": "SMR",
     "score": 97.6,
     "breakdown": {
-      "hospital_beds": 45.57,
-      "physicians": 23.0,
-      "nurses": 59.63,
-      "uhc_index": 71.0,
-      "dtp3_coverage": 99.0,
-      "health_expenditure_pc": 1159.03
+      "hospital_beds": 33.48,
+      "physicians": 44.05,
+      "nurses": 97.02,
+      "uhc_index": 74.0,
+      "dtp3_coverage": 88.0
     },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "AZE": {
-    "iso3": "AZE",
-    "score": 90.3,
-    "breakdown": {
-      "hospital_beds": 36.83,
-      "physicians": 31.85,
-      "nurses": 55.78,
-      "uhc_index": 67.0,
-      "dtp3_coverage": 51.0,
-      "health_expenditure_pc": 299.81
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "ETH": {
-    "iso3": "ETH",
-    "score": 39.1,
-    "breakdown": {
-      "hospital_beds": 3.3,
-      "physicians": 1.56,
-      "nurses": 10.85,
-      "uhc_index": 33.0,
-      "dtp3_coverage": 73.0,
-      "health_expenditure_pc": 34.8
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "FSM": {
-    "iso3": "FSM",
-    "score": 91.8,
-    "breakdown": {
-      "hospital_beds": 32.23,
-      "physicians": 9.74,
-      "nurses": 22.21,
-      "uhc_index": 65.0,
-      "dtp3_coverage": 76.0,
-      "health_expenditure_pc": 507.78
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "PAN": {
-    "iso3": "PAN",
-    "score": 92.2,
-    "breakdown": {
-      "hospital_beds": 19.54,
-      "physicians": 16.25,
-      "nurses": 33.45,
-      "uhc_index": 82.0,
-      "dtp3_coverage": 72.0,
-      "health_expenditure_pc": 1557.81
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "MWI": {
-    "iso3": "MWI",
-    "score": 49.2,
-    "breakdown": {
-      "hospital_beds": 13.0,
-      "physicians": 0.84,
-      "nurses": 5.78,
-      "uhc_index": 52.0,
-      "dtp3_coverage": 91.0,
-      "health_expenditure_pc": 41.27
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "TCD": {
-    "iso3": "TCD",
-    "score": 33.5,
-    "breakdown": {
-      "hospital_beds": 1.54,
-      "physicians": 0.8,
-      "nurses": 3.62,
-      "uhc_index": 26.0,
-      "dtp3_coverage": 68.0,
-      "health_expenditure_pc": 47.44
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "UGA": {
-    "iso3": "UGA",
-    "score": 58.6,
-    "breakdown": {
-      "hospital_beds": 5.0,
-      "physicians": 2.06,
-      "nurses": 23.27,
-      "uhc_index": 54.0,
-      "dtp3_coverage": 91.0,
-      "health_expenditure_pc": 45.21
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "TUV": {
-    "iso3": "TUV",
-    "score": 96.0,
-    "breakdown": {
-      "hospital_beds": 41.63,
-      "physicians": 17.71,
-      "nurses": 41.67,
-      "uhc_index": 65.0,
-      "dtp3_coverage": 94.0,
-      "health_expenditure_pc": 1723.57
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "KIR": {
-    "iso3": "KIR",
-    "score": 79.2,
-    "breakdown": {
-      "hospital_beds": 18.6,
-      "physicians": 4.68,
-      "nurses": 39.02,
-      "uhc_index": 51.0,
-      "dtp3_coverage": 94.0,
-      "health_expenditure_pc": 238.13
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "LBR": {
-    "iso3": "LBR",
-    "score": 62.6,
-    "breakdown": {
-      "hospital_beds": 15.9,
-      "physicians": 1.78,
-      "nurses": 8.35,
-      "uhc_index": 49.0,
-      "dtp3_coverage": 83.0,
-      "health_expenditure_pc": 103.94
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "VUT": {
-    "iso3": "VUT",
-    "score": 65.6,
-    "breakdown": {
-      "hospital_beds": 17.32,
-      "physicians": 1.64,
-      "nurses": 14.59,
-      "uhc_index": 52.0,
-      "dtp3_coverage": 71.0,
-      "health_expenditure_pc": 143.44
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "TLS": {
-    "iso3": "TLS",
-    "score": 68.9,
-    "breakdown": {
-      "hospital_beds": 3.83,
-      "physicians": 7.68,
-      "nurses": 15.17,
-      "uhc_index": 48.0,
-      "dtp3_coverage": 83.0,
-      "health_expenditure_pc": 144.21
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "COG": {
-    "iso3": "COG",
-    "score": 65.6,
-    "breakdown": {
-      "hospital_beds": 16.0,
-      "physicians": 4.98,
-      "nurses": 13.35,
-      "uhc_index": 45.0,
-      "dtp3_coverage": 78.0,
-      "health_expenditure_pc": 75.55
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "ZWE": {
-    "iso3": "ZWE",
-    "score": 66.1,
-    "breakdown": {
-      "hospital_beds": 19.47,
-      "physicians": 1.86,
-      "nurses": 14.65,
-      "uhc_index": 59.0,
-      "dtp3_coverage": 91.0,
-      "health_expenditure_pc": 62.93
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "GNQ": {
-    "iso3": "GNQ",
-    "score": 65.4,
-    "breakdown": {
-      "hospital_beds": 21.0,
-      "physicians": 1.53,
-      "nurses": 13.75,
-      "uhc_index": 49.0,
-      "dtp3_coverage": 68.0,
-      "health_expenditure_pc": 233.68
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
   },
   "CIV": {
     "iso3": "CIV",
-    "score": 57.2,
+    "score": 45.5,
     "breakdown": {
       "hospital_beds": 4.0,
       "physicians": 2.55,
       "nurses": 9.93,
       "uhc_index": 46.0,
-      "dtp3_coverage": 77.0,
-      "health_expenditure_pc": 87.68
+      "dtp3_coverage": 77.0
     },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "ZMB": {
-    "iso3": "ZMB",
-    "score": 72.1,
-    "breakdown": {
-      "hospital_beds": 20.0,
-      "physicians": 1.63,
-      "nurses": 16.72,
-      "uhc_index": 62.0,
-      "dtp3_coverage": 91.0,
-      "health_expenditure_pc": 79.56
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "CAF": {
-    "iso3": "CAF",
-    "score": 39.2,
-    "breakdown": {
-      "hospital_beds": 10.0,
-      "physicians": 1.0,
-      "nurses": 4.37,
-      "uhc_index": 39.0,
-      "dtp3_coverage": 42.0,
-      "health_expenditure_pc": 53.81
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "LSO": {
-    "iso3": "LSO",
-    "score": 72.9,
-    "breakdown": {
-      "hospital_beds": 13.0,
-      "physicians": 1.84,
-      "nurses": 33.99,
-      "uhc_index": 55.0,
-      "dtp3_coverage": 86.0,
-      "health_expenditure_pc": 122.64
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "PNG": {
-    "iso3": "PNG",
-    "score": 44.7,
-    "breakdown": {
-      "hospital_beds": 6.19,
-      "physicians": 0.46,
-      "nurses": 8.12,
-      "uhc_index": 32.0,
-      "dtp3_coverage": 42.0,
-      "health_expenditure_pc": 85.15
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
   },
   "NGA": {
     "iso3": "NGA",
-    "score": 54.8,
+    "score": 48.5,
     "breakdown": {
       "hospital_beds": 5.0,
       "physicians": 4.14,
       "nurses": 11.52,
       "uhc_index": 47.0,
-      "dtp3_coverage": 67.0,
-      "health_expenditure_pc": 66.82
+      "dtp3_coverage": 67.0
     },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
   },
-  "SWZ": {
-    "iso3": "SWZ",
-    "score": 85.9,
+  "ZMB": {
+    "iso3": "ZMB",
+    "score": 66.6,
     "breakdown": {
-      "hospital_beds": 20.19,
-      "physicians": 5.57,
-      "nurses": 42.6,
-      "uhc_index": 72.0,
-      "dtp3_coverage": 84.0,
-      "health_expenditure_pc": 296.05
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "COM": {
-    "iso3": "COM",
-    "score": 73.0,
-    "breakdown": {
-      "hospital_beds": 21.6,
-      "physicians": 4.24,
-      "nurses": 16.44,
-      "uhc_index": 52.0,
-      "dtp3_coverage": 75.0,
-      "health_expenditure_pc": 102.23
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "COD": {
-    "iso3": "COD",
-    "score": 40.6,
-    "breakdown": {
-      "hospital_beds": 8.0,
-      "physicians": 2.08,
-      "nurses": 11.68,
-      "uhc_index": 41.0,
-      "dtp3_coverage": 65.0,
-      "health_expenditure_pc": 23.43
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "GAB": {
-    "iso3": "GAB",
-    "score": 74.2,
-    "breakdown": {
-      "hospital_beds": 19.48,
-      "physicians": 5.21,
-      "nurses": 23.7,
-      "uhc_index": 48.0,
-      "dtp3_coverage": 61.0,
-      "health_expenditure_pc": 252.98
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "PLW": {
-    "iso3": "PLW",
-    "score": 98.7,
-    "breakdown": {
-      "hospital_beds": 43.43,
-      "physicians": 18.08,
-      "nurses": 66.1,
-      "uhc_index": 75.0,
-      "dtp3_coverage": 97.0,
-      "health_expenditure_pc": 1683.85
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "WSM": {
-    "iso3": "WSM",
-    "score": 78.3,
-    "breakdown": {
-      "hospital_beds": 9.47,
-      "physicians": 5.61,
-      "nurses": 30.58,
+      "hospital_beds": 20.0,
+      "physicians": 1.63,
+      "nurses": 16.72,
       "uhc_index": 62.0,
-      "dtp3_coverage": 85.0,
-      "health_expenditure_pc": 292.81
+      "dtp3_coverage": 91.0
     },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "TUV": {
+    "iso3": "TUV",
+    "score": 94.9,
+    "breakdown": {
+      "hospital_beds": 41.63,
+      "physicians": 17.71,
+      "nurses": 41.67,
+      "uhc_index": 65.0,
+      "dtp3_coverage": 94.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "BDI": {
+    "iso3": "BDI",
+    "score": 45.8,
+    "breakdown": {
+      "hospital_beds": 6.86,
+      "physicians": 0.83,
+      "nurses": 7.94,
+      "uhc_index": 48.0,
+      "dtp3_coverage": 89.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "UGA": {
+    "iso3": "UGA",
+    "score": 60.3,
+    "breakdown": {
+      "hospital_beds": 5.0,
+      "physicians": 2.06,
+      "nurses": 23.27,
+      "uhc_index": 54.0,
+      "dtp3_coverage": 91.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "NRU": {
+    "iso3": "NRU",
+    "score": 93.9,
+    "breakdown": {
+      "hospital_beds": 49.67,
+      "physicians": 12.73,
+      "nurses": 73.04,
+      "uhc_index": 62.0,
+      "dtp3_coverage": 99.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "LSO": {
+    "iso3": "LSO",
+    "score": 65.5,
+    "breakdown": {
+      "hospital_beds": 13.0,
+      "physicians": 1.84,
+      "nurses": 33.99,
+      "uhc_index": 55.0,
+      "dtp3_coverage": 86.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "GNB": {
+    "iso3": "GNB",
+    "score": 45.7,
+    "breakdown": {
+      "hospital_beds": 10.0,
+      "physicians": 2.49,
+      "nurses": 9.26,
+      "uhc_index": 43.0,
+      "dtp3_coverage": 68.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
   },
   "GIN": {
     "iso3": "GIN",
-    "score": 40.5,
+    "score": 32.7,
     "breakdown": {
       "hospital_beds": 3.0,
       "physicians": 1.15,
       "nurses": 1.99,
       "uhc_index": 43.0,
-      "dtp3_coverage": 63.0,
-      "health_expenditure_pc": 59.33
+      "dtp3_coverage": 63.0
     },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "GNQ": {
+    "iso3": "GNQ",
+    "score": 56.0,
+    "breakdown": {
+      "hospital_beds": 21.0,
+      "physicians": 1.53,
+      "nurses": 13.75,
+      "uhc_index": 49.0,
+      "dtp3_coverage": 68.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "BFA": {
+    "iso3": "BFA",
+    "score": 43.3,
+    "breakdown": {
+      "hospital_beds": 1.98,
+      "physicians": 1.07,
+      "nurses": 8.24,
+      "uhc_index": 47.0,
+      "dtp3_coverage": 91.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "MWI": {
+    "iso3": "MWI",
+    "score": 49.5,
+    "breakdown": {
+      "hospital_beds": 13.0,
+      "physicians": 0.84,
+      "nurses": 5.78,
+      "uhc_index": 52.0,
+      "dtp3_coverage": 91.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "TON": {
+    "iso3": "TON",
+    "score": 93.8,
+    "breakdown": {
+      "hospital_beds": 24.76,
+      "physicians": 10.14,
+      "nurses": 41.99,
+      "uhc_index": 71.0,
+      "dtp3_coverage": 99.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "SLE": {
+    "iso3": "SLE",
+    "score": 47.9,
+    "breakdown": {
+      "hospital_beds": 4.0,
+      "physicians": 1.34,
+      "nurses": 11.63,
+      "uhc_index": 48.0,
+      "dtp3_coverage": 91.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "AGO": {
+    "iso3": "AGO",
+    "score": 46.3,
+    "breakdown": {
+      "hospital_beds": 7.53,
+      "physicians": 2.02,
+      "nurses": 13.9,
+      "uhc_index": 44.0,
+      "dtp3_coverage": 64.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "SWZ": {
+    "iso3": "SWZ",
+    "score": 82.1,
+    "breakdown": {
+      "hospital_beds": 20.19,
+      "physicians": 5.57,
+      "nurses": 42.6,
+      "uhc_index": 72.0,
+      "dtp3_coverage": 84.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "COD": {
+    "iso3": "COD",
+    "score": 44.2,
+    "breakdown": {
+      "hospital_beds": 8.0,
+      "physicians": 2.08,
+      "nurses": 11.68,
+      "uhc_index": 41.0,
+      "dtp3_coverage": 65.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "GAB": {
+    "iso3": "GAB",
+    "score": 67.2,
+    "breakdown": {
+      "hospital_beds": 19.48,
+      "physicians": 5.21,
+      "nurses": 23.7,
+      "uhc_index": 48.0,
+      "dtp3_coverage": 61.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "PLW": {
+    "iso3": "PLW",
+    "score": 98.3,
+    "breakdown": {
+      "hospital_beds": 43.43,
+      "physicians": 18.08,
+      "nurses": 66.1,
+      "uhc_index": 75.0,
+      "dtp3_coverage": 97.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "WSM": {
+    "iso3": "WSM",
+    "score": 72.4,
+    "breakdown": {
+      "hospital_beds": 9.47,
+      "physicians": 5.61,
+      "nurses": 30.58,
+      "uhc_index": 62.0,
+      "dtp3_coverage": 85.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
+  },
+  "FSM": {
+    "iso3": "FSM",
+    "score": 89.6,
+    "breakdown": {
+      "hospital_beds": 32.23,
+      "physicians": 9.74,
+      "nurses": 22.21,
+      "uhc_index": 65.0,
+      "dtp3_coverage": 76.0
+    },
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
   },
   "MRT": {
     "iso3": "MRT",
-    "score": 60.6,
+    "score": 49.9,
     "breakdown": {
       "hospital_beds": 4.0,
       "physicians": 2.61,
       "nurses": 16.09,
       "uhc_index": 40.0,
-      "dtp3_coverage": 86.0,
-      "health_expenditure_pc": 92.11
+      "dtp3_coverage": 86.0
     },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
   },
   "MHL": {
     "iso3": "MHL",
-    "score": 94.5,
+    "score": 93.0,
     "breakdown": {
       "hospital_beds": 28.04,
       "physicians": 11.35,
       "nurses": 48.07,
       "uhc_index": 66.0,
-      "dtp3_coverage": 85.0,
-      "health_expenditure_pc": 894.22
+      "dtp3_coverage": 85.0
     },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
   },
   "NIU": {
     "iso3": "NIU",
@@ -2651,62 +2490,44 @@
       "dtp3_coverage": 99.0
     },
     "indicatorsUsed": 5,
-    "computedAt": "2026-04-01"
+    "computedAt": "2026-07-01"
   },
-  "AGO": {
-    "iso3": "AGO",
-    "score": 55.3,
+  "COG": {
+    "iso3": "COG",
+    "score": 59.6,
     "breakdown": {
-      "hospital_beds": 7.53,
-      "physicians": 2.02,
-      "nurses": 13.9,
-      "uhc_index": 44.0,
-      "dtp3_coverage": 64.0,
-      "health_expenditure_pc": 76.07
+      "hospital_beds": 16.0,
+      "physicians": 4.98,
+      "nurses": 13.35,
+      "uhc_index": 45.0,
+      "dtp3_coverage": 78.0
     },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "NAM": {
-    "iso3": "NAM",
-    "score": 86.0,
-    "breakdown": {
-      "hospital_beds": 27.0,
-      "physicians": 5.58,
-      "nurses": 37.99,
-      "uhc_index": 66.0,
-      "dtp3_coverage": 74.0,
-      "health_expenditure_pc": 397.09
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
-  },
-  "GNB": {
-    "iso3": "GNB",
-    "score": 56.4,
-    "breakdown": {
-      "hospital_beds": 10.0,
-      "physicians": 2.49,
-      "nurses": 9.26,
-      "uhc_index": 43.0,
-      "dtp3_coverage": 68.0,
-      "health_expenditure_pc": 82.14
-    },
-    "indicatorsUsed": 6,
-    "computedAt": "2026-04-01"
+    "indicatorsUsed": 5,
+    "computedAt": "2026-07-01"
   },
   "SLB": {
     "iso3": "SLB",
-    "score": 74.8,
+    "score": 66.4,
     "breakdown": {
       "physicians": 2.87,
       "nurses": 21.3,
       "uhc_index": 47.0,
-      "dtp3_coverage": 87.0,
-      "health_expenditure_pc": 111.36
+      "dtp3_coverage": 87.0
     },
-    "indicatorsUsed": 5,
-    "computedAt": "2026-04-01"
+    "indicatorsUsed": 4,
+    "computedAt": "2026-07-01"
+  },
+  "SSD": {
+    "iso3": "SSD",
+    "score": 44.7,
+    "breakdown": {
+      "physicians": 1.49,
+      "nurses": 7.06,
+      "uhc_index": 41.0,
+      "dtp3_coverage": 73.0
+    },
+    "indicatorsUsed": 4,
+    "computedAt": "2026-07-01"
   },
   "AMR": {
     "iso3": "AMR",
@@ -2718,7 +2539,7 @@
       "dtp3_coverage": 86.0
     },
     "indicatorsUsed": 4,
-    "computedAt": "2026-04-01"
+    "computedAt": "2026-07-01"
   },
   "EMR": {
     "iso3": "EMR",
@@ -2730,7 +2551,7 @@
       "dtp3_coverage": 79.0
     },
     "indicatorsUsed": 4,
-    "computedAt": "2026-04-01"
+    "computedAt": "2026-07-01"
   },
   "AFR": {
     "iso3": "AFR",
@@ -2742,7 +2563,7 @@
       "dtp3_coverage": 76.0
     },
     "indicatorsUsed": 4,
-    "computedAt": "2026-04-01"
+    "computedAt": "2026-07-01"
   },
   "WPR": {
     "iso3": "WPR",
@@ -2754,7 +2575,7 @@
       "dtp3_coverage": 92.0
     },
     "indicatorsUsed": 4,
-    "computedAt": "2026-04-01"
+    "computedAt": "2026-07-01"
   },
   "EUR": {
     "iso3": "EUR",
@@ -2766,19 +2587,6 @@
       "dtp3_coverage": 93.0
     },
     "indicatorsUsed": 4,
-    "computedAt": "2026-04-01"
-  },
-  "SSD": {
-    "iso3": "SSD",
-    "score": 54.7,
-    "breakdown": {
-      "physicians": 1.49,
-      "nurses": 7.06,
-      "uhc_index": 41.0,
-      "dtp3_coverage": 73.0,
-      "health_expenditure_pc": 72.76
-    },
-    "indicatorsUsed": 5,
-    "computedAt": "2026-04-01"
+    "computedAt": "2026-07-01"
   }
 }
