@@ -7446,7 +7446,7 @@
     "country": "Qatar",
     "countryIso3": "QAT",
     "date": "2017-06-06",
-    "cases": null,
+    "cases": 25,
     "deaths": null,
     "summary": "Middle East respiratory syndrome coronavirus \u2013 Saudi Arabia, United Arab Emirates, and Qatar",
     "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/06-june-2017-mers-en",
