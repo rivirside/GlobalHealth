@@ -532,17 +532,17 @@
     "vulnerability": 55.8,
     "readinessScore": 44.2,
     "factors": {
-      "outbreakCount": 143,
+      "outbreakCount": 144,
       "activeCount": 2,
       "categoryBreakdown": {
-        "hemorrhagic": 129,
+        "hemorrhagic": 130,
         "other": 2,
         "vector-borne": 4,
         "zoonotic": 4,
         "diarrheal": 3,
         "vaccine-preventable": 1
       },
-      "recentCount": 5
+      "recentCount": 6
     },
     "computedAt": "2026-09-10"
   },

@@ -1,5 +1,21 @@
 [
   {
+    "id": "ba663fc321c6",
+    "disease": "Ebola disease caused by Bundibugyo virus",
+    "diseaseCategory": "hemorrhagic",
+    "country": "Democratic Republic of the Congo",
+    "countryIso3": "COD",
+    "date": "2026-09-10",
+    "cases": 6757,
+    "deaths": 3267,
+    "summary": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo",
+    "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON617",
+    "source": "WHO DON",
+    "lat": -4.0,
+    "lon": 21.8,
+    "status": "active"
+  },
+  {
     "id": "169bc299cc57",
     "disease": "Ebola disease caused by Bundibugyo virus",
     "diseaseCategory": "hemorrhagic",
@@ -13,7 +29,7 @@
     "source": "WHO DON",
     "lat": -4.0,
     "lon": 21.8,
-    "status": "active"
+    "status": "resolved"
   },
   {
     "id": "697c51ed7ef9",
