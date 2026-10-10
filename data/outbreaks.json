@@ -1,5 +1,21 @@
 [
   {
+    "id": "ec0953e7aa86",
+    "disease": "Pneumonia of undetermined etiology",
+    "diseaseCategory": "respiratory",
+    "country": "the Russian Federation",
+    "countryIso3": "RUS",
+    "date": "2026-10-10",
+    "cases": null,
+    "deaths": null,
+    "summary": "Pneumonia of undetermined etiology - the Russian Federation",
+    "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON620",
+    "source": "WHO DON",
+    "lat": 61.5,
+    "lon": 105.3,
+    "status": "active"
+  },
+  {
     "id": "2a910ef465a9",
     "disease": "Ebola disease caused by Bundibugyo virus",
     "diseaseCategory": "hemorrhagic",

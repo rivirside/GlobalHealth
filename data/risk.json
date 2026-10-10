@@ -2137,18 +2137,19 @@
   },
   "RUS": {
     "iso3": "RUS",
-    "score": 0.6,
+    "score": 9.6,
     "level": "minimal",
-    "outbreakPressure": 1.0,
+    "outbreakPressure": 16.0,
     "vulnerability": 0.0,
     "readinessScore": 100.0,
     "factors": {
-      "outbreakCount": 1,
-      "activeCount": 0,
+      "outbreakCount": 2,
+      "activeCount": 1,
       "categoryBreakdown": {
+        "respiratory": 1,
         "zoonotic": 1
       },
-      "recentCount": 0
+      "recentCount": 1
     },
     "computedAt": "2026-10-10"
   },
