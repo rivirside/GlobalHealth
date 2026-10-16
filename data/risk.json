@@ -2172,19 +2172,19 @@
   },
   "SAU": {
     "iso3": "SAU",
-    "score": 55.6,
+    "score": 61.1,
     "level": "high",
-    "outbreakPressure": 90.8,
+    "outbreakPressure": 100.0,
     "vulnerability": 2.8,
     "readinessScore": 97.2,
     "factors": {
-      "outbreakCount": 55,
-      "activeCount": 0,
+      "outbreakCount": 56,
+      "activeCount": 1,
       "categoryBreakdown": {
-        "respiratory": 54,
+        "respiratory": 55,
         "vaccine-preventable": 1
       },
-      "recentCount": 0
+      "recentCount": 1
     },
     "computedAt": "2026-10-16"
   },

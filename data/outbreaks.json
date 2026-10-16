@@ -1,5 +1,21 @@
 [
   {
+    "id": "e5b128c43c2e",
+    "disease": "Middle East respiratory syndrome coronavirus",
+    "diseaseCategory": "respiratory",
+    "country": "Kingdom of Saudi Arabia",
+    "countryIso3": "SAU",
+    "date": "2026-10-15",
+    "cases": null,
+    "deaths": null,
+    "summary": "Middle East respiratory syndrome coronavirus - Kingdom of Saudi Arabia",
+    "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/middle-east-respiratory-syndrome-coronavirus---kingdom-of-saudi-arabia",
+    "source": "WHO DON",
+    "lat": 23.9,
+    "lon": 45.1,
+    "status": "active"
+  },
+  {
     "id": "ec0953e7aa86",
     "disease": "Pneumonia of undetermined etiology",
     "diseaseCategory": "respiratory",
