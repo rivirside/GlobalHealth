@@ -7910,7 +7910,7 @@
     "country": "China",
     "countryIso3": "CHN",
     "date": "2017-03-23",
-    "cases": 17,
+    "cases": null,
     "deaths": null,
     "summary": "Influenza A H7N9 virus \u2013 China",
     "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/23-march-2017-ah7n9-china-en",
