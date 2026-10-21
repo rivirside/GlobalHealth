@@ -6887,7 +6887,7 @@
     "countryIso3": "KEN",
     "date": "2017-12-11",
     "cases": null,
-    "deaths": null,
+    "deaths": 76,
     "summary": "Cholera \u2013 Kenya",
     "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/11-december-2017-cholera-kenya-en",
     "source": "WHO DON",
