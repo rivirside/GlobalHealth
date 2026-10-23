@@ -1800,23 +1800,23 @@
   },
   "NGA": {
     "iso3": "NGA",
-    "score": 41.7,
-    "level": "moderate",
-    "outbreakPressure": 38.8,
+    "score": 56.7,
+    "level": "high",
+    "outbreakPressure": 63.8,
     "vulnerability": 46.0,
     "readinessScore": 54.0,
     "factors": {
-      "outbreakCount": 25,
-      "activeCount": 0,
+      "outbreakCount": 26,
+      "activeCount": 1,
       "categoryBreakdown": {
+        "hemorrhagic": 11,
         "vaccine-preventable": 4,
-        "hemorrhagic": 10,
         "vector-borne": 7,
         "zoonotic": 2,
         "diarrheal": 1,
         "other": 1
       },
-      "recentCount": 0
+      "recentCount": 1
     },
     "computedAt": "2026-10-23"
   },

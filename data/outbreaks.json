@@ -1,5 +1,21 @@
 [
   {
+    "id": "04ac03ed3a8f",
+    "disease": "Ebola disease caused by Bundibugyo virus",
+    "diseaseCategory": "hemorrhagic",
+    "country": "Nigeria",
+    "countryIso3": "NGA",
+    "date": "2026-10-23",
+    "cases": 9704,
+    "deaths": 4687,
+    "summary": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo, Kenya and Nigeria",
+    "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622",
+    "source": "WHO DON",
+    "lat": 9.1,
+    "lon": 8.7,
+    "status": "active"
+  },
+  {
     "id": "e5b128c43c2e",
     "disease": "Middle East respiratory syndrome coronavirus",
     "diseaseCategory": "respiratory",
