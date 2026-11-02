@@ -870,20 +870,20 @@
   },
   "FRA": {
     "iso3": "FRA",
-    "score": 3.9,
+    "score": 6.9,
     "level": "minimal",
-    "outbreakPressure": 6.5,
+    "outbreakPressure": 11.5,
     "vulnerability": 0.0,
     "readinessScore": 100.0,
     "factors": {
-      "outbreakCount": 9,
-      "activeCount": 0,
+      "outbreakCount": 10,
+      "activeCount": 1,
       "categoryBreakdown": {
-        "other": 2,
+        "other": 3,
         "vector-borne": 6,
         "diarrheal": 1
       },
-      "recentCount": 0
+      "recentCount": 1
     },
     "computedAt": "2026-11-02"
   },

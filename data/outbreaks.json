@@ -1,5 +1,21 @@
 [
   {
+    "id": "5dda1bf94f99",
+    "disease": "Shamonda virus in human",
+    "diseaseCategory": "other",
+    "country": "France",
+    "countryIso3": "FRA",
+    "date": "2026-11-02",
+    "cases": null,
+    "deaths": null,
+    "summary": "Shamonda virus in human - France",
+    "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON623",
+    "source": "WHO DON",
+    "lat": 46.2,
+    "lon": 2.2,
+    "status": "active"
+  },
+  {
     "id": "04ac03ed3a8f",
     "disease": "Ebola disease caused by Bundibugyo virus",
     "diseaseCategory": "hemorrhagic",
