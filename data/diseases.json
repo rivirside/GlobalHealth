@@ -5,10 +5,10 @@
     "category": "hemorrhagic",
     "outbreakCount": 142,
     "affectedCountries": [
-      "NGA",
+      "COD",
       "UGA",
-      "GIN",
-      "COD"
+      "NGA",
+      "GIN"
     ],
     "countryCount": 4,
     "totalCases": 71150,
@@ -27,12 +27,12 @@
     "outbreakCount": 81,
     "affectedCountries": [
       "BHR",
-      "OMN",
+      "ARE",
       "LBN",
-      "SAU",
       "AUT",
       "THA",
-      "ARE",
+      "SAU",
+      "OMN",
       "QAT"
     ],
     "countryCount": 8,
@@ -51,24 +51,24 @@
     "category": "vector-borne",
     "outbreakCount": 45,
     "affectedCountries": [
-      "NGA",
-      "BRA",
-      "SUR",
+      "KEN",
       "TGO",
-      "AGO",
-      "GHA",
-      "GIN",
-      "VEN",
-      "MLI",
-      "GAB",
-      "CHN",
-      "FRA",
-      "ETH",
       "COD",
       "SEN",
+      "BRA",
+      "FRA",
+      "SUR",
+      "CHN",
+      "MLI",
+      "ETH",
+      "GAB",
+      "NGA",
       "UGA",
+      "GHA",
       "NLD",
-      "KEN"
+      "AGO",
+      "GIN",
+      "VEN"
     ],
     "countryCount": 18,
     "totalCases": 12810,
@@ -104,25 +104,25 @@
     "category": "diarrheal",
     "outbreakCount": 30,
     "affectedCountries": [
-      "LBN",
-      "HTI",
-      "MWI",
-      "TZA",
-      "COG",
-      "ZWE",
-      "NGA",
-      "PAK",
-      "NER",
-      "SOM",
-      "ZMB",
-      "MOZ",
-      "CMR",
-      "COD",
-      "BEN",
       "TGO",
-      "DZA",
+      "PAK",
+      "ZWE",
+      "MOZ",
+      "BEN",
+      "HTI",
+      "SOM",
+      "COG",
+      "ZMB",
+      "NER",
+      "TZA",
+      "MWI",
       "AGO",
-      "KEN"
+      "KEN",
+      "COD",
+      "LBN",
+      "CMR",
+      "NGA",
+      "DZA"
     ],
     "countryCount": 19,
     "totalCases": 191503,
@@ -140,14 +140,14 @@
     "category": "hemorrhagic",
     "outbreakCount": 29,
     "affectedCountries": [
-      "GNQ",
-      "GHA",
-      "GIN",
-      "ETH",
-      "TZA",
-      "UGA",
+      "KEN",
       "RWA",
-      "KEN"
+      "TZA",
+      "ETH",
+      "UGA",
+      "GHA",
+      "GNQ",
+      "GIN"
     ],
     "countryCount": 8,
     "totalCases": 464,
@@ -165,21 +165,21 @@
     "category": "zoonotic",
     "outbreakCount": 28,
     "affectedCountries": [
-      "ITA",
+      "IND",
+      "KHM",
       "POL",
-      "ECU",
-      "MEX",
+      "AUS",
+      "CHN",
+      "RUS",
+      "USA",
+      "ESP",
       "CHL",
+      "MEX",
+      "VNM",
       "GBR",
       "LAO",
-      "ESP",
-      "USA",
-      "VNM",
-      "CHN",
-      "KHM",
-      "IND",
-      "RUS",
-      "AUS"
+      "ITA",
+      "ECU"
     ],
     "countryCount": 15,
     "totalCases": 1937,
@@ -197,26 +197,26 @@
     "category": "vector-borne",
     "outbreakCount": 28,
     "affectedCountries": [
-      "TTO",
-      "CHL",
-      "HTI",
-      "PER",
-      "USA",
-      "VNM",
-      "ECU",
-      "PNG",
-      "PAN",
-      "FRA",
-      "CPV",
-      "CUB",
-      "PRY",
-      "BOL",
-      "ARG",
-      "DOM",
+      "IND",
       "MDV",
-      "HND",
+      "PER",
+      "PRY",
+      "VNM",
+      "PNG",
+      "ECU",
+      "FRA",
+      "CUB",
+      "HTI",
+      "CHL",
+      "PAN",
       "VEN",
-      "IND"
+      "HND",
+      "DOM",
+      "ARG",
+      "USA",
+      "TTO",
+      "BOL",
+      "CPV"
     ],
     "countryCount": 20,
     "totalCases": 196,
@@ -234,16 +234,16 @@
     "category": "hemorrhagic",
     "outbreakCount": 23,
     "affectedCountries": [
-      "NGA",
       "BEN",
       "TGO",
-      "GIN",
+      "LBR",
+      "NGA",
+      "BFA",
       "DEU",
       "GBR",
+      "NLD",
       "SWE",
-      "LBR",
-      "BFA",
-      "NLD"
+      "GIN"
     ],
     "countryCount": 10,
     "totalCases": 5186,
@@ -262,25 +262,25 @@
     "outbreakCount": 20,
     "affectedCountries": [
       "IDN",
-      "LBN",
+      "PRY",
+      "BRA",
+      "BDI",
+      "MDG",
       "CHL",
+      "JPN",
+      "AFG",
+      "MEX",
+      "SOM",
+      "BGD",
+      "CAF",
+      "NPL",
+      "ZAF",
+      "SSD",
+      "ETH",
+      "LBN",
       "USA",
       "TUN",
-      "MEX",
-      "SSD",
-      "AFG",
-      "MDG",
-      "MAR",
-      "BGD",
-      "BRA",
-      "PRY",
-      "ETH",
-      "JPN",
-      "SOM",
-      "ZAF",
-      "CAF",
-      "BDI",
-      "NPL"
+      "MAR"
     ],
     "countryCount": 20,
     "totalCases": 16629,
@@ -298,19 +298,19 @@
     "category": "vector-borne",
     "outbreakCount": 19,
     "affectedCountries": [
-      "TCD",
-      "BGD",
-      "URY",
-      "TLS",
-      "AFG",
-      "CHL",
+      "NPL",
+      "LKA",
       "IRN",
       "PAK",
-      "NPL",
+      "TLS",
+      "JAM",
       "ESP",
+      "CHL",
       "BFA",
-      "LKA",
-      "JAM"
+      "AFG",
+      "URY",
+      "BGD",
+      "TCD"
     ],
     "countryCount": 13,
     "totalCases": 222160,
@@ -328,15 +328,15 @@
     "category": "zoonotic",
     "outbreakCount": 15,
     "affectedCountries": [
-      "NGA",
-      "CAF",
-      "GBR",
-      "SWE",
       "ZAF",
-      "USA",
-      "CMR",
+      "COD",
       "SGP",
-      "COD"
+      "CMR",
+      "USA",
+      "NGA",
+      "GBR",
+      "CAF",
+      "SWE"
     ],
     "countryCount": 9,
     "totalCases": 4757,
@@ -354,16 +354,16 @@
     "category": "vector-borne",
     "outbreakCount": 12,
     "affectedCountries": [
-      "TCD",
-      "ITA",
-      "MYT",
-      "SDN",
-      "REU",
+      "KEN",
       "FRA",
-      "USA",
-      "COG",
       "ARG",
-      "KEN"
+      "REU",
+      "USA",
+      "MYT",
+      "TCD",
+      "SDN",
+      "ITA",
+      "COG"
     ],
     "countryCount": 10,
     "totalCases": 138001,
@@ -381,8 +381,8 @@
     "category": "zoonotic",
     "outbreakCount": 11,
     "affectedCountries": [
-      "BGD",
-      "IND"
+      "IND",
+      "BGD"
     ],
     "countryCount": 2,
     "totalCases": 15,
@@ -400,13 +400,13 @@
     "category": "vector-borne",
     "outbreakCount": 11,
     "affectedCountries": [
-      "GMB",
-      "MYT",
-      "MRT",
+      "KEN",
       "SEN",
-      "NER",
       "CHN",
-      "KEN"
+      "NER",
+      "MRT",
+      "GMB",
+      "MYT"
     ],
     "countryCount": 7,
     "totalCases": 47,
@@ -424,13 +424,13 @@
     "category": "vaccine-preventable",
     "outbreakCount": 9,
     "affectedCountries": [
-      "NGA",
       "TGO",
-      "MEX",
-      "SAU",
+      "COD",
       "LBR",
+      "SAU",
       "USA",
-      "COD"
+      "NGA",
+      "MEX"
     ],
     "countryCount": 7,
     "totalCases": 4149,
@@ -466,8 +466,8 @@
     "category": "zoonotic",
     "outbreakCount": 8,
     "affectedCountries": [
-      "MDG",
-      "COD"
+      "COD",
+      "MDG"
     ],
     "countryCount": 2,
     "totalCases": 1981,
@@ -485,9 +485,9 @@
     "category": "other",
     "outbreakCount": 6,
     "affectedCountries": [
+      "NER",
       "TCD",
       "NAM",
-      "NER",
       "NGA"
     ],
     "countryCount": 4,
@@ -506,12 +506,12 @@
     "category": "vaccine-preventable",
     "outbreakCount": 6,
     "affectedCountries": [
-      "PNG",
-      "MWI",
       "PAK",
       "USA",
       "PHL",
-      "MOZ"
+      "MWI",
+      "MOZ",
+      "PNG"
     ],
     "countryCount": 6,
     "totalCases": 1,
@@ -529,10 +529,10 @@
     "category": "vaccine-preventable",
     "outbreakCount": 5,
     "affectedCountries": [
-      "GIN",
       "BGD",
-      "YEM",
-      "NGA"
+      "GIN",
+      "NGA",
+      "YEM"
     ],
     "countryCount": 4,
     "totalCases": 6725,
@@ -551,8 +551,8 @@
     "outbreakCount": 4,
     "affectedCountries": [
       "AUS",
-      "ESP",
-      "ZAF"
+      "ZAF",
+      "ESP"
     ],
     "countryCount": 3,
     "totalCases": 222,
@@ -571,8 +571,8 @@
     "outbreakCount": 4,
     "affectedCountries": [
       "BRA",
-      "PAN",
-      "USA"
+      "USA",
+      "PAN"
     ],
     "countryCount": 3,
     "totalCases": 4935,
@@ -647,8 +647,8 @@
     "outbreakCount": 3,
     "affectedCountries": [
       "PAK",
-      "ETH",
-      "COD"
+      "COD",
+      "ETH"
     ],
     "countryCount": 3,
     "totalCases": 42259,
@@ -685,8 +685,8 @@
     "category": "zoonotic",
     "outbreakCount": 2,
     "affectedCountries": [
-      "THA",
-      "ZMB"
+      "ZMB",
+      "THA"
     ],
     "countryCount": 2,
     "totalCases": null,
@@ -704,8 +704,8 @@
     "category": "hemorrhagic",
     "outbreakCount": 2,
     "affectedCountries": [
-      "PAN",
-      "ARG"
+      "ARG",
+      "PAN"
     ],
     "countryCount": 2,
     "totalCases": 203,
@@ -723,8 +723,8 @@
     "category": "respiratory",
     "outbreakCount": 2,
     "affectedCountries": [
-      "BRA",
-      "NLD"
+      "NLD",
+      "BRA"
     ],
     "countryCount": 2,
     "totalCases": null,
@@ -761,8 +761,8 @@
     "category": "other",
     "outbreakCount": 2,
     "affectedCountries": [
-      "POL",
-      "ARG"
+      "ARG",
+      "POL"
     ],
     "countryCount": 2,
     "totalCases": 177,
@@ -799,8 +799,8 @@
     "category": "diarrheal",
     "outbreakCount": 2,
     "affectedCountries": [
-      "FRA",
-      "USA"
+      "USA",
+      "FRA"
     ],
     "countryCount": 2,
     "totalCases": 159,
@@ -818,8 +818,8 @@
     "category": "other",
     "outbreakCount": 2,
     "affectedCountries": [
-      "CAN",
-      "USA"
+      "USA",
+      "CAN"
     ],
     "countryCount": 2,
     "totalCases": 16,
@@ -837,8 +837,8 @@
     "category": "other",
     "outbreakCount": 2,
     "affectedCountries": [
-      "LBR",
-      "COD"
+      "COD",
+      "LBR"
     ],
     "countryCount": 2,
     "totalCases": 434,
@@ -856,8 +856,8 @@
     "category": "vector-borne",
     "outbreakCount": 2,
     "affectedCountries": [
-      "URY",
-      "ARG"
+      "ARG",
+      "URY"
     ],
     "countryCount": 2,
     "totalCases": null,
