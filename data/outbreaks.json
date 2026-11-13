@@ -1,5 +1,21 @@
 [
   {
+    "id": "50908c2ad68f",
+    "disease": "Middle East respiratory syndrome (MERS)",
+    "diseaseCategory": "respiratory",
+    "country": "Qatar",
+    "countryIso3": "QAT",
+    "date": "2026-11-13",
+    "cases": null,
+    "deaths": null,
+    "summary": "Middle East respiratory syndrome (MERS) \u2013 Qatar",
+    "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON626",
+    "source": "WHO DON",
+    "lat": 25.4,
+    "lon": 51.2,
+    "status": "active"
+  },
+  {
     "id": "49b252fa3e77",
     "disease": "Ebola disease caused by Bundibugyo virus",
     "diseaseCategory": "hemorrhagic",
