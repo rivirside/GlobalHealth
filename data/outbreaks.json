@@ -1,5 +1,21 @@
 [
   {
+    "id": "71d72d92d5c8",
+    "disease": "Chikungunya virus disease",
+    "diseaseCategory": "vector-borne",
+    "country": "Switzerland",
+    "countryIso3": "CHE",
+    "date": "2026-11-17",
+    "cases": null,
+    "deaths": null,
+    "summary": "Chikungunya virus disease - Switzerland",
+    "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON627",
+    "source": "WHO DON",
+    "lat": 46.8,
+    "lon": 8.2,
+    "status": "active"
+  },
+  {
     "id": "50908c2ad68f",
     "disease": "Middle East respiratory syndrome (MERS)",
     "diseaseCategory": "respiratory",

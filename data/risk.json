@@ -449,12 +449,19 @@
   },
   "CHE": {
     "iso3": "CHE",
-    "score": 0.0,
+    "score": 4.5,
     "level": "minimal",
-    "outbreakPressure": 0.0,
+    "outbreakPressure": 7.5,
     "vulnerability": 0.0,
     "readinessScore": 100.0,
-    "factors": {},
+    "factors": {
+      "outbreakCount": 1,
+      "activeCount": 1,
+      "categoryBreakdown": {
+        "vector-borne": 1
+      },
+      "recentCount": 1
+    },
     "computedAt": "2026-11-17"
   },
   "CHL": {
