@@ -1,5 +1,21 @@
 [
   {
+    "id": "72f210910414",
+    "disease": "Ebola disease caused by Bundibugyo virus",
+    "diseaseCategory": "hemorrhagic",
+    "country": "Nigeria",
+    "countryIso3": "NGA",
+    "date": "2026-11-20",
+    "cases": 11613,
+    "deaths": 5678,
+    "summary": "Ebola disease caused by Bundibugyo virus- Democratic Republic of the Congo, Kenya and Nigeria",
+    "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON630",
+    "source": "WHO DON",
+    "lat": 9.1,
+    "lon": 8.7,
+    "status": "active"
+  },
+  {
     "id": "71d72d92d5c8",
     "disease": "Chikungunya virus disease",
     "diseaseCategory": "vector-borne",
@@ -45,7 +61,7 @@
     "source": "WHO DON",
     "lat": 9.1,
     "lon": 8.7,
-    "status": "active"
+    "status": "resolved"
   },
   {
     "id": "5dda1bf94f99",
