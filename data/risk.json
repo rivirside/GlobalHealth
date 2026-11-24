@@ -2652,23 +2652,23 @@
   },
   "USA": {
     "iso3": "USA",
-    "score": 15.5,
+    "score": 24.5,
     "level": "low",
-    "outbreakPressure": 24.8,
+    "outbreakPressure": 39.8,
     "vulnerability": 1.5,
     "readinessScore": 98.5,
     "factors": {
-      "outbreakCount": 18,
-      "activeCount": 1,
+      "outbreakCount": 19,
+      "activeCount": 2,
       "categoryBreakdown": {
+        "respiratory": 3,
         "zoonotic": 5,
         "vaccine-preventable": 3,
-        "respiratory": 2,
         "other": 3,
         "vector-borne": 4,
         "diarrheal": 1
       },
-      "recentCount": 1
+      "recentCount": 2
     },
     "computedAt": "2026-11-24"
   },

@@ -1,5 +1,21 @@
 [
   {
+    "id": "4b2b67f42dce",
+    "disease": "Influenza A(H5N1)",
+    "diseaseCategory": "respiratory",
+    "country": "United States of America",
+    "countryIso3": "USA",
+    "date": "2026-11-24",
+    "cases": null,
+    "deaths": null,
+    "summary": "Influenza A(H5N1) - United States of America",
+    "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON629",
+    "source": "WHO DON",
+    "lat": 37.1,
+    "lon": -95.7,
+    "status": "active"
+  },
+  {
     "id": "72f210910414",
     "disease": "Ebola disease caused by Bundibugyo virus",
     "diseaseCategory": "hemorrhagic",
